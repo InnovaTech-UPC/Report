@@ -58,7 +58,7 @@
   <tbody>
   <tr>
       <td><strong>TB1</strong></td>
-      <td>-</td>
+      <td></td>
       <td>
         <ul>
           <li>Delgado Corrales, Piero Gonzalo</li>
@@ -68,9 +68,7 @@
           <li>Salinas Torres, Salvador Antonio</li>
         </ul>
       </td>
-      <td>
-        -
-      </td>
+      <td></td>
   </tr>
   </tbody>
 </table>
@@ -267,3 +265,29 @@
 
 # Student Outcome
 
+**ABET – EAC - Student Outcome 4**
+
+**Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+
+<table>
+    <thead>
+        <tr>
+        <th><strong>Criterio específico</strong></th>
+        <th><strong>Acciones realizadas</strong></th>
+        <th><strong>Conclusiones</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>4.c.1  Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+        <td></td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+        <td></td>
+        <td></td>
+        </tr>
+    </tbody>
+
+</table>
