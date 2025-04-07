@@ -292,7 +292,6 @@
 </table>
 
 # Capítulo I: Introducción
-
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 
@@ -475,3 +474,645 @@ Los asesores con experiencia son claves en el sector agropecuario, brindando ori
 |**Sexo**|Masculino y Femenino|
 |**Formación educativa**|Universitaria o superior|
 |**Poder adquisitivo**|Bajo, medio y alto|
+
+# Capítulo 2: Needfinding
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+
+<table>
+   <tr>
+      <th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th>
+   </tr>
+   <tr>
+      <td rowspan="2" valign="top">¿Por qué llevar a cabo este análisis? </td>
+     <td colspan="5" valign="top">
+      <ul>
+        <li>Objetivo 1: Obtener información sobre las ofertas de nuestros competidores y aprender de las áreas en las que tienen limitaciones.</li>
+        <li>Objetivo 2: Reconocer las fortalezas y debilidades de nuestros competidores para desarrollar una estrategia competitiva robusta y eficaz.</li>
+      </ul>
+     </td>
+
+   </tr>
+   <tr></tr>
+   <tr>
+      <td colspan="2" valign="top">(En la cabecera colocar por cada competidor nombre y logo)</td>
+      <td valign="top">
+         <p>AgroTech</p>
+         <p><img src="img/agrotech-logo.png" alt="Logo de AgroTech" width="150" /></p>
+      </td>
+      <td valign="top">
+         <p>BestFarm</p>
+         <p><img src="img/logo_bestFarm.jpg" alt="Logo de BestFarm" width="150" /></p>
+      </td>
+      <td valign="top">
+         <p>AgriWebb</p>
+         <p><img src="img/logo_agriWebb.jpg" alt="Logo de AgriWebb" width="150" /></p>
+      </td>
+      <td valign="top">
+         <p>Trimble Ag </p>
+         <p><img src="img/logo_trimbleAg.png" alt="Logo de Trimble Ag" width="150" /></p>
+      </td>
+   </tr>
+   <tr>
+      <td rowspan="2">Perfil</td>
+      <td valign="top">Overview</td>
+      <td valign="top"><b>AgroTech</b> es una plataforma completa que ofrece orientación experta y soluciones tecnológicas para optimizar la gestión de granjas de forma eficiente y sostenible.</td>
+      <td valign="top"><b>BestFarm</b> es una plataforma digital diseñada para la gestión integral de granjas agrícolas y ganaderas. Ofrece herramientas para la planificación de cultivos, gestión de recursos, y monitoreo del ganado, todo accesible desde dispositivos móviles</td>
+      <td valign="top"><b>AgriWebb</b> es una plataforma digital que ofrece una solución integral para la gestión de granjas, con un enfoque especial en la trazabilidad del ganado y la optimización de la productividad agrícola</td>
+      <td valign="top"><b>Trimble Ag</b> ofrece soluciones avanzadas para la gestión de fincas, incluyendo herramientas para la planificación de cultivos, gestión del ganado, y monitoreo de recursos. </td>
+   </tr>
+   <tr>
+      <td valign="top">
+         <p>Ventaja competitiva</p>
+         <p>¿Qué valor ofrece a los clientes?</p>
+      </td>
+      <td valign="top"><b>AgroTech</b> brinda un acceso sencillo que conecta a agricultores novatos con expertos, facilitando asesoramiento especializado que optimiza la gestión de granjas, promueve prácticas sostenibles y mejora la productividad.</td>
+      <td valign="top"><b>BestFarm</b> se destaca por su enfoque en la simplicidad y accesibilidad, permitiendo a los usuarios gestionar tanto cultivos como ganado en una sola plataforma</td>
+      <td valign="top">La ventaja de <b>AgriWebb</b> se distingue por su fuerte enfoque en la trazabilidad y la capacidad de capturar datos en tiempo real</td>
+      <td valign="top"><b>Trimble Ag</b> se destaca por su tecnología avanzada y su capacidad para integrar datos de múltiples fuentes, proporcionando una visión completa y precisa de las operaciones de la finca</td>
+   </tr>
+   <tr>
+      <td rowspan="2">Perfil de Marketing</td>
+      <td valign="top">Mercado objetivo</td>
+      <td valign="top">El mercado objetivo de <b>AgroTech</b> son los granjeros con poca experiencia y aquellos que buscan optimizar la gestión de sus granjas</td>
+      <td valign="top">El mercado objetivo de <b>BestFarm</b> son los agricultores y ganaderos que buscan una solución unificada para la gestión de todas las operaciones de su finca</td>
+      <td valign="top">El mercado objetivo de <b>AgriWebb</b> son ganaderos y agricultores que buscan mejorar la eficiencia y la trazabilidad de sus operaciones</td>
+      <td valign="top">El mercado objetivo de <b>Trimble Ag</b> son agricultores y ganaderos de tamaño medio a grande que buscan soluciones integradas para la gestión de sus operaciones</td>
+   </tr>
+   <tr>
+      <td valign="top">Estrategias de marketing</td>
+      <td valign="top">Las estrategias que utilizan <b>AgroTech</b> son marketing digital dirigido a granjeros, colaboraciones con asociaciones agrícolas, y promociones en eventos agrícolas</td>
+      <td valign="top">Las estrategias que utilizan <b>BestFarm</b> son campañas de marketing digital, demostraciones de producto, y colaboraciones con distribuidores de equipos agrícolas</td>
+      <td valign="top">Las estrategias que manejan <b>AgriWebb</b> son marketing digital, talleres educativos, y colaboración con organizaciones agrícolas</td>
+      <td valign="top"><b>Trimble Ag</b> realiza participaciones en ferias agrícolas, marketing digital, y demostraciones en campo. También se enfoca en asociaciones estratégicas con proveedores de tecnología agrícola</td>
+   </tr>
+   <tr>
+      <td rowspan="3">Perfil de Producto</td>
+      <td valign="top">Productos & Servicios</td>
+      <td valign="top"><b>AgroTech</b> ofrece asesoramiento especializado mediante una aplicación web y una móvil para agendar dichas asesorías</td>
+      <td valign="top"><b>BestFarm</b> brinda un software de gestión agrícola que incluye planificación de cultivos, gestión de recursos hídricos, y monitoreo de salud animal</td>
+      <td valign="top"><b>AgriWebb</b> proporciona un</b> software de gestión de fincas que incluye módulos para la trazabilidad del ganado, monitoreo de la salud animal, y optimización de cultivos</td>
+      <td valign="top"><b>Trimble Ag</b> da un software de gestión agrícola y ganadera con módulos para planificación, monitoreo de recursos, y análisis de datos</td>
+   </tr>
+   <tr>
+      <td valign="top">Precios & Costos</td>
+      <td valign="top"><b>AgroTech</b> ofrece un modelo de suscripción que puede ser mensual o anual, con precios que dependen de la magnitud de la operación y las funcionalidades necesarias</td>
+      <td valign="top"><b>BestFarm</b> ofrece un modelo de suscripción flexible, con precios escalonados según el tamaño y necesidades de la finca</td>
+      <td valign="top"><b>AgriWebb</b> ofrece una estructura de precios basada en suscripciones, con planes que se ajustan según el tamaño y las necesidades de la finca.</td>
+      <td valign="top"><b>Trimble Ag</b> ofrece precios basados en suscripción, con diferentes niveles según las características y el tamaño de la finca</td>
+   </tr>
+   <tr>
+      <td valign="top">Canales de distribución (Web y/o Móvil)</td>
+      <td valign="top"><b>AgroTech</b> está disponible en plataformas web y móviles</td>
+      <td valign="top"><b>BestFarm</b> se distribuye a través de una plataforma web</td>
+      <td valign="top"><b>AgriWebb</b> se distribuye a través de una plataforma web</td>
+      <td valign="top"><b>Trimble Ag</b> se distribuye a través de una plataforma web</td>
+   </tr>
+   <tr>
+      <td rowspan="5">Análisis SWOT</td>
+      <td colspan="5" valign="top">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva. </td>
+   </tr>
+   <tr>
+      <td valign="top">
+         <p>Fortalezas</p>
+         <p></p>
+      </td>
+      <td valign="top">
+        <p>- Plataforma accesible que conecta a granjeros con asesores especializados</p>
+        <p>- Asesoramiento experto en diversas áreas agropecuarias</p>
+    </td>
+      <td valign="top">
+         <p>- Plataforma integral que cubre tanto la agricultura como la ganadería</p>
+         <p>- Enfoque en la simplicidad y accesibilidad para los usuarios</p>
+      </td>
+      <td valign="top">
+         <p>- Fuerte enfoque en la trazabilidad y gestión basada en datos</p>
+         <p>- Interfaz intuitiva y fácil de usar</p>
+      </td>
+      <td valign="top">
+         <p>- Tecnología avanzada y capacidad de integración de datos</p>
+         <p>- Amplia gama de funciones para la gestión integral de fincas</p>
+      </td>
+   </tr>
+   <tr>
+      <td valign="top">Debilidades</td>
+      <td valign="top">
+        <p>- Dependencia de la adopción tecnológica en un mercado con barreras a la digitalización</p>
+        <p>- Necesidad de una base de asesores con conocimientos bastos</p>
+      </td>
+      <td valign="top">
+         <p>- Puede carecer de funcionalidades avanzadas específicas para cada sector en comparación con competidores más especializados</p>
+         <p>- Dependencia de un enfoque generalizado, lo que podría limitar la personalización para necesidades específicas</p>
+      </td>
+      <td valign="top">
+         <p>- Puede ser percibido como costoso para pequeñas fincas</p>
+         <p>- La dependencia de la conectividad a internet podría ser un desafío en áreas rurales</p>
+      </td>
+      <td valign="top">
+         <p>- Precio alto, lo que puede ser una barrera para pequeños productores</p>
+         <p>- Complejidad en la implementación y el uso inicial</p>
+      </td>
+   </tr>
+   <tr>
+      <td valign="top">Oportunidades</td>
+      <td valign="top">
+        <p>- Expansión de la plataforma en zonas rurales con mayor demanda de asesoría especializada</p>
+        <p>- Creación de nuevas funcionalidades de asesoría personalizadas según las necesidades de los granjeros</p>
+      </td>
+      <td valign="top">
+         <p>- Crecimiento en mercados rurales</p>
+         <p>- Creación de características adicionales adaptadas a cada sector</p>
+      </td>
+      <td valign="top">
+         <p>- Expansión en mercados emergentes que buscan mejorar la trazabilidad y la eficiencia</p>
+         <p>- Integración con tecnologías emergentes como IoT para mejorar el monitoreo en tiempo real</p>
+      </td>
+      <td valign="top">
+         <p>- Creciente demanda de soluciones integradas en mercados agrícolas avanzados</p>
+         <p>- Innovaciones tecnológicas que pueden mejorar la oferta de productos</p>
+      </td>
+   </tr>
+   <tr>
+      <td valign="top">Amenazas</td>
+      <td valign="top">
+        <p>- Competencia de plataformas establecidas que ya ofrecen asesorías en el sector agropecuario</p>
+        <p>- Resistencia al cambio en el sector agropecuario que puede dificultar la adopción de nuevas asesorías</p>
+      </td>
+      <td valign="top">
+         <p>- Competencia de plataformas especializadas en agricultura o ganadería que proporcionan funciones más avanzadas.</p>
+         <p>- Alteraciones en las preferencias de los usuarios que buscan soluciones más personalizadas para sus necesidades particulares.</p>
+      </td>
+      <td valign="top">
+         <p>- Rivalidad con plataformas especializadas en agricultura o ganadería que disponen de funciones más sofisticadas.</p>
+         <p>- Evolución en las demandas de los usuarios que prefieren soluciones adaptadas a sus necesidades concretas.</p>
+      </td>
+      <td valign="top">
+         <p>- Competencia de soluciones más accesibles o especializadas</p>
+         <p>- Cambios en la tecnología que pueden requerir actualizaciones frecuentes</p>
+      </td>
+   </tr>
+</table>
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+
+**1. Estrategia: Fortalecimiento del Soporte al Cliente**
+- **Táctica:** Implementaremos programas de capacitación integral para granjeros que cubran todos los aspectos de AgroTech.
+- **Explicación:** Esto garantizará que los usuarios comprendan completamente las funcionalidades de la plataforma, facilitando su adopción y uso efectivo.
+
+**2. Estrategia: Mejora Continua de la Plataforma**
+- **Táctica:** Estableceremos un sistema de retroalimentación continua con los usuarios para identificar áreas de mejora y lanzar actualizaciones periódicas basadas en esa retroalimentación.
+- **Explicación:** Mantendremos AgroTech actualizada y alineada con las necesidades cambiantes de los usuarios, asegurando su relevancia y efectividad.
+
+**3. Estrategia: Expansión de la Red de Colaboradores**
+- **Táctica:** Formaremos alianzas con universidades y centros de investigación agrícola para desarrollar nuevos conocimientos y tecnologías.
+- **Explicación:** Estas colaboraciones facilitarán el acceso a investigaciones avanzadas y tecnologías emergentes, lo que enriquecerá la oferta de AgroTech y promoverá la innovación.
+
+**4. Estrategia: Promoción de la Sostenibilidad**
+- **Táctica:** Incorporaremos herramientas y recursos que ayuden a los granjeros a adoptar prácticas agrícolas más sostenibles.
+- **Explicación:** Fomentar prácticas agrícolas sostenibles no solo beneficiará al medio ambiente, sino que también responderá a la creciente demanda de prácticas responsables entre los consumidores y reguladores.
+
+**5. Estrategia: Optimización de la Experiencia del Usuario**
+- **Táctica:** Rediseñaremos la interfaz de AgroTech para hacerla más intuitiva y accesible para usuarios con diferentes niveles de experiencia.
+- **Explicación:** Esto facilitará la adopción de la plataforma por parte de los granjeros, especialmente aquellos con menos familiaridad con tecnologías avanzadas, mejorando la eficiencia y satisfacción del usuario.
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+
+**Preguntas generales**
+
+**Objetivo:** Obtener información general de todos los entrevistados, los cuales serán muy útiles al momento de crear nuestros User Personas.
+
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿Dónde reside actualmente?
+4. ¿A qué se dedica?
+5. ¿Qué navegador usa normalmente?
+6. ¿Qué dispositivo móvil tiene?
+
+**Segmento Objetivo: Granjeros con poca experiencia**
+
+**Objetivo:** Entender las necesidades, desafíos y expectativas de granjeros con poca experiencia para adaptar AgroSupport a sus requerimientos específicos.
+
+1. ¿Cuánto tiempo lleva gestionando su granja y qué tipo de formación ha recibido en manejo agrícola (informal o formal)?
+2. ¿Cuáles son sus principales objetivos para el desarrollo de su granja?
+3. ¿Cuáles son los principales desafíos que enfrenta en la gestión de su granja?
+4. ¿Qué obstáculos ha encontrado al intentar implementar prácticas agrícolas más sostenibles y modernas?
+5. ¿A través de qué canales digitales suele buscar información o interactuar con expertos agrícolas?
+6. ¿Qué tipo de asesoramiento considera más valioso para su granja: técnico, financiero, de gestión, u otro?
+7. ¿Con qué frecuencia cree que necesitaría asesoramiento especializado para resolver problemas específicos en su granja?
+8. ¿Qué formato de asesoramiento prefiere (por ejemplo, consultas en línea, reuniones presenciales, guías escritas)?
+9. ¿Ha tenido experiencias previas con asesores agrícolas? Si no, ¿qué esperaría de una asesoría con un experto?
+10. ¿Qué dificultades tiene para obtener el asesoramiento que necesita para su granja?
+11. ¿Qué cualidades le gustaría que tuviera una aplicación para separación de asesorías para que sea útil para usted?
+12. ¿Cómo preferiría recibir seguimiento después de una sesión de asesoramiento (revisiones periódicas, informes o consultas adicionales)?
+
+**Segmento Objetivo: Asesores experimentados**
+
+**Objetivo:** Comprender las necesidades y expectativas de los asesores para optimizar su uso de AgroSupport y mejorar su eficacia en la asesoría.
+
+1. ¿Cuánto tiempo lleva trabajando como asesor y en qué áreas específicas de la gestión de granjas se especializa?
+2. ¿Cuál es su enfoque principal al ofrecer asesoría a los granjeros?
+3. Según su experiencia, ¿qué tipo de asesoramiento buscan más los granjeros (técnico, financiero, gestión, etc.)?
+4. ¿Cuáles son los mayores desafíos que enfrenta en la prestación de asesoría a los granjeros?
+5. ¿Qué problemas ha encontrado al coordinar horarios y medios de comunicación para llevar a cabo las sesiones de asesoría?
+6. ¿Qué tan complejo es mantener a los granjeros como clientes recurrentes? ¿Qué factores considera cruciales para la retención de clientes?
+7. ¿Qué funcionalidades le gustaría ver en una plataforma de asesoramiento para mejorar su capacidad de asesorar a los granjeros?
+8. Después de una sesión de asesoría, ¿cómo suele hacer el seguimiento con el granjero? ¿Qué tan importante es este seguimiento para el éxito de la asesoría?
+
+### 2.2.2. Registro de entrevistas
+
+**Segmento: Granjero con poca experiencia**
+
+**Entrevista 1**
+
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Marcelo Neyra
+
+**Enlace a entrevista:** https://youtu.be/rHiZI37vcJY
+
+<img alt="Entrevista con Marcelo Neyra" src="img/entrevista-granjero-1.png">
+
+_Imagen 3. Entrevista con Marcelo Neyra_
+
+**Resumen:**
+Marcelo Neyra, un joven estudiante que asiste a su padre en la administración de una pequeña granja familiar, expresa que, en sus tareas diarias como regar el huerto o cuidar los animales, requiere apoyo y asesoramiento confiable. Al hablarle sobre la propuesta de una aplicación para recibir consejos de expertos en el ámbito agrícola, consideró que le sería de gran utilidad.
+
+----
+
+**Entrevista 2**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Anderson Gonza
+
+**Enlace a entrevista:** https://youtu.be/f_8SsNOV2Ew
+
+<img alt="Entrevista con Anderson Gonza" src="img/entrevista-granjero-2.png">
+
+_Imagen 4. Entrevista con Anderson Gonza_
+
+**Resumen:** Anderson Gonza es un joven estudiante que suele ayudar a su padre en la gestión de una pequeña granja de cuyes. Comenta que necesita apoyo para conocer sobre ciertas técnicas para el cuidado de los animales y cultivos, así como sobre el clima, el cual influye bastante en la producción. Al comentarle sobre la idea de una app para recibir asesorías con expertos en este sector, mencionó que le sería muy útil a través de reuniones en línea o a través de un chat virtual. Asimismo, comenta que debería ser una aplicación fácil de usar y accesible para todos.
+
+----
+
+**Entrevista 3**
+
+**Entrevistador:** X
+
+**Entrevistado:** X
+
+**Enlace a entrevista:** enlace a yt
+
+<img alt="Entrevista con X" src="img/entrevista-granjero-3.png">
+
+_Imagen 5. Entrevista con X_
+
+**Resumen:** X
+
+-----
+
+**Segmento: Asesores experimentados**
+
+**Entrevista 1**
+
+**Entrevistador:** Piero Delgado
+
+**Entrevistado:** Adrián Espinoza
+
+**Enlace a entrevista:** https://youtu.be/ANKhs9e_x5E
+
+<img alt="Entrevista con Adrian Espinoza" src="img/entrevista-asesor-1.png">
+
+_Imagen 6. Entrevista con Adrián Espinoza_
+
+**Resumen:** Adrián ha estado involucrado en la crianza de cuyes desde joven por su familia y recientemente ha empezado a ofrecer asesoramiento a otras familias en alimentación, manejo sanitario y selección de razas de cuyes. Por ello, decidió estudiar Medicina Veterinaria en Arequipa para aprender más de la crianza de animales. Durante la entrevista, destacó los desafíos comunes que enfrentan los criadores principiantes, como el manejo de la alimentación y la prevención de enfermedades. Actualmente, utiliza principalmente su conocimiento personal y recursos en línea para brindar asesoramiento, pero está interesado en explorar nuevas herramientas como aplicaciones.
+
+----
+
+**Entrevista 2**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Tamara García
+
+**Enlace a entrevista:** https://youtu.be/Xoqhu8TpxRc
+
+<img alt="Entrevista con Tamara García" src="img/entrevista-asesor-2.png">
+
+_Imagen 7. Entrevista con Tamara García_
+
+**Resumen:** Tamara García es una potencial asesora con conocimientos en la gestión de una granja de mangos y está dispuesta a aconsejar a granjeros que necesiten apoyo. Su principal recurso es la experiencia que ha ganado gracias a su familia. Menciona que ya ha apoyado a otras personas anteriormente, pero han sido conocidos como familia y amigos. Igualmente, está interesada en poder ayudar a muchas más personas, brindando asesorías cada cierto tiempo cuando haya granjeros que necesiten.
+
+----
+
+**Entrevista 3**
+
+**Entrevistador:** X
+
+**Entrevistado:** X
+
+**Enlace a entrevista:** enlace a yt
+
+<img alt="Entrevista con X" src="img/entrevista-asesor-3.png">
+
+_Imagen 8. Entrevista con X_
+
+**Resumen:** X
+
+### 2.2.3. Análisis de entrevistas
+**Segmento: Granjeros con poca experiencia**
+
+El análisis de entrevistas a granjeros con poca experiencia revela patrones comunes que permiten identificar características clave para crear arquetipos representativos. Este grupo se distingue por su falta de experiencia en la gestión de granjas y su gran necesidad de apoyo técnico. Las entrevistas proporcionan una visión detallada de los desafíos y expectativas de estos granjeros, especialmente respecto al uso de herramientas tecnológicas para recibir asesoría.
+
+*Segmento Demográfico:*
+
+- **Edad:** Principalmente jóvenes (16 a 30 años).
+- **Sexo:** Masculino y Femenino.
+- **Ocupación:** Estudiantes que ayudan en la gestión de granjas familiares.
+
+*Segmento Geográfico:*
+
+- **País:** Perú.
+- **Idioma:** Español.
+
+*Segmento Psicográfico:*
+
+- **Clase Social:** NSE C y NSE D, debido a que trabajan en granjas familiares pequeñas con recursos limitados.
+- **Intereses:** Buscan mejorar sus habilidades en el manejo de granjas, aumentar la producción y aprender sobre nuevas técnicas de cultivo y cuidado animal.
+
+*Segmento Conductual:*
+
+- **Conocimientos:** X
+- **Actitudes:** X
+
+*Características Objetivas:*
+X
+
+*Características Subjetivas:*
+X
+
+
+**Segmento: Asesores experimentados**
+
+Las entrevistas con asesores experimentados ofrecen valiosa información sobre sus prácticas, motivaciones y desafíos. A partir de sus respuestas, se pueden identificar los rasgos más representativos que influyen en su enfoque de asesoramiento. Este análisis se centra en comprender las necesidades tecnológicas y barreras que enfrentan, así como en cómo su experiencia y especialización guían su interés en utilizar herramientas avanzadas para mejorar la calidad de la asesoría que brindan.
+
+*Segmento Demográfico:*
+
+- **Edad:** Adultos jóvenes a adultos (20 a 45 años).
+- **Sexo:** Masculino y Femenino.
+- **Ocupación:** Asesores en gestión agrícola y veterinaria.
+
+*Segmento Geográfico:*
+
+- **País:** Perú.
+- **Idioma:** Español.
+
+*Segmento Psicográfico:*
+
+- **Clase Social:** NSE A y NSE B, por su nivel de especialización y experiencia en el sector.
+- **Intereses:** Ofrecer asesoramiento profesional, mejorar la productividad agrícola y encontrar herramientas que faciliten la gestión de granjas.
+
+*Segmento Conductual:*
+
+- **Conocimientos:** X
+- **Actitudes:** X
+
+*Características Objetivas:*
+X
+
+*Características Subjetivas:*
+X
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+
+El User Persona es una representación ficticia de un usuario ideal, creada a partir de datos reales y patrones de comportamiento observados. Esta descripción incluye sus características demográficas, metas, necesidades, desafíos y comportamientos en relación con un producto o servicio. En este contexto, nos ha ayudado a representar de manera efectiva nuestros dos segmentos objetivo, proporcionando una comprensión más detallada de sus perfiles y necesidades.
+
+**Segmento: Granjeros con poca experiencia**
+
+
+<img alt="Imagen de granjero con poca experiencia" src="img/segmento_objetivo_granjero.png" width="100%">
+
+_Imagen 9. User Persona: Granjero con poca experiencia_
+
+**Segmento: Asesores experimentados**
+
+<img alt="Imagen de asesor experimentado" src="img/segmento_objetivo_asesor.png" width="100%">
+
+_Imagen 10. User Persona: Asesor experimentado_
+
+### 2.3.2. User Task Matrix
+
+El User Task Matrix es una herramienta que organiza y presenta las tareas que los usuarios deben ejecutar al interactuar con un producto o servicio. Esta matriz cruza las tareas con diversas variables, como la frecuencia, la relevancia o la dificultad, para identificar las funciones más esenciales y cómo priorizarlas en el diseño. Es útil para comprender las necesidades de los usuarios y mejorar su experiencia al optimizar las tareas clave.
+
+<table>
+  <tr>
+    <th rowspan="2" valign="top"><b>Task Matrix</b></th>
+    <th colspan="2" valign="top"><b>Asesores</b></th>
+    <th colspan="2" valign="top"><b>Granjeros</b></th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Frecuencia</b></td>
+    <td valign="top"><b>Importancia</b></td>
+    <td valign="top"><b>Frecuencia</b></td>
+    <td valign="top"><b>Importancia</b></td>
+  </tr>
+  <tr>
+    <td>Participar en sesiones de asesoría</td>
+    <td>Mensual</td>
+    <td>Media</td>
+    <td>Mensual</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Resolver problemas específicos en granjas</td>
+    <td>Según necesidad</td>
+    <td>Muy Alta</td>
+    <td>Según necesidad</td>
+    <td>Muy Alta</td>
+  </tr>
+  <tr>
+    <td>Desarrollar sesiones de capacitación</td>
+    <td>A veces</td>
+    <td>Alta</td>
+    <td>A veces</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Evaluar condiciones y necesidades de las granjas</td>
+    <td>Casi nunca</td>
+    <td>Alta</td>
+    <td>Diaria</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Proveer retroalimentación sobre prácticas agrícolas</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Casi nunca</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Guiar sobre nuevas tecnologías</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Casi nunca</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Revisar avances de asesorías previas</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Asistir a eventos sobre tendencias agrícolas</td>
+    <td>A veces</td>
+    <td>Media</td>
+    <td>Nunca</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Analizar datos de producción y dar recomendaciones</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Orientar sobre selección de cultivos adecuados</td>
+    <td>Según necesidad</td>
+    <td>Alta</td>
+    <td>Según necesidad</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Realizar seguimiento de asesorías anteriores</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Proporcionar asesoramiento sobre sostenibilidad</td>
+    <td>Mensual</td>
+    <td>Alta</td>
+    <td>Casi nunca</td>
+    <td>Baja</td>
+  </tr>
+</table>
+
+A partir del Task Matrix, se ha observado que las tareas diarias de los granjeros, como recibir apoyo técnico y participar en sesiones de asesoramiento, son cruciales para su desarrollo. Mientras que los asesores se concentran en evaluar, capacitar y ofrecer orientación especializada. Este análisis sugiere que la plataforma debe adaptarse a las necesidades específicas de ambos grupos, ofreciendo soporte eficiente tanto para la resolución de problemas como para la formación y mejora continua.
+
+### 2.3.3. User Journey Mapping
+
+El User Journey Mapping es una técnica que ayuda a representar el proceso que sigue un usuario al interactuar con un producto o servicio, desde el inicio hasta alcanzar su objetivo final. Este mapa destaca los momentos de contacto, emociones, necesidades y dificultades que enfrenta el usuario en cada fase. Su propósito es entender mejor la experiencia del usuario para optimizar el diseño y proporcionar soluciones más eficaces.
+
+
+**Segmento: Granjeros con poca experiencia**
+
+<img alt="User Journey Mapping para Granjero" src="img/user-journey-mapping-farmer.png">
+
+_Imagen 11. User Journey Mapping: Granjero con poca experiencia_
+
+**Segmento: Asesores experimentados**
+
+<img alt="User Journey Mapping para Asesor" src="img/user-journey-mapping-advisor.png">
+
+_Imagen 12. User Journey Mapping: Asesor experimentado_
+
+### 2.3.4. Empathy Mapping
+
+El Empathy Mapping es una herramienta clave para entender a los usuarios, en este caso, tanto a los granjeros novatos como a los asesores expertos. Al crear un Empathy Map, se obtiene una visión completa de sus necesidades, motivaciones, frustraciones y comportamientos al analizar lo que piensan, sienten, dicen y hacen. Esto permite diseñar una solución que se ajuste mejor a sus expectativas y optimizar su experiencia con la aplicación.
+
+**Segmento: Granjeros con poca experiencia**
+
+<img alt="Empathy Map para Granjero" src="img/empathy-mapping-farmer.png">
+
+_Imagen 13. Empathy Map: Granjero con poca experiencia_
+
+**Segmento: Asesores experimentados**
+
+<img alt="Empathy Map para Asesor" src="img/empathy-mapping-advisor.png">
+
+_Imagen 14. Empathy Map: Asesor experimentado_
+
+### 2.3.5. As-is Scenario Mapping
+
+El As-Is Scenario Mapping es una herramienta utilizada para analizar y documentar los procesos y experiencias actuales de los usuarios antes de implementar una nueva solución. En este proyecto, se centra en cómo los granjeros sin experiencia y los asesores expertos abordan sus necesidades de asesoría agrícola sin la aplicación propuesta. Este mapeo es crucial para identificar los problemas y las ineficiencias en los métodos existentes, proporcionando una base para comparar con los escenarios futuros (To-Be) y garantizar que la nueva solución aborde adecuadamente las necesidades detectadas.
+
+**Segmento: Granjeros con poca experiencia**
+
+<table>
+  <thead>
+    <tr>
+      <td>Fases</td>
+      <td>Enfrentando problemas</td>
+      <td>Búsqueda de soluciones</td>
+      <td>Consulta con fuentes locales</td>
+      <td>Toma de decisiones</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Doing</td>
+      <td>Los granjeros se enfrentan a dificultades en sus cultivos sin saber cómo abordarlas.</td>
+      <td>Intentan resolver los problemas por su cuenta a través de internet, foros o consejos de otros granjeros.</td>
+      <td>Consultan con otros granjeros locales o comerciantes, quienes ofrecen recomendaciones basadas en su experiencia personal.</td>
+      <td>Deciden qué hacer basándose en la información que han reunido.</td>
+    </tr>
+    <tr>
+      <td>Thinking</td>
+      <td>"Este cultivo tiene plagas, pero no sé qué tratamiento aplicar o si lo que tengo servirá."</td>
+      <td>"Vi en línea que podría usar un pesticida, pero algunos dicen que puede dañar las plantas. No estoy seguro."</td>
+      <td>"El vecino sugiere que use el mismo tratamiento que él, pero mi situación es distinta, y no sé si funcionará."</td>
+      <td>"Estoy aplicando este pesticida, pero no tengo claro si es la mejor opción. Espero no perder toda la cosecha."</td>
+    </tr>
+    <tr>
+      <td>Feeling</td>
+      <td>Frustración por no contar con el conocimiento necesario para resolver los problemas.</td>
+      <td>Confusión debido a la gran cantidad de información contradictoria o poco relevante.</td>
+      <td>Incertidumbre por la falta de asesoría adecuada y específica.</td>
+      <td>Miedo a las posibles repercusiones de sus decisiones.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Segmento: Asesores experimentados**
+
+<table>
+  <thead>
+    <tr>
+      <td>Fases</td>
+      <td>Búsqueda de trabajo</td>
+      <td>Promoción de servicios</td>
+      <td>Contacto con granjeros</td>
+      <td>Coordinación de asesorías</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Doing</td>
+      <td>Los asesores buscan oportunidades de trabajo en asesoría agrícola a través de anuncios en línea, redes sociales y recomendaciones.</td>
+      <td>Promocionan sus servicios mediante redes sociales, sitios web personales y referencias.</td>
+      <td>Se comunican con los granjeros por correo electrónico, redes sociales o llamadas telefónicas.</td>
+      <td>Coordinan las sesiones de asesoría.</td>
+    </tr>
+    <tr>
+      <td>Thinking</td>
+      <td>"Es difícil encontrar oportunidades de asesoría. Los anuncios son pocos y no sé dónde más buscar para ofrecer mis servicios."</td>
+      <td>"He promocionado mis servicios en varias plataformas, pero no veo un aumento en los clientes potenciales. ¿Qué más puedo hacer para atraerlos?"</td>
+      <td>"He enviado varios mensajes y correos, pero no obtengo respuestas o la comunicación es poco clara. Esto hace que sea difícil conectar con clientes potenciales."</td>
+      <td>"¡Qué difícil coordinar horarios a través de mensajes y llamadas! Muchas veces los granjeros tienen horarios impredecibles, lo que complica la planificación."</td>
+    </tr>
+    <tr>
+      <td>Feeling</td>
+      <td>Desánimo por la escasez de oportunidades y la falta de claridad sobre dónde encontrar clientes potenciales.</td>
+      <td>Estrés debido a la baja visibilidad y el esfuerzo que no se traduce en resultados concretos.</td>
+      <td>Desánimo por la falta de respuestas y la dificultad de establecer una comunicación efectiva.</td>
+      <td>Frustración por las dificultades de elegir una fecha y medio adecuados.</td>
+    </tr>
+  </tbody>
+</table>
