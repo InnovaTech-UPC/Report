@@ -289,5 +289,189 @@
         <td></td>
         </tr>
     </tbody>
-
 </table>
+
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
+
+Nuestra startup se llama Innovatech y está enfocada en resolver los retos de la gestión agrícola mediante nuestro producto AgroTech, una aplicación integral que ofrece soluciones tecnológicas y asesoría especializada para optimizar el manejo de las granjas de forma inteligente y eficiente.
+
+**Misión:**
+Facilitar el acceso de los agricultores a asesoramiento experto, impulsando prácticas agrícolas sostenibles y modernas que incrementen la productividad, rentabilidad y el desarrollo de las comunidades rurales.
+
+**Visión:**
+Ser referentes en innovación tecnológica para el sector agropecuario, promoviendo la sostenibilidad y el bienestar animal a través de herramientas accesibles y efectivas.
+
+**Logo de AgroTech**
+<p align="center">
+  <img src="img/agrotech-logo.png" width="200" alt="Logo de AgroTech">
+</p>
+
+_Imagen 1. Logo de AgroTech_
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <th>
+      <img src="img/perfil_piero.jpg" alt="Foto de perfil de Piero" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Delgado Corrales, Piero Gonzalo</b></p>
+      <p>
+        Soy estudiante de séptimo ciclo de Ingeniería de Software, con experiencia en diseño web empleando HTML y CSS, además del uso de Figma para elaborar prototipos. He trabajado con diversos frameworks tanto de frontend (Vue, Angular y React) como de backend (Spring Boot, .NET y Django). Me considero una persona responsable y organizada, comprometida con una gestión eficiente del tiempo.
+      </p>
+    </td>
+  </tr>
+</table>
+
+## 1.2. Solution Profile
+### 1.2.1. Antecedentes y problemática
+
+**5 W’s**
+
+**What:** Una parte del sector agropecuario enfrenta dificultades en la gestión eficaz de las granjas, acceso limitado a tecnología adecuada, y la necesidad de mejorar tanto el bienestar animal como la sostenibilidad en sus prácticas.
+
+**Where:** El enfoque será a nivel nacional, con especial atención en las regiones del Perú con mayor actividad económica y comercial en el rubro agropecuario.
+
+**When:** Actualmente, el sector agrícola enfrenta estos retos. El crecimiento poblacional y la creciente demanda de alimentos exigen una producción más eficiente. Además, las preocupaciones ambientales exigen buscar prácticas más sostenibles.
+
+**Who:** Los principales beneficiarios son los granjeros, quienes recibirán soluciones adaptadas a su contexto. También participan asesores especializados que aportan su experiencia para apoyar a los agricultores en la toma de decisiones informadas.
+
+**Why:** Es crucial enfrentar estos retos para mejorar la productividad y sostenibilidad de las granjas, garantizar el bienestar animal, y aumentar la rentabilidad de los agricultores, contribuyendo así a la seguridad alimentaria del país.
+
+**2 H's**
+
+**How:** Se resolverá a través de AgroTech, una aplicación web y móvil que brinda asesoramiento, ayudando a los granjeros a gestionar sus granjas con mayor eficiencia, impulsando así su producción y rentabilidad.
+
+**How Much:** Se proyecta un impacto positivo en la eficiencia de las granjas, elevando la productividad y fomentando prácticas sostenibles en el sector.
+De acuerdo con Ames (2022), el agro representa cerca del 27.5% del empleo nacional, pero solo aporta un 5.2% al PBI, lo que evidencia una baja productividad frente a otros países de la región. Esto se traduce en menores ingresos para los agricultores y mayor vulnerabilidad ante el clima y los mercados globales.
+
+### 1.2.2. Lean UX Process
+#### 1.2.2.1 . Lean UX Problem Statements
+
+**Problem Statement 1**  
+| Nuestro producto busca optimizar la gestión de granjas en el Perú. |
+|:--|
+| Hemos identificado que gran parte de los agricultores en el país enfrentan dificultades al administrar eficientemente sus granjas, lo que impacta negativamente en su productividad y ganancias. |
+| ¿Puede nuestra aplicación AgroTech ser una solución efectiva para mejorar la gestión agrícola y elevar la productividad de los granjeros peruanos? |
+
+**Problem Statement 2**  
+| Nuestro producto busca incrementar la rentabilidad de los agricultores en el Perú. |
+|:--|
+| Detectamos que gran parte de los granjeros en el Perú enfrentan obstáculos para alcanzar una rentabilidad constante, principalmente por una gestión ineficiente de sus granjas. |
+| ¿Podría AgroTech ser la herramienta que los granjeros necesitan para optimizar sus procesos y mejorar sus ingresos? |
+
+**Problem Statement 3**  
+| Nuestro producto busca ofrecer asesoría técnica especializada a los granjeros peruanos. |
+|:--|
+| Observamos que acceder a orientación profesional en gestión agrícola sigue siendo un reto para muchos productores. |
+| ¿De qué manera AgroTech puede facilitar el acceso a asesoramiento experto que impulse una mejor gestión de las granjas? |
+
+#### 1.2.2.2. Lean UX Assumptions
+
+**1. ¿Quién es el usuario?**
+El usuario principal es el agricultor con poca experiencia, quien se beneficiará del acompañamiento de asesores especializados que emplean la plataforma para guiarlo en la administración efectiva de su granja. AgroTech facilita la adopción de técnicas sostenibles y contribuye al incremento de la productividad en el sector agrícola.
+
+**2. ¿Dónde encaja nuestro producto en su trabajo o vida?**
+AgroTech se integra en la rutina del agricultor al brindar orientación técnica especializada que mejora la gestión de sus actividades diarias. La plataforma se convierte en una aliada constante al proporcionar herramientas para una administración eficiente, mejorar el cuidado de cultivos y animales, implementar prácticas responsables y facilitar la comercialización.
+
+**3. ¿Qué problemas busca resolver nuestro producto?**
+El rubro agropecuario presenta múltiples retos como el limitado acceso a conocimientos técnicos y la falta de asesoría especializada. Estas carencias afectan a los agricultores al dificultar prácticas clave como el manejo de suelos, el uso racional de recursos hídricos y fertilizantes, y el control de plagas. Esto genera baja productividad, mayores gastos operativos y compromete la sostenibilidad, reduciendo la competitividad del país y afectando su economía.
+
+**4. ¿Cuándo y cómo se usa nuestro producto?**
+AgroTech es una herramienta clave para mejorar la eficiencia operativa, acceder a asesoramiento en tiempo real e implementar prácticas sostenibles. Está diseñada para agricultores con poca experiencia que requieren asistencia en la gestión diaria. Puede usarse desde dispositivos móviles o computadoras, permitiendo el acceso a cualquier hora tanto por parte de los productores como de los asesores.
+
+**5. ¿Qué características son importantes?**
+
+- Proporcionar recomendaciones personalizadas y detalladas sobre la gestión de granjas, abarcando áreas clave como el manejo de recursos, bienestar animal y cultivo, y la implementación de prácticas sostenibles.
+
+- Asegurar que los usuarios reciban asesoramiento en tiempo real, adaptado a sus necesidades específicas y permitiendo una evolución constante en la gestión de sus granjas.
+
+**6. ¿Cómo debe lucir y comportarse nuestro producto?**
+AgroTech debe contar con una interfaz intuitiva y atractiva visualmente. Su desempeño debe ser ágil, brindando información útil de forma clara. La seguridad es clave, garantizando la confidencialidad de los datos del usuario.
+
+**Presentación de otros supuestos:**
+
+<table border="1">
+  <tr>
+    <td>Considero que mis clientes necesitan una solución integral para gestionar sus actividades agropecuarias, incluyendo el bienestar de animales y cultivos, reproducción y comercialización. Planeo generar ingresos mediante suscripciones a la plataforma AgroTech.</td>
+    <td>Estas necesidades pueden ser atendidas con tecnología de monitoreo y análisis, junto con el soporte de especialistas que ofrezcan orientación personalizada.</td>
+  </tr>
+  <tr>
+    <td>Mi principal competidor en el mercado es BestFarm.</td>
+    <td>Mis clientes iniciales serán agricultores del Perú que buscan hacer más rentables y eficientes sus operaciones.</td>
+  </tr>
+  <tr>
+    <td>AgroTech enfrentará los retos del sector al conectar expertos con productores inexpertos, proporcionando conocimientos prácticos y soluciones adaptadas a distintas áreas de producción.</td>
+    <td>El mayor valor que nuestros clientes buscan es incrementar la rentabilidad de sus granjas, cuidando al mismo tiempo el bienestar de cultivos y animales, con un enfoque sostenible.</td>
+  </tr>
+  <tr>
+    <td>El mayor desafío es la resistencia al cambio por parte de ciertos agricultores, quienes podrían mostrarse escépticos ante nuevas formas de trabajo.</td>
+    <td>Existe el riesgo de que los clientes no renueven su suscripción si no perciben mejoras reales en la gestión de sus granjas.</td>
+  </tr>
+  <tr>
+    <td>Esto se abordará con una estrategia educativa y de acompañamiento continuo, demostrando el impacto de AgroTech a través de resultados concretos y casos exitosos.</td>
+    <td>Captaré a la mayoría de mis clientes mediante marketing digital dirigido, presencia en eventos agrícolas y alianzas con instituciones del sector.</td>
+  </tr>
+  <tr>
+    <td>El eje principal de AgroTech es brindar asesoramiento técnico especializado mediante soluciones inteligentes que potencien la productividad y sostenibilidad en la agricultura.</td>
+  </tr>
+</table>
+
+#### 1.2.2.3 Lean UX Hypothesis Statements
+
+**Hypothesis Statement 1**
+
+| Creemos que al ofrecer a los agricultores con poca experiencia en Perú acceso a tecnologías de vanguardia y asesoría especializada mediante AgroTech, se logrará una mejora en la eficiencia y rentabilidad de sus granjas. |
+| - |
+| Sabremos que esto es cierto… |
+| Cuando se registre un aumento del 20% en la cantidad de solicitudes de asesoría durante los primeros 6 meses tras el lanzamiento. |
+
+**Hypothesis Statement 2**
+
+| Creemos que al fomentar la adopción de prácticas agrícolas responsables y sostenibles en el sector agropecuario de Perú a través de AgroTech, los agricultores adoptarán un enfoque más consciente del medio ambiente. |
+| - |
+| Sabremos que esto es cierto… |
+| Cuando proporcionemos orientación y recursos enfocados en prácticas sostenibles a través de AgroTech y observemos un incremento del 15% en la implementación de estas prácticas en los primeros 6 meses tras el lanzamiento. |
+
+**Hypothesis Statement 3**
+
+| Creemos que al introducir una nueva estructura de comisiones para los asesores en AgroTech, se incrementará tanto el número de asesores activos como su nivel de satisfacción. |
+| - |
+| Sabremos que esto es cierto… |
+| Cuando veamos un incremento del 20% en el número de asesores activos dentro de los primeros tres meses tras la implementación de la nueva estructura de comisiones. Además, mediremos la retroalimentación de los asesores a través de encuestas regulares, y consideraremos que hemos tenido éxito si al menos el 70% de las respuestas son positivas en relación con la nueva estructura de comisiones. |
+
+#### 1.2.2.4. Lean UX Canvas. 
+
+<img src="img/lean_ux_canva.png" alt="Lean UX Canvas" width="100%" />
+
+_Imagen 2. Lean UX Canvas_
+
+## 1.3. Segmentos objetivo
+
+**1. Agricultores con poca experiencia**
+
+Los agricultores con poca experiencia en Perú enfrentan desafíos para gestionar eficientemente sus fincas debido a la falta de conocimientos y recursos. Esto reduce la productividad y rentabilidad. AgroTech ofrece herramientas avanzadas y asesoría especializada para mejorar la gestión, optimizar recursos y aumentar la rentabilidad, contribuyendo a una agricultura más sostenible.
+
+|**Segmento objetivo**|Agricultores con poca experiencia|
+| :- | :- |
+|**Edad**|18-40 años|
+|**Ubicación**|Perú|
+|**Sexo**|Masculino y Femenino|
+|**Formación educativa**|Educación primaria|
+|**Poder adquisitivo**|Bajo y medio|
+
+**2. Asesores con experiencia**
+
+Los asesores con experiencia son claves en el sector agropecuario, brindando orientación técnica y operativa a los productores. AgroTech les permite ampliar su alcance y gestionar sus asesorías de manera eficiente, mejorando la productividad y sostenibilidad de las granjas. Esto refuerza su rol como facilitadores clave en el desarrollo del sector.
+
+|**Segmento objetivo**|Asesores con experiencia|
+| :- | :- |
+|**Edad**|22-60 años|
+|**Ubicación**|Perú|
+|**Sexo**|Masculino y Femenino|
+|**Formación educativa**|Universitaria o superior|
+|**Poder adquisitivo**|Bajo, medio y alto|
