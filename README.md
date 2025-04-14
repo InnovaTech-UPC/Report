@@ -305,7 +305,7 @@ Ser referentes en innovación tecnológica para el sector agropecuario, promovie
 
 **Logo de AgroTech**
 <p align="center">
-  <img src="img/agrotech-logo.png" width="200" alt="Logo de AgroTech">
+  <img src="img/agrotech-logo.jpg" width="200" alt="Logo de AgroTech">
 </p>
 
 _Imagen 1. Logo de AgroTech_
@@ -321,6 +321,17 @@ _Imagen 1. Logo de AgroTech_
       <p><b>Delgado Corrales, Piero Gonzalo</b></p>
       <p>
         Soy estudiante de séptimo ciclo de Ingeniería de Software, con experiencia en diseño web empleando HTML y CSS, además del uso de Figma para elaborar prototipos. He trabajado con diversos frameworks tanto de frontend (Vue, Angular y React) como de backend (Spring Boot, .NET y Django). Me considero una persona responsable y organizada, comprometida con una gestión eficiente del tiempo.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <th>
+      <img src="img/perfil_salvador.jpg" alt="Foto de perfil de Salvador" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Salinas Torres, Salvador Antonio</b></p>
+      <p>
+        Soy Salvador y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Poseo conocimientos en: programación orientada a objetos en C++, Python, C# y Java; desarrollo de Frontend Web con frameworks de Angular y Vue; desarrollo de backend con frameworks de Spring Boot y .NET; desarrollo móvil con Kotlin y Dart; gestión de base de datos en SQL Server, MySQL y SQLite. Considero que soy una persona responsable y siempre organizo el tiempo para hacerlos tranquilamente antes de la fecha de entrega.
       </p>
     </td>
   </tr>
@@ -498,7 +509,7 @@ Los asesores con experiencia son claves en el sector agropecuario, brindando ori
       <td colspan="2" valign="top">(En la cabecera colocar por cada competidor nombre y logo)</td>
       <td valign="top">
          <p>AgroTech</p>
-         <p><img src="img/agrotech-logo.png" alt="Logo de AgroTech" width="150" /></p>
+         <p><img src="img/agrotech-logo.jpg" alt="Logo de AgroTech" width="150" /></p>
       </td>
       <td valign="top">
          <p>BestFarm</p>
