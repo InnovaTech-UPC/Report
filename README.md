@@ -1864,3 +1864,441 @@ _Imagen 15: Impact Map para Granjero con poca experiencia_
 <img alt="Impact Map para Asesor" src="img/impact-mapping-advisor.png">
 
 _Imagen 16: Impact Map para Asesor experimentado_
+
+# Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+
+El estilo de nuestro producto jugará un papel fundamental en brindar a nuestros usuarios una experiencia visual que sea tanto satisfactoria como atractiva. A continuación, se proporcionará una descripción detallada más detallada de las características de nuestro proyecto.
+
+### 4.1.1. General Style Guidelines
+
+<strong>Consistencia Visual: </strong>Mantener una coherencia visual en todos los aspectos de la aplicación es clave para crear una experiencia intuitiva. Esto incluye el uso de una paleta de colores uniforme que refleje la naturaleza y la vida agrícola, una tipografía legible y tamaños de fuente adecuados para facilitar la lectura en diferentes condiciones de luz.
+
+<p align="center">
+  <img alt="Consistencia visual" src="img/consistencia-visual.jpg" width="600">
+</p>
+
+_Imagen 17. Imagen de consistencia visual_
+
+<strong>Simplicidad y Claridad: </strong>La interfaz debe ser sencilla y fácil de navegar, con un diseño limpio que evite la sobrecarga de información. El uso de un lenguaje claro y directo es fundamental para asegurar que los usuarios, independientemente de su nivel de experiencia con la tecnología, puedan entender rápidamente cómo utilizar la aplicación.
+
+<p align="center">
+  <img alt="Simplicidad y claridad" src="img/simplicidad-y-claridad.jpg" width="600">
+</p>
+
+_Imagen 18. Imagen de simplicidad y claridad_
+
+<strong>Accesibilidad: </strong>Diseñar la aplicación teniendo en cuenta las necesidades de accesibilidad, como texto ampliable, contraste de colores para personas con discapacidades visuales, y compatibilidad con tecnologías de asistencia como lectores de pantalla.
+
+<p align="center">
+  <img alt="necesidades de accesibilidad de usuarios" src="img/accesibilidad.png" width="600">
+</p>
+
+_Imagen 19. Imagen de necesidades de accesibilidad de usuarios_
+
+<strong>Tipografía: </strong>La tipografía seleccionada para AgroTech es "Roboto", una fuente sans-serif moderna y altamente legible. Roboto destaca por su estilo limpio y contemporáneo, transmitiendo profesionalismo y actualización. La elección de Roboto garantiza que el texto en las interfaces de usuario sea fácilmente legible y mantenga una apariencia moderna y uniforme. Además, Roboto es una fuente versátil que ofrece una amplia gama de pesos y estilos, permitiendo una adaptación flexible a diferentes contextos y tamaños de texto en la aplicación.
+
+<p align="center">
+  <img alt="Tipografía" src="img/typography.png" width="600">
+</p>
+
+_Imagen 20. Imagen de tipografía_
+
+
+<strong>Branding: </strong>El logotipo de AgroTech tiene un diseño circular, simbolizando la conexión y la unidad que queremos fomentar entre las comunidades agrícolas peruanas. En el corazón del círculo, se encuentra un animal, representando la esencia de la agricultura y la ganadería. Este animal está rodeado por un campo verde, que simboliza la fertilidad y el crecimiento. La combinación de estos elementos refleja nuestro compromiso con el desarrollo sostenible y la mejora de la calidad de vida de los agricultores.
+
+<p align="center">
+  <img alt="Logo" src="img/agrotech-logo.jpg" width="400">
+</p>
+
+_Imagen 21. Imagen de logo de AgroTech_
+
+<strong>Colors: </strong> AgroTech ha seleccionado cuidadosamente una paleta de colores que refleja los valores y la identidad de la plataforma. Los tonos elegidos comunican confiabilidad y eficiencia en la contratación de asesores especializados y en el uso de herramientas avanzadas.
+
+<p align="center">
+  <img alt="Paleta de colores" src="img/colors.png" width="600">
+</p>
+
+_Imagen 22. Imagen de paleta de colores_
+
+### 4.1.2. Web Style Guidelines
+
+<strong>Spacing: </strong> El espaciado adecuado entre elementos es esencial para lograr una apariencia equilibrada y una experiencia de usuario cómoda en AgroTech. Hemos establecido pautas claras de espaciado que garantizan coherencia y claridad en toda la plataforma.
+
+<p align="center">
+  <img src="img/spacing.png" alt="Spacing de AgroTech" width="600">
+</p>
+
+_Imagen 23. Spacing de AgroTech_
+
+<strong>Grid System: </strong>El grid system es una herramienta esencial en el diseño y la organización de la interfaz de usuario de AgroTech. Proporciona una estructura visual que ayuda a distribuir y alinear los elementos de la página de manera consistente y armoniosa en diferentes tamaños de pantalla.
+
+<p align="center">
+  <img src="img/grid.png" alt="Grid System de AgroTech" width="600">
+</p>
+
+_Imagen 24. Grid System de AgroTech_
+
+<strong>Buttons: </strong>Los botones son elementos importantes en la interfaz de usuario de AgroTech, ya que proporcionan una forma clara y visualmente destacada para que los usuarios realicen acciones importantes. Hemos definido un estilo de botón consistente que refleja la identidad visual de la plataforma y promueve una experiencia de usuario intuitiva y coherente.
+
+<p align="center">
+  <img src="img/button.png" alt="Button de AgroTech" width="600">
+</p>
+
+_Imagen 25. Buttons de AgroTech_
+
+<strong>Input System: </strong>El input system es fundamental en la experiencia del usuario, ya que proporciona formas para que los usuarios ingresen datos y realicen acciones dentro de la plataforma. Hemos definido un sistema de entrada consistente que garantiza una experiencia de usuario intuitiva y coherente en toda la interfaz.
+
+<p align="center">
+  <img src="img/input-system.png" alt="Input System de AgroTech" width="600">
+</p>
+
+_Imagen 26. Input System de AgroTech_
+
+### 4.1.3. Mobile Style Guidelines
+#### 4.1.3.1. iOS Mobile Style Guidelines
+#### 4.1.3.2. Android Mobile Style Guidelines
+
+## 4.2. Information Architecture
+
+La arquitectura de información desempeña un papel fundamental en la organización y estructuración del contenido para garantizar su accesibilidad y comprensión por parte de los usuarios. En este apartado, se detallarán los sistemas de organización, etiquetado, etiquetas SEO y metaetiquetas, sistema de búsqueda y sistemas de navegación que componen la arquitectura de la información de nuestro producto.
+
+### 4.2.1. Organization Systems
+
+En AgroTech, utilizamos un sistema de jerarquía visual adaptado a la interfaz móvil para resaltar la información clave y permitir a los usuarios encontrar fácilmente lo que necesitan. La organización secuencial en la aplicación guía a los usuarios a través del proceso de búsqueda y contacto con asesores. La categorización del contenido se realiza en función de la audiencia principal: Granjeros y Asesores.
+
+### 4.2.2. Labeling Systems
+
+Hemos desarrollado un sistema de etiquetado claro y conciso para facilitar la navegación en la aplicación móvil. Las etiquetas utilizadas son:
+
+**Vista de Granjero:**
+
+<table>
+  <tbody>
+  <tr>
+      <th>Appointments - Citas</th>
+      <td>Se implementará un botón que permitirá visualizar la información de las citas registradas.</td>
+  </tr>
+  <tr>
+      <th>Advisors - Asesores</th>
+      <td>Se implementará un botón que permitirá a los usuarios buscar asesores.</td>
+  </tr>
+  <tr>
+      <th>Posts - Publicaciones</th>
+      <td>Se implementará un botón que permitirá a los usuarios ver publicaciones de asesores.</td>
+  </tr>
+  <tr>
+      <th>My Farm - Mi Granja</th>
+      <td>Se implementará un botón que permitirá al usuario llevar un registro y seguimiento de los recintos de animales en la granja.</td>
+  </tr>
+  <tr>
+      <th>Notifications - Notificaciones</th>
+      <td>Se implementará un botón que permitirá visualizar notificaciones de citas.</td>
+  </tr>
+  <tr>
+      <th>Profile - Perfil</th>
+      <td>Se implementará un botón que permitirá al usuario visualizar y editar su perfil.</td>
+  </tr>
+  <tr>
+      <th>Logout</th>
+      <td>Se implementará un botón que permitirá al usuario cerrar sesión.</td>
+  </tr>
+  </tbody>
+</table>
+
+**Vista de Asesor:**
+
+<table>
+  <tbody>
+  <tr>
+      <th>Appointments - Citas</th>
+      <td>Se implementará un botón que permitirá visualizar la información de las citas registradas.</td>
+  </tr>
+  <tr>
+      <th>My Posts - Mis publicaciones</th>
+      <td>Se implementará un botón que permitirá al asesor gestionar sus publicacion.</td>
+  </tr>
+  <tr>
+      <th>Schedules - Horarios</th>
+      <td>Se implementará un botón que permitirá gestionar los horarios para sus citas.</td>
+  </tr>
+  <tr>
+      <th>Notifications - Notificaciones</th>
+      <td>Se implementará un botón que permitirá visualizar notificaciones de citas.</td>
+  </tr>
+  <tr>
+      <th>Profile - Perfil</th>
+      <td>Se implementará un botón que permitirá al usuario visualizar y editar su perfil.</td>
+  </tr>
+  <tr>
+      <th>Logout</th>
+      <td>Se implementará un botón que permitirá al usuario cerrar sesión.</td>
+  </tr>
+  </tbody>
+</table>
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Para mejorar la visibilidad y el rendimiento de Agrosupport en motores de búsqueda y en las tiendas de aplicaciones, se han implementado las siguientes etiquetas SEO y metaetiquetas:
+
+<strong>Metaetiqueta de Descripción: </strong>Proporciona una breve descripción del contenido y propósito de la aplicación, ayudando a los usuarios a entender de qué se trata la aplicación y a mejorar la tasa de clics.
+
+````
+<meta name="description" content="AgroSupport is a platform that provides farmers with the necessary information to improve their farming practices.">
+````
+
+
+<strong>Metaetiqueta de Autor: </strong>Especifica el autor de la aplicación, lo que ayuda a atribuir la propiedad intelectual y la fuente del contenido.
+
+````
+<meta name="author" content="AgroTech">
+````
+
+<strong>Metaetiqueta de Robots: </strong>Indica a los motores de búsqueda cómo deben indexar y rastrear la página, permitiendo que se indexe y que se sigan los enlaces en la aplicación.
+
+````
+<meta name="robots" content="index, follow">
+````
+
+<strong>Etiqueta de Título: </strong> Define el título de la aplicación que aparece en los resultados de búsqueda y en las pestañas del navegador.
+
+````
+<title>AgroTech</title>
+````
+
+<strong>Etiqueta de Idioma: </strong> Especifica el idioma principal del contenido de la aplicación para ayudar a los motores de búsqueda a entender y clasificar el contenido adecuadamente.
+
+````
+<html lang="es">
+````
+
+<p align="center">
+  <img alt="SEO Tags and Meta Tags" src="img/seo-tags.png" width="600">
+</p>
+
+_Imagen 27. Imagen de SEO Tags and Meta Tags_
+
+
+### 4.2.4. Searching Systems
+
+La aplicación AgroTech desarrollará un sistema de búsqueda intuitivo, diseñado para que los usuarios encuentren rápidamente la información que necesitan. Este sistema se basará en filtros inteligentes que simplificarán la búsqueda de asesores y citas, evitando así que los usuarios se vean abrumados por la cantidad de información disponible. Con esta mejora, nuestra aplicación garantizará una experiencia de usuario más fluida y satisfactoria al buscar información relevante.
+
+<table>
+  <tbody>
+  <tr>
+      <th>Nombre</th>
+      <td>Permite al usuario buscar según el nombre del asesor.</td>
+  </tr>
+  <tr>
+      <th>Experiencia</th>
+      <td>Permite al usuario buscar asesores con un nivel de experiencia específico.</td>
+  </tr>
+  <tr>
+      <th>Calificación</th>
+      <td>Permite al usuario buscar asesores según las calificaciones obtenidas.</td>
+  </tr> 
+  <tr>
+      <th>Palabras Clave</th>
+      <td>Proporciona un cuadro de búsqueda donde los usuarios pueden ingresar palabras clave específicas relacionadas con el tipo de asesoría que necesitan.</td>
+  </tr>
+  <tr>
+      <th>Fecha</th>
+      <td>Permite al usuario buscar citas acorde a la fecha.</td>
+  </tr>
+  </tbody>
+</table>
+
+### 4.2.5. Navigation Systems
+
+Tanto la interfaz web como móvil están diseñadas para una navegación eficiente. La navegación es intuitiva y permite a los usuarios acceder fácilmente a las diferentes secciones de la aplicación. A continuación, se describen los sistemas de navegación implementados:
+
+**Web:**
+
+- ***Menú Superior:*** Un menú de navegación horizontal en la parte superior de la página que incluye enlaces a las secciones principales de la aplicación, como "Citas", "Asesores", "Publicaciones", "Perfil", etc.
+
+**Móvil:**
+
+ - ***Menú de Navegación:*** Menús adaptados para dispositivos móviles, que pueden incluir menús desplegables, botones en la parte superior o inferior de la pantalla, y accesos directos en la barra lateral.
+
+
+## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+Los wireframes son el esquema básico de la Landing page, mostrando la estructura principal y la disposición de los elementos. Aquí se detallan las secciones clave como el encabezado, el área de beneficios, las llamadas a la acción y la ubicación de imágenes, enfocándose en la usabilidad y el flujo de la página sin distracciones visuales.
+
+**Página de inicio**
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Inicio.png" width="600">
+</p>
+
+_Imagen 28. Wireframe de la página de inicio_
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Inicio (Mobile).png" width="300">
+</p>
+
+_Imagen 29. Wireframe de la página de inicio (Mobile)_
+
+**Página de Problemática**
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Problemática.png" width="600">
+</p>
+
+_Imagen 30. Wireframe de la página de problemática_
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Problemática (Mobile).png" width="300">
+</p>
+
+_Imagen 31. Wireframe de la página de problemática (Mobile)_
+
+**Página de Características**
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Características.png" width="600">
+</p>
+
+_Imagen 32. Wireframe de la página de características_
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Características (Mobile).png" width="300">
+</p>
+
+_Imagen 33. Wireframe de la página de características (Mobile)_
+
+**Página de Sobre Nosotros**
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Sobre Nosotros.png" width="600">
+</p>
+
+_Imagen 34. Wireframe de la página de sobre nosotros_
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Sobre Nosotros (Mobile).png" width="300">
+</p>
+
+_Imagen 35. Wireframe de la página de sobre nosotros (Mobile)_
+
+**Página de Contacto**
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Contacto.png" width="600">
+</p>
+
+_Imagen 36. Wireframe de la página de contacto_
+
+<p align="center">
+  <img alt="Landing Page Wireframe" src="img/Wireframe - Contacto (Mobile).png" width="300">
+</p>
+
+_Imagen 37. Wireframe de la página de contacto (Mobile)_
+
+
+### 4.3.2. Landing Page Mock-up
+
+Los mockups añaden detalles visuales y de diseño a los wireframes, mostrando la paleta de colores, tipografía y estilo gráfico que tendrá la landing page. Representan cómo se verá la página final, integrando los elementos visuales que harán la experiencia más atractiva y coherente con la marca.
+
+**Página de inicio**
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Inicio.png" width="600">
+</p>
+
+_Imagen 38. Mockup de la página de inicio_
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Inicio (Mobile).png" width="300">
+</p>
+
+_Imagen 39. Mockup de la página de inicio (Mobile)_
+
+**Página de Problemática**
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Problemática.png" width="600">
+</p>
+
+_Imagen 40. Mockup de la página de problemática_
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Problemática (Mobile).png" width="300">
+</p>
+
+_Imagen 41. Mockup de la página de problemática (Mobile)_
+
+**Página de Características**
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Características.png" width="600">
+</p>
+
+_Imagen 42. Mockup de la página de características_
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Características (Mobile).png" width="300">
+</p>
+
+_Imagen 43. Mockup de la página de características (Mobile)_
+
+**Página de Sobre Nosotros**
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Sobre Nosotros.png" width="600">
+</p>
+
+_Imagen 44. Mockup de la página de sobre nosotros_
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Sobre Nosotros (Mobile).png" width="300">
+</p>
+
+_Imagen 45. Mockup de la página de sobre nosotros (Mobile)_
+
+**Página de Contacto**
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Contacto.png" width="600">
+</p>
+
+_Imagen 46. Mockup de la página de contacto_
+
+<p align="center">
+  <img alt="Landing Page Mockup" src="img/Mockup - Contacto (Mobile).png" width="300">
+</p>
+
+_Imagen 47. Mockup de la página de contacto (Mobile)_
+
+
+## 4.4. Mobile Applications UX/UI Design
+### 4.4.1. Mobile Applications Wireframes
+### 4.4.2. Mobile Applications Wireflow Diagrams
+### 4.4.3. Mobile Applications Mock-ups
+### 4.4.4. Mobile Applications User Flow Diagrams
+
+## 4.5. Mobile Applications Prototyping
+### 4.5.1. Android Mobile Applications Prototyping
+### 4.5.2. iOS Mobile Applications Prototyping
+
+## 4.6. Web Applications UX/UI Design
+### 4.6.1. Web Applications Wireframes
+### 4.6.2. Web Applications Wireflow Diagrams
+### 4.6.3. Web Applications Mock-ups
+### 4.6.4. Web Applications User Flow Diagrams
+## 4.7. Web Applications Prototyping
+
+## 4.8. Domain-Driven Software Architecture
+### 4.8.1. Software Architecture Context Diagram
+### 4.8.2. Software Architecture Container Diagrams
+### 4.8.3. Software Architecture Components Diagrams
+
+## 4.9. Software Object-Oriented Design
+### 4.9.1. Class Diagrams
+### 4.9.2. Class Dictionary
+
+## 4.10. Database Design
+### 4.10.1. Relational/Non-Relational Database Diagram
