@@ -2286,9 +2286,293 @@ _Imagen 47. Mockup de la página de contacto (Mobile)_
 
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
+
+En este apartado, se muestran todos los wireframes necesarios para cumplir las funcionalidades indicadas en las User Stories con sus escenarios relacionados con el Web Application.
+
+**Sign up y Log In**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web login.png" width="600">
+</p>
+
+_Imagen 48. Wireframes de la página de inicio de sesión y registro_
+
+**Vista de Citas (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web citas (granjero).png" width="600">
+</p>
+
+_Imagen 49. Wireframe de la vista de citas (Granjero)_
+
+**Vista de asesores (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web ver asesores (granjero).png" width="600">
+</p>
+
+_Imagen 50. Wireframe de la vista de asesores (Granjero)_
+
+**Vista de Mi Granja (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web mi granja (granjero).png" width="600">
+</p>
+
+_Imagen 51. Wireframe de la vista de mi granja (Granjero)_
+
+**Vista de notificaciones, publicaciones y perfil (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web otros (granjero).png" width="600">
+</p>
+
+_Imagen 52. Wireframe de la vista de notificaciones, publicaciones y perfil (Granjero)_
+
+**Vista de citas (Asesor)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web citas (asesores).png" width="600">
+</p>
+
+_Imagen 53. Wireframe de la vista de citas (Asesor)_
+
+**Vista de publicaciones (Asesor)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web publicaciones (asesores).png" width="600">
+</p>
+
+_Imagen 54. Wireframe de la vista de publicaciones (Asesor)_
+
+**Vista de horarios (Asesor)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web horarios (asesores).png" width="600">
+</p>
+
+_Imagen 55. Wireframe de la vista de horarios (Asesor)_
+
+**Vista de notificaciones y perfil (Asesor)**
+
+<p align="center">
+  <img alt="Web Application Wireframe" src="img/wireframe web otros (asesores).png" width="600">
+</p>
+
+_Imagen 56. Wireframe de la vista de notificaciones y perfil (Asesor)_
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 1.png" width="600">
+</p>
+
+_Imagen 57. Wireflow Diagram 1_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 2.png" width="600">
+</p>
+
+_Imagen 58. Wireflow Diagram 2_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 3.png" width="600">
+</p>
+
+_Imagen 59. Wireflow Diagram 3_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 4.png" width="600">
+</p>
+
+_Imagen 60. Wireflow Diagram 4_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 5.png" width="600">
+</p>
+
+_Imagen 61. Wireflow Diagram 5_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 6.png" width="600">
+</p>
+
+_Imagen 62. Wireflow Diagram 6_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 7.png" width="600">
+</p>
+
+_Imagen 63. Wireflow Diagram 7_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 8.png" width="600">
+</p>
+
+_Imagen 64. Wireflow Diagram 8_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 9.png" width="600">
+</p>
+
+_Imagen 65. Wireflow Diagram 9_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 10.png" width="600">
+</p>
+
+_Imagen 66. Wireflow Diagram 10_
+
+<p align="center">
+  <img alt="Web Application Wireflow Diagram" src="img/web wireflow 11.png" width="600">
+</p>
+
+_Imagen 67. Wireflow Diagram 11_
+
 ### 4.6.3. Web Applications Mock-ups
+
+En este apartado, se muestran todos los mock-ups basados de los wireframes previamento mencionados. Añadiendo los colores del general style guidelines e imágenes para mejorar la visibilidad de la aplicación.
+
+**Sign Up y Log In**
+
+<p align="center">
+  <img alt="Web Application Mockup" src="img/mockup web login.png" width="600">
+</p>
+
+_Imagen 68. Mockup de la página de inicio de sesión y registro_
+
+**Vista de Citas (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Mockup" src="img/mockup web citas (granjero).png" width="600">
+</p>
+
+_Imagen 69. Mockup de la vista de citas (Granjero)_
+
+**Vista de asesores (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Mockup" src="img/mockup web ver asesores (granjero).png" width="600">
+</p>
+
+_Imagen 70. Mockup de la vista de asesores (Granjero)_
+
+**Vista de Mi Granja (Granjero)**
+
+<p align="center">
+  <img alt="Web Application Mockup" src="img/mockup web mi granja (granjero).png" width="600">
+</p>
+
+_Imagen 71. Mockup de la vista de mi granja (Granjero)_
+
+**Vista de notificaciones, publicaciones y perfil (Granjero)**
+
+<p align="center">
+  <img alt="Web Application mockup" src="img/mockup web otros (granjero).png" width="600">
+</p>
+
+_Imagen 72. Mockup de la vista de notificaciones, publicaciones y perfil (Granjero)_
+
+**Vista de citas (Asesor)**
+
+<p align="center">
+  <img alt="Web Application mockup" src="img/mockup web citas (asesores).png" width="600">
+</p>
+
+_Imagen 73. Mockup de la vista de citas (Asesor)_
+
+**Vista de publicaciones (Asesor)**
+
+<p align="center">
+  <img alt="Web Application mockup" src="img/mockup web publicaciones (asesores).png" width="600">
+</p>
+
+_Imagen 74. Mockup de la vista de publicaciones (Asesor)_
+
+**Vista de horarios (Asesor)**
+
+<p align="center">
+  <img alt="Web Application mockup" src="img/mockup web horarios (asesores).png" width="600">
+</p>
+
+_Imagen 75. Mockup de la vista de horarios (Asesor)_
+
+**Vista de notificaciones y perfil (Asesor)**
+
+<p align="center">
+  <img alt="Web Application mockup" src="img/mockup web otros (asesores).png" width="600">
+</p>
+
+_Imagen 76. Mockup de la vista de notificaciones y perfil (Asesor)_
+
 ### 4.6.4. Web Applications User Flow Diagrams
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 1.png" width="600">
+</p>
+
+_Imagen 77. User Flow Diagram 1_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 2.png" width="600">
+</p>
+
+_Imagen 78. User Flow Diagram 2_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 3.png" width="600">
+</p>
+
+_Imagen 79. User Flow Diagram 3_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 4.png" width="600">
+</p>
+
+_Imagen 80. User Flow Diagram 4_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 5.png" width="600">
+</p>
+
+_Imagen 81. User Flow Diagram 5_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 6.png" width="600">
+</p>
+
+_Imagen 82. User Flow Diagram 6_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 7.png" width="600">
+</p>
+
+_Imagen 83. User Flow Diagram 7_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 8.png" width="600">
+</p>
+
+_Imagen 84. User Flow Diagram 8_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 9.png" width="600">
+</p>
+
+_Imagen 85. User Flow Diagram 9_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 10.png" width="600">
+</p>
+
+_Imagen 86. User Flow Diagram 10_
+
+<p align="center">
+  <img alt="Web Application User Flow Diagram" src="img/web userflow 11.png" width="600">
+</p>
+
+_Imagen 87. User Flow Diagram 11_
+
 ## 4.7. Web Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
