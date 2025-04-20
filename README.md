@@ -830,17 +830,18 @@ _Imagen 7. Entrevista con Tamara García_
 
 **Entrevista 3**
 
-**Entrevistador:** X
+**Entrevistador:** Sergio Joel Pecan Pariona
 
-**Entrevistado:** X
+**Entrevistado:** Yudi Pariona Torres
 
-**Enlace a entrevista:** enlace a yt
+**Enlace a entrevista:** [enlace a yt](https://youtu.be/nsbdy2zdK30)
 
 <img alt="Entrevista con X" src="img/entrevista-asesor-3.png">
 
 _Imagen 8. Entrevista con X_
 
-**Resumen:** X
+**Resumen:** 
+Agricultor de Yauli, Huancavelica, con 2 años de experiencia. Cultiva papa y habas, aprendió de forma informal. Usa YouTube, WhatsApp y Google Chrome. Busca mejorar su producción y vender mejor. Enfrenta retos como el clima y el manejo de plagas. Prefiere asesoría técnica por voz o videollamada, sencilla y práctica, con seguimiento por audio y recordatorios en una app fácil de usar.
 
 ### 2.2.3. Análisis de entrevistas
 **Segmento: Granjeros con poca experiencia**
