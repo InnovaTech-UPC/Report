@@ -838,7 +838,7 @@ _Imagen 7. Entrevista con Tamara García_
 
 <img alt="Entrevista con X" src="img/entrevista-asesor-3.png">
 
-_Imagen 8. Entrevista con X_
+_Imagen 8. Entrevista con yudi Pariona
 
 **Resumen:** 
 Agricultor de Yauli, Huancavelica, con 2 años de experiencia. Cultiva papa y habas, aprendió de forma informal. Usa YouTube, WhatsApp y Google Chrome. Busca mejorar su producción y vender mejor. Enfrenta retos como el clima y el manejo de plagas. Prefiere asesoría técnica por voz o videollamada, sencilla y práctica, con seguimiento por audio y recordatorios en una app fácil de usar.
