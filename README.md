@@ -335,6 +335,17 @@ _Imagen 1. Logo de AgroTech_
       </p>
     </td>
   </tr>
+    <tr>
+    <th>
+      <img src="img/perfil_sergio.jpg" alt="Foto de perfil de sergio" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>Pecan Pariona, Sergio Joel</b></p>
+      <p>
+Sergio es estudiante del 7mo ciclo de Ingeniería de Software en la UPC. Tiene conocimientos en desarrollo web, bases de datos y metodologías ágiles. A lo largo de su formación, ha trabajado con herramientas como Git, Docker y Jenkins, participando en diversos proyectos académicos que le han permitido fortalecer sus habilidades técnicas y de trabajo en equipo. Le interesa seguir aprendiendo y ganar experiencia en el campo del desarrollo de software.
+      </p>
+    </td>
+  </tr>
 </table>
 
 ## 1.2. Solution Profile
