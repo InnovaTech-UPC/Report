@@ -2610,3 +2610,7 @@ _Imagen 87. User Flow Diagram 11_
 
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
+
+<p align="center">
+  <img alt="Diagrama de base de datos" src="img/database_diagram.png" width="600">
+</p>
