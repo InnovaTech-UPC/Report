@@ -834,11 +834,11 @@ _Imagen 7. Entrevista con Tamara García_
 
 **Entrevistado:** Yudi Pariona Torres
 
-**Enlace a entrevista:** [enlace a yt](https://youtu.be/nsbdy2zdK30)
+**Enlace a entrevista:** https://youtu.be/nsbdy2zdK30
 
-<img alt="Entrevista con X" src="img/entrevista-asesor-3.png">
+<img alt="Entrevista con Yudi Pariona" src="img/entrevista-asesor-3.png" width="80%">
 
-_Imagen 8. Entrevista con yudi Pariona
+_Imagen 8. Entrevista con yudi Pariona_
 
 **Resumen:** 
 Agricultor de Yauli, Huancavelica, con 2 años de experiencia. Cultiva papa y habas, aprendió de forma informal. Usa YouTube, WhatsApp y Google Chrome. Busca mejorar su producción y vender mejor. Enfrenta retos como el clima y el manejo de plagas. Prefiere asesoría técnica por voz o videollamada, sencilla y práctica, con seguimiento por audio y recordatorios en una app fácil de usar.
@@ -2614,3 +2614,15 @@ _Imagen 87. User Flow Diagram 11_
 <p align="center">
   <img alt="Diagrama de base de datos" src="img/database_diagram.png" width="600">
 </p>
+
+# Capítulo V: Software Development
+
+## 5.1. Software Development Methodology
+
+### 5.1.1. Software Development Environment Configuration
+
+### 5.1.2. Source Code Management
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+### 5.1.4. Software Deployment Configuration
