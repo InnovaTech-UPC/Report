@@ -866,14 +866,26 @@ El análisis de entrevistas a granjeros con poca experiencia revela patrones com
 
 *Segmento Conductual:*
 
-- **Conocimientos:** X
-- **Actitudes:** X
+- **Conocimientos:**  Tienen conocimientos básicos adquiridos de forma empírica o por transmisión familiar. Muchos no tienen formación técnica formal, aunque han asistido ocasionalmente a charlas o talleres locales.
+- **Actitudes:** Muestran disposición al aprendizaje, apertura al uso de nuevas tecnologías y deseo de mejorar sus prácticas. Sin embargo, también presentan cierta desconfianza hacia cambios drásticos o métodos que no comprenden del todo.
 
 *Características Objetivas:*
-X
+- Tienen acceso limitado a internet, generalmente a través de cabinas o datos móviles.
+
+- Utilizan principalmente celulares con Android.
+
+- Prefieren plataformas accesibles como WhatsApp y YouTube.
+
+- Usan tecnología de manera funcional y práctica, con apoyo de familiares cuando es necesario.
 
 *Características Subjetivas:*
-X
+- Se sienten motivados por el deseo de sacar adelante la granja familiar.
+
+- Valoran el asesoramiento cercano, práctico y adaptado a su contexto.
+
+- Se sienten inseguros frente a decisiones técnicas por falta de experiencia.
+
+- Prefieren la comunicación verbal (audio o video) frente a textos largos o técnicos.
 
 
 **Segmento: Asesores experimentados**
