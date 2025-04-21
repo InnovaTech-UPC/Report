@@ -349,7 +349,7 @@ Sergio es estudiante del 7mo ciclo de Ingeniería de Software en la UPC. Tiene c
 
 <tr>
     <th>
-      <img src="img/perfil_salvador.jpg" alt="Foto de perfil de Andre" width="800px">
+      <img src="img/perfil_andre.jpg" alt="Foto de perfil de Andre" width="800px">
     </th>
     <td valign="top">
       <p><b>La torre Soto, André Sebastian</b></p>
