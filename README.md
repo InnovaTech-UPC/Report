@@ -346,6 +346,20 @@ Sergio es estudiante del 7mo ciclo de Ingeniería de Software en la UPC. Tiene c
       </p>
     </td>
   </tr>
+
+<tr>
+    <th>
+      <img src="img/perfil_salvador.jpg" alt="Foto de perfil de Andre" width="800px">
+    </th>
+    <td valign="top">
+      <p><b>La torre Soto, André Sebastian</b></p>
+      <p>
+        Soy André Sebastián La torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.
+      </p>
+    </td>
+  </tr>
+
+  
 </table>
 
 ## 1.2. Solution Profile
