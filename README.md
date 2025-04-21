@@ -713,7 +713,7 @@ Los asesores con experiencia son claves en el sector agropecuario, brindando ori
 
 **Segmento Objetivo: Granjeros con poca experiencia**
 
-**Objetivo:** Entender las necesidades, desafíos y expectativas de granjeros con poca experiencia para adaptar AgroSupport a sus requerimientos específicos.
+**Objetivo:** Entender las necesidades, desafíos y expectativas de granjeros con poca experiencia para adaptar AgroTech a sus requerimientos específicos.
 
 1. ¿Cuánto tiempo lleva gestionando su granja y qué tipo de formación ha recibido en manejo agrícola (informal o formal)?
 2. ¿Cuáles son sus principales objetivos para el desarrollo de su granja?
@@ -730,7 +730,7 @@ Los asesores con experiencia son claves en el sector agropecuario, brindando ori
 
 **Segmento Objetivo: Asesores experimentados**
 
-**Objetivo:** Comprender las necesidades y expectativas de los asesores para optimizar su uso de AgroSupport y mejorar su eficacia en la asesoría.
+**Objetivo:** Comprender las necesidades y expectativas de los asesores para optimizar su uso de AgroTech y mejorar su eficacia en la asesoría.
 
 1. ¿Cuánto tiempo lleva trabajando como asesor y en qué áreas específicas de la gestión de granjas se especializa?
 2. ¿Cuál es su enfoque principal al ofrecer asesoría a los granjeros?
@@ -2064,12 +2064,12 @@ Hemos desarrollado un sistema de etiquetado claro y conciso para facilitar la na
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-Para mejorar la visibilidad y el rendimiento de Agrosupport en motores de búsqueda y en las tiendas de aplicaciones, se han implementado las siguientes etiquetas SEO y metaetiquetas:
+Para mejorar la visibilidad y el rendimiento de AgroTech en motores de búsqueda y en las tiendas de aplicaciones, se han implementado las siguientes etiquetas SEO y metaetiquetas:
 
 <strong>Metaetiqueta de Descripción: </strong>Proporciona una breve descripción del contenido y propósito de la aplicación, ayudando a los usuarios a entender de qué se trata la aplicación y a mejorar la tasa de clics.
 
 ````
-<meta name="description" content="AgroSupport is a platform that provides farmers with the necessary information to improve their farming practices.">
+<meta name="description" content="AgroTech is a platform that provides farmers with the necessary information to improve their farming practices.">
 ````
 
 
@@ -2615,6 +2615,8 @@ _Imagen 87. User Flow Diagram 11_
   <img alt="Diagrama de base de datos" src="img/database_diagram.png" width="600">
 </p>
 
+_Imagen 88. Diagrama de base de datos relacional_
+
 # Capítulo V: Software Development
 
 ## 5.1. Software Development Methodology
@@ -2666,7 +2668,8 @@ Usuarios de GitHub
     </tr>
   </tbody>
 </table>
-*URL de repositorio de Landing Page:* [https://github.com/AgroSupport-UPC/Landing-Page](https://github.com/InnovaTech-UPC/Landing)
+
+**URL de la organización en GitHub:** [https://github.com/InnovaTech-UPC](https://github.com/InnovaTech-UPC)
 
 Para el desarrollo del trabajo se hará uso de GitFlow, el cual es un modelo de flujo de trabajo para la gestión de control de versiones Git. Está compuesta por ramas y cada una cumple un propósito distinto. Las ramas que utilizamos son: Feature, Develop, Release y Main.
 
@@ -2698,15 +2701,15 @@ https://google.github.io/styleguide/htmlcssguide.html
 - El diseño debe ser responsive para que los usuarios lo puedan visualizar cómodamente desde el dispositivo en qué se encuentren.
 
 
-**JavaScript**
+**TypeScript**
+Es un superset de JavaScript ampliamente utilizado en el desarrollo con Angular, ya que añade tipado estático y otras funcionalidades que mejoran la escalabilidad y mantenibilidad del código.
 
-Es el lenguaje de programación más utilizado para la programación web, ya que permite desarrollar páginas interactivas con animaciones agradables para los usuarios.
-https://www.w3schools.com/js/js_conventions.asp
-- Declarar nombres coherentes y cortos para las variables y funciones.
-- Dejar comentarios para dar a conocer que hace cada parte del código sobre la página web.
-- Siempre colocar un punto y coma al final de cada línea de código.
-- Declarar las constantes cuando sea necesario en lugar de variables que nunca cambiarán su valor.
-- Usar los operadores de comparación estricta en lugar de comparación regular cuando sea posible. (Ejemplo: Utilizar === en lugar de ==)
+- Declarar nombres coherentes y descriptivos para variables, funciones y clases.
+- Incluir comentarios que expliquen claramente el propósito de cada bloque de código.
+- Finalizar cada línea con punto y coma para mantener consistencia.
+- Usar const y let de forma adecuada: const para valores que no cambian y let para aquellos que sí.
+- Emplear comparaciones estrictas (=== y !==) para evitar errores de tipo.
+- Aprovechar el tipado de TypeScript para declarar tipos explícitos y prevenir errores en tiempo de compilación.
 
 **Kotlin**
 
@@ -2725,3 +2728,99 @@ Igualmente como se ha trabajado con el Backend, también utilizaremos el sistema
 
 Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page de nuestro proyecto. GitHub Pages es un servicio que ofrece GitHub para alojar sitios web estáticos de forma gratuita. Permite a los desarrolladores alojar un sitio web directamente desde un repositorio de GitHub, lo que facilita la publicación de sitios web sin tener que preocuparse por la infraestructura de alojamiento.
 
+## 5.2. Product Implementation & Deployment
+
+### 5.2.1. Sprint Backlogs
+
+### 5.2.2 Implemented Landing Page Evidence
+
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+La aplicación web AgroTech fue desarrollada utilizando Angular. Se implementaron funcionalidades como la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La aplicación fue probada en diferentes navegadores asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
+
+![Web Evidence 1](img/web_evidence_1.png)
+
+_Imagen 89. Evidencia del funcionamiento de la aplicación web (Granjero)_
+
+![Web Evidence 2](img/web_evidence_2.png)
+
+_Imagen 90. Evidencia del funcionamiento de la aplicación web (Asesor)_
+
+### 5.2.4. Implemented Native-Mobile Application Evidence
+
+La aplicación móvil AgroTech fue desarrollada utilizando Kotlin. Se implementaron funcionalidades como la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La aplicación fue probada en dispositivos Android, asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
+
+![Mobile Evidence 1](img/movil_evidence_1.png)
+
+_Imagen 91. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
+
+![Mobile Evidence 2](img/movil_evidence_2.png)
+
+_Imagen 92. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
+
+### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
+
+Se implementó una API RESTful utilizando Spring Boot, que permite la comunicación entre el frontend y el backend de la aplicación. Esta API incluye varios endpoints para gestionar los recursos necesarios, como usuarios, productos y citas. Para comprobar la implementación de la API, se realizaron solicitudes HTTP a los diferentes endpoints utilizando Swagger, lo que permitió verificar que la API respondía correctamente a las solicitudes y devolvía los datos esperados.
+
+![Backend Evidence 1](img/backend_evidence_1.png)
+
+_Imagen 93. Evidencia del funcionamiento del backend (Sign Up)_
+
+![Backend Evidence 2](img/backend_evidence_2.png)
+
+_Imagen 94. Evidencia del funcionamiento del backend (Sign In)_
+
+![Backend Evidence 3](img/backend_evidence_3.png)
+
+_Imagen 95. Evidencia del funcionamiento del backend (Profiles)_
+
+![Backend Evidence 4](img/backend_evidence_4.png)
+
+_Imagen 96. Evidencia del funcionamiento del backend (Available Dates)_
+
+### 5.2.6 RESTful API documentation
+
+Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Esta herramienta nos proporciona una interfaz gráfica donde se pueden explorar los diferentes endpoints de la API, ver los parámetros requeridos y las respuestas esperadas.
+
+![RESTful API Documentation](img/restful_api_documentation.png)
+
+_Imagen 97. RESTful API Documentation con Swagger_
+
+### 5.2.7 Team Collaboration Insights
+
+## 5.3 Video About-the-Product
+
+En el vídeo se proporciona información sobre el producto AgroTech. Se mencionan las diferentes funcionalidades de la aplicación como son la visualización del catálogo de asesores, la gestión de citas, visualización de publicaciones, etc.
+
+![Video About The Product Evidence](img/video_about_the_product.png)
+
+_Imagen 98. Video About The Product_
+
+Enlace al vídeo de Microsoft Stream: [Video About The Product](enlace)
+
+# Conclusiones
+## Conclusiones y recomendaciones
+
+En primer lugar, este proyecto se ha desarrollado una aplicación móvil en Kotlin y una aplicación web utilizando Angular, con el objetivo de brindar asesoramiento a granjeros y promover prácticas agrícolas sostenibles.
+
+El proceso Lean UX permitió identificar segmentos objetivos, competidores y necesidades clave del mercado. Desde los problem statements hasta el Lean UX canvas, cada etapa fortaleció la agilidad y enfoque del desarrollo de AgroTech.
+
+Además, se implementó un backend robusto utilizando Spring Boot, aplicando principios de diseño como la arquitectura DDD para mantener una estructura modular y escalable. La documentación con Swagger facilitó la comprensión y el consumo de los servicios, mejorando la colaboración entre los miembros del equipo y permitiendo una integración eficiente entre las aplicaciones móvil y web.
+
+# Bibliografía
+
+Aguilar, G., Bustamante, J., Bazán, V. y Falcón, N. (2011). Diagnóstico situacional de la crianza de cuyes en una zona de Cajamarca. _Revista de Investigaciones Veterinarias del Perú, 22(1)_, 09-14. http://www.scielo.org.pe/scielo.php?script=sci_arttext&pid=S1609-91172011000100002&lng=es&tlng=es
+
+Ames, A. (2022). EVIDENCIA para una Nueva Gestión Pública. _Escuela de Gestión Pública de la Universidad del Pacífico_. https://www.up.edu.pe/egp/programas-especializacion_copy(1)/SiteAssets/Lists/Observatorio/AllItems/Informe%20de%20Evidencia%20sector%20Agropecuario%20-%20EGP.pdf
+
+Android Developers. (2024). _Guía de estilo de Kotlin_. https://developer.android.com/kotlin/style-guide?hl=es-419
+
+Google. (s.f.). _Google HTML/CSS Style Guide_. https://google.github.io/styleguide/htmlcssguide.html
+
+Ministerio de Desarrollo Agrario y Riego. (2023). _Cadena productiva de cuyes_. https://cdn.www.gob.pe/uploads/document/file/4061856/Cadena%20productiva%20de%20cuy.pdf
+
+Luque, R. (2023). _Meta Tags | Las 7 más importantes en SEO_. SEOcrawl. https://seocrawl.com/meta-tags/
+
+Soodan, V., Jamwal, M., Rana, N. P., Sharma, D., & Chakraborty, S. (2023). Modelling the adoption of agro-advisory mobile applications: a theoretical extension and analysis using result demonstrability, trust, self-efficacy and mobile usage proficiency. _Journal Of Agribusiness In Developing And Emerging Economies, 14(4)_, 749-768. https://doi.org/10.1108/jadee-05-2022-0087
+
+W3Schools. (s.f.). _HTML Style Guide_. https://www.w3schools.com/html/html5_syntax.asp
