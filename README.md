@@ -2327,6 +2327,105 @@ _Imagen 47. Mockup de la página de contacto (Mobile)_
 ### 4.4.1. Mobile Applications Wireframes
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 ### 4.4.3. Mobile Applications Mock-ups
+
+Los mockups de la app aportan estilo visual y detalles gráficos, mostrando cómo lucirán las pantallas finales con colores, tipografías y elementos visuales que crean una experiencia atractiva y alineada con la identidad de la app.
+
+
+<img src="img/Mockup - Bienvenida (Mobile).png" alt="Mock Up bienvenida">
+
+_Imagen 48. Mock Up de bienvenida_
+
+<img src="img/Mockup - Crear Cuenta (Mobile).png" alt="Mock Up selección de rol">
+
+_Imagen 49. Mock Up de seleccion de rol_
+
+<img src="img/Mockup - Crear Cuenta Granjero (Mobile).png" alt="Mock Up creación de cuenta de granjero">
+
+_Imagen 50. Mock Up de creación de cuenta de granjero_
+
+<img src="img/Mockup - Crear Cuenta Asesor (Mobile).png" alt="Mock Up creación de cuenta de asesor">
+
+_Imagen 51. Mock Up de creación de cuenta de asesor_
+
+<img src="img/Mockup - Confirmacion Cuenta Creada Granjero (Mobile).png" alt="Mock Up confirmación creación de cuenta de granjero">
+
+_Imagen 52. Mock Up de confirmación de creación de cuenta de granjero_
+
+<img src="img/Mockup - Confirmacion Cuenta Creada Asesor (Mobile).png" alt="Mock Up confirmación creación de cuenta de asesor">
+
+_Imagen 53. Mock Up de confirmación de creación de cuenta de asesor_
+
+<img src="img/Mockup - Inicio Granjero (Mobile).png" alt="Pagina de inicio de granjero">
+
+_Imagen 54. Mock Up de página de inicio de granjero_
+
+<img src="img/Mockup - Ver y Agendar Asesorias (Mobile).png" alt="Pagina de reserva de asesorías">
+
+_Imagen 55. Mock Up de página de reserva de asesorías_
+
+<img src="img/Mockup - Editar Perfil Granjero (Mobile).png" alt="Editar perfil de granjero">
+
+_Imagen 56. Mock Up de página para editar perfil de granjero_
+
+<img src="img/Mockup - Ver Citas Pendientes y Pasadas Granjero (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de granjero">
+
+_Imagen 57. Mock Up de página para ver asesorias pendientes y pasadas de granjero_
+
+<img src="img/Mockup - Ver Detalles De Citas Granjero (Mobile).png" alt="Pagina de ver detalles de citas de granjero">
+
+_Imagen 58. Mock Up de página para ver detalles de asesorias de granjero_
+
+<img src="img/Mockup - Calificar Asesoria Granjero (Mobile).png" alt="Pagina de calificar asesoria">
+
+_Imagen 59. Mock Up de página para calificar asesoria de granjero_
+
+<img src="img/Mockup - Notificaciones Granjero (Mobile).png" alt="Pagina de notificaciones de granjero">
+
+_Imagen 60. Mock Up de página para ver notificaciones de granjero_
+
+<img src="img/Mockup - Ver Publicaciones de Asesores Granjero (Mobile).png" alt="Pagina de lista publicaciones de asesores">
+
+_Imagen 61. Mock Up de página para ver publicaciones de asesores_
+
+<img src="img/Mockup - Ver, Agregar y Eliminar Recintos Granjero (Mobile).png" alt="Pagina de recintos de granjero">
+
+_Imagen 62. Mock Up de página para ver, agregar y eliminar recintos del perfil Granjero_
+
+<img src="img/Mockup - Ver, Agregar y Eliminar Animales de Recintos Granjero (Mobile).png" alt="Pagina de animales de granjero">
+
+_Imagen 63. Mock Up de página para ver, agregar, editar y eliminar animales del perfil Granjero_
+
+<img src="img/Mockup - Pagina Inicio Asesor (Mobile).png" alt="Pagina de inicio de asesor">
+
+_Imagen 64. Mock Up de página de inicio de asesor_
+
+<img src="img/Mockup - Pagina Ver, Editar, Crear, Eliminar Publicaciones Asesor (Mobile).png" alt="Pagina de publicaciones de asesor">
+
+_Imagen 65. Mock Up de página móvil para ver, crear, editar y eliminar publicaciones del perfil Asesor_
+
+<img src="img/Mockup - Notificaciones Asesor (Mobile).png" alt="Pagina de notificaciones de asesor">
+
+_Imagen 66. Mock Up de página para ver notificaciones de asesor_
+
+<img src="img/Mockup - Citas Pendientes y Pasadas de Asesor (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de asesor">
+
+_Imagen 67. Mock Up de página para ver asesorías pendientes y pasadas de asesor_
+
+<img src="img/Mockup - Ver Detalles de Citas Asesor (Mobile).png" alt="Pagina de ver detalles de citas de asesor">
+
+_Imagen 68. Mock Up de página para ver detalles/calificaciones de asesorías de asesor_
+
+<img src="img/Mockup - Ver, Agregar y Eliminar Horarios disponibles Asesor (Mobile).png" alt="Pagina de ver, agregar y eliminar horarios disponibles del Asesor">
+
+_Imagen 69. Mock Up de página para ver, agregar y eliminar horarios disponibles del Asesor_
+
+<img src="img/Mockup - Editar Perfil Asesor (Mobile).png" alt="Editar perfil de asesor">
+
+_Imagen 70. Mock Up de página para editar perfil de asesor_
+
+
+
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
 ## 4.5. Mobile Applications Prototyping
