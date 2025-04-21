@@ -2330,96 +2330,140 @@ _Imagen 47. Mockup de la página de contacto (Mobile)_
 
 Los mockups de la app aportan estilo visual y detalles gráficos, mostrando cómo lucirán las pantallas finales con colores, tipografías y elementos visuales que crean una experiencia atractiva y alineada con la identidad de la app.
 
-
+<p align="center">
 <img src="img/Mockup - Bienvenida (Mobile).png" alt="Mock Up bienvenida">
-
+</p>
 _Imagen 48. Mock Up de bienvenida_
 
+<p align="center">
 <img src="img/Mockup - Crear Cuenta (Mobile).png" alt="Mock Up selección de rol">
+</p>
 
 _Imagen 49. Mock Up de seleccion de rol_
 
+<p align="center">
 <img src="img/Mockup - Crear Cuenta Granjero (Mobile).png" alt="Mock Up creación de cuenta de granjero">
+</p>
 
 _Imagen 50. Mock Up de creación de cuenta de granjero_
 
+<p align="center">
 <img src="img/Mockup - Crear Cuenta Asesor (Mobile).png" alt="Mock Up creación de cuenta de asesor">
+</p>
 
 _Imagen 51. Mock Up de creación de cuenta de asesor_
 
+<p align="center">
 <img src="img/Mockup - Confirmacion Cuenta Creada Granjero (Mobile).png" alt="Mock Up confirmación creación de cuenta de granjero">
+</p>
 
 _Imagen 52. Mock Up de confirmación de creación de cuenta de granjero_
 
+<p align="center">
 <img src="img/Mockup - Confirmacion Cuenta Creada Asesor (Mobile).png" alt="Mock Up confirmación creación de cuenta de asesor">
+</p>
 
 _Imagen 53. Mock Up de confirmación de creación de cuenta de asesor_
 
+<p align="center">
 <img src="img/Mockup - Inicio Granjero (Mobile).png" alt="Pagina de inicio de granjero">
+</p>
 
 _Imagen 54. Mock Up de página de inicio de granjero_
 
+<p align="center">
 <img src="img/Mockup - Ver y Agendar Asesorias (Mobile).png" alt="Pagina de reserva de asesorías">
+</p>
 
 _Imagen 55. Mock Up de página de reserva de asesorías_
 
+<p align="center">
 <img src="img/Mockup - Editar Perfil Granjero (Mobile).png" alt="Editar perfil de granjero">
+</p>
 
 _Imagen 56. Mock Up de página para editar perfil de granjero_
 
+<p align="center">
 <img src="img/Mockup - Ver Citas Pendientes y Pasadas Granjero (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de granjero">
+</p>
 
 _Imagen 57. Mock Up de página para ver asesorias pendientes y pasadas de granjero_
 
+<p align="center">
 <img src="img/Mockup - Ver Detalles De Citas Granjero (Mobile).png" alt="Pagina de ver detalles de citas de granjero">
+</p>
 
 _Imagen 58. Mock Up de página para ver detalles de asesorias de granjero_
 
+<p align="center">
 <img src="img/Mockup - Calificar Asesoria Granjero (Mobile).png" alt="Pagina de calificar asesoria">
+</p>
 
 _Imagen 59. Mock Up de página para calificar asesoria de granjero_
 
+<p align="center">
 <img src="img/Mockup - Notificaciones Granjero (Mobile).png" alt="Pagina de notificaciones de granjero">
+</p>
 
 _Imagen 60. Mock Up de página para ver notificaciones de granjero_
 
+<p align="center">
 <img src="img/Mockup - Ver Publicaciones de Asesores Granjero (Mobile).png" alt="Pagina de lista publicaciones de asesores">
+</p>
 
 _Imagen 61. Mock Up de página para ver publicaciones de asesores_
 
+<p align="center">
 <img src="img/Mockup - Ver, Agregar y Eliminar Recintos Granjero (Mobile).png" alt="Pagina de recintos de granjero">
+</p>
 
 _Imagen 62. Mock Up de página para ver, agregar y eliminar recintos del perfil Granjero_
 
+<p align="center">
 <img src="img/Mockup - Ver, Agregar y Eliminar Animales de Recintos Granjero (Mobile).png" alt="Pagina de animales de granjero">
+</p>
 
 _Imagen 63. Mock Up de página para ver, agregar, editar y eliminar animales del perfil Granjero_
 
+<p align="center">
 <img src="img/Mockup - Pagina Inicio Asesor (Mobile).png" alt="Pagina de inicio de asesor">
+</p>
 
 _Imagen 64. Mock Up de página de inicio de asesor_
 
+<p align="center">
 <img src="img/Mockup - Pagina Ver, Editar, Crear, Eliminar Publicaciones Asesor (Mobile).png" alt="Pagina de publicaciones de asesor">
+</p>
 
 _Imagen 65. Mock Up de página móvil para ver, crear, editar y eliminar publicaciones del perfil Asesor_
 
+<p align="center">
 <img src="img/Mockup - Notificaciones Asesor (Mobile).png" alt="Pagina de notificaciones de asesor">
+</p>
 
 _Imagen 66. Mock Up de página para ver notificaciones de asesor_
 
+<p align="center">
 <img src="img/Mockup - Citas Pendientes y Pasadas de Asesor (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de asesor">
+</p>
 
 _Imagen 67. Mock Up de página para ver asesorías pendientes y pasadas de asesor_
 
+<p align="center">
 <img src="img/Mockup - Ver Detalles de Citas Asesor (Mobile).png" alt="Pagina de ver detalles de citas de asesor">
+</p>
 
 _Imagen 68. Mock Up de página para ver detalles/calificaciones de asesorías de asesor_
 
+<p align="center">
 <img src="img/Mockup - Ver, Agregar y Eliminar Horarios disponibles Asesor (Mobile).png" alt="Pagina de ver, agregar y eliminar horarios disponibles del Asesor">
+</p>
 
 _Imagen 69. Mock Up de página para ver, agregar y eliminar horarios disponibles del Asesor_
 
+<p align="center">
 <img src="img/Mockup - Editar Perfil Asesor (Mobile).png" alt="Editar perfil de asesor">
+</p>
 
 _Imagen 70. Mock Up de página para editar perfil de asesor_
 
@@ -2443,7 +2487,7 @@ En este apartado, se muestran todos los wireframes necesarios para cumplir las f
   <img alt="Web Application Wireframe" src="img/wireframe web login.png" width="600">
 </p>
 
-_Imagen 48. Wireframes de la página de inicio de sesión y registro_
+_Imagen X. Wireframes de la página de inicio de sesión y registro_
 
 **Vista de Citas (Granjero)**
 
@@ -2451,7 +2495,7 @@ _Imagen 48. Wireframes de la página de inicio de sesión y registro_
   <img alt="Web Application Wireframe" src="img/wireframe web citas (granjero).png" width="600">
 </p>
 
-_Imagen 49. Wireframe de la vista de citas (Granjero)_
+_Imagen X. Wireframe de la vista de citas (Granjero)_
 
 **Vista de asesores (Granjero)**
 
@@ -2459,7 +2503,7 @@ _Imagen 49. Wireframe de la vista de citas (Granjero)_
   <img alt="Web Application Wireframe" src="img/wireframe web ver asesores (granjero).png" width="600">
 </p>
 
-_Imagen 50. Wireframe de la vista de asesores (Granjero)_
+_Imagen X. Wireframe de la vista de asesores (Granjero)_
 
 **Vista de Mi Granja (Granjero)**
 
@@ -2467,7 +2511,7 @@ _Imagen 50. Wireframe de la vista de asesores (Granjero)_
   <img alt="Web Application Wireframe" src="img/wireframe web mi granja (granjero).png" width="600">
 </p>
 
-_Imagen 51. Wireframe de la vista de mi granja (Granjero)_
+_Imagen X. Wireframe de la vista de mi granja (Granjero)_
 
 **Vista de notificaciones, publicaciones y perfil (Granjero)**
 
@@ -2475,7 +2519,7 @@ _Imagen 51. Wireframe de la vista de mi granja (Granjero)_
   <img alt="Web Application Wireframe" src="img/wireframe web otros (granjero).png" width="600">
 </p>
 
-_Imagen 52. Wireframe de la vista de notificaciones, publicaciones y perfil (Granjero)_
+_Imagen X. Wireframe de la vista de notificaciones, publicaciones y perfil (Granjero)_
 
 **Vista de citas (Asesor)**
 
@@ -2483,7 +2527,7 @@ _Imagen 52. Wireframe de la vista de notificaciones, publicaciones y perfil (Gra
   <img alt="Web Application Wireframe" src="img/wireframe web citas (asesores).png" width="600">
 </p>
 
-_Imagen 53. Wireframe de la vista de citas (Asesor)_
+_Imagen X. Wireframe de la vista de citas (Asesor)_
 
 **Vista de publicaciones (Asesor)**
 
@@ -2491,7 +2535,7 @@ _Imagen 53. Wireframe de la vista de citas (Asesor)_
   <img alt="Web Application Wireframe" src="img/wireframe web publicaciones (asesores).png" width="600">
 </p>
 
-_Imagen 54. Wireframe de la vista de publicaciones (Asesor)_
+_Imagen X. Wireframe de la vista de publicaciones (Asesor)_
 
 **Vista de horarios (Asesor)**
 
@@ -2499,7 +2543,7 @@ _Imagen 54. Wireframe de la vista de publicaciones (Asesor)_
   <img alt="Web Application Wireframe" src="img/wireframe web horarios (asesores).png" width="600">
 </p>
 
-_Imagen 55. Wireframe de la vista de horarios (Asesor)_
+_Imagen X. Wireframe de la vista de horarios (Asesor)_
 
 **Vista de notificaciones y perfil (Asesor)**
 
@@ -2507,7 +2551,7 @@ _Imagen 55. Wireframe de la vista de horarios (Asesor)_
   <img alt="Web Application Wireframe" src="img/wireframe web otros (asesores).png" width="600">
 </p>
 
-_Imagen 56. Wireframe de la vista de notificaciones y perfil (Asesor)_
+_Imagen X. Wireframe de la vista de notificaciones y perfil (Asesor)_
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
@@ -2515,67 +2559,67 @@ _Imagen 56. Wireframe de la vista de notificaciones y perfil (Asesor)_
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 1.png" width="600">
 </p>
 
-_Imagen 57. Wireflow Diagram 1_
+_Imagen X. Wireflow Diagram 1_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 2.png" width="600">
 </p>
 
-_Imagen 58. Wireflow Diagram 2_
+_Imagen X. Wireflow Diagram 2_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 3.png" width="600">
 </p>
 
-_Imagen 59. Wireflow Diagram 3_
+_Imagen X. Wireflow Diagram 3_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 4.png" width="600">
 </p>
 
-_Imagen 60. Wireflow Diagram 4_
+_Imagen X. Wireflow Diagram 4_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 5.png" width="600">
 </p>
 
-_Imagen 61. Wireflow Diagram 5_
+_Imagen X. Wireflow Diagram 5_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 6.png" width="600">
 </p>
 
-_Imagen 62. Wireflow Diagram 6_
+_Imagen X. Wireflow Diagram 6_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 7.png" width="600">
 </p>
 
-_Imagen 63. Wireflow Diagram 7_
+_Imagen X. Wireflow Diagram 7_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 8.png" width="600">
 </p>
 
-_Imagen 64. Wireflow Diagram 8_
+_Imagen X. Wireflow Diagram 8_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 9.png" width="600">
 </p>
 
-_Imagen 65. Wireflow Diagram 9_
+_Imagen X. Wireflow Diagram 9_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 10.png" width="600">
 </p>
 
-_Imagen 66. Wireflow Diagram 10_
+_Imagen X. Wireflow Diagram 10_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 11.png" width="600">
 </p>
 
-_Imagen 67. Wireflow Diagram 11_
+_Imagen X. Wireflow Diagram 11_
 
 ### 4.6.3. Web Applications Mock-ups
 
@@ -2587,7 +2631,7 @@ En este apartado, se muestran todos los mock-ups basados de los wireframes previ
   <img alt="Web Application Mockup" src="img/mockup web login.png" width="600">
 </p>
 
-_Imagen 68. Mockup de la página de inicio de sesión y registro_
+_Imagen X. Mockup de la página de inicio de sesión y registro_
 
 **Vista de Citas (Granjero)**
 
