@@ -2774,7 +2774,91 @@ _Imagen 87. User Flow Diagram 11_
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
+
+Los diagramas de clase son herramientas cruciales en el diseño de sistemas orientados a objetos, ya que proporcionan una representación visual de las clases y sus relaciones dentro del sistema. En esta sección, se presentarán los diagramas de clase que detallan la estructura de cada bounded context: Profile, Appointment, Management y Post.
+
+<img alt="Diagrama de Clase: Profile" src="img/ClassDiagram_Profile.png">
+
+_Imagen X. Diagrama de Clase: Profile_
+
+<img alt="Diagrama de Clase: Appointment" src="img/ClassDiagram_Appointment.png">
+
+_Imagen X. Diagrama de Clase: Appointment_
+
+<img alt="Diagrama de Clase: Management" src="img/ClassDiagram_Management.png">
+
+_Imagen X. Diagrama de Clase: Management_
+
+<img alt="Diagrama de Clase: Post" src="img/ClassDiagram_Post.png">
+
+_Imagen X. Diagrama de Clase: Post_
+
 ### 4.9.2. Class Dictionary
+
+En esta sección, se especificarán las características detalladas de cada clase del sistema mediante un diccionario de clases. A continuación se presenta una tabla con las clases y una descripción sobre sus atributos, métodos y una breve descripción de cada una.
+
+<table>
+    <thead>
+        <tr>
+            <th>Clase</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>User</td>
+            <td>Representa un usuario del sistema. Incluye atributos como <em>id</em>, <em>username</em>, <em>password</em>, un <em>profile</em> asociado, un <em>role</em>, y una lista de <em>notifications</em>. Métodos principales: <em>getUser()</em>, <em>getNotifications()</em>.</td>
+        </tr>
+        <tr>
+            <td>Farmer</td>
+            <td>Representa a los usuarios del sector de granjero. Hereda de la clase <em>User</em>. Incluye un <em>user</em> asociado. Método principal: <em>getFarmer()</em>.</td>
+        </tr>
+        <tr>
+            <td>Advisor</td>
+            <td>Representa a los usuarios del sector de asesores especializados. Incluye atributos como <em>id</em>, <em>rating</em>, y un <em>user</em> asociado. Método principal: <em>getAdvisor()</em>.</td>
+        </tr>
+        <tr>
+            <td>Profile</td>
+            <td>Contiene la información detallada del usuario, incluyendo atributos como <em>firstname</em>, <em>lastname</em>, <em>city</em>, <em>country</em>, <em>birthdate</em>, <em>description</em>, <em>photo</em>, <em>occupation</em>, <em>experience</em>, y un <em>user</em> asociado. Método principal: <em>getProfile()</em>.</td>
+        </tr>
+        <tr>
+            <td>Notification</td>
+            <td>Representa una notificación que se enviará al usuario. Incluye atributos como <em>id</em>, <em>title</em>, <em>message</em>, y un <em>user</em> asociado. Método principal: <em>getNotification()</em>.</td>
+        </tr>
+        <tr>
+            <td>Role</td>
+            <td>Define el rol de un usuario dentro del sistema. Incluye atributos como <em>id</em> y <em>name</em>. Método principal: <em>getRole()</em>.</td>
+        </tr>
+        <tr>
+            <td>Appointment</td>
+            <td>Representa una cita programada entre un asesor y un granjero. Incluye atributos como <em>id</em>, <em>scheduled_date</em>, <em>start_time</em>, <em>end_time</em>, <em>status</em>, un <em>advisor</em>, y un <em>farmer</em>. Método principal: <em>getAppointment()</em>.</td>
+        </tr>
+        <tr>
+            <td>Review</td>
+            <td>Contiene la evaluación y comentario de una asesoría. Incluye atributos como <em>id</em>, <em>rating</em>, <em>comment</em>, y un <em>appointment</em> asociado. Método principal: <em>getReview()</em>.</td>
+        </tr>
+        <tr>
+            <td>AvailableDate</td>
+            <td>Representa los horarios cuando el asesor puede realizar una asesoría. Incluye atributos como <em>id</em>, <em>date</em>, <em>start_time</em>, <em>end_time</em>, y un <em>advisor</em> asociado. Método principal: <em>getAvailableDate()</em>.</td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>Representa los estados posibles de una cita: <em>PENDING</em>, <em>ONGOING</em>, <em>COMPLETED</em>, <em>REVIEWED</em>.</td>
+        </tr>
+        <tr>
+            <td>Enclosure</td>
+            <td>Representa un recinto de un granjero. Incluye atributos como <em>id</em>, <em>name</em>, <em>capacity</em>, <em>type</em>, y un <em>farmer</em> asociado. Método principal: <em>getEnclosure()</em>.</td>
+        </tr>
+        <tr>
+            <td>Animal</td>
+            <td>Representa un animal de un recinto. Incluye atributos como <em>id</em>, <em>name</em>, <em>age</em>, <em>species</em>, <em>breed</em>, <em>gender</em>, <em>weight</em>, <em>health</em>, y un <em>enclosure</em> asociado. Método principal: <em>getAnimal()</em>.</td>
+        </tr>
+        <tr>
+            <td>Post</td>
+            <td>Representa una publicación hecha por un asesor. Incluye atributos como <em>id</em>, <em>title</em>, <em>description</em>, <em>image</em>, y un <em>advisor</em> asociado. Método principal: <em>getPost()</em>.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
@@ -2797,7 +2881,7 @@ Se realizaron los productos de UX con la herramienta UXPressia, así como el Use
 
 **Software Development:**
 
-Como principal IDE, utilizamos Android Studio, el cual es el entorno de desarrollo con el que estamos más familiarizados por ser de Jetbrains. Por otro lado, para el desarrollo usamos los lenguajes aprendidos previamente, como HTML, CSS y JavaScript para la landing page, y Kotlin para la aplicación móvil.
+Como principales IDEs, utilizamos WebStorm y Android Studio, con los cuales estamos más familiarizados por ser de Jetbrains. Por otro lado, para el desarrollo usamos los lenguajes aprendidos previamente, como HTML, CSS y JavaScript para la landing page, TypeScript para el frontend web, y Kotlin para la aplicación móvil.
 
 
 **Software Testing:**
@@ -2843,7 +2927,7 @@ Para el desarrollo del trabajo se hará uso de GitFlow, el cual es un modelo de 
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
-En el desarrollo de este trabajo, se utilizará una gran variedad de lenguajes para trabajar en el Landing Page y Mobile Application. Para ello, se utilizará la siguiente guía de estilos y convenciones.
+En el desarrollo de este trabajo, se utilizará una gran variedad de lenguajes para trabajar en el Landing Page, Frontend Web y Mobile Application. Para ello, se utilizará la siguiente guía de estilos y convenciones.
 
 **HTML**
 
@@ -2892,7 +2976,7 @@ https://developer.android.com/kotlin/style-guide
 
 
 ### 5.1.4. Software Deployment Configuration
-Igualmente como se ha trabajado con el Backend, también utilizaremos el sistema de Git y repositorios en GitHub para el desarrollo de la Landing Page y la Mobile Application. De esta manera, cada miembro podrá trabajar de forma remota desde su IDE, teniendo una copia del repositorio Git a través del repositorio en línea almacenado en GitHub, así poder hacer commits para empujar los cambios que hayan realizado.
+Igualmente como se ha trabajado con el Backend, también utilizaremos el sistema de Git y repositorios en GitHub para el desarrollo de la Landing Page, Frontend Web y la Mobile Application. De esta manera, cada miembro podrá trabajar de forma remota desde su IDE, teniendo una copia del repositorio Git a través del repositorio en línea almacenado en GitHub, así poder hacer commits para empujar los cambios que hayan realizado.
 
 Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page de nuestro proyecto. GitHub Pages es un servicio que ofrece GitHub para alojar sitios web estáticos de forma gratuita. Permite a los desarrolladores alojar un sitio web directamente desde un repositorio de GitHub, lo que facilita la publicación de sitios web sin tener que preocuparse por la infraestructura de alojamiento.
 
@@ -2902,17 +2986,25 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
 
 ### 5.2.2 Implemented Landing Page Evidence
 
+La landing page fue desarrollada utilizando HTML, CSS y JavaScript. Se implementaron funcionalidades como la visualización de información sobre la aplicación, la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La landing page fue probada en diferentes navegadores asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
+
+<https://innovatech-upc.github.io/Landing/>
+
+![Landing Page Evidence](img/landing_evidence.png)
+
+_Imagen X. Evidencia del funcionamiento de la landing page_
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 La aplicación web AgroTech fue desarrollada utilizando Angular. Se implementaron funcionalidades como la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La aplicación fue probada en diferentes navegadores asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
 
 ![Web Evidence 1](img/web_evidence_1.png)
 
-_Imagen 89. Evidencia del funcionamiento de la aplicación web (Granjero)_
+_Imagen X. Evidencia del funcionamiento de la aplicación web (Granjero)_
 
 ![Web Evidence 2](img/web_evidence_2.png)
 
-_Imagen 90. Evidencia del funcionamiento de la aplicación web (Asesor)_
+_Imagen X. Evidencia del funcionamiento de la aplicación web (Asesor)_
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
@@ -2920,11 +3012,11 @@ La aplicación móvil AgroTech fue desarrollada utilizando Kotlin. Se implementa
 
 ![Mobile Evidence 1](img/movil_evidence_1.png)
 
-_Imagen 91. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
+_Imagen X. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
 
 ![Mobile Evidence 2](img/movil_evidence_2.png)
 
-_Imagen 92. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
+_Imagen X. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
 
 ### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
 
@@ -2932,19 +3024,19 @@ Se implementó una API RESTful utilizando Spring Boot, que permite la comunicaci
 
 ![Backend Evidence 1](img/backend_evidence_1.png)
 
-_Imagen 93. Evidencia del funcionamiento del backend (Sign Up)_
+_Imagen X. Evidencia del funcionamiento del backend (Sign Up)_
 
 ![Backend Evidence 2](img/backend_evidence_2.png)
 
-_Imagen 94. Evidencia del funcionamiento del backend (Sign In)_
+_Imagen X. Evidencia del funcionamiento del backend (Sign In)_
 
 ![Backend Evidence 3](img/backend_evidence_3.png)
 
-_Imagen 95. Evidencia del funcionamiento del backend (Profiles)_
+_Imagen X. Evidencia del funcionamiento del backend (Profiles)_
 
 ![Backend Evidence 4](img/backend_evidence_4.png)
 
-_Imagen 96. Evidencia del funcionamiento del backend (Available Dates)_
+_Imagen X. Evidencia del funcionamiento del backend (Available Dates)_
 
 ### 5.2.6 RESTful API documentation
 
@@ -2952,7 +3044,7 @@ Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Es
 
 ![RESTful API Documentation](img/restful_api_documentation.png)
 
-_Imagen 97. RESTful API Documentation con Swagger_
+_Imagen X. RESTful API Documentation con Swagger_
 
 ### 5.2.7 Team Collaboration Insights
 
@@ -2962,7 +3054,7 @@ En el vídeo se proporciona información sobre el producto AgroTech. Se menciona
 
 ![Video About The Product Evidence](img/video_about_the_product.png)
 
-_Imagen 98. Video About The Product_
+_Imagen X. Video About The Product_
 
 Enlace al vídeo de Microsoft Stream: [Video About The Product](enlace)
 
