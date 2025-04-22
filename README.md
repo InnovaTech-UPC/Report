@@ -2998,6 +2998,246 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
 
 ### 5.2.1. Sprint Backlogs
 
+**Sprint Planning**
+
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 1</td>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Sprint Planning Background</strong></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-04-03</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>12:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Presencial (En la universidad)</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Salinas Torres, Salvador Antonio</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>
+      <p>Delgado Corrales, Piero Gonzalo</p>
+      <p>La Torre Soto, Andre Sebastian</p>
+      <p>Paredes Puente, Sebastian Roberto</p>
+      <p>Pecan Pariona, Sergio Joel</p>
+      <p>Salinas Torres, Salvador Antonio</p>
+    </td>
+  </tr>
+  <tr>
+    <th>Sprint n - 1 Review Summary</th>
+    <td>No se ha trabajado un sprint anterior de implementación del producto.</td>
+  </tr>
+  <tr>
+    <th>Sprint n - 1 Retrospective Summary</th>
+    <td>No se ha trabajado un sprint anterior de implementación del producto.</td>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+  </tr>
+  <tr>
+    <th>Sprint 1 Goal</th>
+    <td>Nuestro objetivo es implementar el Backend. Creemos que brindará un gran valor ya que gestiona la lógica de negocio, los datos, la seguridad, la escalabilidad y la integración con otros sistemas. Esto se confirmará cuando se haya integrado todos los endpoints necesarios para la aplicación.</td>
+  </tr>
+  <tr>
+    <th>Sprint 1 Velocity</th>
+    <td>25</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>25</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Sprint Planning Background</strong></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-04-08</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>03:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Presencial (En la universidad)</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Salinas Torres, Salvador Antonio</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>
+      <p>Delgado Corrales, Piero Gonzalo</p>
+      <p>La Torre Soto, Andre Sebastian</p>
+      <p>Paredes Puente, Sebastian Roberto</p>
+      <p>Pecan Pariona, Sergio Joel</p>
+      <p>Salinas Torres, Salvador Antonio</p>
+    </td>
+  </tr>
+  <tr>
+    <th>Sprint n - 1 Review Summary</th>
+    <td>Se implementó el Backend en su totalidad.</td>
+  </tr>
+  <tr>
+    <th>Sprint n - 1 Retrospective Summary</th>
+    <td>Se logró trabajar en equipo y terminar de refinar el Backend.</td>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+  </tr>
+  <tr>
+    <th>Sprint 2 Goal</th>
+    <td>Nuestro objetivo es implementar la Landing Page. Creemos que brindará un gran valor ya que está diseñada para una conversión específica, mejorando la tasa de conversión y generando más leads. Esto se confirmará cuando se haya desplegado la Landing Page y los potenciales usuarios ya puedan conocer el producto.</td>
+  </tr>
+  <tr>
+    <th>Sprint 2 Velocity</th>
+    <td>10</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>10</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Sprint Planning Background</strong></th>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>2025-04-10</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>12:00 PM</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Presencial (En la universidad)</td>
+  </tr>
+  <tr>
+    <th>Prepared by</th>
+    <td>Salinas Torres, Salvador Antonio</td>
+  </tr>
+  <tr>
+    <th>Attendees (to planning meeting)</th>
+    <td>
+      <p>Delgado Corrales, Piero Gonzalo</p>
+      <p>La Torre Soto, Andre Sebastian</p>
+      <p>Paredes Puente, Sebastian Roberto</p>
+      <p>Pecan Pariona, Sergio Joel</p>
+      <p>Salinas Torres, Salvador Antonio</p>
+    </td>
+  </tr>
+  <tr>
+    <th>Sprint n - 1 Review Summary</th>
+    <td>Se desarrolló la Landing Page.</td>
+  </tr>
+  <tr>
+    <th>Sprint n - 1 Retrospective Summary</th>
+    <td>Se logró trabajar en equipo y terminar de refinar la Landing Page.</td>
+  </tr>
+  <tr>
+    <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
+  </tr>
+  <tr>
+    <th>Sprint 3 Goal</th>
+    <td>Nuestro objetivo es implementar la Aplicación. Creemos que brindará un gran valor ya que afecta directamente la experiencia del usuario, la retención de usuarios y, en última instancia, el éxito de un negocio. Esto se confirmará cuando se haya implementado la aplicación en su totalidad y los usuarios se encuentren satisfecho con esta.</td>
+  </tr>
+  <tr>
+    <th>Sprint 3 Velocity</th>
+    <td>58</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>58</td>
+  </tr>
+</table>
+
+
+**Sprint Backlog 1 (Backend)**
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">TS03</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar perfiles</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de protocolos HTTP para perfiles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los perfiles de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para notificaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las notificaciones dentro de nuestra API.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">TS04</td><td colspan="1" rowspan="3" valign="top">Uso de nuestra API para gestionar citas de asesoría</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de protocolos HTTP para citas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las citas de asesorías dentro de nuestra API.</td><td colspan="1" rowspan="3" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de protocolos HTTP para horarios disponibles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los horarios disponibles de los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de protocolos HTTP para reseñas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las reseñas sobre los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Uso de nuestra API para gestionar publicaciones</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de protocolos HTTP para publicaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las publicaciones dentro de nuestra API.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">TS06</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar recinto de animales	</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Implementación de protocolos HTTP para recintos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las recintos de los granjeros dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de protocolos HTTP para animales</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los animales de los recintos dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">TS07</td><td colspan="1" rowspan="1" valign="top">Uso de nuestra API para gestionar autenticación	</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de autenticación IAM</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para la autenticación de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+**Sprint Backlog 2 (Landing Page)**
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US13</td><td colspan="1" rowspan="2" valign="top">Visualización de la sección de inicio de la Landing Page	</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de navbar y footer</td><td colspan="1" valign="top">Se implementa el navbar para navegar por la Landing Page y el footer en la parte inferior.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de página de inicio</td><td colspan="1" valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Visualización de la sección 'Acerca de' de la Landing Page</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de página 'Acerca de'</td><td colspan="1" valign="top">Se implementa la página sobre la Problemática, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Visualización de la sección 'Sobre Nosotros' de la Landing Page</td><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de página 'Sobre Nosotros'</td><td colspan="1" valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">	Visualización de la sección 'Características' de la Landing Page</td><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de página 'Características'</td><td colspan="1" valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Visualización de la sección 'Contacto' de la Landing Page</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de página 'Contacto'</td><td colspan="1" valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+**Sprint Backlog 3 (Application)**
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US18</td><td colspan="1" rowspan="2" valign="top">Navegación dentro de la plataforma</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de toolbar (web)</td><td colspan="1" valign="top">Se implementa el toolbar y menú lateral para que el usuario pueda navegar con facilidad por la aplicación web.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de pantalla de inicio (móvil)</td><td colspan="1" valign="top">Se implementa la pantalla de inicio para que el usuario pueda navegar por la aplicación móvil con facilidad.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US01</td><td colspan="1" rowspan="2" valign="top">Visualización del catálogo de asesores</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de listado de asesores</td><td colspan="1" valign="top">Se implementa la pantalla para visualizar el listado de asesores con los cuales poder programar citas.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de búsqueda y filtrado</td><td colspan="1" valign="top">Se implementa la funcionalidad para buscar y filtrar asesores.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US02</td><td colspan="1" rowspan="2" valign="top">Visualización de información de un asesor</td><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de vista de detalles de asesor</td><td colspan="1" valign="top">Se implementa la vista para visualizar la información esencial de un asesor específico, mostrando su descripción, ocupación y experiencia.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de listado de reseñas</td><td colspan="1" valign="top">Se implementa la pantalla que muestra el listado de las reseñas del asesor realizadas por otros granjeros en la aplicación.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">US06</td><td colspan="1" rowspan="1" valign="top">Separación de horarios de disponibilidad para asesorías</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Implementación de separación de horarios para asesorías</td><td colspan="1" valign="top">Se implementa la funcionalidad para que los asesores puedan gestionar sus horarios para brindar asesorías.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US03</td><td colspan="1" valign="top">Visualización de horarios de asesores</td><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de visualización de horarios de un asesor</td><td colspan="1" valign="top">Se implementa la vista para que el granjero pueda visualizar los horarios de disponibilidad que tiene un asesor.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US04</td><td colspan="1" valign="top">Programación de citas con asesores</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de vista para programar una cita</td><td colspan="1" valign="top">Se implementa la pantalla para que el granjero pueda programar una cita con un asesor.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US05</td><td colspan="1" valign="top">Calificación del asesor luego de una cita</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Implementación de calificación del asesor</td><td colspan="1" valign="top">Se implementa la vista para que el granjero pueda dejar una calificación al asesor luego de haber llevado al menos una cita con este.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US19</td><td colspan="1" valign="top">Visualización de Historial de Citas</td><td colspan="1" valign="top">WI11</td><td colspan="1" valign="top">Implementación de listado de citas</td><td colspan="1" valign="top">Se implementa la pantalla para que el usuario pueda visualizar el listado de citas que ha tenido.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US20</td><td colspan="1" valign="top">Cancelación de citas</td><td colspan="1" valign="top">WI12</td><td colspan="1" valign="top">Implementación de funcionalidad para cancelar citas</td><td colspan="1" valign="top">Se implementa la funcionalidad que permite al usuario cancelar su cita antes de tiempo.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US21</td><td colspan="1" valign="top">Búsqueda y Filtrado de Citas</td><td colspan="1" valign="top">WI13</td><td colspan="1" valign="top">Implementación de búsqueda y filtrado de citas</td><td colspan="1" valign="top">Se implementa la funcionalidad de búsqueda para filtrar el listado de citas por una fecha específica.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US22</td><td colspan="1" valign="top">Gestión de recintos</td><td colspan="1" valign="top">WI14</td><td colspan="1" valign="top">Implementación de gestión de recintos</td><td colspan="1" valign="top">Se implementa la funcionalidad de gestión de recintos para que los granjeros puedan ver, editar y eliminar sus recintos de animales.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Piero Delgado, Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US23</td><td colspan="1" valign="top">Gestión de animales</td><td colspan="1" valign="top">WI15</td><td colspan="1" valign="top">Implementación de gestión de animales</td><td colspan="1" valign="top">Se implementa la funcionalidad de gestión de recintos para que los granjeros puedan ver, editar y eliminar los animales de sus recintos.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Piero Delgado, Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US07</td><td colspan="1" valign="top">Gestión de publicaciones de asesores</td><td colspan="1" valign="top">WI16</td><td colspan="1" valign="top">Implementación de gestión de publicaciones</td><td colspan="1" valign="top">Se implementa la funcionalidad de gestión de publicaciones para que los asesores puedan ver, editar y eliminar sus publicaciones.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US08</td><td colspan="1" valign="top">Visualización de publicaciones de los asesores</td><td colspan="1" valign="top">WI17</td><td colspan="1" valign="top">Implementación de vista para explorar publicaciones de los asesores</td><td colspan="1" valign="top">Se implementa la vista para que los granjeros puedan ver las publicaciones de los asesores.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sebastian Paredes, Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US09</td><td colspan="1" rowspan="2" valign="top">Registro de un usuario nuevo</td><td colspan="1" valign="top">WI18</td><td colspan="1" valign="top">Implementación de registro de usuario Granjero</td><td colspan="1" valign="top">Se implementa la vista para que un granjero pueda crear su nueva cuenta.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI19</td><td colspan="1" valign="top">Implementación de registro de usuario Asesor</td><td colspan="1" valign="top">Se implementa la vista para que un asesor pueda crear su nueva cuenta.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US10</td><td colspan="1" valign="top">Inicio de sesión</td><td colspan="1" valign="top">WI20</td><td colspan="1" valign="top">Implementación de inicio de sesión</td><td colspan="1" valign="top">Se implementa la vista para que el usuario pueda iniciar sesión.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US11</td><td colspan="1" valign="top">Visualización de notificaciones del usuario</td><td colspan="1" valign="top">WI21</td><td colspan="1" valign="top">Implementación de vista de notificaciones</td><td colspan="1" valign="top">Se implementa la vista que muestra el listado de las notificaciones del usuario.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US12</td><td colspan="1" valign="top">Modificar perfil de usuario</td><td colspan="1" valign="top">WI22</td><td colspan="1" valign="top">Implementación de vista para modificar perfil de granjero</td><td colspan="1" valign="top">Se implementa la vista que permite al usuario granjero modificar los datos de su perfil.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+
+
 ### 5.2.2 Implemented Landing Page Evidence
 
 La landing page fue desarrollada utilizando HTML, CSS y JavaScript. Se implementaron funcionalidades como la visualización de información sobre la aplicación, la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La landing page fue probada en diferentes navegadores asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
