@@ -2767,6 +2767,20 @@ _Imagen 87. User Flow Diagram 11_
 
 ## 4.7. Web Applications Prototyping
 
+El prototipo de interacción real permite simular la navegación y las funciones de la app web tal como las experimentará el usuario final. Ofrece una representación interactiva del flujo entre pantallas, mostrando cómo responderán los elementos y mejorando la usabilidad antes de la fase de desarrollo.
+
+[Enlace a Figma](https://www.figma.com/proto/6QBa0SzTmn7Gg0VUnCRUAS/Experimentos-Web?node-id=3122-2189&starting-point-node-id=3122%3A2189&show-proto-sidebar=1&t=2meXH4KXef6rCnOm-1)
+
+Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación web.
+
+[Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ETARXl7DzzdBvDLdRm6dUdABsgrPR3Ls7xYZ0lqpJph1MQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GPf3VA)
+
+<p align="center">
+  <img alt="Web Application Prototyping" src="img/web-prototyping.png" width="600">
+</p>
+
+_Imagen X. Prototipo de la aplicación web_
+
 ## 4.8. Domain-Driven Software Architecture
 ### 4.8.1. Software Architecture Context Diagram
 ### 4.8.2. Software Architecture Container Diagrams
