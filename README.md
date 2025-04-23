@@ -2006,8 +2006,30 @@ _Imagen 25. Buttons de AgroTech_
 _Imagen 26. Input System de AgroTech_
 
 ### 4.1.3. Mobile Style Guidelines
+
+<p>La versión móvil de AgroTech busca ofrecer una experiencia coherente con la identidad visual de la plataforma, optimizando la interfaz para dispositivos móviles. Se han seguido las buenas prácticas de diseño para asegurar accesibilidad, claridad visual y facilidad de uso en pantallas más pequeñas.</P>
+
 #### 4.1.3.1. iOS Mobile Style Guidelines
+
+En la versión para iOS, se respetan los principios de la Human Interface Guidelines de Apple, adaptando el estilo de AgroTech a las convenciones visuales del sistema operativo:
+
+- **Navegación fluida**: Uso de barras de navegación superiores con títulos claros y botones de retroceso cuando sea necesario.
+- **Botones táctiles**: Tamaños adecuados para el toque (mínimo 44x44 pt) y con suficiente separación entre elementos interactivos.
+- **Transiciones suaves**: Uso de animaciones sutiles para mejorar la experiencia sin sobrecargar el rendimiento.
+- **Gestos nativos**: Compatibilidad con gestos del sistema como deslizar para volver.
+- **Tipografía**: Uso de la fuente Roboto respetando los lineamientos de legibilidad en pantallas Retina.
+
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+En la versión para Android, se sigue la filosofía de Material Design, alineando el diseño visual de AgroTech con los patrones de interfaz esperados por los usuarios de Android:
+
+- **Componentes estándar**: Uso de elementos nativos como Floating Action Buttons, AppBars y Navigation Drawers.
+- **Interacción táctil**: Botones accesibles con mínimo de 48dp y feedback visual (como ripple effect) al presionarlos.
+- **Diseño adaptable**: Soporte para múltiples tamaños de pantalla y orientación vertical/horizontal.
+- **Transiciones y animaciones**: Utilización de transiciones suaves que mejoran la navegación entre pantallas.
+- **Tipografía**: Se mantiene el uso de Roboto, optimizado para Android por ser fuente nativa del sistema.
+
 
 ## 4.2. Information Architecture
 
