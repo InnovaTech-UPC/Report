@@ -2325,6 +2325,150 @@ _Imagen 47. Mockup de la página de contacto (Mobile)_
 
 ## 4.4. Mobile Applications UX/UI Design
 ### 4.4.1. Mobile Applications Wireframes
+
+
+<p align="center">
+<img src="img/Wireframe - Bienvenida (Mobile).png" alt="Wireframe bienvenida">
+</p>
+
+<p align="center">
+<img src="img/Wireframe - Login (Mobile).png" alt="Wireframe login">
+</p>
+
+_Imagen X. Wireframe de inicio de sesion_
+
+<p align="center">
+<img src="img/Wireframe - Crear Cuenta (Mobile).png" alt="Wireframe selección de rol">
+</p>
+
+_Imagen X. Wireframe de seleccion de rol_
+
+<p align="center">
+<img src="img/Wireframe - Crear Cuenta Granjero (Mobile).png" alt="Wireframe creación de cuenta de granjero">
+</p>
+
+_Imagen X. Wireframe de creación de cuenta de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Crear Cuenta Asesor (Mobile).png" alt="Wireframe creación de cuenta de asesor">
+</p>
+
+_Imagen X. Wireframe de creación de cuenta de asesor_
+
+<p align="center">
+<img src="img/Wireframe - Confirmacion Cuenta Creada Granjero (Mobile).png" alt="Wireframe confirmación creación de cuenta de granjero">
+</p>
+
+_Imagen X. Wireframe de confirmación de creación de cuenta de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Confirmacion Cuenta Creada Asesor (Mobile).png" alt="Wireframe confirmación creación de cuenta de asesor">
+</p>
+
+_Imagen X. Wireframe de confirmación de creación de cuenta de asesor_
+
+<p align="center">
+<img src="img/Wireframe - Inicio Granjero (Mobile).png" alt="Pagina de inicio de granjero">
+</p>
+
+_Imagen X. Wireframe de página de inicio de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Ver y Agendar Asesorias (Mobile).png" alt="Pagina de reserva de asesorías">
+</p>
+
+_Imagen X. Wireframe de página de reserva de asesorías_
+
+<p align="center">
+<img src="img/Wireframe - Editar Perfil Granjero (Mobile).png" alt="Editar perfil de granjero">
+</p>
+
+_Imagen X. Wireframe de página para editar perfil de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Ver Citas Pendientes y Pasadas Granjero (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de granjero">
+</p>
+
+_Imagen X. Wireframe de página para ver asesorias pendientes y pasadas de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Ver Detalles De Citas Granjero (Mobile).png" alt="Pagina de ver detalles de citas de granjero">
+</p>
+
+_Imagen X. Wireframe de página para ver detalles de asesorias de granjero_
+
+<p align="center">
+<img src="img/Wireframe- Calificar Asesoria Granjero (Mobile).png" alt="Pagina de calificar asesoria">
+</p>
+
+_Imagen X. Wireframe de página para calificar asesoria de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Notificaciones Granjero (Mobile).png" alt="Pagina de notificaciones de granjero">
+</p>
+
+_Imagen X. Wireframe de página para ver notificaciones de granjero_
+
+<p align="center">
+<img src="img/Wireframe - Ver Publicaciones de Asesores Granjero (Mobile).png" alt="Pagina de lista publicaciones de asesores">
+</p>
+
+_Imagen X. Wireframe de página para ver publicaciones de asesores_
+
+<p align="center">
+<img src="img/Wireframe - Ver, Agregar y Eliminar Recintos Granjero (Mobile).png" alt="Pagina de recintos de granjero">
+</p>
+
+_Imagen X. Wireframe de página para ver, agregar y eliminar recintos del perfil Granjero_
+
+<p align="center">
+<img src="img/Wireframe - Ver, Agregar y Eliminar Animales de Recintos Granjero (Mobile).png" alt="Pagina de animales de granjero">
+</p>
+
+_Imagen X. Wireframe de página para ver, agregar, editar y eliminar animales del perfil Granjero_
+
+<p align="center">
+<img src="img/Wireframe - Pagina Inicio Asesor (Mobile).png" alt="Pagina de inicio de asesor">
+</p>
+
+_Imagen X. Wireframe de página de inicio de asesor_
+
+<p align="center">
+<img src="img/Wireframe - Pagina Ver, Editar, Crear, Eliminar Publicaciones Asesor (Mobile).png" alt="Pagina de publicaciones de asesor">
+</p>
+
+_Imagen X. Wireframe de página móvil para ver, crear, editar y eliminar publicaciones del perfil Asesor_
+
+<p align="center">
+<img src="img/Wireframe - Notificaciones Asesor (Mobile).png" alt="Pagina de notificaciones de asesor">
+</p>
+
+_Imagen X. Wireframe de página para ver notificaciones de asesor_
+
+<p align="center">
+<img src="img/Wireframe - Citas Pendientes y Pasadas de Asesor (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de asesor">
+</p>
+
+_Imagen X. Wireframe de página para ver asesorías pendientes y pasadas de asesor_
+
+<p align="center">
+<img src="img/Wireframe - Ver Detalles de Citas Asesor (Mobile).png" alt="Pagina de ver detalles de citas de asesor">
+</p>
+
+_Imagen X. Wireframe de página para ver detalles/calificaciones de asesorías de asesor_
+
+<p align="center">
+<img src="img/Wireframe - Ver, Agregar y Eliminar Horarios disponibles Asesor (Mobile).png" alt="Pagina de ver, agregar y eliminar horarios disponibles del Asesor">
+</p>
+
+_Imagen X. Wireframe de página para ver, agregar y eliminar horarios disponibles del Asesor_
+
+<p align="center">
+<img src="img/Wireframe - Editar Perfil Asesor (Mobile).png" alt="Editar perfil de asesor">
+</p>
+
+_Imagen X. Wireframe de página para editar perfil de asesor_
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 ### 4.4.3. Mobile Applications Mock-ups
 
@@ -2335,6 +2479,12 @@ Los mockups de la app aportan estilo visual y detalles gráficos, mostrando cóm
 </p>
 
 _Imagen X. Mock Up de bienvenida_
+
+<p align="center">
+<img src="img/Mockup - Login (Mobile).png" alt="Mock Up login">
+</p>
+
+_Imagen X. Mock Up de inicio de sesion_
 
 <p align="center">
 <img src="img/Mockup - Crear Cuenta (Mobile).png" alt="Mock Up selección de rol">
