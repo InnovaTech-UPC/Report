@@ -3226,7 +3226,16 @@ Asimismo, se realizó un video de explicación mostrando la interacción con los
 _Imagen 179. Prototipo de la aplicación web_
 
 ## 4.8. Domain-Driven Software Architecture
+La Arquitectura de Software Orientada al Dominio se centra en comprender el dominio del problema antes de iniciar el diseño del sistema. Este enfoque permite alinear la tecnología con los objetivos del negocio, lo que ayuda a reducir la complejidad y a mejorar la eficiencia en el desarrollo del software.
+
 ### 4.8.1. Software Architecture Context Diagram
+Este diagrama proporciona una vista de alto nivel de nuestro sistema de software y su entorno externo.
+
+<p align="center">
+  <img alt="Context_Diagram" src="img/Context_Diagram.png" width="600">
+</p>
+
+
 ### 4.8.2. Software Architecture Container Diagrams
 ### 4.8.3. Software Architecture Components Diagrams
 
