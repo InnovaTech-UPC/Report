@@ -2333,141 +2333,140 @@ Los mockups de la app aportan estilo visual y detalles gráficos, mostrando cóm
 <p align="center">
 <img src="img/Mockup - Bienvenida (Mobile).png" alt="Mock Up bienvenida">
 </p>
-_Imagen 48. Mock Up de bienvenida_
+
+_Imagen X. Mock Up de bienvenida_
 
 <p align="center">
 <img src="img/Mockup - Crear Cuenta (Mobile).png" alt="Mock Up selección de rol">
 </p>
 
-_Imagen 49. Mock Up de seleccion de rol_
+_Imagen X. Mock Up de seleccion de rol_
 
 <p align="center">
 <img src="img/Mockup - Crear Cuenta Granjero (Mobile).png" alt="Mock Up creación de cuenta de granjero">
 </p>
 
-_Imagen 50. Mock Up de creación de cuenta de granjero_
+_Imagen X. Mock Up de creación de cuenta de granjero_
 
 <p align="center">
 <img src="img/Mockup - Crear Cuenta Asesor (Mobile).png" alt="Mock Up creación de cuenta de asesor">
 </p>
 
-_Imagen 51. Mock Up de creación de cuenta de asesor_
+_Imagen X. Mock Up de creación de cuenta de asesor_
 
 <p align="center">
 <img src="img/Mockup - Confirmacion Cuenta Creada Granjero (Mobile).png" alt="Mock Up confirmación creación de cuenta de granjero">
 </p>
 
-_Imagen 52. Mock Up de confirmación de creación de cuenta de granjero_
+_Imagen X. Mock Up de confirmación de creación de cuenta de granjero_
 
 <p align="center">
 <img src="img/Mockup - Confirmacion Cuenta Creada Asesor (Mobile).png" alt="Mock Up confirmación creación de cuenta de asesor">
 </p>
 
-_Imagen 53. Mock Up de confirmación de creación de cuenta de asesor_
+_Imagen X. Mock Up de confirmación de creación de cuenta de asesor_
 
 <p align="center">
 <img src="img/Mockup - Inicio Granjero (Mobile).png" alt="Pagina de inicio de granjero">
 </p>
 
-_Imagen 54. Mock Up de página de inicio de granjero_
+_Imagen X. Mock Up de página de inicio de granjero_
 
 <p align="center">
 <img src="img/Mockup - Ver y Agendar Asesorias (Mobile).png" alt="Pagina de reserva de asesorías">
 </p>
 
-_Imagen 55. Mock Up de página de reserva de asesorías_
+_Imagen X. Mock Up de página de reserva de asesorías_
 
 <p align="center">
 <img src="img/Mockup - Editar Perfil Granjero (Mobile).png" alt="Editar perfil de granjero">
 </p>
 
-_Imagen 56. Mock Up de página para editar perfil de granjero_
+_Imagen X. Mock Up de página para editar perfil de granjero_
 
 <p align="center">
 <img src="img/Mockup - Ver Citas Pendientes y Pasadas Granjero (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de granjero">
 </p>
 
-_Imagen 57. Mock Up de página para ver asesorias pendientes y pasadas de granjero_
+_Imagen X. Mock Up de página para ver asesorias pendientes y pasadas de granjero_
 
 <p align="center">
 <img src="img/Mockup - Ver Detalles De Citas Granjero (Mobile).png" alt="Pagina de ver detalles de citas de granjero">
 </p>
 
-_Imagen 58. Mock Up de página para ver detalles de asesorias de granjero_
+_Imagen X. Mock Up de página para ver detalles de asesorias de granjero_
 
 <p align="center">
 <img src="img/Mockup - Calificar Asesoria Granjero (Mobile).png" alt="Pagina de calificar asesoria">
 </p>
 
-_Imagen 59. Mock Up de página para calificar asesoria de granjero_
+_Imagen X. Mock Up de página para calificar asesoria de granjero_
 
 <p align="center">
 <img src="img/Mockup - Notificaciones Granjero (Mobile).png" alt="Pagina de notificaciones de granjero">
 </p>
 
-_Imagen 60. Mock Up de página para ver notificaciones de granjero_
+_Imagen X. Mock Up de página para ver notificaciones de granjero_
 
 <p align="center">
 <img src="img/Mockup - Ver Publicaciones de Asesores Granjero (Mobile).png" alt="Pagina de lista publicaciones de asesores">
 </p>
 
-_Imagen 61. Mock Up de página para ver publicaciones de asesores_
+_Imagen X. Mock Up de página para ver publicaciones de asesores_
 
 <p align="center">
 <img src="img/Mockup - Ver, Agregar y Eliminar Recintos Granjero (Mobile).png" alt="Pagina de recintos de granjero">
 </p>
 
-_Imagen 62. Mock Up de página para ver, agregar y eliminar recintos del perfil Granjero_
+_Imagen X. Mock Up de página para ver, agregar y eliminar recintos del perfil Granjero_
 
 <p align="center">
 <img src="img/Mockup - Ver, Agregar y Eliminar Animales de Recintos Granjero (Mobile).png" alt="Pagina de animales de granjero">
 </p>
 
-_Imagen 63. Mock Up de página para ver, agregar, editar y eliminar animales del perfil Granjero_
+_Imagen X. Mock Up de página para ver, agregar, editar y eliminar animales del perfil Granjero_
 
 <p align="center">
 <img src="img/Mockup - Pagina Inicio Asesor (Mobile).png" alt="Pagina de inicio de asesor">
 </p>
 
-_Imagen 64. Mock Up de página de inicio de asesor_
+_Imagen X. Mock Up de página de inicio de asesor_
 
 <p align="center">
 <img src="img/Mockup - Pagina Ver, Editar, Crear, Eliminar Publicaciones Asesor (Mobile).png" alt="Pagina de publicaciones de asesor">
 </p>
 
-_Imagen 65. Mock Up de página móvil para ver, crear, editar y eliminar publicaciones del perfil Asesor_
+_Imagen X. Mock Up de página móvil para ver, crear, editar y eliminar publicaciones del perfil Asesor_
 
 <p align="center">
 <img src="img/Mockup - Notificaciones Asesor (Mobile).png" alt="Pagina de notificaciones de asesor">
 </p>
 
-_Imagen 66. Mock Up de página para ver notificaciones de asesor_
+_Imagen X. Mock Up de página para ver notificaciones de asesor_
 
 <p align="center">
 <img src="img/Mockup - Citas Pendientes y Pasadas de Asesor (Mobile).png" alt="Pagina de ver citas pendientes y pasadas de asesor">
 </p>
 
-_Imagen 67. Mock Up de página para ver asesorías pendientes y pasadas de asesor_
+_Imagen X. Mock Up de página para ver asesorías pendientes y pasadas de asesor_
 
 <p align="center">
 <img src="img/Mockup - Ver Detalles de Citas Asesor (Mobile).png" alt="Pagina de ver detalles de citas de asesor">
 </p>
 
-_Imagen 68. Mock Up de página para ver detalles/calificaciones de asesorías de asesor_
+_Imagen X. Mock Up de página para ver detalles/calificaciones de asesorías de asesor_
 
 <p align="center">
 <img src="img/Mockup - Ver, Agregar y Eliminar Horarios disponibles Asesor (Mobile).png" alt="Pagina de ver, agregar y eliminar horarios disponibles del Asesor">
 </p>
 
-_Imagen 69. Mock Up de página para ver, agregar y eliminar horarios disponibles del Asesor_
+_Imagen X. Mock Up de página para ver, agregar y eliminar horarios disponibles del Asesor_
 
 <p align="center">
 <img src="img/Mockup - Editar Perfil Asesor (Mobile).png" alt="Editar perfil de asesor">
 </p>
 
-_Imagen 70. Mock Up de página para editar perfil de asesor_
-
-
+_Imagen X. Mock Up de página para editar perfil de asesor_
 
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
@@ -2767,13 +2766,9 @@ _Imagen 87. User Flow Diagram 11_
 
 ## 4.7. Web Applications Prototyping
 
-El prototipo de interacción real permite simular la navegación y las funciones de la app web tal como las experimentará el usuario final. Ofrece una representación interactiva del flujo entre pantallas, mostrando cómo responderán los elementos y mejorando la usabilidad antes de la fase de desarrollo.
+El prototipo de interacción real permite simular la navegación y las funciones de la app web tal como las experimentará el usuario final. Ofrece una representación interactiva del flujo entre pantallas, mostrando cómo responderán los elementos y mejorando la usabilidad antes de la fase de desarrollo. [Enlace a Figma](https://www.figma.com/proto/6QBa0SzTmn7Gg0VUnCRUAS/Experimentos-Web?node-id=3122-2189&starting-point-node-id=3122%3A2189&show-proto-sidebar=1&t=2meXH4KXef6rCnOm-1)
 
-[Enlace a Figma](https://www.figma.com/proto/6QBa0SzTmn7Gg0VUnCRUAS/Experimentos-Web?node-id=3122-2189&starting-point-node-id=3122%3A2189&show-proto-sidebar=1&t=2meXH4KXef6rCnOm-1)
-
-Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación web.
-
-[Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ETARXl7DzzdBvDLdRm6dUdABsgrPR3Ls7xYZ0lqpJph1MQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GPf3VA)
+Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación web. [Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ETARXl7DzzdBvDLdRm6dUdABsgrPR3Ls7xYZ0lqpJph1MQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GPf3VA)
 
 <p align="center">
   <img alt="Web Application Prototyping" src="img/web-prototyping.png" width="600">
@@ -2998,7 +2993,9 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
 
 ### 5.2.1. Sprint Backlogs
 
-**Sprint Planning**
+#### 5.2.1.1. Sprint 1
+
+**Sprint Planning 1**
 
 <table>
   <tr>
@@ -3059,6 +3056,122 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
   </tr>
 </table>
 
+
+**Sprint Backlog 1**
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">TS03</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar perfiles</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de protocolos HTTP para perfiles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los perfiles de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para notificaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las notificaciones dentro de nuestra API.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">TS04</td><td colspan="1" rowspan="3" valign="top">Uso de nuestra API para gestionar citas de asesoría</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de protocolos HTTP para citas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las citas de asesorías dentro de nuestra API.</td><td colspan="1" rowspan="3" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de protocolos HTTP para horarios disponibles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los horarios disponibles de los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de protocolos HTTP para reseñas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las reseñas sobre los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Uso de nuestra API para gestionar publicaciones</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de protocolos HTTP para publicaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las publicaciones dentro de nuestra API.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">TS06</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar recinto de animales	</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Implementación de protocolos HTTP para recintos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las recintos de los granjeros dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de protocolos HTTP para animales</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los animales de los recintos dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">TS07</td><td colspan="1" rowspan="1" valign="top">Uso de nuestra API para gestionar autenticación	</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de autenticación IAM</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para la autenticación de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+**Development Evidence for Sprint Review**
+
+A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 1. De este modo, se trabajó mayormente en el Backend.
+
+Repositorio Backend: <https://github.com/InnovaTech-UPC/Backend>
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|InnovaTech-UPC/Backend|main|5fb3a85|feat: base backend|05/04/2025|
+|InnovaTech-UPC/Backend|main|9001251|feat: add cors customizer|05/04/2025|
+|InnovaTech-UPC/Backend|develop|1d2f8d2|fix: deleted extra semicolon ";"|05/04/2025|
+|InnovaTech-UPC/Backend|develop|4d7abc9|feat:(appointment) add verification of date|09/04/2025|
+|InnovaTech-UPC/Backend|develop|f7cd1c4|feat: add animals & enclosures endpoints|14/04/2025|
+|InnovaTech-UPC/Backend|develop|0d17402|fix: missing field in constructor|15/04/2025|
+|InnovaTech-UPC/Backend|release|66f73a5|chore: add env variables for security|21/04/2025|
+
+
+**Execution Evidence for Sprint Review**
+
+Durante el desarrollo del sprint, el equipo se percato de que necesitaria nuevos endpoints para realizar. Para demostrar la ejecución de las tareas realizadas, se grabó un video que presenta los procesos alcanzados.
+
+URL del video: [Video de ejecución de Backend](https://youtu.be/cfxofo_DrT8)
+
+<p align="center">
+  <img alt="Execution Evidence Sprint 1" src="img/execution-backend-evidence.png">
+</p>
+
+_Imagen X. Evidencia de Backend_
+
+**Services Documentation Evidence for Sprint Review**
+
+Para este sprint, hemos implementado una primera versión de la API con los endpoints necesarios para el funcionamiento de nuestro proyecto.
+
+Enlace al repositorio del API: https://github.com/InnovaTech-UPC/Backend
+
+|Método|Endpoint|Descripción|
+|--|--|--|
+|GET|/api/v1/users|Se obtiene la lista de usuarios|
+|GET|/api/v1/users/{id}|Se obtiene un usuario por ID|
+|GET|/api/v1/appointments|Se obtiene la lista de las citas|
+|POST|/api/v1/appointments|Se publica una nueva cita|
+|GET|/api/v1/appointments/{id}|Se obtiene una cita por ID|
+|PUT|/api/v1/appointments/{id}|Se modifica una cita por ID|
+|DELETE|/api/v1/appointments/{id}|Se elimina una cita por ID|
+|GET|/api/v1/available-dates|Se obtiene la lista de horarios disponibles|
+|POST|/api/v1/available-dates|Se publica un nuevo horario|
+|GET|/api/v1/available-dates/{id}|Se obtiene un horario por ID|
+|PUT|/api/v1/available-dates/{id}|Se modifica un horario por ID|
+|DELETE|/api/v1/available-dates/{id}|Se elimina un horario por ID|
+|GET|/api/v1/posts|Se obtiene la lista de publicaciones|
+|POST|/api/v1/posts|Se publica una nueva publicación|
+|GET|/api/v1/posts/{id}|Se obtiene una publicación por ID|
+|PUT|/api/v1/posts/{id}|Se modifica una publicación por ID|
+|DELETE|/api/v1/posts/{id}|Se elimina una publicación por ID|
+|GET|/api/v1/profiles|Se obtiene la lista de perfiles|
+|GET|/api/v1/profiles/advisors|Se obtiene la lista de perfiles de los asesores|
+|POST|/api/v1/profiles|Se publica un nuevo perfil|
+|GET|/api/v1/profiles/{id}|Se obtiene un perfil por ID|
+|GET|/api/v1/profiles/{userId}/user|Se obtiene un perfil por userID|
+|PUT|/api/v1/profiles/{id}|Se modifica un perfil por ID|
+|DELETE|/api/v1/profiles/{id}|Se elimina un perfil por ID|
+|GET|/api/v1/advisors|Se obtiene la lista de asesores|
+|POST|/api/v1/advisors|Se publica un nuevo asesor|
+|GET|/api/v1/advisors/{id}|Se obtiene un asesor por ID|
+|GET|/api/v1/advisors/{userId}/user|Se obtiene un asesor por userID|
+|PUT|/api/v1/advisors/{id}|Se modifica un asesor por ID|
+|DELETE|/api/v1/advisors/{id}|Se elimina un asesor por ID|
+|GET|/api/v1/farmers|Se obtiene la lista de granjeros|
+|POST|/api/v1/farmers|Se publica un nuevo granjero|
+|GET|/api/v1/farmers/{id}|Se obtiene un granjero por ID|
+|GET|/api/v1/farmers/{userId}/user|Se obtiene un granjero por userID|
+|DELETE|/api/v1/farmers/{id}|Se elimina un granjero por ID|
+|GET|/api/v1/notifications|Se obtiene la lista de notificaciones|
+|POST|/api/v1/notifications|Se publica una nueva notificación|
+|GET|/api/v1/notifications/{id}|Se obtiene una notificación por ID|
+|GET|/api/v1/notifications/{userId}/user|Se obtiene la lista de notificaciones de un usuario|
+|DELETE|/api/v1/notifications/{id}|Se elimina una notificación por ID|
+|GET|/api/v1/reviews|Se obtiene la lista de reseñas|
+|POST|/api/v1/reviews|Se publica una nueva reseña|
+|GET|/api/v1/reviews/{id}|Se obtiene una reseña por ID|
+|PUT|/api/v1/reviews/{id}|Se modifica una reseña por ID|
+|DELETE|/api/v1/reviews/{id}|Se elimina una reseña por ID|
+|GET|/api/v1/enclosures|Se obtiene la lista de recintos|
+|POST|/api/v1/enclosures|Se publica un nuevo recinto|
+|GET|/api/v1/enclosures/{id}|Se obtiene un recinto por ID|
+|PUT|/api/v1/enclosures/{id}|Se modifica un recinto por ID|
+|DELETE|/api/v1/enclosures/{id}|Se elimina un recinto por ID|
+|GET|/api/v1/animals|Se obtiene la lista de recintos|
+|POST|/api/v1/animals|Se publica un nuevo animal|
+|GET|/api/v1/animals/{id}|Se obtiene un animal por ID|
+|PUT|/api/v1/animals/{id}|Se modifica un animal por ID|
+|DELETE|/api/v1/animals/{id}|Se elimina un animal por ID|
+
+Enlace al API deployado: <https://agrotech-zg6b.onrender.com/swagger-ui/index.html>
+
+#### 5.2.1.2. Sprint 2
+
+**Sprint Planning 2**
+
 <table>
   <tr>
     <th>Sprint #</th>
@@ -3117,6 +3230,46 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
     <td>10</td>
   </tr>
 </table>
+
+**Sprint Backlog 2**
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US13</td><td colspan="1" rowspan="2" valign="top">Visualización de la sección de inicio de la Landing Page	</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de navbar y footer</td><td colspan="1" valign="top">Se implementa el navbar para navegar por la Landing Page y el footer en la parte inferior.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de página de inicio</td><td colspan="1" valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Visualización de la sección 'Acerca de' de la Landing Page</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de página 'Acerca de'</td><td colspan="1" valign="top">Se implementa la página sobre la Problemática, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Visualización de la sección 'Sobre Nosotros' de la Landing Page</td><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de página 'Sobre Nosotros'</td><td colspan="1" valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">	Visualización de la sección 'Características' de la Landing Page</td><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de página 'Características'</td><td colspan="1" valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Visualización de la sección 'Contacto' de la Landing Page</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de página 'Contacto'</td><td colspan="1" valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+</table>
+
+
+**Development Evidence for Sprint Review**
+
+A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 2. De este modo, se trabajó en la Landing Page.
+
+Repositorio Landing Page: <https://github.com/InnovaTech-UPC/Landing>
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|InnovaTech-UPC/Landing|main|bc45f18|feat: base landing page|15/04/2025|
+|InnovaTech-UPC/Landing|main|4b8708c|feat: update profile images|21/04/2025|
+|InnovaTech-UPC/Landing|main|e7c5770|style: change colors|21/04/2025|
+
+**Execution Evidence for Sprint Review**
+
+Se culminó la implementación de la Landing Page, la cual se encuentra en el siguiente enlace: [Landing Page](https://innovatech-upc.github.io/Landing/).
+
+<p align="center">
+  <img alt="Execution Evidence Sprint 2" src="img/landing_evidence.png">
+</p>
+
+_Imagen X. Evidencia de la Landing Page_
+
+#### 5.2.1.3. Sprint 3
+
+**Sprint Planning 3**
 
 <table>
   <tr>
@@ -3177,37 +3330,7 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
   </tr>
 </table>
 
-
-**Sprint Backlog 1 (Backend)**
-
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
-<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
-<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">TS03</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar perfiles</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de protocolos HTTP para perfiles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los perfiles de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para notificaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las notificaciones dentro de nuestra API.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">TS04</td><td colspan="1" rowspan="3" valign="top">Uso de nuestra API para gestionar citas de asesoría</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de protocolos HTTP para citas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las citas de asesorías dentro de nuestra API.</td><td colspan="1" rowspan="3" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de protocolos HTTP para horarios disponibles</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los horarios disponibles de los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de protocolos HTTP para reseñas</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las reseñas sobre los asesores dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Uso de nuestra API para gestionar publicaciones</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de protocolos HTTP para publicaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las publicaciones dentro de nuestra API.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">TS06</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar recinto de animales	</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Implementación de protocolos HTTP para recintos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las recintos de los granjeros dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de protocolos HTTP para animales</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los animales de los recintos dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" rowspan="1" valign="top">TS07</td><td colspan="1" rowspan="1" valign="top">Uso de nuestra API para gestionar autenticación	</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de autenticación IAM</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para la autenticación de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-</table>
-
-**Sprint Backlog 2 (Landing Page)**
-
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
-<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
-<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">US13</td><td colspan="1" rowspan="2" valign="top">Visualización de la sección de inicio de la Landing Page	</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de navbar y footer</td><td colspan="1" valign="top">Se implementa el navbar para navegar por la Landing Page y el footer en la parte inferior.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de página de inicio</td><td colspan="1" valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Visualización de la sección 'Acerca de' de la Landing Page</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de página 'Acerca de'</td><td colspan="1" valign="top">Se implementa la página sobre la Problemática, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Visualización de la sección 'Sobre Nosotros' de la Landing Page</td><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de página 'Sobre Nosotros'</td><td colspan="1" valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">	Visualización de la sección 'Características' de la Landing Page</td><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de página 'Características'</td><td colspan="1" valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Visualización de la sección 'Contacto' de la Landing Page</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de página 'Contacto'</td><td colspan="1" valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
-</table>
-
-**Sprint Backlog 3 (Application)**
+**Sprint Backlog 3**
 
 <table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
@@ -3236,6 +3359,84 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
 <tr><td colspan="1" valign="top">US12</td><td colspan="1" valign="top">Modificar perfil de usuario</td><td colspan="1" valign="top">WI22</td><td colspan="1" valign="top">Implementación de vista para modificar perfil de granjero</td><td colspan="1" valign="top">Se implementa la vista que permite al usuario granjero modificar los datos de su perfil.</td><td colspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
+**Development Evidence for Sprint Review**
+
+A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 3. De este modo, se trabajó en la aplicación web y móvil.
+
+Repositorio Frontend web: <https://github.com/InnovaTech-UPC/Frontend>
+
+Repositorio Mobile App: <https://github.com/InnovaTech-UPC/Mobile>
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- |
+|InnovaTech-UPC/Mobile|main|7ba1de3|feat: base project added|02/04/2025|
+|InnovaTech-UPC/Mobile|develop|7ba1de3|feat: rename startup name in config files|03/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|4503173|feat: advisor home logic added|07/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|0195668|feat: buttons notifications and menu added|07/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|1a4b905|feat: cards for advisorHomeScreen styles updated|09/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|9f0fd81|feat: advisorHomeScreen section final styles added|09/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|3686784|feat: final styles for advisor home screen|09/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|cf813a5|feat: align items for home screen|09/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|a40f704|feat: Update advisorHomeScreen|10/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|3cf5950|feat: add advisor posts|10/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|0269cfc|feat: datapicker dialog added for create account farmer forms|10/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|55a30a8|feat: add post detail|10/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|92a6cba|feat: add create post|10/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|bfd888a|feat: create account for advisors files added|10/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|964cd49|feat: advisor appointments list screen added|12/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|96b02e5|feat: advisor appointments history screen added|12/04/2025|
+|InnovaTech-UPC/Frontend|main|285bc89|feat: base frontend|13/04/2025|
+|InnovaTech-UPC/Frontend|develop|bd27627|refactor: move folders to correct location|13/04/2025|
+|InnovaTech-UPC/Frontend|feature/profile|3ef8cc3|style: improve error titles and error layout|13/04/2025|
+|InnovaTech-UPC/Frontend|feature/profile|d814b91|feat(profile): profile page (to update data)|14/04/2025|
+|InnovaTech-UPC/Frontend|feature/management|dc3b338|feat(management): enclosure management|15/04/2025|
+|InnovaTech-UPC/Frontend|feature/management|abb9bf8|feat(management): animals management|15/04/2025|
+|InnovaTech-UPC/Frontend|feature/management|9aab7fa|feat(management): add routes + register animal|15/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|416cad7|feat: appointment detail screen added|15/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|851b19d|feat: delete appointment screen added|15/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|533e2ce|feat: detail for completed appointments screen added|15/04/2025|
+|InnovaTech-UPC/Frontend|feature/management|649a0f7|style: update header style (arrow back + title)|16/04/2025|
+|InnovaTech-UPC/Frontend|feature/advisor-available-dates|03e830a|feat(advisor view): list available dates|16/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|ec9c5c9|feat: AdvisorAvailableDatesScreen added (styles will be implemented later)|16/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|629c635|feat: Styles for AdvisorAvailableDates added|16/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|a5a14b1|fix: advisor relogin redirects to correct route|17/04/2025|
+|InnovaTech-UPC/Mobile|feature/advisor-view|eab83d2|feat: add advisor profile screen|17/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|37d359b|refactor: improve farmer profile functionality|17/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|58f4300|chore: remove recover password screens|17/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|0b1085e|feat: add animal & enclosure data logic|17/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|f1fb3c3|fix: missing filter for upcoming appointment|17/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|94761b0|feat: add advisor profile missing navigation|18/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|bafa02e|feat: add enclosure list|18/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|34dc1bd|feat: add animal list|18/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|2c139b6|feat: change app icon|18/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|a217db5|feat: add animal details|18/04/2025|
+|InnovaTech-UPC/Mobile|feature/farmer-view|f45b9e0|fix(advisor-home): layout error|20/04/2025|
+|InnovaTech-UPC/Frontend|develop|d149d0c|chore: setup product environment|21/04/2025|
+|InnovaTech-UPC/Frontend|develop|d40af46|style: remove inter font|21/04/2025|
+|InnovaTech-UPC/Mobile|develop|8f19215|feat: color for buttons of available dates screen changed|21/04/2025|
+|InnovaTech-UPC/Mobile|develop|5976f24|feat: text of forms changed|21/04/2025|
+|InnovaTech-UPC/Mobile|develop|aaf974c|feat: styles for buttons from other screen changed|21/04/2025|
+|InnovaTech-UPC/Mobile|develop|59e67f5|feat: styles for card in AnimalListScreen updated|21/04/2025|
+|InnovaTech-UPC/Mobile|develop|9a87961|feat: add gender attribute to animal|21/04/2025|
+|InnovaTech-UPC/Frontend|develop|10ef750|fix: get profile for the review (farmer view)|22/04/2025|
+
+**Execution Evidence for Sprint Review**
+
+Se culminó la implementación de la aplicación tanto web como móvil. La aplicación web fue desarrollada utilizando Angular y la aplicación móvil fue desarrollada utilizando Kotlin. Ambas aplicaciones fueron probadas en diferentes navegadores y dispositivos Android, asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
+Incluye funcionalidades como la gestión de citas, visualización del catálogo de asesores, la gestión de publicaciones, gestión de recintos (exclusiva para granjeros) y la gestión del perfil del usuario. La API RESTful fue implementada utilizando Spring Boot, permitiendo la comunicación entre el frontend y el backend de la aplicación.
+
+<p align="center">
+  <img alt="Execution Evidence Sprint 3" src="img/web_evidence_1.png">
+</p>
+
+_Imagen X. Evidencia de la Aplicación Web_
+
+
+<p align="center">
+  <img alt="Execution Evidence Sprint 3" src="img/movil_evidence_1.png">
+</p>
+
+_Imagen X. Evidencia de la Aplicación Móvil_
 
 
 ### 5.2.2 Implemented Landing Page Evidence
