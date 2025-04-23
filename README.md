@@ -809,11 +809,11 @@ _Imagen 4. Entrevista con Anderson Gonza_
 
 **Entrevistado:** Pedro Ramos
 
-**Enlace a entrevista:** [enlace a yt](https://youtu.be/HlrX2MvSqsc)
+**Enlace a entrevista:** https://youtu.be/HlrX2MvSqsc
 
 <img alt="Entrevista con Pedro Ramos" src="img/entrevista-granjero-3.png">
 
-_Imagen 5. Entrevista con Pedro Ramos
+_Imagen 4. Entrevista con Pedro Ramos_
 
 **Resumen:** Pedro Ramos es un agricultor de 32 años que reside en Santa Rosa y lleva alrededor de ocho meses gestionando su propia granja. Su experiencia en el manejo agrícola ha sido mayormente informal, aprendiendo de otros agricultores y mediante videos en internet. Su principal objetivo es lograr que su granja sea rentable y sostenible, aunque enfrenta desafíos como el clima impredecible, las plagas y la falta de conocimientos técnicos. Al hablar sobre una posible aplicación para asesorías agrícolas, señaló que le sería muy útil, sobre todo si permite videollamadas o chats con expertos. Además, considera importante que la app sea sencilla de usar, que permita encontrar asesores cercanos y que ofrezca seguimiento continuo después de las sesiones.
 
