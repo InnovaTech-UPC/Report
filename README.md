@@ -3511,7 +3511,7 @@ En el vídeo se proporciona información sobre el producto AgroTech. Se menciona
 
 _Imagen X. Video About The Product_
 
-Enlace al vídeo de Microsoft Stream: [Video About The Product](enlace)
+Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERS-UfdGpCZHkg0UmAZPV-IB3-JkXhLcJXp_3o-s8orlvg?e=Qh8htY)
 
 # Conclusiones
 ## Conclusiones y recomendaciones
