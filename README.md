@@ -3239,6 +3239,7 @@ Este diagrama proporciona una vista de alto nivel de nuestro sistema de software
 ### 4.8.2. Software Architecture Container Diagrams
 Este diagrama se centra en descomponer el sistema en contenedores de alto nivel, que pueden ser aplicaciones, servicios web, bases de datos, etc.
 
+
 <p align="center">
   <img alt="Container_Diagram" src="img/Container_Diagram.png" width="600">
 </p>
@@ -3246,22 +3247,27 @@ Este diagrama se centra en descomponer el sistema en contenedores de alto nivel,
 ### 4.8.3. Software Architecture Components Diagrams
 Estos diagramas exploran con mayor detalle los contenedores mostrados previamente, desglosando cada uno en los componentes individuales que lo conforman.
 
+#### Appointment BC Component Diagram
 <p align="center">
   <img alt="Component_Diagram_1" src="img/Component_Diagram_1.png" width="600">
 </p>
 
+#### Profile BC Component Diagram 
 <p align="center">
   <img alt="Component_Diagram_2" src="img/Component_Diagram_2.png" width="600">
 </p>
 
+#### Management BC Component Diagram
 <p align="center">
   <img alt="Component_Diagram_3" src="img/Component_Diagram_3.png" width="600">
 </p>
 
+#### Post BC Component Diagram
 <p align="center">
   <img alt="Component_Diagram_4" src="img/Component_Diagram_4.png" width="600">
 </p>
 
+#### API Rest Component Diagram
 <p align="center">
   <img alt="Component_Diagram_5" src="img/Component_Diagram_5.png" width="600">
 </p>
