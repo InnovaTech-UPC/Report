@@ -2760,6 +2760,146 @@ _Imagen X. Mock Up de página para editar perfil de asesor_
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
+<h3 align="center">Wireflow Diagrams para usuario Granjero Inexperto</h1>
+
+<p align="center">
+<img src="img/Userflow 1.png" alt="User flow 1 (mobile)">
+</p>
+
+_Imagen X. User flow 1 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 2.png" alt="User flow 2 (mobile)">
+</p>
+
+_Imagen X. User flow 2 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 3.png" alt="User flow 3 (mobile)">
+</p>
+
+_Imagen X. User flow 3 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 4.png" alt="User flow 4 (mobile)">
+</p>
+
+_Imagen X. User flow 4 (mobile)_
+
+
+<p align="center">
+<img src="img/Userflow 5.png" alt="User flow 5 (mobile)">
+</p>
+
+_Imagen X. User flow 5 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 6.png" alt="User flow 6 (mobile)">
+</p>
+
+_Imagen X. User flow 6 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 7.png" alt="User flow 7 (mobile)">
+</p>
+
+_Imagen X. User flow 7 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 8.png" alt="User flow 8 (mobile)">
+</p>
+
+_Imagen X. User flow 8 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 9.png" alt="User flow 9 (mobile)">
+</p>
+
+_Imagen X. User flow 9 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 10.png" alt="User flow 10 (mobile)">
+</p>
+
+_Imagen X. User flow 10 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 11.png" alt="User flow 11 (mobile)">
+</p>
+
+_Imagen X. User flow 11 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 12.png" alt="User flow 12 (mobile)">
+</p>
+
+_Imagen X. User flow 12 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 13.png" alt="User flow 13 (mobile)">
+</p>
+
+_Imagen X. User flow 13 (mobile)_
+
+
+<h3 align="center">Wireflow Diagrams para usuario Asesor</h1>
+
+<p align="center">
+<img src="img/Userflow 14.png" alt="User flow 14 (mobile)">
+</p>
+
+_Imagen X. User flow 14 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 15.png" alt="User flow 15 (mobile)">
+</p>
+
+_Imagen X. User flow 15 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 16.png" alt="User flow 16 (mobile)">
+</p>
+
+_Imagen X. User flow 16 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 17.png" alt="User flow 17 (mobile)">
+</p>
+
+_Imagen X. User flow 17 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 18.png" alt="User flow 18 (mobile)">
+</p>
+
+_Imagen X. User flow 18 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 19.png" alt="User flow 19 (mobile)">
+</p>
+
+_Imagen X. User flow 19 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 20.png" alt="User flow 20 (mobile)">
+</p>
+
+_Imagen X. User flow 20 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 21.png" alt="User flow 21 (mobile)">
+</p>
+
+_Imagen X. User flow 21 (mobile)_
+
+<p align="center">
+<img src="img/Userflow 22.png" alt="User flow 22 (mobile)">
+</p>
+
+_Imagen X. User flow 22 (mobile)_
+
+
+
 ## 4.5. Mobile Applications Prototyping
 ### 4.5.1. Android Mobile Applications Prototyping
 ### 4.5.2. iOS Mobile Applications Prototyping
