@@ -2936,29 +2936,28 @@ _Imagen 138. User flow 22 (mobile)_
 
 ### 4.5.1. Android Mobile Applications Prototyping
 
-<p align="center">
-  <img alt="Android Mobile Application Prototyping" src="img/android-prototyping.png" width="600">
-</p>
-
 El prototipo de interacción real para aplicaciones móviles Android permite simular la navegación y las funciones tal como las experimentará el usuario final en su dispositivo. A través de una representación interactiva del flujo entre pantallas, este prototipo muestra cómo responderán los elementos táctiles y mejora la usabilidad de la app antes de su desarrollo final. [Enlace a Figma](https://www.figma.com/proto/28qWSJQGZxkutQKmfUcLb0/Moviles-App?node-id=90-215&t=P3iOVM7zbrNtQmvV-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=43%3A5&show-proto-sidebar=1)
 
 Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación móvil android. [Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXGT841bqwBHv_D4s9Z9yHEB3H-rYC7-MF0v5ABNQl7ivQ?e=R9CpKR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+
+<p align="center">
+  <img alt="Android Mobile Application Prototyping" src="img/android-prototyping.png" width="600">
+</p>
 
 _Imagen 139. Prototipo de la aplicación móvil Android_
 
 
 ### 4.5.2. iOS Mobile Applications Prototyping
 
-<p align="center">
-  <img alt="iOS Mobile Application Prototyping" src="img/ios-prototyping.png" width="600">
-</p>
-
 El prototipo de interacción real para aplicaciones móviles iOS permite simular la experiencia de uso tal como la vivirá el usuario final en un dispositivo Apple. Mediante un flujo interactivo entre pantallas, este prototipo muestra cómo se comportarán los elementos táctiles y visuales, facilitando la validación de la usabilidad y la interfaz antes de entrar en la fase de desarrollo. [Enlace a Figma](https://www.figma.com/proto/28qWSJQGZxkutQKmfUcLb0/Moviles-App?node-id=90-215&t=P3iOVM7zbrNtQmvV-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=43%3A5&show-proto-sidebar=1)
 
 Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación móvil ios. [Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXGT841bqwBHv_D4s9Z9yHEB3H-rYC7-MF0v5ABNQl7ivQ?e=R9CpKR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
+<p align="center">
+  <img alt="iOS Mobile Application Prototyping" src="img/ios-prototyping.png" width="600">
+</p>
 
 _Imagen 140. Prototipo de la aplicación móvil iOS_
 
@@ -3979,6 +3978,10 @@ Repositorio Mobile App: <https://github.com/InnovaTech-UPC/Mobile>
 Se culminó la implementación de la aplicación tanto web como móvil. La aplicación web fue desarrollada utilizando Angular y la aplicación móvil fue desarrollada utilizando Kotlin. Ambas aplicaciones fueron probadas en diferentes navegadores y dispositivos Android, asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
 Incluye funcionalidades como la gestión de citas, visualización del catálogo de asesores, la gestión de publicaciones, gestión de recintos (exclusiva para granjeros) y la gestión del perfil del usuario. La API RESTful fue implementada utilizando Spring Boot, permitiendo la comunicación entre el frontend y el backend de la aplicación.
 
+También se grabó un video que proporciona información sobre el producto AgroTech, mencionando las diferentes funcionalidades de la aplicación. [Enlace a video de ejecución web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EeL3CcdTWYdDlby12SlapGYBGscuD8InPVcQhnF387RNew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YezPEO)
+
+[Enlace a página web desplegada](https://agrotech-ten.vercel.app/)
+
 <p align="center">
   <img alt="Execution Evidence Sprint 3" src="img/web_evidence_1.png">
 </p>
@@ -4006,6 +4009,8 @@ _Imagen 198. Evidencia del funcionamiento de la landing page_
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 La aplicación web AgroTech fue desarrollada utilizando Angular. Se implementaron funcionalidades como la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La aplicación fue probada en diferentes navegadores asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
+
+<https://agrotech-ten.vercel.app/>
 
 ![Web Evidence 1](img/web_evidence_1.png)
 
@@ -4050,6 +4055,8 @@ _Imagen 206. Evidencia del funcionamiento del backend (Available Dates)_
 ### 5.2.6 RESTful API documentation
 
 Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Esta herramienta nos proporciona una interfaz gráfica donde se pueden explorar los diferentes endpoints de la API, ver los parámetros requeridos y las respuestas esperadas.
+
+<https://agrotech-zg6b.onrender.com/swagger-ui/index.html>
 
 ![RESTful API Documentation](img/restful_api_documentation.png)
 
