@@ -2470,6 +2470,145 @@ _Imagen X. Wireframe de página para ver, agregar y eliminar horarios disponible
 _Imagen X. Wireframe de página para editar perfil de asesor_
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+<h3 align="center">Wireflow Diagrams para usuario Granjero Inexperto</h1>
+
+<p align="center">
+<img src="img/Wireflow 1.png" alt="Wireflow 1" width=600>
+</p>
+
+_Imagen X. Wireflow 1 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 2.png" alt="Wireflow 2" width=600>
+</p>
+
+_Imagen X. Wireflow 2 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 3.png" alt="Wireflow 3" width=600>
+</p>
+
+_Imagen X. Wireflow 3 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 4.png" alt="Wireflow 4" width=600>
+</p>
+
+_Imagen X. Wireflow 4 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 5.png" alt="Wireflow 5" width=600>
+</p>
+
+_Imagen X. Wireflow 5 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 6.png" alt="Wireflow 6" width=600>
+</p>
+
+_Imagen X. Wireflow 6 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 7.png" alt="Wireflow 7" width=600>
+</p>
+
+_Imagen X. Wireflow 7 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 8.png" alt="Wireflow 8" width=600>
+</p>
+
+_Imagen X. Wireflow 8 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 9.png" alt="Wireflow 9" width=600>
+</p>
+
+_Imagen X. Wireflow 9 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 10.png" alt="Wireflow 10" width=600>
+</p>
+
+_Imagen X. Wireflow 10 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 11.png" alt="Wireflow 11" width=600>
+</p>
+
+_Imagen X. Wireflow 11 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 12.png" alt="Wireflow 12" width=600>
+</p>
+
+_Imagen X. Wireflow 12 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 13.png" alt="Wireflow 13" width=600>
+</p>
+
+_Imagen X. Wireflow 13 (mobile)_
+
+<h3 align="center">Wireflow Diagrams para usuario Asesor</h1>
+
+<p align="center">
+<img src="img/Wireflow 14.png" alt="Wireflow 14" width=600>
+</p>
+
+_Imagen X. Wireflow 14 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 15.png" alt="Wireflow 15" width=600>
+</p>
+
+_Imagen X. Wireflow 15 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 16.png" alt="Wireflow 16" width=600>
+</p>
+
+_Imagen X. Wireflow 16 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 17.png" alt="Wireflow 17" width=600>
+</p>
+
+_Imagen X. Wireflow 17 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 18.png" alt="Wireflow 18" width=600>
+</p>
+
+_Imagen X. Wireflow 18 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 19.png" alt="Wireflow 19" width=600>
+</p>
+
+_Imagen X. Wireflow 19 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 20.png" alt="Wireflow 20" width=600>
+</p>
+
+_Imagen X. Wireflow 20 (mobile)_
+
+<p align="center">
+<img src="img/Wireflow 21.png" alt="Wireflow 21" width=600>
+</p>
+
+_Imagen X. Wireflow 21 (mobile)_
+
+
+<p align="center">
+<img src="img/Wireflow 22.png" alt="Wireflow 22" width=600>
+</p>
+
+_Imagen X. Wireflow 22 (mobile)_
+
+
 ### 4.4.3. Mobile Applications Mock-ups
 
 Los mockups de la app aportan estilo visual y detalles gráficos, mostrando cómo lucirán las pantallas finales con colores, tipografías y elementos visuales que crean una experiencia atractiva y alineada con la identidad de la app.
