@@ -2940,6 +2940,11 @@ _Imagen 138. User flow 22 (mobile)_
   <img alt="Android Mobile Application Prototyping" src="img/android-prototyping.png" width="600">
 </p>
 
+El prototipo de interacción real para aplicaciones móviles Android permite simular la navegación y las funciones tal como las experimentará el usuario final en su dispositivo. A través de una representación interactiva del flujo entre pantallas, este prototipo muestra cómo responderán los elementos táctiles y mejora la usabilidad de la app antes de su desarrollo final. [Enlace a Figma](https://www.figma.com/proto/28qWSJQGZxkutQKmfUcLb0/Moviles-App?node-id=90-215&t=P3iOVM7zbrNtQmvV-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=43%3A5&show-proto-sidebar=1)
+
+Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación móvil android. [Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXGT841bqwBHv_D4s9Z9yHEB3H-rYC7-MF0v5ABNQl7ivQ?e=R9CpKR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 _Imagen 139. Prototipo de la aplicación móvil Android_
 
 
@@ -2948,6 +2953,12 @@ _Imagen 139. Prototipo de la aplicación móvil Android_
 <p align="center">
   <img alt="iOS Mobile Application Prototyping" src="img/ios-prototyping.png" width="600">
 </p>
+
+El prototipo de interacción real para aplicaciones móviles iOS permite simular la experiencia de uso tal como la vivirá el usuario final en un dispositivo Apple. Mediante un flujo interactivo entre pantallas, este prototipo muestra cómo se comportarán los elementos táctiles y visuales, facilitando la validación de la usabilidad y la interfaz antes de entrar en la fase de desarrollo. [Enlace a Figma](https://www.figma.com/proto/28qWSJQGZxkutQKmfUcLb0/Moviles-App?node-id=90-215&t=P3iOVM7zbrNtQmvV-0&scaling=min-zoom&content-scaling=fixed&page-id=1%3A3&starting-point-node-id=43%3A5&show-proto-sidebar=1)
+
+Asimismo, se realizó un video de explicación mostrando la interacción con los elementos para mostrar como se comporta la aplicación móvil ios. [Enlace a video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217239_upc_edu_pe/EXGT841bqwBHv_D4s9Z9yHEB3H-rYC7-MF0v5ABNQl7ivQ?e=R9CpKR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
 
 _Imagen 140. Prototipo de la aplicación móvil iOS_
 
