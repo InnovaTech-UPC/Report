@@ -3244,6 +3244,28 @@ Este diagrama se centra en descomponer el sistema en contenedores de alto nivel,
 </p>
 
 ### 4.8.3. Software Architecture Components Diagrams
+Estos diagramas exploran con mayor detalle los contenedores mostrados previamente, desglosando cada uno en los componentes individuales que lo conforman.
+
+<p align="center">
+  <img alt="Component_Diagram_1" src="img/Component_Diagram_1.png" width="600">
+</p>
+
+<p align="center">
+  <img alt="Component_Diagram_2" src="img/Component_Diagram_2.png" width="600">
+</p>
+
+<p align="center">
+  <img alt="Component_Diagram_3" src="img/Component_Diagram_3.png" width="600">
+</p>
+
+<p align="center">
+  <img alt="Component_Diagram_4" src="img/Component_Diagram_4.png" width="600">
+</p>
+
+<p align="center">
+  <img alt="Component_Diagram_5" src="img/Component_Diagram_5.png" width="600">
+</p>
+
 
 ## 4.9. Software Object-Oriented Design
 ### 4.9.1. Class Diagrams
