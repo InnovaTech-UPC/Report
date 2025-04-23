@@ -3237,6 +3237,12 @@ Este diagrama proporciona una vista de alto nivel de nuestro sistema de software
 
 
 ### 4.8.2. Software Architecture Container Diagrams
+Este diagrama se centra en descomponer el sistema en contenedores de alto nivel, que pueden ser aplicaciones, servicios web, bases de datos, etc.
+
+<p align="center">
+  <img alt="Container_Diagram" src="img/Container_Diagram.png" width="600">
+</p>
+
 ### 4.8.3. Software Architecture Components Diagrams
 
 ## 4.9. Software Object-Oriented Design
