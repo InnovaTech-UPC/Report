@@ -396,7 +396,7 @@ Sergio es estudiante del 7mo ciclo de Ingeniería de Software en la UPC. Tiene c
 De acuerdo con Ames (2022), el agro representa cerca del 27.5% del empleo nacional, pero solo aporta un 5.2% al PBI, lo que evidencia una baja productividad frente a otros países de la región. Esto se traduce en menores ingresos para los agricultores y mayor vulnerabilidad ante el clima y los mercados globales.
 
 ### 1.2.2. Lean UX Process
-#### 1.2.2.1 . Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
 **Problem Statement 1**  
 | Nuestro producto busca optimizar la gestión de granjas en el Perú. |
@@ -813,7 +813,7 @@ _Imagen 4. Entrevista con Anderson Gonza_
 
 <img alt="Entrevista con Pedro Ramos" src="img/entrevista-granjero-3.png">
 
-_Imagen 4. Entrevista con Pedro Ramos_
+_Imagen 5. Entrevista con Pedro Ramos_
 
 **Resumen:** Pedro Ramos es un agricultor de 32 años que reside en Santa Rosa y lleva alrededor de ocho meses gestionando su propia granja. Su experiencia en el manejo agrícola ha sido mayormente informal, aprendiendo de otros agricultores y mediante videos en internet. Su principal objetivo es lograr que su granja sea rentable y sostenible, aunque enfrenta desafíos como el clima impredecible, las plagas y la falta de conocimientos técnicos. Al hablar sobre una posible aplicación para asesorías agrícolas, señaló que le sería muy útil, sobre todo si permite videollamadas o chats con expertos. Además, considera importante que la app sea sencilla de usar, que permita encontrar asesores cercanos y que ofrezca seguimiento continuo después de las sesiones.
 
@@ -935,14 +935,24 @@ Las entrevistas con asesores experimentados ofrecen valiosa información sobre s
 
 *Segmento Conductual:*
 
-- **Conocimientos:** X
-- **Actitudes:** X
+- **Conocimientos:** Experiencia avanzada en gestión de granjas, técnicas de cultivo y cuidado de animales. Utilizan recursos en línea y herramientas digitales para asesorar.
+- **Actitudes:** Están interesados en integrar nuevas tecnologías que les permitan ofrecer asesorías más eficaces y personalizadas. Enfrentan desafíos como la resistencia al cambio y las limitaciones presupuestarias de los granjeros.
 
 *Características Objetivas:*
-X
+
+- Ofrecen asesoramiento basado en su conocimiento personal y experiencia familiar, complementado con recursos en línea.
+
+- Desean incorporar nuevas herramientas tecnológicas, como análisis predictivos y sistemas de seguimiento.
+
+- Utilizan dispositivos Android y el navegador Chrome para estar siempre conectados.
 
 *Características Subjetivas:*
-X
+
+- Tienen una fuerte motivación para ayudar a otros granjeros, especialmente a aquellos que están comenzando, mostrando una actitud altruista y de compromiso con el desarrollo del sector agrícola.
+
+- Mencionan que uno de los desafíos más grandes que enfrentan es la resistencia al cambio por parte de los granjeros, lo que puede dificultar la implementación de nuevas prácticas o tecnologías.
+
+- Enfatizan la importancia de ofrecer soluciones prácticas y personalizadas, adaptadas a las necesidades específicas de cada granja.
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
@@ -1865,6 +1875,8 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
 
 ## 3.3. Product Backlog
 
+[Enlace a Product Backlog en Trello](https://trello.com/b/7ZDXuPqa/agrotech-product-backlog)
+
 |**# Orden**|**User Story Id**|**Título**|**Descripción**|**Story Points (1/2/3/5/8)**|
 | :- | :- | :- | :- | :- |
 |1|TS03|Uso de nuestra API para gestionar perfiles|Como desarrollador quiero integrar un API para gestionar la información de los perfiles de los usuarios en la base de datos, de manera que pueda realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) a través de solicitudes HTTP.|5|
@@ -2782,7 +2794,7 @@ _Imagen 116. Mock Up de página para editar perfil de asesor_
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-<h3 align="center">Wireflow Diagrams para usuario Granjero Inexperto</h1>
+<h3 align="center">User Flow Diagrams para usuario Granjero Inexperto</h3>
 
 <p align="center">
 <img src="img/Userflow 1.png" alt="User flow 1 (mobile)">
@@ -2864,7 +2876,7 @@ _Imagen 128. User flow 12 (mobile)_
 _Imagen 129. User flow 13 (mobile)_
 
 
-<h3 align="center">Wireflow Diagrams para usuario Asesor</h1>
+<h3 align="center">User Flow Diagrams para usuario Asesor</h3>
 
 <p align="center">
 <img src="img/Userflow 14.png" alt="User flow 14 (mobile)">
@@ -2921,8 +2933,23 @@ _Imagen 137. User flow 21 (mobile)_
 _Imagen 138. User flow 22 (mobile)_
 
 ## 4.5. Mobile Applications Prototyping
+
 ### 4.5.1. Android Mobile Applications Prototyping
+
+<p align="center">
+  <img alt="Android Mobile Application Prototyping" src="img/android-prototyping.png" width="600">
+</p>
+
+_Imagen 139. Prototipo de la aplicación móvil Android_
+
+
 ### 4.5.2. iOS Mobile Applications Prototyping
+
+<p align="center">
+  <img alt="iOS Mobile Application Prototyping" src="img/ios-prototyping.png" width="600">
+</p>
+
+_Imagen 140. Prototipo de la aplicación móvil iOS_
 
 ## 4.6. Web Applications UX/UI Design
 ### 4.6.1. Web Applications Wireframes
@@ -2935,7 +2962,7 @@ En este apartado, se muestran todos los wireframes necesarios para cumplir las f
   <img alt="Web Application Wireframe" src="img/wireframe web login.png" width="600">
 </p>
 
-_Imagen 139. Wireframes de la página de inicio de sesión y registro_
+_Imagen 141. Wireframes de la página de inicio de sesión y registro_
 
 **Vista de Citas (Granjero)**
 
@@ -2943,7 +2970,7 @@ _Imagen 139. Wireframes de la página de inicio de sesión y registro_
   <img alt="Web Application Wireframe" src="img/wireframe web citas (granjero).png" width="600">
 </p>
 
-_Imagen 140. Wireframe de la vista de citas (Granjero)_
+_Imagen 142. Wireframe de la vista de citas (Granjero)_
 
 **Vista de asesores (Granjero)**
 
@@ -2951,7 +2978,7 @@ _Imagen 140. Wireframe de la vista de citas (Granjero)_
   <img alt="Web Application Wireframe" src="img/wireframe web ver asesores (granjero).png" width="600">
 </p>
 
-_Imagen 141. Wireframe de la vista de asesores (Granjero)_
+_Imagen 143. Wireframe de la vista de asesores (Granjero)_
 
 **Vista de Mi Granja (Granjero)**
 
@@ -2959,7 +2986,7 @@ _Imagen 141. Wireframe de la vista de asesores (Granjero)_
   <img alt="Web Application Wireframe" src="img/wireframe web mi granja (granjero).png" width="600">
 </p>
 
-_Imagen 142. Wireframe de la vista de mi granja (Granjero)_
+_Imagen 144. Wireframe de la vista de mi granja (Granjero)_
 
 **Vista de notificaciones, publicaciones y perfil (Granjero)**
 
@@ -2967,7 +2994,7 @@ _Imagen 142. Wireframe de la vista de mi granja (Granjero)_
   <img alt="Web Application Wireframe" src="img/wireframe web otros (granjero).png" width="600">
 </p>
 
-_Imagen 143. Wireframe de la vista de notificaciones, publicaciones y perfil (Granjero)_
+_Imagen 145. Wireframe de la vista de notificaciones, publicaciones y perfil (Granjero)_
 
 **Vista de citas (Asesor)**
 
@@ -2975,7 +3002,7 @@ _Imagen 143. Wireframe de la vista de notificaciones, publicaciones y perfil (Gr
   <img alt="Web Application Wireframe" src="img/wireframe web citas (asesores).png" width="600">
 </p>
 
-_Imagen 144. Wireframe de la vista de citas (Asesor)_
+_Imagen 146. Wireframe de la vista de citas (Asesor)_
 
 **Vista de publicaciones (Asesor)**
 
@@ -2983,7 +3010,7 @@ _Imagen 144. Wireframe de la vista de citas (Asesor)_
   <img alt="Web Application Wireframe" src="img/wireframe web publicaciones (asesores).png" width="600">
 </p>
 
-_Imagen 145. Wireframe de la vista de publicaciones (Asesor)_
+_Imagen 147. Wireframe de la vista de publicaciones (Asesor)_
 
 **Vista de horarios (Asesor)**
 
@@ -2991,7 +3018,7 @@ _Imagen 145. Wireframe de la vista de publicaciones (Asesor)_
   <img alt="Web Application Wireframe" src="img/wireframe web horarios (asesores).png" width="600">
 </p>
 
-_Imagen 146. Wireframe de la vista de horarios (Asesor)_
+_Imagen 148. Wireframe de la vista de horarios (Asesor)_
 
 **Vista de notificaciones y perfil (Asesor)**
 
@@ -2999,75 +3026,79 @@ _Imagen 146. Wireframe de la vista de horarios (Asesor)_
   <img alt="Web Application Wireframe" src="img/wireframe web otros (asesores).png" width="600">
 </p>
 
-_Imagen 147. Wireframe de la vista de notificaciones y perfil (Asesor)_
+_Imagen 149. Wireframe de la vista de notificaciones y perfil (Asesor)_
 
 ### 4.6.2. Web Applications Wireflow Diagrams
+
+<h3 align="center">Wireflow Diagrams para usuario Granjero Inexperto</h3>
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 1.png" width="600">
 </p>
 
-_Imagen 148. Wireflow Diagram 1_
+_Imagen 150. Wireflow Diagram 1_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 2.png" width="600">
 </p>
 
-_Imagen 149. Wireflow Diagram 2_
+_Imagen 151. Wireflow Diagram 2_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 3.png" width="600">
 </p>
 
-_Imagen 150. Wireflow Diagram 3_
+_Imagen 152. Wireflow Diagram 3_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 4.png" width="600">
 </p>
 
-_Imagen 151. Wireflow Diagram 4_
+_Imagen 153. Wireflow Diagram 4_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 5.png" width="600">
 </p>
 
-_Imagen 152. Wireflow Diagram 5_
+_Imagen 154. Wireflow Diagram 5_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 6.png" width="600">
 </p>
 
-_Imagen 153. Wireflow Diagram 6_
+_Imagen 155. Wireflow Diagram 6_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 7.png" width="600">
 </p>
 
-_Imagen 154. Wireflow Diagram 7_
+_Imagen 156. Wireflow Diagram 7_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 8.png" width="600">
 </p>
 
-_Imagen 155. Wireflow Diagram 8_
+_Imagen 157. Wireflow Diagram 8_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 9.png" width="600">
 </p>
 
-_Imagen 156. Wireflow Diagram 9_
+_Imagen 158. Wireflow Diagram 9_
+
+<h3 align="center">Wireflow Diagrams para usuario Asesor</h3>
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 10.png" width="600">
 </p>
 
-_Imagen 157. Wireflow Diagram 10_
+_Imagen 159. Wireflow Diagram 10_
 
 <p align="center">
   <img alt="Web Application Wireflow Diagram" src="img/web wireflow 11.png" width="600">
 </p>
 
-_Imagen 158. Wireflow Diagram 11_
+_Imagen 160. Wireflow Diagram 11_
 
 ### 4.6.3. Web Applications Mock-ups
 
@@ -3079,7 +3110,7 @@ En este apartado, se muestran todos los mock-ups basados de los wireframes previ
   <img alt="Web Application Mockup" src="img/mockup web login.png" width="600">
 </p>
 
-_Imagen 159. Mockup de la página de inicio de sesión y registro_
+_Imagen 161. Mockup de la página de inicio de sesión y registro_
 
 **Vista de Citas (Granjero)**
 
@@ -3087,7 +3118,7 @@ _Imagen 159. Mockup de la página de inicio de sesión y registro_
   <img alt="Web Application Mockup" src="img/mockup web citas (granjero).png" width="600">
 </p>
 
-_Imagen 160. Mockup de la vista de citas (Granjero)_
+_Imagen 162. Mockup de la vista de citas (Granjero)_
 
 **Vista de asesores (Granjero)**
 
@@ -3095,7 +3126,7 @@ _Imagen 160. Mockup de la vista de citas (Granjero)_
   <img alt="Web Application Mockup" src="img/mockup web ver asesores (granjero).png" width="600">
 </p>
 
-_Imagen 161. Mockup de la vista de asesores (Granjero)_
+_Imagen 163. Mockup de la vista de asesores (Granjero)_
 
 **Vista de Mi Granja (Granjero)**
 
@@ -3103,7 +3134,7 @@ _Imagen 161. Mockup de la vista de asesores (Granjero)_
   <img alt="Web Application Mockup" src="img/mockup web mi granja (granjero).png" width="600">
 </p>
 
-_Imagen 162. Mockup de la vista de mi granja (Granjero)_
+_Imagen 164. Mockup de la vista de mi granja (Granjero)_
 
 **Vista de notificaciones, publicaciones y perfil (Granjero)**
 
@@ -3111,7 +3142,7 @@ _Imagen 162. Mockup de la vista de mi granja (Granjero)_
   <img alt="Web Application mockup" src="img/mockup web otros (granjero).png" width="600">
 </p>
 
-_Imagen 163. Mockup de la vista de notificaciones, publicaciones y perfil (Granjero)_
+_Imagen 165. Mockup de la vista de notificaciones, publicaciones y perfil (Granjero)_
 
 **Vista de citas (Asesor)**
 
@@ -3119,7 +3150,7 @@ _Imagen 163. Mockup de la vista de notificaciones, publicaciones y perfil (Granj
   <img alt="Web Application mockup" src="img/mockup web citas (asesores).png" width="600">
 </p>
 
-_Imagen 164. Mockup de la vista de citas (Asesor)_
+_Imagen 166. Mockup de la vista de citas (Asesor)_
 
 **Vista de publicaciones (Asesor)**
 
@@ -3127,7 +3158,7 @@ _Imagen 164. Mockup de la vista de citas (Asesor)_
   <img alt="Web Application mockup" src="img/mockup web publicaciones (asesores).png" width="600">
 </p>
 
-_Imagen 165. Mockup de la vista de publicaciones (Asesor)_
+_Imagen 167. Mockup de la vista de publicaciones (Asesor)_
 
 **Vista de horarios (Asesor)**
 
@@ -3135,7 +3166,7 @@ _Imagen 165. Mockup de la vista de publicaciones (Asesor)_
   <img alt="Web Application mockup" src="img/mockup web horarios (asesores).png" width="600">
 </p>
 
-_Imagen 166. Mockup de la vista de horarios (Asesor)_
+_Imagen 168. Mockup de la vista de horarios (Asesor)_
 
 **Vista de notificaciones y perfil (Asesor)**
 
@@ -3143,75 +3174,79 @@ _Imagen 166. Mockup de la vista de horarios (Asesor)_
   <img alt="Web Application mockup" src="img/mockup web otros (asesores).png" width="600">
 </p>
 
-_Imagen 167. Mockup de la vista de notificaciones y perfil (Asesor)_
+_Imagen 169. Mockup de la vista de notificaciones y perfil (Asesor)_
 
 ### 4.6.4. Web Applications User Flow Diagrams
+
+<h3 align="center">User Flow Diagrams para usuario Granjero Inexperto</h3>
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 1.png" width="600">
 </p>
 
-_Imagen 168. User Flow Diagram 1_
+_Imagen 170. User Flow Diagram 1_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 2.png" width="600">
 </p>
 
-_Imagen 169. User Flow Diagram 2_
+_Imagen 171. User Flow Diagram 2_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 3.png" width="600">
 </p>
 
-_Imagen 170. User Flow Diagram 3_
+_Imagen 172. User Flow Diagram 3_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 4.png" width="600">
 </p>
 
-_Imagen 171. User Flow Diagram 4_
+_Imagen 173. User Flow Diagram 4_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 5.png" width="600">
 </p>
 
-_Imagen 172. User Flow Diagram 5_
+_Imagen 174. User Flow Diagram 5_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 6.png" width="600">
 </p>
 
-_Imagen 173. User Flow Diagram 6_
+_Imagen 175. User Flow Diagram 6_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 7.png" width="600">
 </p>
 
-_Imagen 174. User Flow Diagram 7_
+_Imagen 176. User Flow Diagram 7_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 8.png" width="600">
 </p>
 
-_Imagen 175. User Flow Diagram 8_
+_Imagen 177. User Flow Diagram 8_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 9.png" width="600">
 </p>
 
-_Imagen 176. User Flow Diagram 9_
+_Imagen 178. User Flow Diagram 9_
+
+<h3 align="center">User Flow Diagrams para usuario Asesor</h3>
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 10.png" width="600">
 </p>
 
-_Imagen 177. User Flow Diagram 10_
+_Imagen 179. User Flow Diagram 10_
 
 <p align="center">
   <img alt="Web Application User Flow Diagram" src="img/web userflow 11.png" width="600">
 </p>
 
-_Imagen 178. User Flow Diagram 11_
+_Imagen 180. User Flow Diagram 11_
 
 ## 4.7. Web Applications Prototyping
 
@@ -3223,7 +3258,7 @@ Asimismo, se realizó un video de explicación mostrando la interacción con los
   <img alt="Web Application Prototyping" src="img/web-prototyping.png" width="600">
 </p>
 
-_Imagen 179. Prototipo de la aplicación web_
+_Imagen 181. Prototipo de la aplicación web_
 
 ## 4.8. Domain-Driven Software Architecture
 La Arquitectura de Software Orientada al Dominio se centra en comprender el dominio del problema antes de iniciar el diseño del sistema. Este enfoque permite alinear la tecnología con los objetivos del negocio, lo que ayuda a reducir la complejidad y a mejorar la eficiencia en el desarrollo del software.
@@ -3235,6 +3270,8 @@ Este diagrama proporciona una vista de alto nivel de nuestro sistema de software
   <img alt="Context_Diagram" src="img/Context_Diagram.png" width="600">
 </p>
 
+_Imagen 182. Diagrama de contexto del sistema_
+
 
 ### 4.8.2. Software Architecture Container Diagrams
 Este diagrama se centra en descomponer el sistema en contenedores de alto nivel, que pueden ser aplicaciones, servicios web, bases de datos, etc.
@@ -3244,6 +3281,8 @@ Este diagrama se centra en descomponer el sistema en contenedores de alto nivel,
   <img alt="Container_Diagram" src="img/Container_Diagram.png" width="600">
 </p>
 
+_Imagen 183. Diagrama de contenedores del sistema_
+
 ### 4.8.3. Software Architecture Components Diagrams
 Estos diagramas exploran con mayor detalle los contenedores mostrados previamente, desglosando cada uno en los componentes individuales que lo conforman.
 
@@ -3252,25 +3291,35 @@ Estos diagramas exploran con mayor detalle los contenedores mostrados previament
   <img alt="Component_Diagram_1" src="img/Component_Diagram_1.png" width="600">
 </p>
 
+_Imagen 184. Diagrama de componentes del BC Appointment_
+
 #### Profile BC Component Diagram 
 <p align="center">
   <img alt="Component_Diagram_2" src="img/Component_Diagram_2.png" width="600">
 </p>
+
+_Imagen 185. Diagrama de componentes del BC Profile_
 
 #### Management BC Component Diagram
 <p align="center">
   <img alt="Component_Diagram_3" src="img/Component_Diagram_3.png" width="600">
 </p>
 
+_Imagen 186. Diagrama de componentes del BC Management_
+
 #### Post BC Component Diagram
 <p align="center">
   <img alt="Component_Diagram_4" src="img/Component_Diagram_4.png" width="600">
 </p>
 
+_Imagen 187. Diagrama de componentes del BC Post_
+
 #### API Rest Component Diagram
 <p align="center">
   <img alt="Component_Diagram_5" src="img/Component_Diagram_5.png" width="600">
 </p>
+
+_Imagen 188. Diagrama de componentes del API Rest_
 
 
 ## 4.9. Software Object-Oriented Design
@@ -3280,19 +3329,19 @@ Los diagramas de clase son herramientas cruciales en el diseño de sistemas orie
 
 <img alt="Diagrama de Clase: Profile" src="img/ClassDiagram_Profile.png">
 
-_Imagen X. Diagrama de Clase: Profile_
+_Imagen 189. Diagrama de Clase: Profile_
 
 <img alt="Diagrama de Clase: Appointment" src="img/ClassDiagram_Appointment.png">
 
-_Imagen X. Diagrama de Clase: Appointment_
+_Imagen 190. Diagrama de Clase: Appointment_
 
 <img alt="Diagrama de Clase: Management" src="img/ClassDiagram_Management.png">
 
-_Imagen X. Diagrama de Clase: Management_
+_Imagen 191. Diagrama de Clase: Management_
 
 <img alt="Diagrama de Clase: Post" src="img/ClassDiagram_Post.png">
 
-_Imagen X. Diagrama de Clase: Post_
+_Imagen 192. Diagrama de Clase: Post_
 
 ### 4.9.2. Class Dictionary
 
@@ -3368,7 +3417,7 @@ En esta sección, se especificarán las características detalladas de cada clas
   <img alt="Diagrama de base de datos" src="img/database_diagram.png" width="600">
 </p>
 
-_Imagen 88. Diagrama de base de datos relacional_
+_Imagen 193. Diagrama de base de datos relacional_
 
 # Capítulo V: Software Development
 
@@ -3540,11 +3589,11 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
   </tr>
   <tr>
     <th>Sprint 1 Velocity</th>
-    <td>25</td>
+    <td>31</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td>25</td>
+    <td>31</td>
   </tr>
 </table>
 
@@ -3562,7 +3611,9 @@ Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page
 <tr><td colspan="1" valign="top">TS05</td><td colspan="1" valign="top">Uso de nuestra API para gestionar publicaciones</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de protocolos HTTP para publicaciones</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las publicaciones dentro de nuestra API.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">TS06</td><td colspan="1" rowspan="2" valign="top">Uso de nuestra API para gestionar recinto de animales	</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Implementación de protocolos HTTP para recintos</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para las recintos de los granjeros dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de protocolos HTTP para animales</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para los animales de los recintos dentro de nuestra API.</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" rowspan="1" valign="top">TS07</td><td colspan="1" rowspan="1" valign="top">Uso de nuestra API para gestionar autenticación	</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de autenticación IAM</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para la autenticación de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">TS07</td><td colspan="1" rowspan="1" valign="top">Uso de nuestra API para gestionar autenticación</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de autenticación IAM</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para la autenticación de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">TS01</td><td colspan="1" rowspan="1" valign="top">Uso de una API para videollamadas</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integración de API para videollamadas</td><td colspan="1" valign="top">Se integra el sistema de Jitsi Meet para la creación de videollamadas para las asesorías.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">TS02</td><td colspan="1" rowspan="1" valign="top">Uso de una API para alojar imágenes</td><td colspan="1" valign="top">WI11</td><td colspan="1" valign="top">Integración de API para alojamiento</td><td colspan="1" valign="top">Se integra el sistema de Firebase Storage para el alojamiento de imágenes.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
 **Development Evidence for Sprint Review**
@@ -3592,7 +3643,7 @@ URL del video: [Video de ejecución de Backend](https://youtu.be/cfxofo_DrT8)
   <img alt="Execution Evidence Sprint 1" src="img/execution-backend-evidence.png">
 </p>
 
-_Imagen X. Evidencia de Backend_
+_Imagen 194. Evidencia de Backend_
 
 **Services Documentation Evidence for Sprint Review**
 
@@ -3757,7 +3808,7 @@ Se culminó la implementación de la Landing Page, la cual se encuentra en el si
   <img alt="Execution Evidence Sprint 2" src="img/landing_evidence.png">
 </p>
 
-_Imagen X. Evidencia de la Landing Page_
+_Imagen 195. Evidencia de la Landing Page_
 
 #### 5.2.1.3. Sprint 3
 
@@ -3921,14 +3972,14 @@ Incluye funcionalidades como la gestión de citas, visualización del catálogo 
   <img alt="Execution Evidence Sprint 3" src="img/web_evidence_1.png">
 </p>
 
-_Imagen X. Evidencia de la Aplicación Web_
+_Imagen 196. Evidencia de la Aplicación Web_
 
 
 <p align="center">
   <img alt="Execution Evidence Sprint 3" src="img/movil_evidence_1.png">
 </p>
 
-_Imagen X. Evidencia de la Aplicación Móvil_
+_Imagen 197. Evidencia de la Aplicación Móvil_
 
 
 ### 5.2.2 Implemented Landing Page Evidence
@@ -3939,7 +3990,7 @@ La landing page fue desarrollada utilizando HTML, CSS y JavaScript. Se implement
 
 ![Landing Page Evidence](img/landing_evidence.png)
 
-_Imagen X. Evidencia del funcionamiento de la landing page_
+_Imagen 198. Evidencia del funcionamiento de la landing page_
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
@@ -3947,11 +3998,11 @@ La aplicación web AgroTech fue desarrollada utilizando Angular. Se implementaro
 
 ![Web Evidence 1](img/web_evidence_1.png)
 
-_Imagen X. Evidencia del funcionamiento de la aplicación web (Granjero)_
+_Imagen 199. Evidencia del funcionamiento de la aplicación web (Granjero)_
 
 ![Web Evidence 2](img/web_evidence_2.png)
 
-_Imagen X. Evidencia del funcionamiento de la aplicación web (Asesor)_
+_Imagen 200. Evidencia del funcionamiento de la aplicación web (Asesor)_
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
@@ -3959,11 +4010,11 @@ La aplicación móvil AgroTech fue desarrollada utilizando Kotlin. Se implementa
 
 ![Mobile Evidence 1](img/movil_evidence_1.png)
 
-_Imagen X. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
+_Imagen 201. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
 
 ![Mobile Evidence 2](img/movil_evidence_2.png)
 
-_Imagen X. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
+_Imagen 202. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
 
 ### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
 
@@ -3971,19 +4022,19 @@ Se implementó una API RESTful utilizando Spring Boot, que permite la comunicaci
 
 ![Backend Evidence 1](img/backend_evidence_1.png)
 
-_Imagen X. Evidencia del funcionamiento del backend (Sign Up)_
+_Imagen 203. Evidencia del funcionamiento del backend (Sign Up)_
 
 ![Backend Evidence 2](img/backend_evidence_2.png)
 
-_Imagen X. Evidencia del funcionamiento del backend (Sign In)_
+_Imagen 204. Evidencia del funcionamiento del backend (Sign In)_
 
 ![Backend Evidence 3](img/backend_evidence_3.png)
 
-_Imagen X. Evidencia del funcionamiento del backend (Profiles)_
+_Imagen 205. Evidencia del funcionamiento del backend (Profiles)_
 
 ![Backend Evidence 4](img/backend_evidence_4.png)
 
-_Imagen X. Evidencia del funcionamiento del backend (Available Dates)_
+_Imagen 206. Evidencia del funcionamiento del backend (Available Dates)_
 
 ### 5.2.6 RESTful API documentation
 
@@ -3991,7 +4042,7 @@ Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Es
 
 ![RESTful API Documentation](img/restful_api_documentation.png)
 
-_Imagen X. RESTful API Documentation con Swagger_
+_Imagen 207. RESTful API Documentation con Swagger_
 
 ### 5.2.7 Team Collaboration Insights
 
@@ -4001,7 +4052,7 @@ En el vídeo se proporciona información sobre el producto AgroTech. Se menciona
 
 ![Video About The Product Evidence](img/video_about_the_product.png)
 
-_Imagen X. Video About The Product_
+_Imagen 208. Video About The Product_
 
 Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERS-UfdGpCZHkg0UmAZPV-IB3-JkXhLcJXp_3o-s8orlvg?e=Qh8htY)
 
