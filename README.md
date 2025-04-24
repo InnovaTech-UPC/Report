@@ -280,12 +280,18 @@
     <tbody>
         <tr>
         <td>4.c.1  Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
-        <td></td>
+        <td>
+          <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
+          <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
+        </td>
         <td></td>
         </tr>
         <tr>
         <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
-        <td></td>
+        <td>
+          <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
+          <p><strong>TB1:</strong> Para esta entrega, analicé del impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
+        </td>
         <td></td>
         </tr>
     </tbody>
