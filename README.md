@@ -3429,9 +3429,9 @@ En esta sección, se especificarán las características detalladas de cada clas
 
 _Imagen 193. Diagrama de base de datos relacional_
 
-# Capítulo V: Software Development
+# Capítulo V: Product Implementation
 
-## 5.1. Software Development Methodology
+## 5.1. Software Configuration Management
 
 ### 5.1.1. Software Development Environment Configuration
 **Product UX/UI Design:**
@@ -3449,6 +3449,7 @@ Como principales IDEs, utilizamos WebStorm y Android Studio, con los cuales esta
 Las pruebas de aceptación son importantes a realizar para comprobar que los criterios de aceptación planteados están favoreciendo a las necesidades del negocio y cumplir con los requerimientos, para lo cual utilizamos el lenguaje Gherkin. Este consiste en trabajar el escenario con Given When Then, y lograr identificar las variables de input y output, lo cual es sencillo de entender para todos ya que utiliza lenguaje natural. Gracias a este, es que se logra garantizar la calidad del software, por ello cumple un papel esencial en los proyectos de desarrollo.
 
 ### 5.1.2. Source Code Management
+
 Usuarios de GitHub
 <table>
   <thead>
@@ -3487,6 +3488,7 @@ Para el desarrollo del trabajo se hará uso de GitFlow, el cual es un modelo de 
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
 En el desarrollo de este trabajo, se utilizará una gran variedad de lenguajes para trabajar en el Landing Page, Frontend Web y Mobile Application. Para ello, se utilizará la siguiente guía de estilos y convenciones.
 
 **HTML**
@@ -3536,9 +3538,12 @@ https://developer.android.com/kotlin/style-guide
 
 
 ### 5.1.4. Software Deployment Configuration
+
 Igualmente como se ha trabajado con el Backend, también utilizaremos el sistema de Git y repositorios en GitHub para el desarrollo de la Landing Page, Frontend Web y la Mobile Application. De esta manera, cada miembro podrá trabajar de forma remota desde su IDE, teniendo una copia del repositorio Git a través del repositorio en línea almacenado en GitHub, así poder hacer commits para empujar los cambios que hayan realizado.
 
 Asimismo, utilizaremos el sistema de GitHub Pages para desplegar la Landing Page de nuestro proyecto. GitHub Pages es un servicio que ofrece GitHub para alojar sitios web estáticos de forma gratuita. Permite a los desarrolladores alojar un sitio web directamente desde un repositorio de GitHub, lo que facilita la publicación de sitios web sin tener que preocuparse por la infraestructura de alojamiento.
+
+Para el Backend se usará Render, que es un servicio de alojamiento de aplicaciones web y APIs. Permite a los desarrolladores desplegar sus aplicaciones en la nube sin necesidad de preocuparse por la infraestructura subyacente. Render ofrece escalabilidad automática, lo que significa que puede manejar picos de tráfico sin problemas. Además, proporciona una interfaz fácil de usar para gestionar y monitorear las aplicaciones desplegadas. Finalmente, para la aplicación web se usará Vercel, una plataforma de despliegue y alojamiento para aplicaciones web modernas. Permite desplegar aplicaciones de forma rápida y sencilla, con integración continua y escalabilidad automática.
 
 ## 5.2. Product Implementation & Deployment
 
