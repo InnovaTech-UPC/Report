@@ -3978,7 +3978,9 @@ Repositorio Mobile App: <https://github.com/InnovaTech-UPC/Mobile>
 Se culminó la implementación de la aplicación tanto web como móvil. La aplicación web fue desarrollada utilizando Angular y la aplicación móvil fue desarrollada utilizando Kotlin. Ambas aplicaciones fueron probadas en diferentes navegadores y dispositivos Android, asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
 Incluye funcionalidades como la gestión de citas, visualización del catálogo de asesores, la gestión de publicaciones, gestión de recintos (exclusiva para granjeros) y la gestión del perfil del usuario. La API RESTful fue implementada utilizando Spring Boot, permitiendo la comunicación entre el frontend y el backend de la aplicación.
 
-También se grabó un video que proporciona información sobre el producto AgroTech, mencionando las diferentes funcionalidades de la aplicación. [Enlace a video de ejecución web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EeL3CcdTWYdDlby12SlapGYBGscuD8InPVcQhnF387RNew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YezPEO)
+También se grabó un video que proporciona información sobre el producto AgroTech, mencionando las diferentes funcionalidades de la aplicación.
+
+[Enlace a video de ejecución web](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EeL3CcdTWYdDlby12SlapGYBGscuD8InPVcQhnF387RNew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YezPEO) 
 
 [Enlace a página web desplegada](https://agrotech-ten.vercel.app/)
 
@@ -3988,6 +3990,8 @@ También se grabó un video que proporciona información sobre el producto AgroT
 
 _Imagen 196. Evidencia de la Aplicación Web_
 
+
+[Enlace a video de ejecución móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a938_upc_edu_pe/EVB5oaspy_NFr3WUnyYCmU0Bewvg0rwNwSspjwrGNluSXg?e=c6FuLs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <p align="center">
   <img alt="Execution Evidence Sprint 3" src="img/movil_evidence_1.png">
@@ -4036,6 +4040,8 @@ _Imagen 202. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
 
 Se implementó una API RESTful utilizando Spring Boot, que permite la comunicación entre el frontend y el backend de la aplicación. Esta API incluye varios endpoints para gestionar los recursos necesarios, como usuarios, productos y citas. Para comprobar la implementación de la API, se realizaron solicitudes HTTP a los diferentes endpoints utilizando Swagger, lo que permitió verificar que la API respondía correctamente a las solicitudes y devolvía los datos esperados.
 
+<https://agrotech-zg6b.onrender.com/swagger-ui/index.html>
+
 ![Backend Evidence 1](img/backend_evidence_1.png)
 
 _Imagen 203. Evidencia del funcionamiento del backend (Sign Up)_
@@ -4055,8 +4061,6 @@ _Imagen 206. Evidencia del funcionamiento del backend (Available Dates)_
 ### 5.2.6 RESTful API documentation
 
 Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Esta herramienta nos proporciona una interfaz gráfica donde se pueden explorar los diferentes endpoints de la API, ver los parámetros requeridos y las respuestas esperadas.
-
-<https://agrotech-zg6b.onrender.com/swagger-ui/index.html>
 
 ![RESTful API Documentation](img/restful_api_documentation.png)
 
