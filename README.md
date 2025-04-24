@@ -1314,7 +1314,7 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
 
   <tr>
     <td rowspan="5">4</td>
-    <td rowspan="5">Landing Page de App Móvil</td>
+    <td rowspan="5">Landing Page</td>
     <td>US13</td>
     <td>Visualización de la sección de inicio de la Landing Page</td>
   </tr>
