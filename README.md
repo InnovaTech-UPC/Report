@@ -283,6 +283,8 @@
         <td>
           <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
           <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
+          <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
+          <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
         </td>
         <td></td>
         </tr>
@@ -291,6 +293,8 @@
         <td>
           <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
           <p><strong>TB1:</strong> Para esta entrega, analicé del impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
+          <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
+          <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
         </td>
         <td></td>
         </tr>
