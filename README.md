@@ -87,11 +87,13 @@
 
 ## TB1
 
-<img src="img/tb1-team-collaboration.png" width="100%" alt="Analisis de colaboración del equipo en el informe del proyecto">
+<img src="img/tb1-team-collaboration.png" width="80%" alt="Analisis de colaboración del equipo en el informe del proyecto">
 
-<img src="img/tb1-commits1.png" width="100%" alt="Commits del equipo en el informe del proyecto">
+<img src="img/tb1-commits1.png" width="80%" alt="Commits del equipo en el informe del proyecto">
 
-<img src="img/tb1-commits2.png" width="100%" alt="Commits del equipo en el informe del proyecto">
+<img src="img/tb1-commits2.png" width="80%" alt="Commits del equipo en el informe del proyecto">
+
+<div style="page-break-after: always;"></div>
 
 # Tabla de Contenido
 
@@ -115,7 +117,7 @@
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-[Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Requirements-Elicitation--Analysis)
+[Capítulo II: Requirements Elicitation & Analysis](#Capítulo-II-Needfinding)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
@@ -286,54 +288,55 @@
 
 **Criterio:** La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
-<table>
-    <thead>
-        <tr>
-            <th><strong>Criterio específico</strong></th>
-            <th><strong>Acciones realizadas</strong></th>
-            <th><strong>Conclusiones</strong></th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>4.c.1  Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
-            <td>
-                <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
-                <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
-                <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
-                <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
-                <p><strong>La torre Soto, André Sebastian</strong></p>
-                <p><strong>TB1:</strong> Para esta entrega, participé mayormente en la elaboración del informe en puntos como el registro de entrevistas, el desarrollo del modelo C4 y la revisión de los diversos puntos del entregable para verificar que todo esté de acuerdo a las normativas del trabajo.</p>
-                <p><strong>Pecan Pariona, Sergio Joel</strong></p>
-                <p><strong>TB1:</strong> Asumí un rol clave desde las primeras etapas del proyecto, liderando las entrevistas iniciales para entender el contexto de los usuarios. También fui responsable del dimensionamiento del sistema y de establecer la estructura general del proyecto, asegurándome de mantener la coherencia técnica y ética a lo largo del desarrollo.</p>
-                <p><strong>Salinas Torres, Salvador Antonio</strong></p>
-                <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
-            </td>
-            <td>
-              <p><strong>TB1:</strong> Como equipo, cada integrante aportó desde sus fortalezas para desarrollar una solución sólida, ética y centrada en el usuario. Desde la conducción de entrevistas y el proceso de needfinding, hasta el diseño de wireframes y la arquitectura técnica con modelos C4, demostramos un compromiso compartido con la calidad, la coherencia y el impacto responsable del proyecto. La colaboración efectiva y el enfoque en el usuario guiaron nuestras decisiones, permitiéndonos construir una aplicación funcional y alineada con principios profesionales y éticos de la ingeniería de software.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
-            <td>
-                <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
-                <p><strong>TB1:</strong> Para esta entrega, analicé el impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
-                <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
-                <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
-                <p><strong>La torre Soto, André Sebastian</strong></p>
-                <p><strong>TB1:</strong> Para esta entrega, identifiqué mediante las entrevistas las condiciones reales del entorno y los desafíos que enfrentan los actores involucrados. Con base en esa información, elaboré un modelo C4 que nos permitió visualizar la propuesta en distintos niveles de abstracción, facilitando un análisis crítico sobre cómo nuestro proyecto podría influir en dimensiones como la equidad social, el uso responsable de recursos, el acceso tecnológico y la dinámica económica de las comunidades involucradas.</p>
-                <p><strong>Pecan Pariona, Sergio Joel</strong></p>
-                <p><strong>TB1:</strong> Desde el inicio del proyecto, enfoqué mis esfuerzos en comprender el entorno socioeconómico de los usuarios a través de entrevistas y análisis contextual. Esto me permitió dimensionar adecuadamente el sistema y proponer una estructura tecnológica que se alinee con las condiciones reales de las zonas rurales, contribuyendo así a una solución viable, inclusiva y de alto impacto social.</p>
-                <p><strong>Salinas Torres, Salvador Antonio</strong></p>
-                <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
-            </td>
-            <td>
-              <p><strong>TB1:</strong> Como equipo, demostramos un enfoque crítico y consciente al evaluar el impacto de nuestra solución tecnológica en contextos reales. A través del análisis de entrevistas, diseño accesible y modelado arquitectónico, consideramos factores sociales, económicos y ambientales que afectan directamente a las comunidades rurales. Esto nos permitió diseñar una aplicación viable, inclusiva y sostenible, comprometida con el desarrollo equitativo y con decisiones informadas que buscan generar un cambio positivo en la agricultura local.</p>
-            </td>
-        </tr>
-    </tbody>
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #000; padding: 8px;"><strong>Criterio específico</strong></th>
+      <th style="border: 1px solid #000; padding: 8px;"><strong>Acciones realizadas</strong></th>
+      <th style="border: 1px solid #000; padding: 8px;"><strong>Conclusiones</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="page-break-inside: avoid;">
+      <td style="border: 1px solid #000; padding: 8px;">4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
+      <td style="border: 1px solid #000; padding: 8px;">
+        <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
+        <p><strong>TB1:</strong> Participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Me aseguré de mantener integridad en la información presentada.</p>
+        <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
+        <p><strong>TB1:</strong> Participé en la sección de la aplicación móvil: wireframes, wireflows, mock-ups y user flows. Desarrollé la parte móvil, asegurando una experiencia fluida.</p>
+        <p><strong>La torre Soto, André Sebastian</strong></p>
+        <p><strong>TB1:</strong> Me enfoqué en el registro de entrevistas, el modelo C4 y revisión del entregable conforme a las normas.</p>
+        <p><strong>Pecan Pariona, Sergio Joel</strong></p>
+        <p><strong>TB1:</strong> Lideré entrevistas, dimensionamiento del sistema y estructura del proyecto con enfoque ético.</p>
+        <p><strong>Salinas Torres, Salvador Antonio</strong></p>
+        <p><strong>TB1:</strong> Realicé needfinding y modelado con enfoque Lean UX y centrado en el usuario. Aseguré calidad técnica y documental.</p>
+      </td>
+      <td style="border: 1px solid #000; padding: 8px;">
+        <p><strong>TB1:</strong> Aportamos desde nuestras fortalezas en entrevistas, wireframes y modelos C4. Mostramos compromiso ético y profesional, priorizando una solución centrada en el usuario.</p>
+      </td>
+    </tr>
+    <tr style="page-break-inside: avoid;">
+      <td style="border: 1px solid #000; padding: 8px;">4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
+      <td style="border: 1px solid #000; padding: 8px;">
+        <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
+        <p><strong>TB1:</strong> Analicé el impacto del proyecto en la agricultura local y adecué funcionalidades al contexto económico y social.</p>
+        <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
+        <p><strong>TB1:</strong> Consideré limitaciones tecnológicas y económicas, desarrollando una app accesible y de impacto positivo.</p>
+        <p><strong>La torre Soto, André Sebastian</strong></p>
+        <p><strong>TB1:</strong> Identifiqué desafíos reales y elaboré el modelo C4 para visualizar el impacto en diversas dimensiones.</p>
+        <p><strong>Pecan Pariona, Sergio Joel</strong></p>
+        <p><strong>TB1:</strong> Evalué el entorno socioeconómico para alinear la tecnología con las condiciones rurales.</p>
+        <p><strong>Salinas Torres, Salvador Antonio</strong></p>
+        <p><strong>TB1:</strong> La solución fue informada por entrevistas y prototipos, reduciendo barreras sociales, costos y el impacto ambiental.</p>
+      </td>
+      <td style="border: 1px solid #000; padding: 8px;">
+        <p><strong>TB1:</strong> El equipo abordó conscientemente el impacto social, económico y ambiental mediante análisis y diseño accesible. Se diseñó una solución inclusiva y sostenible.</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
@@ -349,7 +352,7 @@ Ser referentes en innovación tecnológica para el sector agropecuario, promovie
 
 **Logo de AgroTech**
 <p align="center">
-  <img src="img/agrotech-logo.jpg" width="200" alt="Logo de AgroTech">
+  <img src="img/agrotech-logo.jpg" width="300px" alt="Logo de AgroTech">
 </p>
 
 _Imagen 1. Logo de AgroTech_
@@ -358,9 +361,9 @@ _Imagen 1. Logo de AgroTech_
 
 <table>
   <tr>
-    <th>
-      <img src="img/perfil_piero.jpg" alt="Foto de perfil de Piero" width="800px">
-    </th>
+    <td>
+      <img src="img/perfil_piero.jpg" alt="Foto de perfil de Piero" width="400px">
+    </td>
     <td valign="top">
       <p><b>Delgado Corrales, Piero Gonzalo</b></p>
       <p>
@@ -369,9 +372,9 @@ _Imagen 1. Logo de AgroTech_
     </td>
   </tr>
   <tr>
-    <th>
-      <img src="img/perfil_salvador.jpg" alt="Foto de perfil de Salvador" width="800px">
-    </th>
+    <td>
+      <img src="img/perfil_salvador.jpg" alt="Foto de perfil de Salvador" width="400px">
+    </td>
     <td valign="top">
       <p><b>Salinas Torres, Salvador Antonio</b></p>
       <p>
@@ -380,9 +383,9 @@ _Imagen 1. Logo de AgroTech_
     </td>
   </tr>
   <tr>
-    <th>
-    <img src="img/perfil_sebastian.jpg" alt="Foto de perfil de Sebastian" width="800px">
-    </th>
+    <td>
+      <img src="img/perfil_sebastian.jpg" alt="Foto de perfil de Sebastian" width="400px">
+    </td>
     <td valign="top">
       <p><b>Paredes Puente, Sebastian Roberto</b></p>
       <p>
@@ -390,31 +393,28 @@ _Imagen 1. Logo de AgroTech_
       </p>
     </td>
   </tr>
-    <tr>
-    <th>
-      <img src="img/perfil_sergio.jpg" alt="Foto de perfil de sergio" width="800px">
-    </th>
+  <tr>
+    <td>
+      <img src="img/perfil_sergio.jpg" alt="Foto de perfil de Sergio" width="400px">
+    </td>
     <td valign="top">
       <p><b>Pecan Pariona, Sergio Joel</b></p>
       <p>
-Sergio es estudiante del 7mo ciclo de Ingeniería de Software en la UPC. Tiene conocimientos en desarrollo web, bases de datos y metodologías ágiles. A lo largo de su formación, ha trabajado con herramientas como Git, Docker y Jenkins, participando en diversos proyectos académicos que le han permitido fortalecer sus habilidades técnicas y de trabajo en equipo. Le interesa seguir aprendiendo y ganar experiencia en el campo del desarrollo de software.
+        Sergio es estudiante del 7mo ciclo de Ingeniería de Software en la UPC. Tiene conocimientos en desarrollo web, bases de datos y metodologías ágiles. A lo largo de su formación, ha trabajado con herramientas como Git, Docker y Jenkins, participando en diversos proyectos académicos que le han permitido fortalecer sus habilidades técnicas y de trabajo en equipo. Le interesa seguir aprendiendo y ganar experiencia en el campo del desarrollo de software.
       </p>
     </td>
   </tr>
-
-<tr>
-    <th>
-      <img src="img/perfil_andre.jpg" alt="Foto de perfil de Andre" width="800px">
-    </th>
+  <tr>
+    <td>
+      <img src="img/perfil_andre.jpg" alt="Foto de perfil de André" width="400px">
+    </td>
     <td valign="top">
-      <p><b>La torre Soto, André Sebastian</b></p>
+      <p><b>La Torre Soto, André Sebastian</b></p>
       <p>
-        Soy André Sebastián La torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.
+        Soy André Sebastián La Torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.
       </p>
     </td>
   </tr>
-
-  
 </table>
 
 ## 1.2. Solution Profile
@@ -566,182 +566,128 @@ Los asesores con experiencia son claves en el sector agropecuario, brindando ori
 |**Formación educativa**|Universitaria o superior|
 |**Poder adquisitivo**|Bajo, medio y alto|
 
-# Capítulo 2: Needfinding
+<div style="page-break-after: always;"></div>
+
+# Capítulo II: Needfinding
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 
-<table>
-   <tr>
-      <th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th>
-   </tr>
-   <tr>
-      <td rowspan="2" valign="top">¿Por qué llevar a cabo este análisis? </td>
-     <td colspan="5" valign="top">
+<table border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <th colspan="6" valign="top"><b>Competitive Analysis Landscape</b></th>
+  </tr>
+  <tr>
+    <td rowspan="1" valign="top"><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="5" valign="top">
       <ul>
         <li>Objetivo 1: Obtener información sobre las ofertas de nuestros competidores y aprender de las áreas en las que tienen limitaciones.</li>
         <li>Objetivo 2: Reconocer las fortalezas y debilidades de nuestros competidores para desarrollar una estrategia competitiva robusta y eficaz.</li>
       </ul>
-     </td>
-
-   </tr>
-   <tr></tr>
-   <tr>
-      <td colspan="2" valign="top">(En la cabecera colocar por cada competidor nombre y logo)</td>
-      <td valign="top">
-         <p>AgroTech</p>
-         <p><img src="img/agrotech-logo.jpg" alt="Logo de AgroTech" width="150" /></p>
-      </td>
-      <td valign="top">
-         <p>BestFarm</p>
-         <p><img src="img/logo_bestFarm.jpg" alt="Logo de BestFarm" width="150" /></p>
-      </td>
-      <td valign="top">
-         <p>AgriWebb</p>
-         <p><img src="img/logo_agriWebb.jpg" alt="Logo de AgriWebb" width="150" /></p>
-      </td>
-      <td valign="top">
-         <p>Trimble Ag </p>
-         <p><img src="img/logo_trimbleAg.png" alt="Logo de Trimble Ag" width="150" /></p>
-      </td>
-   </tr>
-   <tr>
-      <td rowspan="2">Perfil</td>
-      <td valign="top">Overview</td>
-      <td valign="top"><b>AgroTech</b> es una plataforma completa que ofrece orientación experta y soluciones tecnológicas para optimizar la gestión de granjas de forma eficiente y sostenible.</td>
-      <td valign="top"><b>BestFarm</b> es una plataforma digital diseñada para la gestión integral de granjas agrícolas y ganaderas. Ofrece herramientas para la planificación de cultivos, gestión de recursos, y monitoreo del ganado, todo accesible desde dispositivos móviles</td>
-      <td valign="top"><b>AgriWebb</b> es una plataforma digital que ofrece una solución integral para la gestión de granjas, con un enfoque especial en la trazabilidad del ganado y la optimización de la productividad agrícola</td>
-      <td valign="top"><b>Trimble Ag</b> ofrece soluciones avanzadas para la gestión de fincas, incluyendo herramientas para la planificación de cultivos, gestión del ganado, y monitoreo de recursos. </td>
-   </tr>
-   <tr>
-      <td valign="top">
-         <p>Ventaja competitiva</p>
-         <p>¿Qué valor ofrece a los clientes?</p>
-      </td>
-      <td valign="top"><b>AgroTech</b> brinda un acceso sencillo que conecta a agricultores novatos con expertos, facilitando asesoramiento especializado que optimiza la gestión de granjas, promueve prácticas sostenibles y mejora la productividad.</td>
-      <td valign="top"><b>BestFarm</b> se destaca por su enfoque en la simplicidad y accesibilidad, permitiendo a los usuarios gestionar tanto cultivos como ganado en una sola plataforma</td>
-      <td valign="top">La ventaja de <b>AgriWebb</b> se distingue por su fuerte enfoque en la trazabilidad y la capacidad de capturar datos en tiempo real</td>
-      <td valign="top"><b>Trimble Ag</b> se destaca por su tecnología avanzada y su capacidad para integrar datos de múltiples fuentes, proporcionando una visión completa y precisa de las operaciones de la finca</td>
-   </tr>
-   <tr>
-      <td rowspan="2">Perfil de Marketing</td>
-      <td valign="top">Mercado objetivo</td>
-      <td valign="top">El mercado objetivo de <b>AgroTech</b> son los granjeros con poca experiencia y aquellos que buscan optimizar la gestión de sus granjas</td>
-      <td valign="top">El mercado objetivo de <b>BestFarm</b> son los agricultores y ganaderos que buscan una solución unificada para la gestión de todas las operaciones de su finca</td>
-      <td valign="top">El mercado objetivo de <b>AgriWebb</b> son ganaderos y agricultores que buscan mejorar la eficiencia y la trazabilidad de sus operaciones</td>
-      <td valign="top">El mercado objetivo de <b>Trimble Ag</b> son agricultores y ganaderos de tamaño medio a grande que buscan soluciones integradas para la gestión de sus operaciones</td>
-   </tr>
-   <tr>
-      <td valign="top">Estrategias de marketing</td>
-      <td valign="top">Las estrategias que utilizan <b>AgroTech</b> son marketing digital dirigido a granjeros, colaboraciones con asociaciones agrícolas, y promociones en eventos agrícolas</td>
-      <td valign="top">Las estrategias que utilizan <b>BestFarm</b> son campañas de marketing digital, demostraciones de producto, y colaboraciones con distribuidores de equipos agrícolas</td>
-      <td valign="top">Las estrategias que manejan <b>AgriWebb</b> son marketing digital, talleres educativos, y colaboración con organizaciones agrícolas</td>
-      <td valign="top"><b>Trimble Ag</b> realiza participaciones en ferias agrícolas, marketing digital, y demostraciones en campo. También se enfoca en asociaciones estratégicas con proveedores de tecnología agrícola</td>
-   </tr>
-   <tr>
-      <td rowspan="3">Perfil de Producto</td>
-      <td valign="top">Productos & Servicios</td>
-      <td valign="top"><b>AgroTech</b> ofrece asesoramiento especializado mediante una aplicación web y una móvil para agendar dichas asesorías</td>
-      <td valign="top"><b>BestFarm</b> brinda un software de gestión agrícola que incluye planificación de cultivos, gestión de recursos hídricos, y monitoreo de salud animal</td>
-      <td valign="top"><b>AgriWebb</b> proporciona un</b> software de gestión de fincas que incluye módulos para la trazabilidad del ganado, monitoreo de la salud animal, y optimización de cultivos</td>
-      <td valign="top"><b>Trimble Ag</b> da un software de gestión agrícola y ganadera con módulos para planificación, monitoreo de recursos, y análisis de datos</td>
-   </tr>
-   <tr>
-      <td valign="top">Precios & Costos</td>
-      <td valign="top"><b>AgroTech</b> ofrece un modelo de suscripción que puede ser mensual o anual, con precios que dependen de la magnitud de la operación y las funcionalidades necesarias</td>
-      <td valign="top"><b>BestFarm</b> ofrece un modelo de suscripción flexible, con precios escalonados según el tamaño y necesidades de la finca</td>
-      <td valign="top"><b>AgriWebb</b> ofrece una estructura de precios basada en suscripciones, con planes que se ajustan según el tamaño y las necesidades de la finca.</td>
-      <td valign="top"><b>Trimble Ag</b> ofrece precios basados en suscripción, con diferentes niveles según las características y el tamaño de la finca</td>
-   </tr>
-   <tr>
-      <td valign="top">Canales de distribución (Web y/o Móvil)</td>
-      <td valign="top"><b>AgroTech</b> está disponible en plataformas web y móviles</td>
-      <td valign="top"><b>BestFarm</b> se distribuye a través de una plataforma web</td>
-      <td valign="top"><b>AgriWebb</b> se distribuye a través de una plataforma web</td>
-      <td valign="top"><b>Trimble Ag</b> se distribuye a través de una plataforma web</td>
-   </tr>
-   <tr>
-      <td rowspan="5">Análisis SWOT</td>
-      <td colspan="5" valign="top">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva. </td>
-   </tr>
-   <tr>
-      <td valign="top">
-         <p>Fortalezas</p>
-         <p></p>
-      </td>
-      <td valign="top">
-        <p>- Plataforma accesible que conecta a granjeros con asesores especializados</p>
-        <p>- Asesoramiento experto en diversas áreas agropecuarias</p>
     </td>
-      <td valign="top">
-         <p>- Plataforma integral que cubre tanto la agricultura como la ganadería</p>
-         <p>- Enfoque en la simplicidad y accesibilidad para los usuarios</p>
-      </td>
-      <td valign="top">
-         <p>- Fuerte enfoque en la trazabilidad y gestión basada en datos</p>
-         <p>- Interfaz intuitiva y fácil de usar</p>
-      </td>
-      <td valign="top">
-         <p>- Tecnología avanzada y capacidad de integración de datos</p>
-         <p>- Amplia gama de funciones para la gestión integral de fincas</p>
-      </td>
-   </tr>
-   <tr>
-      <td valign="top">Debilidades</td>
-      <td valign="top">
-        <p>- Dependencia de la adopción tecnológica en un mercado con barreras a la digitalización</p>
-        <p>- Necesidad de una base de asesores con conocimientos bastos</p>
-      </td>
-      <td valign="top">
-         <p>- Puede carecer de funcionalidades avanzadas específicas para cada sector en comparación con competidores más especializados</p>
-         <p>- Dependencia de un enfoque generalizado, lo que podría limitar la personalización para necesidades específicas</p>
-      </td>
-      <td valign="top">
-         <p>- Puede ser percibido como costoso para pequeñas fincas</p>
-         <p>- La dependencia de la conectividad a internet podría ser un desafío en áreas rurales</p>
-      </td>
-      <td valign="top">
-         <p>- Precio alto, lo que puede ser una barrera para pequeños productores</p>
-         <p>- Complejidad en la implementación y el uso inicial</p>
-      </td>
-   </tr>
-   <tr>
-      <td valign="top">Oportunidades</td>
-      <td valign="top">
-        <p>- Expansión de la plataforma en zonas rurales con mayor demanda de asesoría especializada</p>
-        <p>- Creación de nuevas funcionalidades de asesoría personalizadas según las necesidades de los granjeros</p>
-      </td>
-      <td valign="top">
-         <p>- Crecimiento en mercados rurales</p>
-         <p>- Creación de características adicionales adaptadas a cada sector</p>
-      </td>
-      <td valign="top">
-         <p>- Expansión en mercados emergentes que buscan mejorar la trazabilidad y la eficiencia</p>
-         <p>- Integración con tecnologías emergentes como IoT para mejorar el monitoreo en tiempo real</p>
-      </td>
-      <td valign="top">
-         <p>- Creciente demanda de soluciones integradas en mercados agrícolas avanzados</p>
-         <p>- Innovaciones tecnológicas que pueden mejorar la oferta de productos</p>
-      </td>
-   </tr>
-   <tr>
-      <td valign="top">Amenazas</td>
-      <td valign="top">
-        <p>- Competencia de plataformas establecidas que ya ofrecen asesorías en el sector agropecuario</p>
-        <p>- Resistencia al cambio en el sector agropecuario que puede dificultar la adopción de nuevas asesorías</p>
-      </td>
-      <td valign="top">
-         <p>- Competencia de plataformas especializadas en agricultura o ganadería que proporcionan funciones más avanzadas.</p>
-         <p>- Alteraciones en las preferencias de los usuarios que buscan soluciones más personalizadas para sus necesidades particulares.</p>
-      </td>
-      <td valign="top">
-         <p>- Rivalidad con plataformas especializadas en agricultura o ganadería que disponen de funciones más sofisticadas.</p>
-         <p>- Evolución en las demandas de los usuarios que prefieren soluciones adaptadas a sus necesidades concretas.</p>
-      </td>
-      <td valign="top">
-         <p>- Competencia de soluciones más accesibles o especializadas</p>
-         <p>- Cambios en la tecnología que pueden requerir actualizaciones frecuentes</p>
-      </td>
-   </tr>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><b>(En la cabecera colocar por cada competidor nombre y logo)</b></td>
+    <td valign="top">
+      <p><b>AgroTech</b></p>
+      <p><img src="img/agrotech-logo.jpg" alt="Logo de AgroTech" width="150" /></p>
+    </td>
+    <td valign="top">
+      <p><b>BestFarm</b></p>
+      <p><img src="img/logo_bestFarm.jpg" alt="Logo de BestFarm" width="150" /></p>
+    </td>
+    <td valign="top">
+      <p><b>AgriWebb</b></p>
+      <p><img src="img/logo_agriWebb.jpg" alt="Logo de AgriWebb" width="150" /></p>
+    </td>
+    <td valign="top">
+      <p><b>Trimble Ag</b></p>
+      <p><img src="img/logo_trimbleAg.png" alt="Logo de Trimble Ag" width="150" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td rowspan="2"><b>Perfil</b></td>
+    <td valign="top"><b>Overview</b></td>
+    <td valign="top"><b>AgroTech</b> es una plataforma completa que ofrece orientación experta y soluciones tecnológicas para optimizar la gestión de granjas de forma eficiente y sostenible.</td>
+    <td valign="top"><b>BestFarm</b> es una plataforma digital diseñada para la gestión integral de granjas agrícolas y ganaderas.</td>
+    <td valign="top"><b>AgriWebb</b> es una plataforma digital con enfoque en la trazabilidad del ganado y la productividad agrícola.</td>
+    <td valign="top"><b>Trimble Ag</b> ofrece soluciones avanzadas para la gestión de fincas, incluyendo planificación de cultivos y monitoreo de recursos.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Ventaja competitiva</b><br>¿Qué valor ofrece a los clientes?</td>
+    <td valign="top"><b>AgroTech</b> conecta a agricultores novatos con expertos para mejorar la productividad y sostenibilidad.</td>
+    <td valign="top"><b>BestFarm</b> destaca por su simplicidad y accesibilidad, integrando cultivos y ganado en una sola plataforma.</td>
+    <td valign="top"><b>AgriWebb</b> sobresale por su trazabilidad y captura de datos en tiempo real.</td>
+    <td valign="top"><b>Trimble Ag</b> integra múltiples fuentes de datos y proporciona una visión completa de la finca.</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><b>Perfil de Marketing</b></td>
+    <td valign="top"><b>Mercado objetivo</b></td>
+    <td valign="top">Granjeros con poca experiencia y aquellos que buscan optimizar la gestión de sus granjas.</td>
+    <td valign="top">Agricultores y ganaderos que buscan una solución integral para sus fincas.</td>
+    <td valign="top">Ganaderos y agricultores que desean eficiencia y trazabilidad.</td>
+    <td valign="top">Agricultores de tamaño medio a grande que requieren soluciones integradas.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Estrategias de marketing</b></td>
+    <td valign="top">Marketing digital dirigido, colaboraciones agrícolas y eventos del sector.</td>
+    <td valign="top">Campañas digitales, demostraciones y alianzas con distribuidores.</td>
+    <td valign="top">Marketing digital, talleres educativos y cooperación con organizaciones.</td>
+    <td valign="top">Ferias agrícolas, marketing digital y asociaciones tecnológicas.</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><b>Perfil de Producto</b></td>
+    <td valign="top"><b>Productos & Servicios</b></td>
+    <td valign="top">Asesoramiento especializado mediante app web y móvil.</td>
+    <td valign="top">Software de gestión con planificación, recursos y monitoreo animal.</td>
+    <td valign="top">Software de fincas con trazabilidad, salud animal y cultivos.</td>
+    <td valign="top">Software agrícola y ganadero con planificación y análisis de datos.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Precios & Costos</b></td>
+    <td valign="top">Modelo de suscripción mensual o anual, según necesidades.</td>
+    <td valign="top">Suscripción escalonada según tamaño de la finca.</td>
+    <td valign="top">Planes según tamaño y necesidades de la finca.</td>
+    <td valign="top">Suscripción con niveles por características y tamaño.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Canales de distribución</b></td>
+    <td valign="top">Plataformas web y móviles.</td>
+    <td valign="top">Plataforma web.</td>
+    <td valign="top">Plataforma web.</td>
+    <td valign="top">Plataforma web.</td>
+  </tr>
+  <tr>
+    <td rowspan="5"><b>Análisis SWOT</b></td>
+    <td colspan="5" valign="top">Realice esto para su startup y sus competidores. Las fortalezas deben apoyar las oportunidades y fortalecer su ventaja competitiva.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Fortalezas</b></td>
+    <td valign="top">Conexión directa con asesores, asesoramiento especializado.</td>
+    <td valign="top">Plataforma integral, fácil de usar.</td>
+    <td valign="top">Foco en trazabilidad, interfaz intuitiva.</td>
+    <td valign="top">Alta tecnología, gestión integral.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Debilidades</b></td>
+    <td valign="top">Barrera tecnológica, necesidad de asesores expertos.</td>
+    <td valign="top">Poca personalización, enfoque generalista.</td>
+    <td valign="top">Costo elevado, requiere buena conectividad.</td>
+    <td valign="top">Precio alto, curva de aprendizaje.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Oportunidades</b></td>
+    <td valign="top">Expansión en zonas rurales, asesoría personalizada.</td>
+    <td valign="top">Crecimiento en mercados rurales, nuevas funciones.</td>
+    <td valign="top">Mercados emergentes, integración con IoT.</td>
+    <td valign="top">Demanda de soluciones integradas, innovación tecnológica.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Amenazas</b></td>
+    <td valign="top">Competencia establecida, resistencia al cambio.</td>
+    <td valign="top">Competidores especializados, cambios en preferencias.</td>
+    <td valign="top">Rivalidad fuerte, demandas más específicas.</td>
+    <td valign="top">Competencia más accesible, cambios tecnológicos.</td>
+  </tr>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -1231,6 +1177,8 @@ El As-Is Scenario Mapping es una herramienta utilizada para analizar y documenta
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
 
@@ -1278,11 +1226,11 @@ El To-Be Scenario Mapping es una herramienta que ilustra cómo cambiarán los pr
 <table>
   <thead>
     <tr>
-      <td>Phases</td>
-      <td>Promoción de servicios</td>
-      <td>Contacto con granjeros</td>
-      <td>Realización de asesorías</td>
-      <td>Seguimiento</td>
+      <th>Phases</th>
+      <th>Promoción de servicios</th>
+      <th>Contacto con granjeros</th>
+      <th>Realización de asesorías</th>
+      <th>Seguimiento</th>
     </tr>
   </thead>
   <tbody>
@@ -1321,7 +1269,6 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
     <th><b>User Story ID</b></th>
     <th><b>User Stories</b></th>
   </tr>
-
   <tr>
     <td rowspan="10">1</td>
     <td rowspan="10">Sistema de búsqueda y programación de citas</td>
@@ -1337,7 +1284,6 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
   <tr><td>US19</td><td>Visualización de historial de citas</td></tr>
   <tr><td>US20</td><td>Cancelación de citas</td></tr>
   <tr><td>US21</td><td>Búsqueda y filtrado de citas</td></tr>
-
   <tr>
     <td rowspan="2">2</td>
     <td rowspan="2">Publicaciones de asesores</td>
@@ -1345,7 +1291,6 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
     <td>Gestión de publicaciones de asesores</td>
   </tr>
   <tr><td>US08</td><td>Visualización de publicaciones de los asesores</td></tr>
-
   <tr>
     <td rowspan="4">3</td>
     <td rowspan="4">Sistema de gestión de usuarios</td>
@@ -1355,7 +1300,6 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
   <tr><td>US10</td><td>Inicio de sesión</td></tr>
   <tr><td>US11</td><td>Visualización de notificaciones del usuario</td></tr>
   <tr><td>US12</td><td>Modificar perfil de usuario</td></tr>
-
   <tr>
     <td rowspan="5">4</td>
     <td rowspan="5">Landing Page</td>
@@ -1366,7 +1310,6 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
   <tr><td>US15</td><td>Visualización de la sección 'Sobre Nosotros' de la Landing Page</td></tr>
   <tr><td>US16</td><td>Visualización de la sección 'Características' de la Landing Page</td></tr>
   <tr><td>US17</td><td>Visualización de la sección 'Contacto' de la Landing Page</td></tr>
-
   <tr>
     <td rowspan="2">5</td>
     <td rowspan="2">Gestión de granja</td>
@@ -1374,7 +1317,6 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
     <td>Gestión de recintos</td>
   </tr>
   <tr><td>US23</td><td>Gestión de animales</td></tr>
-
   <tr>
     <td rowspan="7">6</td>
     <td rowspan="7">Funcionalidades de Web API (Backend)</td>
@@ -1389,7 +1331,28 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
   <tr><td>TS07</td><td>Uso de nuestra API para gestionar autenticación</td></tr>
 </table>
 
-<table>
+<style>
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    page-break-inside: avoid;
+  }
+  .custom-table th, .custom-table td {
+    border: 1px solid #ccc;
+    padding: 4px;
+    vertical-align: top;
+    text-align: left;
+  }
+  .custom-table thead {
+    background-color: #f2f2f2;
+    display: table-header-group;
+  }
+  .custom-table td p {
+    margin: 2px 0;
+  }
+</style>
+
+<table class="custom-table">
   <thead>
     <tr>
       <th>Epic / Story ID</th>
@@ -1969,6 +1932,8 @@ _Imagen 15: Impact Map para Granjero con poca experiencia_
 <img alt="Impact Map para Asesor" src="img/impact-mapping-advisor.png">
 
 _Imagen 16: Impact Map para Asesor experimentado_
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo IV: Product Design
 
@@ -3472,6 +3437,8 @@ En esta sección, se especificarán las características detalladas de cada clas
 </p>
 
 _Imagen 193. Diagrama de base de datos relacional_
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo V: Product Implementation
 
