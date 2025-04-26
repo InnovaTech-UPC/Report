@@ -4042,3 +4042,9 @@ Luque, R. (2023). _Meta Tags | Las 7 más importantes en SEO_. SEOcrawl. https:/
 Soodan, V., Jamwal, M., Rana, N. P., Sharma, D., & Chakraborty, S. (2023). Modelling the adoption of agro-advisory mobile applications: a theoretical extension and analysis using result demonstrability, trust, self-efficacy and mobile usage proficiency. _Journal Of Agribusiness In Developing And Emerging Economies, 14(4)_, 749-768. https://doi.org/10.1108/jadee-05-2022-0087
 
 W3Schools. (s.f.). _HTML Style Guide_. https://www.w3schools.com/html/html5_syntax.asp
+
+# Anexos
+
+## Videos de exposiciones
+
+Exposición TB1: [upc-pre-202501-1asi0732-4429-Innovatech-expo.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ES0jRLUeOCNDl_JIyCSNdC4BQBEyinPG9Z6oFwk4OHAB0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3235HQ)
