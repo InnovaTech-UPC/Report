@@ -3619,15 +3619,15 @@ Para el Backend se usará Render, que es un servicio de alojamiento de aplicacio
   </tr>
   <tr>
     <th>Sprint 1 Goal</th>
-    <td>Nuestro objetivo es implementar el Backend. Creemos que brindará un gran valor ya que gestiona la lógica de negocio, los datos, la seguridad, la escalabilidad y la integración con otros sistemas. Esto se confirmará cuando se haya integrado todos los endpoints necesarios para la aplicación.</td>
+    <td>Nuestro objetivo es implementar el Backend y la Landing Page. Creemos que brindará un gran valor ya que el Backend gestiona la lógica de negocio, los datos, la seguridad, la escalabilidad y la integración con otros sistemas; y la Landing Page está diseñada para una conversión específica, mejorando la tasa de conversión y generando más leads. Esto se confirmará cuando se haya integrado todos los endpoints necesarios para la aplicación, y se haya desplegado la Landing Page para que los potenciales usuarios puedan conocer el producto.</td>
   </tr>
   <tr>
     <th>Sprint 1 Velocity</th>
-    <td>31</td>
+    <td>41</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td>31</td>
+    <td>41</td>
   </tr>
 </table>
 
@@ -3648,13 +3648,21 @@ Para el Backend se usará Render, que es un servicio de alojamiento de aplicacio
 <tr><td colspan="1" rowspan="1" valign="top">TS07</td><td colspan="1" rowspan="1" valign="top">Uso de nuestra API para gestionar autenticación</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de autenticación IAM</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para la autenticación de los usuarios (granjeros y asesores) dentro de nuestra API.</td><td colspan="1" rowspan="1" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" rowspan="1" valign="top">TS01</td><td colspan="1" rowspan="1" valign="top">Uso de una API para videollamadas</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integración de API para videollamadas</td><td colspan="1" valign="top">Se integra el sistema de Jitsi Meet para la creación de videollamadas para las asesorías.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
 <tr><td colspan="1" rowspan="1" valign="top">TS02</td><td colspan="1" rowspan="1" valign="top">Uso de una API para alojar imágenes</td><td colspan="1" valign="top">WI11</td><td colspan="1" valign="top">Integración de API para alojamiento</td><td colspan="1" valign="top">Se integra el sistema de Firebase Storage para el alojamiento de imágenes.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">US13</td><td colspan="1" rowspan="2" valign="top">Visualización de la sección de inicio de la Landing Page	</td><td colspan="1" valign="top">WI12</td><td colspan="1" valign="top">Implementación de navbar y footer</td><td colspan="1" valign="top">Se implementa el navbar para navegar por la Landing Page y el footer en la parte inferior.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI13</td><td colspan="1" valign="top">Implementación de página de inicio</td><td colspan="1" valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Visualización de la sección 'Acerca de' de la Landing Page</td><td colspan="1" valign="top">WI14</td><td colspan="1" valign="top">Implementación de página 'Acerca de'</td><td colspan="1" valign="top">Se implementa la página sobre la Problemática, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Visualización de la sección 'Sobre Nosotros' de la Landing Page</td><td colspan="1" valign="top">WI15</td><td colspan="1" valign="top">Implementación de página 'Sobre Nosotros'</td><td colspan="1" valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">	Visualización de la sección 'Características' de la Landing Page</td><td colspan="1" valign="top">WI16</td><td colspan="1" valign="top">Implementación de página 'Características'</td><td colspan="1" valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Visualización de la sección 'Contacto' de la Landing Page</td><td colspan="1" valign="top">WI17</td><td colspan="1" valign="top">Implementación de página 'Contacto'</td><td colspan="1" valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
 **Development Evidence for Sprint Review**
 
-A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 1. De este modo, se trabajó mayormente en el Backend.
+A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 1. De este modo, se trabajó en el Backend y Landing Page.
 
 Repositorio Backend: <https://github.com/InnovaTech-UPC/Backend>
+
+Repositorio Landing Page: <https://github.com/InnovaTech-UPC/Landing>
 
 |**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
 | :- | :- | :- | :- | :- |
@@ -3663,7 +3671,10 @@ Repositorio Backend: <https://github.com/InnovaTech-UPC/Backend>
 |InnovaTech-UPC/Backend|develop|1d2f8d2|fix: deleted extra semicolon ";"|05/04/2025|
 |InnovaTech-UPC/Backend|develop|4d7abc9|feat:(appointment) add verification of date|09/04/2025|
 |InnovaTech-UPC/Backend|develop|f7cd1c4|feat: add animals & enclosures endpoints|14/04/2025|
+|InnovaTech-UPC/Landing|main|bc45f18|feat: base landing page|15/04/2025|
 |InnovaTech-UPC/Backend|develop|0d17402|fix: missing field in constructor|15/04/2025|
+|InnovaTech-UPC/Landing|main|4b8708c|feat: update profile images|21/04/2025|
+|InnovaTech-UPC/Landing|main|e7c5770|style: change colors|21/04/2025|
 |InnovaTech-UPC/Backend|release|66f73a5|chore: add env variables for security|21/04/2025|
 
 
@@ -3679,11 +3690,19 @@ URL del video: [Video de ejecución de Backend](https://youtu.be/cfxofo_DrT8)
 
 _Imagen 194. Evidencia de Backend_
 
+Se culminó la implementación de la Landing Page, la cual se encuentra en el siguiente enlace: [Landing Page](https://innovatech-upc.github.io/Landing/).
+
+<p align="center">
+  <img alt="Execution Evidence Sprint 2" src="img/landing_evidence.png">
+</p>
+
+_Imagen 195. Evidencia de la Landing Page_
+
 **Services Documentation Evidence for Sprint Review**
 
 Para este sprint, hemos implementado una primera versión de la API con los endpoints necesarios para el funcionamiento de nuestro proyecto.
 
-Enlace al repositorio del API: https://github.com/InnovaTech-UPC/Backend
+Enlace a API desplegado: <https://agrotech-zg6b.onrender.com/swagger-ui/index.html>
 
 |Método|Endpoint|Descripción|
 |--|--|--|
@@ -3743,8 +3762,6 @@ Enlace al repositorio del API: https://github.com/InnovaTech-UPC/Backend
 |PUT|/api/v1/animals/{id}|Se modifica un animal por ID|
 |DELETE|/api/v1/animals/{id}|Se elimina un animal por ID|
 
-Enlace al API deployado: <https://agrotech-zg6b.onrender.com/swagger-ui/index.html>
-
 #### 5.2.1.2. Sprint 2
 
 **Sprint Planning 2**
@@ -3753,105 +3770,6 @@ Enlace al API deployado: <https://agrotech-zg6b.onrender.com/swagger-ui/index.ht
   <tr>
     <th>Sprint #</th>
     <td>Sprint 2</td>
-  </tr>
-  <tr>
-    <th colspan="2"><strong>Sprint Planning Background</strong></th>
-  </tr>
-  <tr>
-    <th>Date</th>
-    <td>2025-04-08</td>
-  </tr>
-  <tr>
-    <th>Time</th>
-    <td>03:00 PM</td>
-  </tr>
-  <tr>
-    <th>Location</th>
-    <td>Presencial (En la universidad)</td>
-  </tr>
-  <tr>
-    <th>Prepared by</th>
-    <td>Salinas Torres, Salvador Antonio</td>
-  </tr>
-  <tr>
-    <th>Attendees (to planning meeting)</th>
-    <td>
-      <p>Delgado Corrales, Piero Gonzalo</p>
-      <p>La Torre Soto, Andre Sebastian</p>
-      <p>Paredes Puente, Sebastian Roberto</p>
-      <p>Pecan Pariona, Sergio Joel</p>
-      <p>Salinas Torres, Salvador Antonio</p>
-    </td>
-  </tr>
-  <tr>
-    <th>Sprint n - 1 Review Summary</th>
-    <td>Se implementó el Backend en su totalidad.</td>
-  </tr>
-  <tr>
-    <th>Sprint n - 1 Retrospective Summary</th>
-    <td>Se logró trabajar en equipo y terminar de refinar el Backend.</td>
-  </tr>
-  <tr>
-    <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
-  </tr>
-  <tr>
-    <th>Sprint 2 Goal</th>
-    <td>Nuestro objetivo es implementar la Landing Page. Creemos que brindará un gran valor ya que está diseñada para una conversión específica, mejorando la tasa de conversión y generando más leads. Esto se confirmará cuando se haya desplegado la Landing Page y los potenciales usuarios ya puedan conocer el producto.</td>
-  </tr>
-  <tr>
-    <th>Sprint 2 Velocity</th>
-    <td>10</td>
-  </tr>
-  <tr>
-    <th>Sum of Story Points</th>
-    <td>10</td>
-  </tr>
-</table>
-
-**Sprint Backlog 2**
-
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
-<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
-<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">US13</td><td colspan="1" rowspan="2" valign="top">Visualización de la sección de inicio de la Landing Page	</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de navbar y footer</td><td colspan="1" valign="top">Se implementa el navbar para navegar por la Landing Page y el footer en la parte inferior.</td><td colspan="1" rowspan="2" valign="top">2</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de página de inicio</td><td colspan="1" valign="top">Se implementa la página de inicio de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US14</td><td colspan="1" valign="top">Visualización de la sección 'Acerca de' de la Landing Page</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Implementación de página 'Acerca de'</td><td colspan="1" valign="top">Se implementa la página sobre la Problemática, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US15</td><td colspan="1" valign="top">Visualización de la sección 'Sobre Nosotros' de la Landing Page</td><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Implementación de página 'Sobre Nosotros'</td><td colspan="1" valign="top">Se implementa la página Sobre Nosotros, de forma responsive y con su archivo css correspondiente.	</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US16</td><td colspan="1" valign="top">	Visualización de la sección 'Características' de la Landing Page</td><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Implementación de página 'Características'</td><td colspan="1" valign="top">Se implementa la página Características, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
-<tr><td colspan="1" valign="top">US17</td><td colspan="1" valign="top">Visualización de la sección 'Contacto' de la Landing Page</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de página 'Contacto'</td><td colspan="1" valign="top">Se implementa la página Contacto, de forma responsive y con su archivo css correspondiente.</td><td colspan="1" valign="top">2</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
-</table>
-
-
-**Development Evidence for Sprint Review**
-
-A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 2. De este modo, se trabajó en la Landing Page.
-
-Repositorio Landing Page: <https://github.com/InnovaTech-UPC/Landing>
-
-|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commited on (Date)**|
-| :- | :- | :- | :- | :- |
-|InnovaTech-UPC/Landing|main|bc45f18|feat: base landing page|15/04/2025|
-|InnovaTech-UPC/Landing|main|4b8708c|feat: update profile images|21/04/2025|
-|InnovaTech-UPC/Landing|main|e7c5770|style: change colors|21/04/2025|
-
-**Execution Evidence for Sprint Review**
-
-Se culminó la implementación de la Landing Page, la cual se encuentra en el siguiente enlace: [Landing Page](https://innovatech-upc.github.io/Landing/).
-
-<p align="center">
-  <img alt="Execution Evidence Sprint 2" src="img/landing_evidence.png">
-</p>
-
-_Imagen 195. Evidencia de la Landing Page_
-
-#### 5.2.1.3. Sprint 3
-
-**Sprint Planning 3**
-
-<table>
-  <tr>
-    <th>Sprint #</th>
-    <td>Sprint 3</td>
   </tr>
   <tr>
     <th colspan="2"><strong>Sprint Planning Background</strong></th>
@@ -3884,21 +3802,21 @@ _Imagen 195. Evidencia de la Landing Page_
   </tr>
   <tr>
     <th>Sprint n - 1 Review Summary</th>
-    <td>Se desarrolló la Landing Page.</td>
+    <td>Se desarrolló el Backend y la Landing Page.</td>
   </tr>
   <tr>
     <th>Sprint n - 1 Retrospective Summary</th>
-    <td>Se logró trabajar en equipo y terminar de refinar la Landing Page.</td>
+    <td>Se logró trabajar en equipo y terminar de refinar el Backend y la Landing Page.</td>
   </tr>
   <tr>
     <th colspan="2"><strong>Sprint Goal & User Stories</strong></th>
   </tr>
   <tr>
-    <th>Sprint 3 Goal</th>
+    <th>Sprint 2 Goal</th>
     <td>Nuestro objetivo es implementar la Aplicación. Creemos que brindará un gran valor ya que afecta directamente la experiencia del usuario, la retención de usuarios y, en última instancia, el éxito de un negocio. Esto se confirmará cuando se haya implementado la aplicación en su totalidad y los usuarios se encuentren satisfecho con esta.</td>
   </tr>
   <tr>
-    <th>Sprint 3 Velocity</th>
+    <th>Sprint 2 Velocity</th>
     <td>58</td>
   </tr>
   <tr>
@@ -3907,9 +3825,9 @@ _Imagen 195. Evidencia de la Landing Page_
   </tr>
 </table>
 
-**Sprint Backlog 3**
+**Sprint Backlog 2**
 
-<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 3</th></tr>
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 2</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
 <tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
 <tr><td colspan="1" rowspan="2" valign="top">US18</td><td colspan="1" rowspan="2" valign="top">Navegación dentro de la plataforma</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Implementación de toolbar (web)</td><td colspan="1" valign="top">Se implementa el toolbar y menú lateral para que el usuario pueda navegar con facilidad por la aplicación web.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
@@ -3938,7 +3856,7 @@ _Imagen 195. Evidencia de la Landing Page_
 
 **Development Evidence for Sprint Review**
 
-A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 3. De este modo, se trabajó en la aplicación web y móvil.
+A continuación, se detallan los commits realizados, los cuales se trabajaron a partir de las tareas asignadas a cada miembro como se muestra en el Sprint Backlog 2. De este modo, se trabajó en la aplicación web y móvil.
 
 Repositorio Frontend web: <https://github.com/InnovaTech-UPC/Frontend>
 
@@ -4009,7 +3927,7 @@ También se grabó un video que proporciona información sobre el producto AgroT
 [Enlace a página web desplegada](https://agrotech-ten.vercel.app/)
 
 <p align="center">
-  <img alt="Execution Evidence Sprint 3" src="img/web_evidence_1.png">
+  <img alt="Execution Evidence Sprint 2" src="img/web_evidence_1.png">
 </p>
 
 _Imagen 196. Evidencia de la Aplicación Web_
@@ -4018,7 +3936,7 @@ _Imagen 196. Evidencia de la Aplicación Web_
 [Enlace a video de ejecución móvil](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201a938_upc_edu_pe/EVB5oaspy_NFr3WUnyYCmU0Bewvg0rwNwSspjwrGNluSXg?e=c6FuLs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <p align="center">
-  <img alt="Execution Evidence Sprint 3" src="img/movil_evidence_1.png">
+  <img alt="Execution Evidence Sprint 2" src="img/movil_evidence_1.png">
 </p>
 
 _Imagen 197. Evidencia de la Aplicación Móvil_
@@ -4091,6 +4009,8 @@ Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Es
 _Imagen 207. RESTful API Documentation con Swagger_
 
 ### 5.2.7 Team Collaboration Insights
+
+La colaboración del equipo fue fundamental para el éxito del proyecto. Se utilizó GitHub como plataforma principal para la gestión del código y la documentación. Cada miembro del equipo trabajó en diferentes ramas, lo que permitió un desarrollo paralelo y una integración continua. Además, se realizaron reuniones periódicas para revisar el progreso, discutir problemas y planificar las siguientes etapas del desarrollo.
 
 ## 5.3 Video About-the-Product
 
