@@ -58,7 +58,7 @@
   <tbody>
   <tr>
       <td><strong>TB1</strong></td>
-      <td></td>
+      <td>25/04/25</td>
       <td>
         <ul>
           <li>Delgado Corrales, Piero Gonzalo</li>
@@ -68,7 +68,16 @@
           <li>Salinas Torres, Salvador Antonio</li>
         </ul>
       </td>
-      <td></td>
+      <td>
+        Se realizaron los siguientes puntos:
+        <ul>
+          <li>Capítulo I: Introducción</li>
+          <li>Capítulo II: Requirements Elicitation & Analysis</li>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo IV: Product Design</li>
+          <li>Capítulo V: Product Implementation</li>
+        </ul>
+      </td>
   </tr>
   </tbody>
 </table>
@@ -289,8 +298,12 @@
                 <p><strong>TB1:</strong> Para esta entrega, participé mayormente en la elaboración del informe en puntos como el registro de entrevistas, el desarrollo del modelo C4 y la revisión de los diversos puntos del entregable para verificar que todo esté de acuerdo a las normativas del trabajo.</p>
                 <p><strong>Pecan Pariona, Sergio Joel</strong></p>
                 <p><strong>TB1:</strong> Asumí un rol clave desde las primeras etapas del proyecto, liderando las entrevistas iniciales para entender el contexto de los usuarios. También fui responsable del dimensionamiento del sistema y de establecer la estructura general del proyecto, asegurándome de mantener la coherencia técnica y ética a lo largo del desarrollo.</p>
+                <p><strong>Salinas Torres, Salvador Antonio</strong></p>
+                <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
             </td>
-            <td></td>
+            <td>
+              <p><strong>TB1:</strong> Como equipo, cada integrante aportó desde sus fortalezas para desarrollar una solución sólida, ética y centrada en el usuario. Desde la conducción de entrevistas y el proceso de needfinding, hasta el diseño de wireframes y la arquitectura técnica con modelos C4, demostramos un compromiso compartido con la calidad, la coherencia y el impacto responsable del proyecto. La colaboración efectiva y el enfoque en el usuario guiaron nuestras decisiones, permitiéndonos construir una aplicación funcional y alineada con principios profesionales y éticos de la ingeniería de software.</p>
+            </td>
         </tr>
         <tr>
             <td>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
@@ -303,8 +316,12 @@
                 <p><strong>TB1:</strong> Para esta entrega, identifiqué mediante las entrevistas las condiciones reales del entorno y los desafíos que enfrentan los actores involucrados. Con base en esa información, elaboré un modelo C4 que nos permitió visualizar la propuesta en distintos niveles de abstracción, facilitando un análisis crítico sobre cómo nuestro proyecto podría influir en dimensiones como la equidad social, el uso responsable de recursos, el acceso tecnológico y la dinámica económica de las comunidades involucradas.</p>
                 <p><strong>Pecan Pariona, Sergio Joel</strong></p>
                 <p><strong>TB1:</strong> Desde el inicio del proyecto, enfoqué mis esfuerzos en comprender el entorno socioeconómico de los usuarios a través de entrevistas y análisis contextual. Esto me permitió dimensionar adecuadamente el sistema y proponer una estructura tecnológica que se alinee con las condiciones reales de las zonas rurales, contribuyendo así a una solución viable, inclusiva y de alto impacto social.</p>
+                <p><strong>Salinas Torres, Salvador Antonio</strong></p>
+                <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
             </td>
-            <td></td>
+            <td>
+              <p><strong>TB1:</strong> Como equipo, demostramos un enfoque crítico y consciente al evaluar el impacto de nuestra solución tecnológica en contextos reales. A través del análisis de entrevistas, diseño accesible y modelado arquitectónico, consideramos factores sociales, económicos y ambientales que afectan directamente a las comunidades rurales. Esto nos permitió diseñar una aplicación viable, inclusiva y sostenible, comprometida con el desarrollo equitativo y con decisiones informadas que buscan generar un cambio positivo en la agricultura local.</p>
+            </td>
         </tr>
     </tbody>
 </table>
