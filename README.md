@@ -85,6 +85,14 @@
 
 # Project Report Collaboration Insights
 
+## TB1
+
+<img src="img/tb1-team-collaboration.png" width="100%" alt="Analisis de colaboración del equipo en el informe del proyecto">
+
+<img src="img/tb1-commits1.png" width="100%" alt="Commits del equipo en el informe del proyecto">
+
+<img src="img/tb1-commits2.png" width="100%" alt="Commits del equipo en el informe del proyecto">
+
 # Tabla de Contenido
 
 
@@ -4028,6 +4036,8 @@ _Imagen 207. RESTful API Documentation con Swagger_
 ### 5.2.7 Team Collaboration Insights
 
 La colaboración del equipo fue fundamental para el éxito del proyecto. Se utilizó GitHub como plataforma principal para la gestión del código y la documentación. Cada miembro del equipo trabajó en diferentes ramas, lo que permitió un desarrollo paralelo y una integración continua. Además, se realizaron reuniones periódicas para revisar el progreso, discutir problemas y planificar las siguientes etapas del desarrollo.
+
+![Imagen de Analytics](img/tb1-team-collaboration.png)
 
 ## 5.3 Video About-the-Product
 
