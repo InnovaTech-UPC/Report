@@ -3991,50 +3991,59 @@ Al registrarse o utilizar AgroTech, el usuario acepta los términos establecidos
 
 **2. Descripción del Servicio**
 
-AgroTech es una plataforma digital que permite a los granjeros:
+AgroTech es una plataforma digital que ofrece:
 
-a) Obtener asesorías virtuales con expertos a través de videollamadas (por ejemplo, mediante Google Meet).
+a) A los granjeros: acceso a un catálogo de asesores, asesorías virtuales con asesores a través de videollamadas (mediante Google Meet), y un sistema de gestión de granjas que permite registrar recintos y animales.
 
-b) Gestionar su granja mediante el registro de recintos y animales dentro de cada recinto.
+b) A los asesores: la posibilidad de crear un perfil profesional, gestionar horarios de asesoría y realizar publicaciones sobre servicios de asesoría dentro de la plataforma para ser contactados por granjeros que requieran asistencia especializada.
 
 **3. Licencia de Uso**
 
-AgroTech otorga al usuario una licencia limitada, no exclusiva, intransferible y revocable para acceder y utilizar la plataforma conforme a este acuerdo.
+InnovaTech otorga al usuario una licencia limitada, no exclusiva, intransferible y revocable para acceder y utilizar la plataforma AgroTech conforme a este acuerdo.
 
 **4. Obligaciones del Usuario**
 
-El usuario se compromete a:
+El usuario (granjero y asesor) se compromete a:
 
 - Utilizar la plataforma de forma legal y ética.
-
+- Proporcionar información veraz y actualizada.
 - Mantener la confidencialidad de sus credenciales.
-
 - No vulnerar la seguridad, integridad o disponibilidad del servicio.
+
+Los asesores se comprometen a:
+
+- Publicar únicamente servicios que estén calificados para ofrecer.
+- Mantener la calidad, claridad y veracidad de sus publicaciones.
+- Cumplir con las asesorías acordadas con los granjeros.
+- No ofrecer servicios fraudulentos, inseguros o contrarios a la ley.
 
 **5. Disponibilidad y Soporte**
 
-AgroTech realizará esfuerzos razonables para asegurar la disponibilidad continua del servicio. Sin embargo, no se garantiza un tiempo de actividad del 100%. Se ofrecerá soporte técnico a través de canales oficiales publicados en la plataforma.
+InnovaTech realizará esfuerzos razonables para asegurar la disponibilidad continua del servicio. Sin embargo, no se garantiza un tiempo de actividad del 100%. Se ofrecerá soporte técnico a través de canales oficiales publicados en la plataforma.
 
 **6. Privacidad y Protección de Datos**
 
-AgroTech se compromete a proteger la información personal y operativa de sus usuarios, conforme a la normativa aplicable en materia de protección de datos. La política de privacidad complementa este acuerdo.
+InnovaTech se compromete a proteger la información personal y operativa de sus usuarios, conforme a la normativa aplicable en materia de protección de datos. La política de privacidad complementa este acuerdo.
 
 **7. Propiedad Intelectual**
 
-Todos los derechos sobre el software, diseño, marca y contenidos de AgroTech pertenecen a sus respectivos titulares. El usuario no adquiere ningún derecho sobre el código fuente ni puede reproducirlo, modificarlo o distribuirlo.
+Todos los derechos sobre el software, diseño, marca y contenidos de InnovaTech pertenecen a sus respectivos titulares. El usuario no adquiere ningún derecho sobre el código fuente ni puede reproducirlo, modificarlo o distribuirlo.
 
 **8. Limitación de Responsabilidad**
 
-AgroTech no será responsable por daños derivados del mal uso del servicio, interrupciones no atribuibles a la empresa, o errores derivados del contenido de asesorías brindadas por terceros.
+InnovaTech no se hace responsable por:
+
+- Resultados de las asesorías brindadas por los expertos.
+- Pérdidas por uso incorrecto de la plataforma.
+- Daños causados por terceros no relacionados con AgroTech.
 
 **9. Modificaciones**
 
-AgroTech podrá modificar este Acuerdo en cualquier momento. Los cambios se notificarán mediante publicación en el sitio web o la plataforma. El uso continuado del servicio implica la aceptación de dichos cambios.
+InnovaTech podrá modificar este Acuerdo en cualquier momento. Los cambios se notificarán mediante publicación en el sitio web o la plataforma. El uso continuado del servicio implica la aceptación de dichos cambios.
 
 **10. Terminación del Servicio**
 
-El usuario puede cancelar su cuenta en cualquier momento. AgroTech se reserva el derecho de suspender o eliminar cuentas que violen estos términos, sin previo aviso.
-
+El usuario puede cancelar su cuenta en cualquier momento. InnovaTech se reserva el derecho de suspender o eliminar cuentas que violen estos términos, sin previo aviso.
 
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
