@@ -3993,7 +3993,7 @@ Al registrarse o utilizar AgroTech, el usuario acepta los términos establecidos
 
 AgroTech es una plataforma digital que ofrece:
 
-a) A los granjeros: acceso a un catálogo de asesores, asesorías virtuales con asesores a través de videollamadas (mediante Google Meet), y un sistema de gestión de granjas que permite registrar recintos y animales.
+a) A los granjeros: acceso a un catálogo de asesores, asesorías virtuales con asesores a través de videollamadas (mediante Jitsi Meet), y un sistema de gestión de granjas que permite registrar recintos y animales.
 
 b) A los asesores: la posibilidad de crear un perfil profesional, gestionar horarios de asesoría y realizar publicaciones sobre servicios de asesoría dentro de la plataforma para ser contactados por granjeros que requieran asistencia especializada.
 
