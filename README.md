@@ -41,7 +41,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Abril 2025</b></p>
+<p align="center"><b>Mayo 2025</b></p>
 
 
 # Registro de versiones
@@ -76,6 +76,28 @@
           <li>Capítulo III: Requirements Specification</li>
           <li>Capítulo IV: Product Design</li>
           <li>Capítulo V: Product Implementation</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>TP1</strong></td>
+      <td>14/05/25</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>La Torre Soto, André Sebastián</li>
+          <li>Paredes Puente, Sebastian Roberto</li>
+          <li>Pecan Pariona, Sergio Joel</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo V: Product Implementation</li>
+          <li>Capítulo VI: Product Verification & Validation</li>
+          <li>Capítulo VII: DevOps Practices</li>
         </ul>
       </td>
   </tr>
@@ -4015,6 +4037,29 @@ En el vídeo se proporciona información sobre el producto AgroTech. Se menciona
 _Imagen 208. Video About The Product_
 
 Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERS-UfdGpCZHkg0UmAZPV-IB3-JkXhLcJXp_3o-s8orlvg?e=Qh8htY)
+
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing Suites & Validation
+### 6.1.1. Core Entities Unit Tests
+### 6.1.2. Core Integration Tests
+### 6.1.3. Core Behavior-Driven Development
+### 6.1.4. Core System Tests
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+### 7.1.1. Tools and Practices
+### 7.1.2. Build & Test Suite Pipeline Components
+
+## 7.2. Continuous Delivery
+### 7.2.1. Tools and Practices
+### 7.2.2. Stages Deployment Pipeline Components
+
+## 7.3. Continuous deployment
+### 7.3.1. Tools and Practices
+### 7.3.2. Production Deployment Pipeline Components
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
