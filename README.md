@@ -214,8 +214,8 @@
     - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
     - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
     - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 
 **Part II: Verification, Validation & Pipeline**
@@ -4079,7 +4079,7 @@ _Imagen 205. Evidencia del funcionamiento del backend (Profiles)_
 
 _Imagen 206. Evidencia del funcionamiento del backend (Available Dates)_
 
-### 5.2.6 RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Esta herramienta nos proporciona una interfaz gráfica donde se pueden explorar los diferentes endpoints de la API, ver los parámetros requeridos y las respuestas esperadas.
 
@@ -4087,7 +4087,7 @@ Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Es
 
 _Imagen 207. RESTful API Documentation con Swagger_
 
-### 5.2.7 Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 La colaboración del equipo fue fundamental para el éxito del proyecto. Se utilizó GitHub como plataforma principal para la gestión del código y la documentación. Cada miembro del equipo trabajó en diferentes ramas, lo que permitió un desarrollo paralelo y una integración continua. Además, se realizaron reuniones periódicas para revisar el progreso, discutir problemas y planificar las siguientes etapas del desarrollo.
 
