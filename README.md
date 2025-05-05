@@ -211,8 +211,9 @@
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
@@ -3980,7 +3981,62 @@ _Imagen 199. Evidencia del funcionamiento de la aplicación web (Granjero)_
 
 _Imagen 200. Evidencia del funcionamiento de la aplicación web (Asesor)_
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+A continuación, se muestra el acuerdo de servicio que se encuentra en la aplicación web y móvil. Este acuerdo es un documento legal que establece los términos y condiciones bajo los cuales los usuarios pueden utilizar la aplicación AgroTech. El acuerdo incluye información sobre la propiedad intelectual, la responsabilidad del usuario, la limitación de responsabilidad, la política de privacidad y otros aspectos legales relevantes.
+
+**1. Aceptación del Acuerdo**
+
+Al registrarse o utilizar AgroTech, el usuario acepta los términos establecidos en este Acuerdo de Servicio. Este documento regula el uso de la plataforma SaaS AgroTech, integrada en los presentes Términos y Condiciones.
+
+**2. Descripción del Servicio**
+
+AgroTech es una plataforma digital que permite a los granjeros:
+
+a) Obtener asesorías virtuales con expertos a través de videollamadas (por ejemplo, mediante Google Meet).
+
+b) Gestionar su granja mediante el registro de recintos y animales dentro de cada recinto.
+
+**3. Licencia de Uso**
+
+AgroTech otorga al usuario una licencia limitada, no exclusiva, intransferible y revocable para acceder y utilizar la plataforma conforme a este acuerdo.
+
+**4. Obligaciones del Usuario**
+
+El usuario se compromete a:
+
+- Utilizar la plataforma de forma legal y ética.
+
+- Mantener la confidencialidad de sus credenciales.
+
+- No vulnerar la seguridad, integridad o disponibilidad del servicio.
+
+**5. Disponibilidad y Soporte**
+
+AgroTech realizará esfuerzos razonables para asegurar la disponibilidad continua del servicio. Sin embargo, no se garantiza un tiempo de actividad del 100%. Se ofrecerá soporte técnico a través de canales oficiales publicados en la plataforma.
+
+**6. Privacidad y Protección de Datos**
+
+AgroTech se compromete a proteger la información personal y operativa de sus usuarios, conforme a la normativa aplicable en materia de protección de datos. La política de privacidad complementa este acuerdo.
+
+**7. Propiedad Intelectual**
+
+Todos los derechos sobre el software, diseño, marca y contenidos de AgroTech pertenecen a sus respectivos titulares. El usuario no adquiere ningún derecho sobre el código fuente ni puede reproducirlo, modificarlo o distribuirlo.
+
+**8. Limitación de Responsabilidad**
+
+AgroTech no será responsable por daños derivados del mal uso del servicio, interrupciones no atribuibles a la empresa, o errores derivados del contenido de asesorías brindadas por terceros.
+
+**9. Modificaciones**
+
+AgroTech podrá modificar este Acuerdo en cualquier momento. Los cambios se notificarán mediante publicación en el sitio web o la plataforma. El uso continuado del servicio implica la aceptación de dichos cambios.
+
+**10. Terminación del Servicio**
+
+El usuario puede cancelar su cuenta en cualquier momento. AgroTech se reserva el derecho de suspender o eliminar cuentas que violen estos términos, sin previo aviso.
+
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 La aplicación móvil AgroTech fue desarrollada utilizando Kotlin. Se implementaron funcionalidades como la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La aplicación fue probada en dispositivos Android, asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
 
@@ -3992,7 +4048,7 @@ _Imagen 201. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
 
 _Imagen 202. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
 
-### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Se implementó una API RESTful utilizando Spring Boot, que permite la comunicación entre el frontend y el backend de la aplicación. Esta API incluye varios endpoints para gestionar los recursos necesarios, como usuarios, productos y citas. Para comprobar la implementación de la API, se realizaron solicitudes HTTP a los diferentes endpoints utilizando Swagger, lo que permitió verificar que la API respondía correctamente a las solicitudes y devolvía los datos esperados.
 
