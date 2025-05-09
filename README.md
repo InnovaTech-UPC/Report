@@ -36,6 +36,10 @@
     <td>U20201A938</td>
   </tr>
   <tr>
+    <td>Qqueso Rodriguez, Britney Delhy</td>
+    <td>U20211G671</td>
+  </tr>
+  <tr>
     <td>Salinas Torres, Salvador Antonio</td>
     <td>U20221B127</td>
   </tr>
@@ -435,6 +439,17 @@ _Imagen 1. Logo de AgroTech_
       <p><b>La Torre Soto, André Sebastian</b></p>
       <p>
         Soy André Sebastián La Torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/perfil_britney.jpg" alt="Foto de perfil de Britney" width="400px">
+    </td>
+    <td valign="top">
+      <p><b>Qqueso Rodriguez, Britney Delhy</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona autodidacta, dedicada, creativa y responsable. Cuento con experiencia en liderazgo y trabajo en equipo, y disfruto aprendiendo tanto de las personas como de las tecnologías con las que colaboro. Poseo conocimientos en diversos lenguajes de programación, como Python, HTML, CSS, JavaScript, entre otros.
       </p>
     </td>
   </tr>
