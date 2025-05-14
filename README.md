@@ -4137,6 +4137,12 @@ El éxito de estas pruebas permitió detectar y corregir errores lógicos de man
 Las pruebas de integración se enfocaron en verificar el correcto funcionamiento de los módulos en conjunto, validando las interacciones entre el frontend, backend y servicios externos (APIs). <br />
 Estas pruebas aseguraron que las diferentes partes del sistema se comunican de manera fluida, detectando problemas de integración como errores de formato de datos, tiempos de respuesta o validaciones cruzadas. <br />
 
+Security bounded context <br />
+
+
+
+
+
 ### 6.1.3. Core Behavior-Driven Development
 Se aplicó la metodología Behavior-Driven Development (BDD) para definir y probar los comportamientos esperados del sistema desde la perspectiva del usuario final.
 Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como: <br />
