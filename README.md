@@ -4124,9 +4124,34 @@ Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe
 
 ## 6.1. Testing Suites & Validation
 ### 6.1.1. Core Entities Unit Tests
+Se desarrollaron pruebas unitarias enfocadas en las entidades principales del sistema, incluyendo modelos de datos, clases de lógica de negocio y funciones utilitarias.
+Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades individuales funcionen de forma correcta y coherente con los requisitos funcionales. Se aplicó el principio de test-driven development (TDD) para asegurar cobertura desde las etapas tempranas del desarrollo. <br />
+
+Entre las entidades probadas se encuentran: <br />
+
+
+
+El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo. <br />
+
 ### 6.1.2. Core Integration Tests
+Las pruebas de integración se enfocaron en verificar el correcto funcionamiento de los módulos en conjunto, validando las interacciones entre el frontend, backend y servicios externos (APIs). <br />
+Estas pruebas aseguraron que las diferentes partes del sistema se comunican de manera fluida, detectando problemas de integración como errores de formato de datos, tiempos de respuesta o validaciones cruzadas. <br />
+
 ### 6.1.3. Core Behavior-Driven Development
+Se aplicó la metodología Behavior-Driven Development (BDD) para definir y probar los comportamientos esperados del sistema desde la perspectiva del usuario final.
+Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como: <br />
+
+
+
+Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar tanto la lógica como la experiencia del usuario.
+
+
 ### 6.1.4. Core System Tests
+Se realizaron pruebas de sistema para validar el comportamiento completo de la aplicación tanto en su versión web como móvil. Estas pruebas incluyeron la evaluación de funcionalidades end-to-end (E2E), cubriendo todo el flujo de trabajo del usuario. <br />
+Los escenarios probados incluyeron: <br />
+
+
+Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto. <br />
 
 # Capítulo VII: DevOps Practices
 
