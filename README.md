@@ -4129,17 +4129,88 @@ Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
+
+La integración continua (CI) es una práctica que permite a los desarrolladores integrar cambios frecuentemente en el repositorio compartido. Cada integración es verificada automáticamente mediante pruebas y construcción del software, lo cual reduce errores de integración y permite una validación rápida del código.
+
 ### 7.1.1. Tools and Practices
+
+Para la integración continua, hemos utilizado las siguientes herramientas que nos permiten automatizar el proceso de compilación y validación de nuestro backend desarrollado con Spring Boot:
+
+- GitHub: Es el sistema de control de versiones empleado para gestionar nuestro código fuente. Su integración con Jenkins permite detectar automáticamente nuevos cambios en las ramas del repositorio.
+
+- Maven: Utilizado como herramienta de construcción para compilar el proyecto y gestionar dependencias.
+
+- JUnit: Framework para realizar pruebas unitarias automatizadas del backend.
+
 ### 7.1.2. Build & Test Suite Pipeline Components
 
+El pipeline de integración continua se compone de las siguientes etapas:
+
+- Compilación del proyecto: A través de Maven, se genera el artefacto .jar del backend Spring Boot.
+
+- Ejecución de pruebas unitarias: Se ejecutan automáticamente con JUnit como parte del pipeline.
+
+- Análisis de calidad de código: Se utiliza SonarQube para medir cobertura de pruebas, complejidad y detección de vulnerabilidades.
+
+- Notificación de fallos: Si una etapa falla, Jenkins envía alertas al equipo para su corrección inmediata.
+
 ## 7.2. Continuous Delivery
+
+La entrega continua (CD) asegura que el software siempre esté listo para ser desplegado en producción, aunque el despliegue final requiere una aprobación manual. Se automatizan los entornos de prueba y validación para permitir entregas confiables y repetibles.
+
 ### 7.2.1. Tools and Practices
+
+Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
+
+- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD. Su versatilidad permite a los equipos de desarrollo automatizar procesos clave como la compilación, pruebas y despliegue continuo, lo que mejora la calidad del software y acelera su entrega. Además, ofrece flexibilidad y personalización para adaptarse a distintos entornos de desarrollo.
+
 ### 7.2.2. Stages Deployment Pipeline Components
 
+Los componentes del pipeline de entrega continua incluyen:
+
+- Compilación y empaquetado: Se genera el .jar del backend con Maven.
+
+- Creación de imagen Docker: Se construye una imagen que contiene el backend Spring Boot.
+
+- Publicación de imagen: La imagen se sube al Docker Hub o a un registro privado.
+
+- Despliegue en entorno staging: Jenkins realiza el despliegue automático en un entorno de prueba.
+
+- Testing: Se ejecutan pruebas funcionales básicas para validar el correcto funcionamiento.
+
+- Aprobación manual: Antes de pasar a producción, se requiere validación por parte del equipo.
+
 ## 7.3. Continuous deployment
+
+El despliegue continuo automatiza completamente el paso del software a producción una vez que ha superado todas las pruebas. Esta práctica elimina la intervención humana en el despliegue, asegurando entregas rápidas, constantes y confiables.
+
 ### 7.3.1. Tools and Practices
+
+Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas:
+
+- Sistema de Control de Versiones: Utilizamos Git para llevar un seguimiento y administración del código fuente de la aplicación.
+
+- Pruebas Automatizadas: Incorporamos pruebas automáticas (como pruebas unitarias de integración, de regresión, entre otras) con el objetivo de asegurar que el software cumple con los criterios de calidad antes de ser desplegado.
+
+- Ambientes de Desarrollo y Pruebas: Se mantienen entornos de desarrollo y prueba que replican lo más fielmente posible el entorno de producción, con el fin de evitar inconvenientes al momento del despliegue.
+
+- Pipeline Automatizado de Despliegue: Se implementa un flujo automatizado que contempla etapas como la compilación, ejecución de pruebas y despliegue tanto en entornos de preproducción como en producción.
+
+- Monitoreo y Retroalimentación: Se integran herramientas de monitoreo y registro de logs para observar el rendimiento y la estabilidad de la aplicación en producción, permitiendo detectar y solucionar problemas de manera inmediata.
+
 ### 7.3.2. Production Deployment Pipeline Components
 
+- Compilación (Build): En esta fase, el código fuente se transforma en artefactos listos para ser desplegados en el entorno de producción.
+
+- Pruebas (Testing): Se ejecutan pruebas automatizadas para verificar que la aplicación cumple con los estándares de calidad y que no se han introducido errores nuevos.
+
+- Entorno de Preproducción (Staging): Antes del despliegue final, se realiza una implementación en un entorno de preproducción para llevar a cabo pruebas adicionales y recibir validación por parte de usuarios beta.
+
+- Despliegue en Producción (Production Deployment): El código se lanza al entorno de producción mediante un proceso automatizado.
+
+- Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se supervisa de forma continua el comportamiento y la estabilidad del sistema para detectar y resolver posibles incidencias en tiempo real.
+
+- Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
 
 # Conclusiones
 ## Conclusiones y recomendaciones
