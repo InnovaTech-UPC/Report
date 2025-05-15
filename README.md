@@ -4123,6 +4123,15 @@ Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe
 # Capítulo VI: Product Verification & Validation
 
 ## 6.1. Testing Suites & Validation
+
+Para garantizar la calidad del producto, se implementaron diferentes tipos de pruebas a lo largo del ciclo de desarrollo. Estas pruebas abarcaron desde pruebas unitarias hasta pruebas de sistema, asegurando que cada componente del sistema funcionara correctamente y cumpliese con los requisitos establecidos.
+
+Hasta el momento, se han realizado pruebas que alcanzan una cobertura del 50% en el código de la API RESTful, lo que indica un alto nivel de calidad y fiabilidad en el sistema. Estas pruebas se llevaron a cabo utilizando herramientas como JUnit y Mockito para el backend.
+
+![Coverage Report](img/coverage.png)
+
+_Imagen 209. Coverage Report_
+
 ### 6.1.1. Core Entities Unit Tests
 Se desarrollaron pruebas unitarias enfocadas en las entidades principales del sistema, incluyendo modelos de datos, clases de lógica de negocio y funciones utilitarias.
 Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades individuales funcionen de forma correcta y coherente con los requisitos funcionales. Se aplicó el principio de test-driven development (TDD) para asegurar cobertura desde las etapas tempranas del desarrollo. <br />
@@ -4134,11 +4143,32 @@ Entre las entidades probadas se encuentran: <br />
 El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo. <br />
 
 ### 6.1.2. Core Integration Tests
-Las pruebas de integración se enfocaron en verificar el correcto funcionamiento de los módulos en conjunto, validando las interacciones entre el frontend, backend y servicios externos (APIs). <br />
-Estas pruebas aseguraron que las diferentes partes del sistema se comunican de manera fluida, detectando problemas de integración como errores de formato de datos, tiempos de respuesta o validaciones cruzadas. <br />
+Las pruebas de integración se enfocaron en verificar el correcto funcionamiento de los módulos en conjunto, validando las interacciones entre los repositorios, servicios y controladores de los distintos bounded contexts.
 
-Security bounded context <br />
+Estas pruebas aseguraron que las diferentes partes del sistema se comunican de manera fluida, detectando problemas de integración como errores de validación y gestión de excepciones.
 
+**IAM bounded context**
+Se realizaron pruebas de integración en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
+
+![IAM Integration Tests](img/iam-integration-tests.png)
+_Imagen 2XX. IAM Integration Tests_
+
+Por ejemplo, se validó el proceso de creación de un nuevo usuario y su asignación a un rol específico, asegurando que la información se almacene correctamente en la base de datos.
+
+![IAM Integration Test Example](img/iam-integration-example.png)
+_Imagen 2XX. IAM Integration Test Example_
+
+
+**Management bounded context**
+Se realizaron pruebas de integración en los controladores de Animal y Enclosure, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación, actualización, eliminación y consulta de información de animales y recintos.
+
+![Management Integration Tests](img/management-integration-tests.png)
+_Imagen 2XX. Management Integration Tests_
+
+Por ejemplo, se validó el proceso de creación de un recinto asociado a un granjero, asegurando que la información se almacene correctamente en la base de datos. Asimismo, se hizo un setup de datos inicial para facilitar la ejecución de las pruebas, generando un usuario, un granjero y un token de acceso para que no se requiera un inicio de sesión manual en cada prueba.
+
+![Management Integration Test Example](img/management-integration-example.png)
+_Imagen 2XX. Management Integration Test Example_
 
 
 
@@ -4149,7 +4179,7 @@ Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estru
 
 
 
-Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar tanto la lógica como la experiencia del usuario.
+Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.<br />
 
 
 ### 6.1.4. Core System Tests
