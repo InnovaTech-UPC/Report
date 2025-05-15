@@ -337,12 +337,14 @@
         <p><strong>TB1:</strong> Para esta entrega, participé mayormente en la elaboración del informe en puntos como el registro de entrevistas, el desarrollo del modelo C4 y la revisión de los diversos puntos del entregable para verificar que todo esté de acuerdo a las normativas del trabajo.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
         <p><strong>TB1:</strong> Asumí un rol clave desde las primeras etapas del proyecto, liderando las entrevistas iniciales para entender el contexto de los usuarios. También fui responsable del dimensionamiento del sistema y de establecer la estructura general del proyecto, asegurándome de mantener la coherencia técnica y ética a lo largo del desarrollo.</p>
+        <p><strong>TP:</strong>Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional de garantizar la calidad del sistema mediante la implementación de pruebas unitarias rigurosas.</p>
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
         <p><strong>TP:</strong> En esta entrega parcial, apoyé en el desarollo de las pruebas dentro del Backend, los cuales fueron de mucha utilidad para determinar que nuestra solución esté funcionando de forma esperada, garantizando integridad y seguridad de datos.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, cada integrante aportó desde sus fortalezas para desarrollar una solución sólida, ética y centrada en el usuario. Desde la conducción de entrevistas y el proceso de needfinding, hasta el diseño de wireframes y la arquitectura técnica con modelos C4, demostramos un compromiso compartido con la calidad, la coherencia y el impacto responsable del proyecto. La colaboración efectiva y el enfoque en el usuario guiaron nuestras decisiones, permitiéndonos construir una aplicación funcional y alineada con principios profesionales y éticos de la ingeniería de software.</p>
+      <p><strong>TP1:</strong> Como equipo, demostramos un fuerte compromiso con la responsabilidad ética y profesional durante todo el desarrollo del proyecto. Cada integrante aportó desde su rol, asegurando integridad en la información, calidad técnica y un enfoque centrado en el usuario. La elaboración de pruebas de integración y BDD, junto con la rigurosidad en las pruebas unitarias, garantizaron la confiabilidad y seguridad del sistema.</p>
       </td>
     </tr>
     <tr style="page-break-inside: avoid;">
@@ -357,12 +359,14 @@
         <p><strong>TB1:</strong> Para esta entrega, identifiqué mediante las entrevistas las condiciones reales del entorno y los desafíos que enfrentan los actores involucrados. Con base en esa información, elaboré un modelo C4 que nos permitió visualizar la propuesta en distintos niveles de abstracción, facilitando un análisis crítico sobre cómo nuestro proyecto podría influir en dimensiones como la equidad social, el uso responsable de recursos, el acceso tecnológico y la dinámica económica de las comunidades involucradas.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
         <p><strong>TB1:</strong> Desde el inicio del proyecto, enfoqué mis esfuerzos en comprender el entorno socioeconómico de los usuarios a través de entrevistas y análisis contextual. Esto me permitió dimensionar adecuadamente el sistema y proponer una estructura tecnológica que se alinee con las condiciones reales de las zonas rurales, contribuyendo así a una solución viable, inclusiva y de alto impacto social.</p>
+<p><strong>TP:</strong> Realicé En el proyecto, me encargué de desarrollar y ejecutar pruebas unitarias para validar el comportamiento correcto de los componentes individuales del sistema. Utilicé JUnit 5 y Mockito para asegurar que cada clase y método clave funcionaran de forma aislada, simulando dependencias mediante mocks. Estas pruebas permitieron detectar errores tempranos y garantizar que la lógica de negocio cumpliera con los requisitos establecidos. </p>
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
-        <p><strong>TP:</strong> Realicé la indagación acerca de las herramientas y practicas a utilizar para las DevOps Practices, considerando la integración continua, entrega continua y despliegue continuo.</p>
+        <p><strong>TP:</strong>  Opté por arquitecturas y tecnologías que promueven la escalabilidad y mantenibilidad para asegurar la longevidad del sistema, minimizando así la generación de residuos tecnológicos y costos innecesarios. Además, consideré la accesibilidad y usabilidad para un público diverso, fomentando la inclusión social y el desarrollo sostenible en el sector agrícola.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, demostramos un enfoque crítico y consciente al evaluar el impacto de nuestra solución tecnológica en contextos reales. A través del análisis de entrevistas, diseño accesible y modelado arquitectónico, consideramos factores sociales, económicos y ambientales que afectan directamente a las comunidades rurales. Esto nos permitió diseñar una aplicación viable, inclusiva y sostenible, comprometida con el desarrollo equitativo y con decisiones informadas que buscan generar un cambio positivo en la agricultura local.</p>
+        <p><strong>TP1:</strong> Durante el proyecto, realizamos un análisis profundo del contexto socioeconómico y ambiental de los usuarios, lo cual orientó el diseño y desarrollo de la solución. Consideramos las limitaciones tecnológicas y económicas de las zonas rurales para crear una aplicación accesible, ligera y escalable que promueva prácticas agrícolas sostenibles y fomente la inclusión social. La selección de arquitecturas y tecnologías se enfocó en la eficiencia, mantenibilidad y reducción de residuos tecnológicos.</p>
       </td>
     </tr>
   </tbody>
@@ -4428,6 +4432,9 @@ En primer lugar, este proyecto se ha desarrollado una aplicación móvil en Kotl
 El proceso Lean UX permitió identificar segmentos objetivos, competidores y necesidades clave del mercado. Desde los problem statements hasta el Lean UX canvas, cada etapa fortaleció la agilidad y enfoque del desarrollo de AgroTech.
 
 Además, se implementó un backend robusto utilizando Spring Boot, aplicando principios de diseño como la arquitectura DDD para mantener una estructura modular y escalable. La documentación con Swagger facilitó la comprensión y el consumo de los servicios, mejorando la colaboración entre los miembros del equipo y permitiendo una integración eficiente entre las aplicaciones móvil y web.
+
+En cuanto a la calidad del software, se aplicó una estrategia de testing robusta. Se desarrollaron pruebas unitarias utilizando JUnit 5 y Mockito para verificar el comportamiento de componentes individuales en aislamiento. También se realizaron pruebas de integración para asegurar el correcto funcionamiento entre capas y módulos del sistema, como servicios, repositorios y controladores. Además, se utilizó el enfoque de BDD (Behavior-Driven Development) para validar el sistema desde la perspectiva del usuario, asegurando que se cumplieran los criterios de aceptación definidos para cada historia. Esta combinación de pruebas permitió garantizar la estabilidad, confiabilidad y mantenibilidad del sistema a lo largo de su desarrollo.
+
 
 # Bibliografía
 
