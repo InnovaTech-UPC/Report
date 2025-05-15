@@ -333,6 +333,7 @@
         <p><strong>TP:</strong> Para esta entrega, participé activamente en la elaboración de las pruebas de integración y BDD para validar la funcionalidad del Backend.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
+        <p><strong>TP:</strong> A lo largo de este trabajo, he planteado soluciones tecnológicas centradas en la temática del proyecto. En este proceso, he reconocido mi responsabilidad ética y profesional como futuro ingeniero de software</p>
         <p><strong>La torre Soto, André Sebastian</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé mayormente en la elaboración del informe en puntos como el registro de entrevistas, el desarrollo del modelo C4 y la revisión de los diversos puntos del entregable para verificar que todo esté de acuerdo a las normativas del trabajo.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
@@ -357,6 +358,7 @@
         <p><strong>TP:</strong> Para esta entrega, analicé las herramientas y procesos necesarios para el continuous deployment, delivery y monitoring.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
+        <p><strong>TP:</strong> En esta etapa del proyecto, he explorado e investigado distintas tecnologías como JUnit 5, que podrían ser útiles para nuestra solución. Al hacerlo, he procurado emitir juicios informados, evaluando no solo la viabilidad técnica, sino también el impacto económico, social y ambiental que estas decisiones podrían tener.</p>
         <p><strong>La torre Soto, André Sebastian</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, identifiqué mediante las entrevistas las condiciones reales del entorno y los desafíos que enfrentan los actores involucrados. Con base en esa información, elaboré un modelo C4 que nos permitió visualizar la propuesta en distintos niveles de abstracción, facilitando un análisis crítico sobre cómo nuestro proyecto podría influir en dimensiones como la equidad social, el uso responsable de recursos, el acceso tecnológico y la dinámica económica de las comunidades involucradas.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
