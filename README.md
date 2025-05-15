@@ -36,12 +36,16 @@
     <td>U20201A938</td>
   </tr>
   <tr>
+    <td>Qqueso Rodriguez, Britney Delhy</td>
+    <td>U20211G671</td>
+  </tr>
+  <tr>
     <td>Salinas Torres, Salvador Antonio</td>
     <td>U20221B127</td>
   </tr>
 </table>
 
-<p align="center"><b>Abril 2025</b></p>
+<p align="center"><b>Mayo 2025</b></p>
 
 
 # Registro de versiones
@@ -76,6 +80,29 @@
           <li>Capítulo III: Requirements Specification</li>
           <li>Capítulo IV: Product Design</li>
           <li>Capítulo V: Product Implementation</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>TP1</strong></td>
+      <td>14/05/25</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>La Torre Soto, André Sebastián</li>
+          <li>Paredes Puente, Sebastian Roberto</li>
+          <li>Pecan Pariona, Sergio Joel</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Qqueso Rodriguez, Britney Delhy</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>Capítulo III: Requirements Specification</li>
+          <li>Capítulo V: Product Implementation</li>
+          <li>Capítulo VI: Product Verification & Validation</li>
+          <li>Capítulo VII: DevOps Practices</li>
         </ul>
       </td>
   </tr>
@@ -189,10 +216,11 @@
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+    - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 
 **Part II: Verification, Validation & Pipeline**
@@ -302,17 +330,24 @@
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
+        <p><strong>TP:</strong> Para esta entrega, participé activamente en la elaboración de las pruebas de integración y BDD para validar la funcionalidad del Backend.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
+        <p><strong>TP:</strong> A lo largo de este trabajo, he planteado soluciones tecnológicas centradas en la temática del proyecto. En este proceso, he reconocido mi responsabilidad ética y profesional como futuro ingeniero de software</p>
         <p><strong>La torre Soto, André Sebastian</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé mayormente en la elaboración del informe en puntos como el registro de entrevistas, el desarrollo del modelo C4 y la revisión de los diversos puntos del entregable para verificar que todo esté de acuerdo a las normativas del trabajo.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
         <p><strong>TB1:</strong> Asumí un rol clave desde las primeras etapas del proyecto, liderando las entrevistas iniciales para entender el contexto de los usuarios. También fui responsable del dimensionamiento del sistema y de establecer la estructura general del proyecto, asegurándome de mantener la coherencia técnica y ética a lo largo del desarrollo.</p>
+        <p><strong>TP:</strong> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional de garantizar la calidad del sistema mediante la implementación de pruebas unitarias rigurosas.</p>
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
+        <p><strong>TP:</strong> En esta entrega parcial, apoyé en el desarollo de las pruebas dentro del Backend, los cuales fueron de mucha utilidad para determinar que nuestra solución esté funcionando de forma esperada, garantizando integridad y seguridad de datos.</p>
+        <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
+        <p><strong>TP:</strong> En esta entrega, asumí una participación activa en la redacción del informe técnico, asegurando una comunicación clara y profesional. Asimismo, colaboré en el desarrollo y ejecución de pruebas en el Backend, respetando los principios éticos de calidad y responsabilidad en el proceso de validación del software.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, cada integrante aportó desde sus fortalezas para desarrollar una solución sólida, ética y centrada en el usuario. Desde la conducción de entrevistas y el proceso de needfinding, hasta el diseño de wireframes y la arquitectura técnica con modelos C4, demostramos un compromiso compartido con la calidad, la coherencia y el impacto responsable del proyecto. La colaboración efectiva y el enfoque en el usuario guiaron nuestras decisiones, permitiéndonos construir una aplicación funcional y alineada con principios profesionales y éticos de la ingeniería de software.</p>
+      <p><strong>TP1:</strong> Como equipo, demostramos un fuerte compromiso con la responsabilidad ética y profesional durante todo el desarrollo del proyecto. Cada integrante aportó desde su rol, asegurando integridad en la información, calidad técnica y un enfoque centrado en el usuario. La elaboración de pruebas de integración y BDD, junto con la rigurosidad en las pruebas unitarias, garantizaron la confiabilidad y seguridad del sistema.</p>
       </td>
     </tr>
     <tr style="page-break-inside: avoid;">
@@ -320,17 +355,24 @@
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé el impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
+        <p><strong>TP:</strong> Para esta entrega, analicé las herramientas y procesos necesarios para el continuous deployment, delivery y monitoring.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
+        <p><strong>TP:</strong> En esta etapa del proyecto, he explorado e investigado distintas tecnologías como JUnit 5, que podrían ser útiles para nuestra solución. Al hacerlo, he procurado emitir juicios informados, evaluando no solo la viabilidad técnica, sino también el impacto económico, social y ambiental que estas decisiones podrían tener.</p>
         <p><strong>La torre Soto, André Sebastian</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, identifiqué mediante las entrevistas las condiciones reales del entorno y los desafíos que enfrentan los actores involucrados. Con base en esa información, elaboré un modelo C4 que nos permitió visualizar la propuesta en distintos niveles de abstracción, facilitando un análisis crítico sobre cómo nuestro proyecto podría influir en dimensiones como la equidad social, el uso responsable de recursos, el acceso tecnológico y la dinámica económica de las comunidades involucradas.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
         <p><strong>TB1:</strong> Desde el inicio del proyecto, enfoqué mis esfuerzos en comprender el entorno socioeconómico de los usuarios a través de entrevistas y análisis contextual. Esto me permitió dimensionar adecuadamente el sistema y proponer una estructura tecnológica que se alinee con las condiciones reales de las zonas rurales, contribuyendo así a una solución viable, inclusiva y de alto impacto social.</p>
+        <p><strong>TP:</strong> Realicé En el proyecto, me encargué de desarrollar y ejecutar pruebas unitarias para validar el comportamiento correcto de los componentes individuales del sistema. Utilicé JUnit 5 y Mockito para asegurar que cada clase y método clave funcionaran de forma aislada, simulando dependencias mediante mocks. Estas pruebas permitieron detectar errores tempranos y garantizar que la lógica de negocio cumpliera con los requisitos establecidos. </p>
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
+        <p><strong>TP:</strong>  Realicé la indagación acerca de las herramientas y practicas a utilizar para las DevOps Practices, considerando la integración continua, entrega continua y despliegue continuo.</p>
+        <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
+        <p><strong>TP:</strong>  En esta entrega, realicé el análisis y la selección de herramientas y procesos adecuados para implementar las pruebas, considerando su viabilidad técnica y su impacto en el rendimiento del sistema, la eficiencia operativa y la sostenibilidad del proyecto en distintos contextos sociales y económicos.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, demostramos un enfoque crítico y consciente al evaluar el impacto de nuestra solución tecnológica en contextos reales. A través del análisis de entrevistas, diseño accesible y modelado arquitectónico, consideramos factores sociales, económicos y ambientales que afectan directamente a las comunidades rurales. Esto nos permitió diseñar una aplicación viable, inclusiva y sostenible, comprometida con el desarrollo equitativo y con decisiones informadas que buscan generar un cambio positivo en la agricultura local.</p>
+        <p><strong>TP1:</strong> Durante el proyecto, realizamos un análisis profundo del contexto socioeconómico y ambiental de los usuarios, lo cual orientó el diseño y desarrollo de la solución. Consideramos las limitaciones tecnológicas y económicas de las zonas rurales para crear una aplicación accesible, ligera y escalable que promueva prácticas agrícolas sostenibles y fomente la inclusión social. La selección de arquitecturas y tecnologías se enfocó en la eficiencia, mantenibilidad y reducción de residuos tecnológicos.</p>
       </td>
     </tr>
   </tbody>
@@ -412,6 +454,17 @@ _Imagen 1. Logo de AgroTech_
       <p><b>La Torre Soto, André Sebastian</b></p>
       <p>
         Soy André Sebastián La Torre Soto, actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Durante mi transcurso en la universidad he logrado aprender acerca de varios lenguajes y herramientas como pueden ser Python, C++, JavaScript, SQL, desarrollo web y móvil. Elegí esta carrera por mi afinidad con las matemáticas y las nuevas tecnologías. Soy alguien que disfruta el aprender y mejorar lo aprendido, a pesar de que esto a veces resulte difícil. Espero poder aportar de manera positiva en este grupo para que juntos todos podamos alcanzar nuestras metas.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="img/perfil_britney.jpg" alt="Foto de perfil de Britney" width="400px">
+    </td>
+    <td valign="top">
+      <p><b>Qqueso Rodriguez, Britney Delhy</b></p>
+      <p>
+        Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona autodidacta, dedicada, creativa y responsable. Cuento con experiencia en liderazgo y trabajo en equipo, y disfruto aprendiendo tanto de las personas como de las tecnologías con las que colaboro. Poseo conocimientos en diversos lenguajes de programación, como Python, HTML, CSS, JavaScript, entre otros.
       </p>
     </td>
   </tr>
@@ -3958,7 +4011,71 @@ _Imagen 199. Evidencia del funcionamiento de la aplicación web (Granjero)_
 
 _Imagen 200. Evidencia del funcionamiento de la aplicación web (Asesor)_
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+A continuación, se muestra el acuerdo de servicio que se encuentra en la aplicación web y móvil. Este acuerdo es un documento legal que establece los términos y condiciones bajo los cuales los usuarios pueden utilizar la aplicación AgroTech. El acuerdo incluye información sobre la propiedad intelectual, la responsabilidad del usuario, la limitación de responsabilidad, la política de privacidad y otros aspectos legales relevantes.
+
+**1. Aceptación del Acuerdo**
+
+Al registrarse o utilizar AgroTech, el usuario acepta los términos establecidos en este Acuerdo de Servicio. Este documento regula el uso de la plataforma SaaS AgroTech, integrada en los presentes Términos y Condiciones.
+
+**2. Descripción del Servicio**
+
+AgroTech es una plataforma digital que ofrece:
+
+a) A los granjeros: acceso a un catálogo de asesores, asesorías virtuales con asesores a través de videollamadas (mediante Jitsi Meet), y un sistema de gestión de granjas que permite registrar recintos y animales.
+
+b) A los asesores: la posibilidad de crear un perfil profesional, gestionar horarios de asesoría y realizar publicaciones sobre servicios de asesoría dentro de la plataforma para ser contactados por granjeros que requieran asistencia especializada.
+
+**3. Licencia de Uso**
+
+InnovaTech otorga al usuario una licencia limitada, no exclusiva, intransferible y revocable para acceder y utilizar la plataforma AgroTech conforme a este acuerdo.
+
+**4. Obligaciones del Usuario**
+
+El usuario (granjero y asesor) se compromete a:
+
+- Utilizar la plataforma de forma legal y ética.
+- Proporcionar información veraz y actualizada.
+- Mantener la confidencialidad de sus credenciales.
+- No vulnerar la seguridad, integridad o disponibilidad del servicio.
+
+Los asesores se comprometen a:
+
+- Publicar únicamente servicios que estén calificados para ofrecer.
+- Mantener la calidad, claridad y veracidad de sus publicaciones.
+- Cumplir con las asesorías acordadas con los granjeros.
+- No ofrecer servicios fraudulentos, inseguros o contrarios a la ley.
+
+**5. Disponibilidad y Soporte**
+
+InnovaTech realizará esfuerzos razonables para asegurar la disponibilidad continua del servicio. Sin embargo, no se garantiza un tiempo de actividad del 100%. Se ofrecerá soporte técnico a través de canales oficiales publicados en la plataforma.
+
+**6. Privacidad y Protección de Datos**
+
+InnovaTech se compromete a proteger la información personal y operativa de sus usuarios, conforme a la normativa aplicable en materia de protección de datos. La política de privacidad complementa este acuerdo.
+
+**7. Propiedad Intelectual**
+
+Todos los derechos sobre el software, diseño, marca y contenidos de InnovaTech pertenecen a sus respectivos titulares. El usuario no adquiere ningún derecho sobre el código fuente ni puede reproducirlo, modificarlo o distribuirlo.
+
+**8. Limitación de Responsabilidad**
+
+InnovaTech no se hace responsable por:
+
+- Resultados de las asesorías brindadas por los expertos.
+- Pérdidas por uso incorrecto de la plataforma.
+- Daños causados por terceros no relacionados con AgroTech.
+
+**9. Modificaciones**
+
+InnovaTech podrá modificar este Acuerdo en cualquier momento. Los cambios se notificarán mediante publicación en el sitio web o la plataforma. El uso continuado del servicio implica la aceptación de dichos cambios.
+
+**10. Terminación del Servicio**
+
+El usuario puede cancelar su cuenta en cualquier momento. InnovaTech se reserva el derecho de suspender o eliminar cuentas que violen estos términos, sin previo aviso.
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 La aplicación móvil AgroTech fue desarrollada utilizando Kotlin. Se implementaron funcionalidades como la gestión de citas, la visualización del catálogo de asesores, la gestión de publicaciones y la gestión del perfil del usuario. La aplicación fue probada en dispositivos Android, asegurando su correcto funcionamiento y adaptabilidad a diferentes tamaños de pantalla.
 
@@ -3970,7 +4087,7 @@ _Imagen 201. Evidencia del funcionamiento de la aplicación móvil (Granjero)_
 
 _Imagen 202. Evidencia del funcionamiento de la aplicación móvil (Asesor)_
 
-### 5.2.5 Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 Se implementó una API RESTful utilizando Spring Boot, que permite la comunicación entre el frontend y el backend de la aplicación. Esta API incluye varios endpoints para gestionar los recursos necesarios, como usuarios, productos y citas. Para comprobar la implementación de la API, se realizaron solicitudes HTTP a los diferentes endpoints utilizando Swagger, lo que permitió verificar que la API respondía correctamente a las solicitudes y devolvía los datos esperados.
 
@@ -3992,7 +4109,7 @@ _Imagen 205. Evidencia del funcionamiento del backend (Profiles)_
 
 _Imagen 206. Evidencia del funcionamiento del backend (Available Dates)_
 
-### 5.2.6 RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Esta herramienta nos proporciona una interfaz gráfica donde se pueden explorar los diferentes endpoints de la API, ver los parámetros requeridos y las respuestas esperadas.
 
@@ -4000,7 +4117,7 @@ Para la documentación de la API RESTful, se utilizó la herramienta Swagger. Es
 
 _Imagen 207. RESTful API Documentation con Swagger_
 
-### 5.2.7 Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 La colaboración del equipo fue fundamental para el éxito del proyecto. Se utilizó GitHub como plataforma principal para la gestión del código y la documentación. Cada miembro del equipo trabajó en diferentes ramas, lo que permitió un desarrollo paralelo y una integración continua. Además, se realizaron reuniones periódicas para revisar el progreso, discutir problemas y planificar las siguientes etapas del desarrollo.
 
@@ -4016,6 +4133,303 @@ _Imagen 208. Video About The Product_
 
 Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERS-UfdGpCZHkg0UmAZPV-IB3-JkXhLcJXp_3o-s8orlvg?e=Qh8htY)
 
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing Suites & Validation
+
+Para garantizar la calidad del producto, se implementaron diferentes tipos de pruebas a lo largo del ciclo de desarrollo. Estas pruebas abarcaron desde pruebas unitarias hasta pruebas de sistema, asegurando que cada componente del sistema funcionara correctamente y cumpliese con los requisitos establecidos.
+
+Hasta el momento, se han realizado pruebas que alcanzan una cobertura del 50% en el código de la API RESTful, lo que indica un alto nivel de calidad y fiabilidad en el sistema. Estas pruebas se llevaron a cabo utilizando herramientas como JUnit y Mockito para el backend.
+
+![Coverage Report](img/coverage.png)
+
+_Imagen 209. Coverage Report_
+
+### 6.1.1. Core Entities Unit Tests
+Se desarrollaron pruebas unitarias enfocadas en las entidades principales del sistema, incluyendo modelos de datos, clases de lógica de negocio y funciones utilitarias.
+Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades individuales funcionen de forma correcta y coherente con los requisitos funcionales. Se aplicó el principio de test-driven development (TDD) para asegurar cobertura desde las etapas tempranas del desarrollo. <br />
+
+Entre las entidades probadas se encuentran: <br />
+
+# Resumen de pruebas unitarias en Agrotech API
+
+Las pruebas implementadas en los distintos módulos del proyecto utilizan principalmente **JUnit 5** para la ejecución de tests y **Mockito** para la simulación (mocking) de dependencias externas como repositorios, servicios y entidades relacionadas. En algunos casos, también se emplea la validación con **Jakarta Validation** y se integran pruebas de eventos con **Spring Boot Test**.
+
+![Unit Tests](img/unit-tests.png)
+
+_Imagen 210. Unit Tests_
+
+## 1. Pruebas de comandos y servicios de dominio
+
+- **PostCommandServiceImplTest**  
+  Verifica que un post se cree correctamente con un comando válido y un advisor existente. Asegura la correcta interacción con repositorios y servicios externos.
+
+- **EnclosureCommandServiceImplTest y EnclosureTest**  
+  Validan la creación de un enclosure con datos válidos y también con valores nulos, asegurando que el objeto se construye correctamente y maneja valores nulos sin fallos. Comprueba la inicialización adecuada de listas internas como la de animales.
+
+- **AnimalCommandServiceImplTest**  
+  Confirma que un animal puede ser creado cuando el enclosure existe y que la persistencia retorna el ID esperado.
+
+**Ejemplo: Prueba para el command service de animal**
+
+![Animal Command Service Test](img/animal-command-service-test.png)
+
+_Imagen 211. Animal Command Service Test_
+
+## 2. Pruebas de modelo y validación
+
+- **RoleTest**  
+  Asegura la correcta conversión entre strings y enums para roles, validando tanto entradas válidas como inválidas (nulos), y que se lance la excepción adecuada ante errores.
+
+- **UserTest**  
+  Verifica que al crear un usuario las colecciones internas se inicializan vacías y que la validación de formato de username (email) funciona correctamente, detectando violaciones cuando corresponde.
+
+**Ejemplo: Prueba para el usuario**
+
+![User Test](img/user-test.png)
+
+_Imagen 212. User Test_
+
+## 3. Pruebas de consulta y eventos
+
+- **RoleQueryServiceImplTest**  
+  Comprueba que la consulta de roles retorna todos los roles existentes, incluso cuando se recibe un parámetro nulo.
+
+- **ApplicationReadyEventHandlerTest**  
+  Simula el evento de inicio de la aplicación para verificar que se llama al servicio encargado de crear roles iniciales (seed). También prueba la propagación correcta de excepciones en caso de error.
+
+**Ejemplo: Prueba para ApplicationReadyEventHandler**
+
+![Application Ready Event Handler Test](img/application-ready-event-handler-test.png)
+
+_Imagen 213. Application Ready Event Handler Test_
+
+## 4. Pruebas de dominio de citas y notificaciones
+
+- **CreateNotificationByAppointmentCancelledTest**  
+  Valida la creación correcta de un evento de notificación cuando una cita es cancelada.
+
+- **AvailableDateTest y AppointmentTest**  
+  Garantizan que la creación de fechas disponibles y citas asigna los atributos correctos y establece estados iniciales adecuados como AVAILABLE y PENDING.
+
+- **AppointmentDeletedEventHandlerTest**  
+  Verifica que al eliminar una cita se actualice el estado de la fecha disponible y se cree la notificación correspondiente para el usuario.
+
+- **ReviewCommandServiceImplTest**  
+  Asegura que la creación de una review actualiza correctamente el rating del advisor y persiste los datos como se espera.
+
+- **AvailableDateCommandServiceImplTest**  
+  Comprueba que cuando el advisor no existe al crear una fecha disponible, se lanza la excepción `AdvisorNotFoundException` y no se persiste la entidad.
+
+**Ejemplo: Prueba para el Appointment**
+
+![Appointment Test](img/appointment-test.png)
+
+_Imagen 214. Appointment Test_
+
+## Objetivos clave de las pruebas unitarias
+
+- Asegurar la correcta creación y persistencia de entidades clave (posts, enclosures, animales, citas, roles, reviews).  
+- Validar el comportamiento correcto ante entradas válidas e inválidas, incluyendo manejo de excepciones.  
+- Confirmar la integración y comunicación entre servicios, repositorios y eventos del sistema.  
+- Garantizar la robustez y estabilidad del backend frente a condiciones de error y casos límites.  
+
+
+El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo.
+
+
+### 6.1.2. Core Integration Tests
+
+Las pruebas de integración se enfocaron en verificar el correcto funcionamiento de los módulos en conjunto, validando las interacciones entre los repositorios, servicios y controladores de los distintos bounded contexts.
+
+Estas pruebas aseguraron que las diferentes partes del sistema se comunican de manera fluida, detectando problemas de integración como errores de validación y gestión de excepciones.
+
+**IAM bounded context**
+
+Se realizaron pruebas de integración en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
+
+![IAM Integration Tests](img/iam-integration-tests.png)
+
+_Imagen 215. IAM Integration Tests_
+
+Por ejemplo, se validó el proceso de creación de un nuevo usuario y su asignación a un rol específico, asegurando que la información se almacene correctamente en la base de datos.
+
+![IAM Integration Test Example](img/iam-integration-example.png)
+
+_Imagen 216. IAM Integration Test Example_
+
+
+**Management bounded context**
+Se realizaron pruebas de integración en los controladores de Animal y Enclosure, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación, actualización, eliminación y consulta de información de animales y recintos.
+
+![Management Integration Tests](img/management-integration-tests.png)
+
+_Imagen 217. Management Integration Tests_
+
+Por ejemplo, se validó el proceso de creación de un recinto asociado a un granjero, asegurando que la información se almacene correctamente en la base de datos. Asimismo, se hizo un setup de datos inicial para facilitar la ejecución de las pruebas, generando un usuario, un granjero y un token de acceso para que no se requiera un inicio de sesión manual en cada prueba.
+
+![Management Integration Test Example](img/management-integration-example.png)
+
+_Imagen 218. Management Integration Test Example_
+
+
+### 6.1.3. Core Behavior-Driven Development
+
+Se aplicó la metodología Behavior-Driven Development (BDD) para definir y probar los comportamientos esperados del sistema desde la perspectiva del usuario final.
+
+Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como:
+
+**US01**
+
+![us01.feature](img/us01.feature.png)
+
+_Imagen 219. US01_
+
+**US04**
+
+![us04.feature](img/us04.feature.png)
+
+_Imagen 220. US04_
+
+**US09**
+
+![us09.feature](img/us09.feature.png)
+
+_Imagen 221. US09_
+
+**US10**
+
+![us010.feature](img/us10.feature.png)
+
+_Imagen 222. US10_
+
+
+Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.
+
+![BDD Tests](img/bdd-tests.png)
+
+_Imagen 223. BDD Tests_
+
+En este caso, se realizaron pruebas de comportamiento en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
+
+**Prueba para US01**
+
+![US01 Steps](img/us01-steps.png)
+
+_Imagen 224. US01 Steps_
+
+**Prueba para US04**
+
+![US04 Steps](img/us04-steps.png)
+
+_Imagen 225. US04 Steps_
+
+**Prueba para US09**
+
+![US09 Steps](img/us09-steps.png)
+
+_Imagen 226. US09 Steps_
+
+**Prueba para US10**
+
+![US10 Steps](img/us10-steps.png)
+
+_Imagen 227. US10 Steps_
+
+
+### 6.1.4. Core System Tests
+
+Se realizaron pruebas de sistema para validar el comportamiento completo de la aplicación tanto en su versión web como móvil. Estas pruebas incluyeron la evaluación de funcionalidades end-to-end (E2E), cubriendo todo el flujo de trabajo del usuario.
+
+
+Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto.
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+La integración continua (CI) es una práctica que permite a los desarrolladores integrar cambios frecuentemente en el repositorio compartido. Cada integración es verificada automáticamente mediante pruebas y construcción del software, lo cual reduce errores de integración y permite una validación rápida del código.
+
+### 7.1.1. Tools and Practices
+
+Para la integración continua, hemos utilizado las siguientes herramientas que nos permiten automatizar el proceso de compilación y validación de nuestro backend desarrollado con Spring Boot:
+
+- GitHub: Es el sistema de control de versiones empleado para gestionar nuestro código fuente. Su integración con Jenkins permite detectar automáticamente nuevos cambios en las ramas del repositorio.
+
+- Maven: Utilizado como herramienta de construcción para compilar el proyecto y gestionar dependencias.
+
+- JUnit: Framework para realizar pruebas unitarias automatizadas del backend.
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+El pipeline de integración continua se compone de las siguientes etapas:
+
+- Compilación del proyecto: A través de Maven, se genera el artefacto .jar del backend Spring Boot.
+
+- Ejecución de pruebas unitarias: Se ejecutan automáticamente con JUnit como parte del pipeline.
+
+- Análisis de calidad de código: Se utiliza SonarQube para medir cobertura de pruebas, complejidad y detección de vulnerabilidades.
+
+- Notificación de fallos: Si una etapa falla, Jenkins envía alertas al equipo para su corrección inmediata.
+
+## 7.2. Continuous Delivery
+
+La entrega continua (CD) asegura que el software siempre esté listo para ser desplegado en producción, aunque el despliegue final requiere una aprobación manual. Se automatizan los entornos de prueba y validación para permitir entregas confiables y repetibles.
+
+### 7.2.1. Tools and Practices
+
+Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
+
+- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD. Su versatilidad permite a los equipos de desarrollo automatizar procesos clave como la compilación, pruebas y despliegue continuo, lo que mejora la calidad del software y acelera su entrega. Además, ofrece flexibilidad y personalización para adaptarse a distintos entornos de desarrollo.
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+Los componentes del pipeline de entrega continua incluyen:
+
+- Compilación y empaquetado: Se genera el .jar del backend con Maven.
+
+- Creación de imagen Docker: Se construye una imagen que contiene el backend Spring Boot.
+
+- Publicación de imagen: La imagen se sube al Docker Hub o a un registro privado.
+
+- Despliegue en entorno staging: Jenkins realiza el despliegue automático en un entorno de prueba.
+
+- Testing: Se ejecutan pruebas funcionales básicas para validar el correcto funcionamiento.
+
+- Aprobación manual: Antes de pasar a producción, se requiere validación por parte del equipo.
+
+## 7.3. Continuous deployment
+
+El despliegue continuo automatiza completamente el paso del software a producción una vez que ha superado todas las pruebas. Esta práctica elimina la intervención humana en el despliegue, asegurando entregas rápidas, constantes y confiables.
+
+### 7.3.1. Tools and Practices
+
+Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas:
+
+- Sistema de control de versiones: Utilizamos Git para llevar un seguimiento y administración del código fuente de la aplicación.
+
+- Pruebas automatizadas: Incorporamos pruebas automáticas (como pruebas unitarias de integración, de regresión, entre otras) con el objetivo de asegurar que el software cumple con los criterios de calidad antes de ser desplegado.
+
+- Ambientes de desarrollo y pruebas: Se mantienen entornos de desarrollo y prueba que replican lo más fielmente posible el entorno de producción, con el fin de evitar inconvenientes al momento del despliegue.
+
+- Pipeline automatizado de despliegue: Se implementa un flujo automatizado que contempla etapas como la compilación, ejecución de pruebas y despliegue tanto en entornos de preproducción como en producción.
+
+- Monitoreo y retroalimentación: Se integran herramientas de monitoreo y registro de logs para observar el rendimiento y la estabilidad de la aplicación en producción, permitiendo detectar y solucionar problemas de manera inmediata.
+
+### 7.3.2. Production Deployment Pipeline Components
+
+- Compilación (Build): En esta fase, el código fuente se transforma en artefactos listos para ser desplegados en el entorno de producción.
+
+- Pruebas (Testing): Se ejecutan pruebas automatizadas para verificar que la aplicación cumple con los estándares de calidad y que no se han introducido errores nuevos.
+
+- Entorno de Preproducción (Staging): Antes del despliegue final, se realiza una implementación en un entorno de preproducción para llevar a cabo pruebas adicionales y recibir validación por parte de usuarios beta.
+
+- Despliegue en Producción (Production Deployment): El código se lanza al entorno de producción mediante un proceso automatizado.
+
+- Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se supervisa de forma continua el comportamiento y la estabilidad del sistema para detectar y resolver posibles incidencias en tiempo real.
+
+- Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 
@@ -4024,6 +4438,9 @@ En primer lugar, este proyecto se ha desarrollado una aplicación móvil en Kotl
 El proceso Lean UX permitió identificar segmentos objetivos, competidores y necesidades clave del mercado. Desde los problem statements hasta el Lean UX canvas, cada etapa fortaleció la agilidad y enfoque del desarrollo de AgroTech.
 
 Además, se implementó un backend robusto utilizando Spring Boot, aplicando principios de diseño como la arquitectura DDD para mantener una estructura modular y escalable. La documentación con Swagger facilitó la comprensión y el consumo de los servicios, mejorando la colaboración entre los miembros del equipo y permitiendo una integración eficiente entre las aplicaciones móvil y web.
+
+En cuanto a la calidad del software, se aplicó una estrategia de testing robusta. Se desarrollaron pruebas unitarias utilizando JUnit 5 y Mockito para verificar el comportamiento de componentes individuales en aislamiento. También se realizaron pruebas de integración para asegurar el correcto funcionamiento entre capas y módulos del sistema, como servicios, repositorios y controladores. Además, se utilizó el enfoque de BDD (Behavior-Driven Development) para validar el sistema desde la perspectiva del usuario, asegurando que se cumplieran los criterios de aceptación definidos para cada historia. Esta combinación de pruebas permitió garantizar la estabilidad, confiabilidad y mantenibilidad del sistema a lo largo de su desarrollo.
+
 
 # Bibliografía
 
