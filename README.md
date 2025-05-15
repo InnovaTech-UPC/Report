@@ -341,6 +341,8 @@
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
         <p><strong>TP:</strong> En esta entrega parcial, apoyé en el desarollo de las pruebas dentro del Backend, los cuales fueron de mucha utilidad para determinar que nuestra solución esté funcionando de forma esperada, garantizando integridad y seguridad de datos.</p>
+        <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
+        <p><strong>TP:</strong> En esta entrega, asumí una participación activa en la redacción del informe técnico, asegurando una comunicación clara y profesional. Asimismo, colaboré en el desarrollo y ejecución de pruebas en el Backend, respetando los principios éticos de calidad y responsabilidad en el proceso de validación del software.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, cada integrante aportó desde sus fortalezas para desarrollar una solución sólida, ética y centrada en el usuario. Desde la conducción de entrevistas y el proceso de needfinding, hasta el diseño de wireframes y la arquitectura técnica con modelos C4, demostramos un compromiso compartido con la calidad, la coherencia y el impacto responsable del proyecto. La colaboración efectiva y el enfoque en el usuario guiaron nuestras decisiones, permitiéndonos construir una aplicación funcional y alineada con principios profesionales y éticos de la ingeniería de software.</p>
@@ -363,6 +365,8 @@
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
         <p><strong>TP:</strong>  Realicé la indagación acerca de las herramientas y practicas a utilizar para las DevOps Practices, considerando la integración continua, entrega continua y despliegue continuo.</p>
+        <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
+        <p><strong>TP:</strong>  En esta entrega, realicé el análisis y la selección de herramientas y procesos adecuados para implementar las pruebas, considerando su viabilidad técnica y su impacto en el rendimiento del sistema, la eficiencia operativa y la sostenibilidad del proyecto en distintos contextos sociales y económicos.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, demostramos un enfoque crítico y consciente al evaluar el impacto de nuestra solución tecnológica en contextos reales. A través del análisis de entrevistas, diseño accesible y modelado arquitectónico, consideramos factores sociales, económicos y ambientales que afectan directamente a las comunidades rurales. Esto nos permitió diseñar una aplicación viable, inclusiva y sostenible, comprometida con el desarrollo equitativo y con decisiones informadas que buscan generar un cambio positivo en la agricultura local.</p>
