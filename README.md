@@ -4138,37 +4138,80 @@ Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades i
 
 Entre las entidades probadas se encuentran: <br />
 
-<hr></hr>
-Archivo: src/test/java/com/agrotech/api/post/application/internal/commandservices/PostCommandServiceImplTest.java
-test_handle_create_post_command_with_valid_advisor_returns_post_id Esta prueba verifica que el método handle de PostCommandServiceImpl puede crear correctamente un post cuando se le proporciona un CreatePostCommand con un ID de advisor válido. Utiliza Mockito para simular (mock) el repositorio de posts y el servicio externo de perfiles, asegurando que el advisor existe. Luego, simula la persistencia del post y comprueba que el ID retornado es el esperado. Se valida que se llamen los métodos de los mocks y que la integración entre el servicio y los repositorios funcione como se espera. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/management/domain/model/aggregates/EnclosureTest.java
-test_create_enclosure_with_valid_command Verifica que al crear un objeto Enclosure usando un comando válido y un objeto Farmer simulado, todos los atributos del enclosure se asignan correctamente y la lista de animales se inicializa vacía. Se usan mocks para simular las dependencias y se comprueba el estado del objeto tras la construcción. Tecnologías: JUnit 5, Mockito.  test_create_enclosure_with_null_values Comprueba que si el comando de creación tiene valores nulos, los atributos del enclosure también quedan en null y la lista de animales sigue vacía. Esto asegura que el constructor maneja correctamente valores nulos. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/management/application/internal/commandservices/EnclosureCommandServiceImplTest.java
-test_handle_create_enclosure_command_returns_enclosure_id Verifica que el método handle de EnclosureCommandServiceImpl puede crear un enclosure correctamente cuando se le pasa un comando válido. Simula la búsqueda del farmer y la persistencia del enclosure usando Mockito, y comprueba que el ID retornado es el correcto. También valida que los métodos de los repositorios sean invocados. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/management/application/internal/commandservices/AnimalCommandServiceImplTest.java
-test_handle_create_animal_command_with_valid_data_returns_animal_id Esta prueba asegura que el servicio puede crear un animal correctamente cuando el enclosure existe. Se simulan los repositorios y se verifica que el animal se guarda y se retorna el ID esperado. Se comprueba la interacción entre el servicio y los repositorios. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/iam/domain/model/entities/RoleTest.java
-test_valid_role_name_conversion Verifica que se puede crear un objeto Role a partir de un nombre de rol válido (como string) y que el valor del enum es el esperado. Esto asegura la conversión correcta entre string y enum. Tecnologías: JUnit 5.  test_null_role_name_throws_exception Comprueba que si se intenta crear un Role con un nombre nulo, se lanza la excepción InvalidRoleException. Esto valida la robustez ante entradas inválidas. Tecnologías: JUnit 5.  test_create_role_with_valid_enum_value Verifica que al crear un Role usando directamente un valor del enum, los atributos se asignan correctamente y el nombre string es el esperado. Tecnologías: JUnit 5.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/iam/domain/model/aggregates/UserTest.java
-test_user_constructor_initializes_empty_collections Comprueba que al crear un usuario con nombre y contraseña, las colecciones de roles y notificaciones se inicializan vacías, garantizando un estado inicial consistente. Tecnologías: JUnit 5.  test_username_validation_fails_when_not_email_format Valida que la restricción de formato de email en el username funciona correctamente usando el API de validación de Jakarta. Se crea un usuario con un username inválido y se comprueba que se detecta la violación de restricción. Tecnologías: JUnit 5, Jakarta Validation.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/iam/application/internal/queryservices/RoleQueryServiceImplTest.java
-test_handle_get_all_roles_query_returns_all_roles Verifica que el método handle retorna todos los roles almacenados en el repositorio. Se simula el repositorio y se comprueba que la lista retornada es la esperada. Tecnologías: JUnit 5, Mockito.  test_handle_get_all_roles_query_with_null_parameter Comprueba que el método también retorna todos los roles aunque el parámetro de consulta sea null, validando la tolerancia a parámetros nulos. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/iam/application/internal/eventhandlers/ApplicationReadyEventHandlerTest.java
-test_on_application_ready_calls_role_command_service Verifica que al recibir el evento de aplicación lista (ApplicationReadyEvent), se llama al método handle del servicio de roles con un comando de seed. Se simulan los eventos y el contexto de Spring Boot. Tecnologías: JUnit 5, Mockito, Spring Boot Test.  test_on_application_ready_handles_exception_from_role_command_service Comprueba que si el servicio de roles lanza una excepción durante el evento, esta se propaga correctamente. Se simula la excepción y se valida el manejo de errores. Tecnologías: JUnit 5, Mockito, Spring Boot Test.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/iam/application/internal/commandservices/RoleCommandServiceImplTest.java
-test_handle_creates_all_roles_when_none_exist Verifica que al ejecutar el comando de seed, se crean todos los roles definidos en el enum si no existen en la base de datos. Se simula el repositorio y se comprueba que se invocan los métodos de verificación y guardado para cada rol. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/appointment/domain/model/events/CreateNotificationByAppointmentCancelledTest.java
-test_create_event_with_valid_source_and_available_date_id Verifica que el evento se crea correctamente con el source y el ID de fecha disponible proporcionados, asegurando que los getters funcionan como se espera. Tecnologías: JUnit 5.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/appointment/domain/model/entities/AvailableDateTest.java
-test_create_available_date_with_valid_command Comprueba que al crear un AvailableDate con un comando válido y un advisor, los atributos se asignan correctamente y el estado inicial es AVAILABLE. Se usan mocks para simular dependencias. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/appointment/domain/model/aggregates/AppointmentTest.java
-test_create_appointment_with_valid_command_sets_correct_values Verifica que al crear un Appointment con un comando válido, los valores iniciales y las referencias a farmer y available date se asignan correctamente, y el estado es PENDING. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/appointment/application/internal/eventhandlers/AppointmentDeletedEventHandlerTest.java
-test_appointment_deleted_event_handler_updates_available_date_status Verifica que al manejar el evento de cita eliminada, se actualiza el estado de la fecha disponible a AVAILABLE y se crea una notificación para el usuario correspondiente. Se simulan los servicios externos y se valida la interacción entre componentes. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/appointment/application/internal/commandservices/ReviewCommandServiceImplTest.java
-test_handle_create_review_command_success Comprueba que al manejar un comando de creación de review válido, se guarda el review, se actualiza el rating del advisor y se invocan los métodos esperados en los servicios y repositorios simulados. Tecnologías: JUnit 5, Mockito.  <hr></hr>
-Archivo: src/test/java/com/agrotech/api/appointment/application/internal/commandservices/AvailableDateCommandServiceImplTest.java
-test_handle_create_available_date_with_advisor_not_found Verifica que si el advisor no existe al crear una fecha disponible, se lanza la excepción AdvisorNotFoundException y no se guarda la entidad. Se simula la ausencia del advisor y se valida el manejo de errores. Tecnologías: JUnit 5, Mockito.<hr></hr>
+# Resumen de pruebas unitarias en Agrotech API
+
+Las pruebas implementadas en los distintos módulos del proyecto utilizan principalmente **JUnit 5** para la ejecución de tests y **Mockito** para la simulación (mocking) de dependencias externas como repositorios, servicios y entidades relacionadas. En algunos casos, también se emplea la validación con **Jakarta Validation** y se integran pruebas de eventos con **Spring Boot Test**.
+
+---
+
+## 1. Pruebas de comandos y servicios de dominio
+
+- **PostCommandServiceImplTest**  
+  Verifica que un post se cree correctamente con un comando válido y un advisor existente. Asegura la correcta interacción con repositorios y servicios externos.
+
+- **EnclosureCommandServiceImplTest y EnclosureTest**  
+  Validan la creación de un enclosure con datos válidos y también con valores nulos, asegurando que el objeto se construye correctamente y maneja valores nulos sin fallos. Comprueba la inicialización adecuada de listas internas como la de animales.
+
+- **AnimalCommandServiceImplTest**  
+  Confirma que un animal puede ser creado cuando el enclosure existe y que la persistencia retorna el ID esperado.
+
+---
+
+## 2. Pruebas de modelo y validación
+
+- **RoleTest**  
+  Asegura la correcta conversión entre strings y enums para roles, validando tanto entradas válidas como inválidas (nulos), y que se lance la excepción adecuada ante errores.
+
+- **UserTest**  
+  Verifica que al crear un usuario las colecciones internas se inicializan vacías y que la validación de formato de username (email) funciona correctamente, detectando violaciones cuando corresponde.
+
+---
+
+## 3. Pruebas de consulta y eventos
+
+- **RoleQueryServiceImplTest**  
+  Comprueba que la consulta de roles retorna todos los roles existentes, incluso cuando se recibe un parámetro nulo.
+
+- **ApplicationReadyEventHandlerTest**  
+  Simula el evento de inicio de la aplicación para verificar que se llama al servicio encargado de crear roles iniciales (seed). También prueba la propagación correcta de excepciones en caso de error.
+
+---
+
+## 4. Pruebas de dominio de citas y notificaciones
+
+- **CreateNotificationByAppointmentCancelledTest**  
+  Valida la creación correcta de un evento de notificación cuando una cita es cancelada.
+
+- **AvailableDateTest y AppointmentTest**  
+  Garantizan que la creación de fechas disponibles y citas asigna los atributos correctos y establece estados iniciales adecuados como AVAILABLE y PENDING.
+
+- **AppointmentDeletedEventHandlerTest**  
+  Verifica que al eliminar una cita se actualice el estado de la fecha disponible y se cree la notificación correspondiente para el usuario.
+
+- **ReviewCommandServiceImplTest**  
+  Asegura que la creación de una review actualiza correctamente el rating del advisor y persiste los datos como se espera.
+
+- **AvailableDateCommandServiceImplTest**  
+  Comprueba que cuando el advisor no existe al crear una fecha disponible, se lanza la excepción `AdvisorNotFoundException` y no se persiste la entidad.
+
+---
+
+## Tecnologías y metodologías empleadas
+
+- **JUnit 5**: Framework principal para la ejecución de pruebas unitarias.  
+- **Mockito**: Mocking de repositorios, servicios externos y objetos para simular interacciones y aislar pruebas.  
+- **Jakarta Validation**: Validación de restricciones en entidades, como formato de emails.  
+- **Spring Boot Test**: Para pruebas de integración relacionadas con eventos del ciclo de vida de la aplicación.  
+
+---
+
+## Objetivos clave de las pruebas
+
+- Asegurar la correcta creación y persistencia de entidades clave (posts, enclosures, animales, citas, roles, reviews).  
+- Validar el comportamiento correcto ante entradas válidas e inválidas, incluyendo manejo de excepciones.  
+- Confirmar la integración y comunicación entre servicios, repositorios y eventos del sistema.  
+- Garantizar la robustez y estabilidad del backend frente a condiciones de error y casos límites.  
+
 
 El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo. <br />
 
