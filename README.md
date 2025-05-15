@@ -4250,6 +4250,14 @@ _Imagen 2XX. Management Integration Test Example_
 Se aplicó la metodología Behavior-Driven Development (BDD) para definir y probar los comportamientos esperados del sistema desde la perspectiva del usuario final.
 Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como: <br />
 
+US01 <br />
+![us01.feature](img/us01.feature.png) <br />
+US04 <br />
+![us04.feature](img/us04.feature.png) <br />
+US09 <br />
+![us09.feature](img/us09.feature.png) <br />
+US10 <br />
+![us010.feature](img/us10.feature.png) <br />
 
 
 Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.<br />
