@@ -47,6 +47,7 @@
 
 <p align="center"><b>Mayo 2025</b></p>
 
+<div style="page-break-after: always;"></div>
 
 # Registro de versiones
 
@@ -109,6 +110,7 @@
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 # Project Report Collaboration Insights
 
@@ -1319,6 +1321,8 @@ El To-Be Scenario Mapping es una herramienta que ilustra cómo cambiarán los pr
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 3.2. User Stories
 
 Se identificaron las siguientes épicas que se componen de las historias de usuario.
@@ -1977,6 +1981,8 @@ Se identificaron las siguientes épicas que se componen de las historias de usua
 |28|US10|Inicio de sesión|Como usuario quiero acceder a mi cuenta registrada para acceder a las funciones de usuario.|2|
 |29|US11|Visualización de notificaciones del usuario|Como usuario de la aplicación, quiero recibir notificaciones referentes al estado de las asesorías u otra información relevante para mantenerme informado.|2|
 |30|US12|Modificar perfil de usuario|Como usuario, quiero poder modificar mi perfil para actualizar los datos que desee.|3|
+
+<div style="page-break-after: always;"></div>
 
 ## 3.4. Impact Mapping
 
@@ -3490,6 +3496,8 @@ En esta sección, se especificarán las características detalladas de cada clas
     </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 ## 4.10. Database Design
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
@@ -4159,11 +4167,9 @@ _Imagen 209. Coverage Report_
 
 ### 6.1.1. Core Entities Unit Tests
 Se desarrollaron pruebas unitarias enfocadas en las entidades principales del sistema, incluyendo modelos de datos, clases de lógica de negocio y funciones utilitarias.
-Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades individuales funcionen de forma correcta y coherente con los requisitos funcionales. Se aplicó el principio de test-driven development (TDD) para asegurar cobertura desde las etapas tempranas del desarrollo. <br />
+Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades individuales funcionen de forma correcta y coherente con los requisitos funcionales. Se aplicó el principio de test-driven development (TDD) para asegurar cobertura desde las etapas tempranas del desarrollo.
 
-Entre las entidades probadas se encuentran: <br />
-
-# Resumen de pruebas unitarias en Agrotech API
+**Resumen de pruebas unitarias en Agrotech API**
 
 Las pruebas implementadas en los distintos módulos del proyecto utilizan principalmente **JUnit 5** para la ejecución de tests y **Mockito** para la simulación (mocking) de dependencias externas como repositorios, servicios y entidades relacionadas. En algunos casos, también se emplea la validación con **Jakarta Validation** y se integran pruebas de eventos con **Spring Boot Test**.
 
@@ -4171,7 +4177,7 @@ Las pruebas implementadas en los distintos módulos del proyecto utilizan princi
 
 _Imagen 210. Unit Tests_
 
-## 1. Pruebas de comandos y servicios de dominio
+1. Pruebas de comandos y servicios de dominio
 
 - **PostCommandServiceImplTest**  
   Verifica que un post se cree correctamente con un comando válido y un advisor existente. Asegura la correcta interacción con repositorios y servicios externos.
@@ -4188,7 +4194,7 @@ _Imagen 210. Unit Tests_
 
 _Imagen 211. Animal Command Service Test_
 
-## 2. Pruebas de modelo y validación
+2. Pruebas de modelo y validación
 
 - **RoleTest**  
   Asegura la correcta conversión entre strings y enums para roles, validando tanto entradas válidas como inválidas (nulos), y que se lance la excepción adecuada ante errores.
@@ -4202,7 +4208,7 @@ _Imagen 211. Animal Command Service Test_
 
 _Imagen 212. User Test_
 
-## 3. Pruebas de consulta y eventos
+3. Pruebas de consulta y eventos
 
 - **RoleQueryServiceImplTest**  
   Comprueba que la consulta de roles retorna todos los roles existentes, incluso cuando se recibe un parámetro nulo.
@@ -4216,7 +4222,7 @@ _Imagen 212. User Test_
 
 _Imagen 213. Application Ready Event Handler Test_
 
-## 4. Pruebas de dominio de citas y notificaciones
+4. Pruebas de dominio de citas y notificaciones
 
 - **CreateNotificationByAppointmentCancelledTest**  
   Valida la creación correcta de un evento de notificación cuando una cita es cancelada.
@@ -4239,7 +4245,7 @@ _Imagen 213. Application Ready Event Handler Test_
 
 _Imagen 214. Appointment Test_
 
-## Objetivos clave de las pruebas unitarias
+**Objetivos clave de las pruebas unitarias**
 
 - Asegurar la correcta creación y persistencia de entidades clave (posts, enclosures, animales, citas, roles, reviews).  
 - Validar el comportamiento correcto ante entradas válidas e inválidas, incluyendo manejo de excepciones.  
@@ -4442,6 +4448,8 @@ Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas
 
 - Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
 
+<div style="page-break-after: always;"></div>
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 
@@ -4453,6 +4461,7 @@ Además, se implementó un backend robusto utilizando Spring Boot, aplicando pri
 
 En cuanto a la calidad del software, se aplicó una estrategia de testing robusta. Se desarrollaron pruebas unitarias utilizando JUnit 5 y Mockito para verificar el comportamiento de componentes individuales en aislamiento. También se realizaron pruebas de integración para asegurar el correcto funcionamiento entre capas y módulos del sistema, como servicios, repositorios y controladores. Además, se utilizó el enfoque de BDD (Behavior-Driven Development) para validar el sistema desde la perspectiva del usuario, asegurando que se cumplieran los criterios de aceptación definidos para cada historia. Esta combinación de pruebas permitió garantizar la estabilidad, confiabilidad y mantenibilidad del sistema a lo largo de su desarrollo.
 
+<div style="page-break-after: always;"></div>
 
 # Bibliografía
 
@@ -4471,6 +4480,8 @@ Luque, R. (2023). _Meta Tags | Las 7 más importantes en SEO_. SEOcrawl. https:/
 Soodan, V., Jamwal, M., Rana, N. P., Sharma, D., & Chakraborty, S. (2023). Modelling the adoption of agro-advisory mobile applications: a theoretical extension and analysis using result demonstrability, trust, self-efficacy and mobile usage proficiency. _Journal Of Agribusiness In Developing And Emerging Economies, 14(4)_, 749-768. https://doi.org/10.1108/jadee-05-2022-0087
 
 W3Schools. (s.f.). _HTML Style Guide_. https://www.w3schools.com/html/html5_syntax.asp
+
+<div style="page-break-after: always;"></div>
 
 # Anexos
 
