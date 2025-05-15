@@ -4251,13 +4251,13 @@ Se aplicó la metodología Behavior-Driven Development (BDD) para definir y prob
 Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como: <br />
 
 US01 <br />
-![us01.feature](img/us01.feature.png) <br />
+![us01.feature](img/us01.feature.png) 
 US04 <br />
-![us04.feature](img/us04.feature.png) <br />
+![us04.feature](img/us04.feature.png) 
 US09 <br />
-![us09.feature](img/us09.feature.png) <br />
+![us09.feature](img/us09.feature.png) 
 US10 <br />
-![us010.feature](img/us10.feature.png) <br />
+![us010.feature](img/us10.feature.png) 
 
 
 Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.<br />
