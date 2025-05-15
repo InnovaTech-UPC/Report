@@ -4142,7 +4142,9 @@ Entre las entidades probadas se encuentran: <br />
 
 Las pruebas implementadas en los distintos módulos del proyecto utilizan principalmente **JUnit 5** para la ejecución de tests y **Mockito** para la simulación (mocking) de dependencias externas como repositorios, servicios y entidades relacionadas. En algunos casos, también se emplea la validación con **Jakarta Validation** y se integran pruebas de eventos con **Spring Boot Test**.
 
----
+![Unit Tests](img/unit-tests.png)
+
+_Imagen 210. Unit Tests_
 
 ## 1. Pruebas de comandos y servicios de dominio
 
@@ -4155,7 +4157,11 @@ Las pruebas implementadas en los distintos módulos del proyecto utilizan princi
 - **AnimalCommandServiceImplTest**  
   Confirma que un animal puede ser creado cuando el enclosure existe y que la persistencia retorna el ID esperado.
 
----
+**Ejemplo: Prueba para el command service de animal**
+
+![Animal Command Service Test](img/animal-command-service-test.png)
+
+_Imagen 211. Animal Command Service Test_
 
 ## 2. Pruebas de modelo y validación
 
@@ -4165,7 +4171,11 @@ Las pruebas implementadas en los distintos módulos del proyecto utilizan princi
 - **UserTest**  
   Verifica que al crear un usuario las colecciones internas se inicializan vacías y que la validación de formato de username (email) funciona correctamente, detectando violaciones cuando corresponde.
 
----
+**Ejemplo: Prueba para el usuario**
+
+![User Test](img/user-test.png)
+
+_Imagen 212. User Test_
 
 ## 3. Pruebas de consulta y eventos
 
@@ -4175,7 +4185,11 @@ Las pruebas implementadas en los distintos módulos del proyecto utilizan princi
 - **ApplicationReadyEventHandlerTest**  
   Simula el evento de inicio de la aplicación para verificar que se llama al servicio encargado de crear roles iniciales (seed). También prueba la propagación correcta de excepciones en caso de error.
 
----
+**Ejemplo: Prueba para ApplicationReadyEventHandler**
+
+![Application Ready Event Handler Test](img/application-ready-event-handler-test.png)
+
+_Imagen 213. Application Ready Event Handler Test_
 
 ## 4. Pruebas de dominio de citas y notificaciones
 
@@ -4194,18 +4208,13 @@ Las pruebas implementadas en los distintos módulos del proyecto utilizan princi
 - **AvailableDateCommandServiceImplTest**  
   Comprueba que cuando el advisor no existe al crear una fecha disponible, se lanza la excepción `AdvisorNotFoundException` y no se persiste la entidad.
 
----
+**Ejemplo: Prueba para el Appointment**
 
-## Tecnologías y metodologías empleadas
+![Appointment Test](img/appointment-test.png)
 
-- **JUnit 5**: Framework principal para la ejecución de pruebas unitarias.  
-- **Mockito**: Mocking de repositorios, servicios externos y objetos para simular interacciones y aislar pruebas.  
-- **Jakarta Validation**: Validación de restricciones en entidades, como formato de emails.  
-- **Spring Boot Test**: Para pruebas de integración relacionadas con eventos del ciclo de vida de la aplicación.  
+_Imagen 214. Appointment Test_
 
----
-
-## Objetivos clave de las pruebas
+## Objetivos clave de las pruebas unitarias
 
 - Asegurar la correcta creación y persistencia de entidades clave (posts, enclosures, animales, citas, roles, reviews).  
 - Validar el comportamiento correcto ante entradas válidas e inválidas, incluyendo manejo de excepciones.  
@@ -4213,62 +4222,114 @@ Las pruebas implementadas en los distintos módulos del proyecto utilizan princi
 - Garantizar la robustez y estabilidad del backend frente a condiciones de error y casos límites.  
 
 
-El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo. <br />
+El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo.
+
 
 ### 6.1.2. Core Integration Tests
+
 Las pruebas de integración se enfocaron en verificar el correcto funcionamiento de los módulos en conjunto, validando las interacciones entre los repositorios, servicios y controladores de los distintos bounded contexts.
 
 Estas pruebas aseguraron que las diferentes partes del sistema se comunican de manera fluida, detectando problemas de integración como errores de validación y gestión de excepciones.
 
 **IAM bounded context**
+
 Se realizaron pruebas de integración en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
 
 ![IAM Integration Tests](img/iam-integration-tests.png)
-_Imagen 2XX. IAM Integration Tests_
+
+_Imagen 215. IAM Integration Tests_
 
 Por ejemplo, se validó el proceso de creación de un nuevo usuario y su asignación a un rol específico, asegurando que la información se almacene correctamente en la base de datos.
 
 ![IAM Integration Test Example](img/iam-integration-example.png)
-_Imagen 2XX. IAM Integration Test Example_
+
+_Imagen 216. IAM Integration Test Example_
 
 
 **Management bounded context**
 Se realizaron pruebas de integración en los controladores de Animal y Enclosure, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación, actualización, eliminación y consulta de información de animales y recintos.
 
 ![Management Integration Tests](img/management-integration-tests.png)
-_Imagen 2XX. Management Integration Tests_
+
+_Imagen 217. Management Integration Tests_
 
 Por ejemplo, se validó el proceso de creación de un recinto asociado a un granjero, asegurando que la información se almacene correctamente en la base de datos. Asimismo, se hizo un setup de datos inicial para facilitar la ejecución de las pruebas, generando un usuario, un granjero y un token de acceso para que no se requiera un inicio de sesión manual en cada prueba.
 
 ![Management Integration Test Example](img/management-integration-example.png)
-_Imagen 2XX. Management Integration Test Example_
 
-
+_Imagen 218. Management Integration Test Example_
 
 
 ### 6.1.3. Core Behavior-Driven Development
+
 Se aplicó la metodología Behavior-Driven Development (BDD) para definir y probar los comportamientos esperados del sistema desde la perspectiva del usuario final.
-Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como: <br />
 
-US01 <br />
-![us01.feature](img/us01.feature.png) 
-US04 <br />
-![us04.feature](img/us04.feature.png) 
-US09 <br />
-![us09.feature](img/us09.feature.png) 
-US10 <br />
-![us010.feature](img/us10.feature.png) 
+Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estructurados con el formato Given–When–Then que representan casos de uso clave, tales como:
+
+**US01**
+
+![us01.feature](img/us01.feature.png)
+
+_Imagen 219. US01_
+
+**US04**
+
+![us04.feature](img/us04.feature.png)
+
+_Imagen 220. US04_
+
+**US09**
+
+![us09.feature](img/us09.feature.png)
+
+_Imagen 221. US09_
+
+**US10**
+
+![us010.feature](img/us10.feature.png)
+
+_Imagen 222. US10_
 
 
-Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.<br />
+Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.
+
+![BDD Tests](img/bdd-tests.png)
+
+_Imagen 223. BDD Tests_
+
+En este caso, se realizaron pruebas de comportamiento en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
+
+**Prueba para US01**
+
+![US01 Steps](img/us01-steps.png)
+
+_Imagen 224. US01 Steps_
+
+**Prueba para US04**
+
+![US04 Steps](img/us04-steps.png)
+
+_Imagen 225. US04 Steps_
+
+**Prueba para US09**
+
+![US09 Steps](img/us09-steps.png)
+
+_Imagen 226. US09 Steps_
+
+**Prueba para US10**
+
+![US10 Steps](img/us10-steps.png)
+
+_Imagen 227. US10 Steps_
 
 
 ### 6.1.4. Core System Tests
-Se realizaron pruebas de sistema para validar el comportamiento completo de la aplicación tanto en su versión web como móvil. Estas pruebas incluyeron la evaluación de funcionalidades end-to-end (E2E), cubriendo todo el flujo de trabajo del usuario. <br />
-Los escenarios probados incluyeron: <br />
+
+Se realizaron pruebas de sistema para validar el comportamiento completo de la aplicación tanto en su versión web como móvil. Estas pruebas incluyeron la evaluación de funcionalidades end-to-end (E2E), cubriendo todo el flujo de trabajo del usuario.
 
 
-Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto. <br />
+Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto.
 
 # Capítulo VII: DevOps Practices
 
