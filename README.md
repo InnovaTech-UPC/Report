@@ -120,6 +120,14 @@
 
 <img src="img/tb1-commits2.png" width="80%" alt="Commits del equipo en el informe del proyecto">
 
+## TP1
+
+<img src="img/tp1-team-collaboration.png" width="80%" alt="Analisis de colaboración del equipo en el informe del proyecto">
+
+<img src="img/tp1-commits1.png" width="80%" alt="Commits del equipo en el informe del proyecto">
+
+<img src="img/tp1-commits2.png" width="80%" alt="Commits del equipo en el informe del proyecto">
+
 <div style="page-break-after: always;"></div>
 
 # Tabla de Contenido
@@ -3543,6 +3551,10 @@ Usuarios de GitHub
         <td>La Torre Soto, André Sebastián</td>
         <td>AndreSebastian18</td>
     </tr>
+    <tr>
+        <td>Qqueso Rodriguez, Britney Delhy</td>
+        <td>brit2801</td>
+    </tr>
   </tbody>
 </table>
 
@@ -4464,4 +4476,6 @@ W3Schools. (s.f.). _HTML Style Guide_. https://www.w3schools.com/html/html5_synt
 
 ## Videos de exposiciones
 
-Exposición TB1: [upc-pre-202501-1asi0732-4429-Innovatech-expo.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ES0jRLUeOCNDl_JIyCSNdC4BQBEyinPG9Z6oFwk4OHAB0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3235HQ)
+Exposición TB1: [upc-pre-202501-1asi0732-4429-Innovatech-expo-tb1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ES0jRLUeOCNDl_JIyCSNdC4BQBEyinPG9Z6oFwk4OHAB0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3235HQ)
+
+Exposición TP1: [upc-pre-202501-1asi0732-4429-Innovatech-expo-tp1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EchelIee3UJIlcRnVvB3ttsBlTAfOhAmQLYaLZTOJKrIQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FX3rZt)
