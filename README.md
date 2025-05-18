@@ -3413,19 +3413,27 @@ _Imagen 188. Diagrama de componentes del API Rest_
 
 Los diagramas de clase son herramientas cruciales en el diseño de sistemas orientados a objetos, ya que proporcionan una representación visual de las clases y sus relaciones dentro del sistema. En esta sección, se presentarán los diagramas de clase que detallan la estructura de cada bounded context: Profile, Appointment, Management y Post.
 
-<img alt="Diagrama de Clase: Profile" src="img/ClassDiagram_Profile.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Profile" src="img/ClassDiagram_Profile.png" height="800">
+</p>
 
 _Imagen 189. Diagrama de Clase: Profile_
 
-<img alt="Diagrama de Clase: Appointment" src="img/ClassDiagram_Appointment.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Appointment" src="img/ClassDiagram_Appointment.png" height="800">
+</p>
 
 _Imagen 190. Diagrama de Clase: Appointment_
 
-<img alt="Diagrama de Clase: Management" src="img/ClassDiagram_Management.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Management" src="img/ClassDiagram_Management.png" height="600">
+</p>
 
 _Imagen 191. Diagrama de Clase: Management_
 
-<img alt="Diagrama de Clase: Post" src="img/ClassDiagram_Post.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Post" src="img/ClassDiagram_Post.png" height="600">
+</p>
 
 _Imagen 192. Diagrama de Clase: Post_
 
@@ -3467,19 +3475,19 @@ En esta sección, se especificarán las características detalladas de cada clas
         </tr>
         <tr>
             <td>Appointment</td>
-            <td>Representa una cita programada entre un asesor y un granjero. Incluye atributos como <em>id</em>, <em>scheduled_date</em>, <em>start_time</em>, <em>end_time</em>, <em>status</em>, un <em>advisor</em>, y un <em>farmer</em>. Método principal: <em>getAppointment()</em>.</td>
+            <td>Representa una cita programada entre un asesor y un granjero. Incluye atributos como <em>id</em>, <em>message</em>, <em>meeting_url</em>, <em>status</em>, un <em>available_date</em>, y un <em>farmer</em>. Método principal: <em>getAppointment()</em>.</td>
         </tr>
         <tr>
             <td>Review</td>
-            <td>Contiene la evaluación y comentario de una asesoría. Incluye atributos como <em>id</em>, <em>rating</em>, <em>comment</em>, y un <em>appointment</em> asociado. Método principal: <em>getReview()</em>.</td>
+            <td>Contiene la evaluación y comentario de una asesoría. Incluye atributos como <em>id</em>, <em>rating</em>, <em>comment</em>, un <em>advisor</em> y un <em>farmer</em>. Método principal: <em>getReview()</em>.</td>
         </tr>
         <tr>
             <td>AvailableDate</td>
-            <td>Representa los horarios cuando el asesor puede realizar una asesoría. Incluye atributos como <em>id</em>, <em>date</em>, <em>start_time</em>, <em>end_time</em>, y un <em>advisor</em> asociado. Método principal: <em>getAvailableDate()</em>.</td>
+            <td>Representa los horarios cuando el asesor puede realizar una asesoría. Incluye atributos como <em>id</em>, <em>scheduled_date</em>, <em>start_time</em>, <em>end_time</em>, <em>status</em>, y un <em>advisor</em> asociado. Método principal: <em>getAvailableDate()</em>.</td>
         </tr>
         <tr>
             <td>Status</td>
-            <td>Representa los estados posibles de una cita: <em>PENDING</em>, <em>ONGOING</em>, <em>COMPLETED</em>, <em>REVIEWED</em>.</td>
+            <td>Representa los estados posibles de una cita: <em>PENDING</em>, <em>ONGOING</em>, <em>COMPLETED</em>.</td>
         </tr>
         <tr>
             <td>Enclosure</td>
