@@ -4370,6 +4370,48 @@ Se realizaron pruebas de sistema para validar el comportamiento completo de la a
 
 Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto.
 
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+Durante el desarrollo de la aplicación, se establecieron y aplicaron estándares de codificación específicos para cada tecnología utilizada en el proyecto. Para el frontend web con Angular, se emplearon las convenciones recomendadas por la comunidad de TypeScript junto con herramientas como ESLint, que permitieron asegurar un estilo de código uniforme, legible y mantenible. En el desarrollo móvil con Kotlin, se siguieron las guías oficiales de codificación proporcionadas por JetBrains, haciendo énfasis en la claridad, la nomenclatura adecuada de variables y funciones, y la correcta indentación del código.
+
+Para el backend en Spring Boot, se aplicaron las buenas prácticas de desarrollo en Java, asegurando un uso correcto de estructuras de control, modularización del código y comentarios descriptivos cuando fueron necesarios. Estas convenciones permitieron mantener una base de código coherente entre los distintos integrantes del equipo y facilitaron la revisión y el mantenimiento del proyecto.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Con el objetivo de asegurar un código de alta calidad y libre de vulnerabilidades, se llevó a cabo un proceso continuo de análisis estático y revisión manual del código, apoyado por herramientas como ESLint. Estas herramientas permitieron identificar problemas de complejidad excesiva, duplicación de lógica, código no utilizado, y otras prácticas que afectan la mantenibilidad del sistema.
+
+En el ámbito de la seguridad del código, se detectaron y abordaron varias vulnerabilidades durante el desarrollo:
+
+**Inyección SQL:** En el backend desarrollado con Spring Boot, se refactoró el código utilizando consultas preparadas con parámetros (PreparedStatement) y consultas JPQL seguras en los repositorios de JPA.
+
+**Cross-Site Scripting (XSS):** En la aplicación web (Angular), se detectaron puntos vulnerables a XSS donde se insertaba contenido dinámico en el DOM sin sanitización previa. Para ello, utilizaremos DomSanitizer, el cual incluye las funciones de sanitización automática de Angular. Así, evitaremos el uso de innerHTML cuando no era estrictamente necesario.
+
+**Manejo inseguro de autenticación y sesiones:** En la integración entre frontend, backend y la app móvil, se verificó que los tokens JWT utilizados para autenticación eran enviados de forma segura mediante el encabezado HTTP Authorization. Se establecieron tiempos de expiración apropiados para los tokens y se implementó la renovación de sesión controlada.
+
+Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema y reducir el riesgo de ataques comunes en aplicaciones web y móviles. Estas medidas se mantendrán en futuras fases de desarrollo mediante procesos automatizados de análisis y validación en cada etapa del pipeline de integración continua.
+
+### 6.2.2. Reviews
+
+
+## 6.3. Validation Interviews
+### 6.3.1. Diseño de Entrevistas
+### 6.3.2. Registro de Entrevistas
+### 6.3.3. Evaluaciones según heurísticas
+## 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada
+#### 6.4.1.1. Información del grupo auditado
+#### 6.4.1.2. Cronograma de auditoría realizada
+#### 6.4.1.3. Contenido de auditoría realizada
+### 6.4.2. Auditoría recibida
+#### 6.4.2.1. Información del grupo auditor
+#### 6.4.2.2. Cronograma de auditoría recibida
+#### 6.4.2.3. Contenido de auditoría recibida
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -4457,6 +4499,34 @@ Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas
 - Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
 
 <div style="page-break-after: always;"></div>
+
+## 7.4. Continuous Monitoring
+### 7.4.1. Tools and Practices
+### 7.4.2. Monitoring Pipeline Components
+### 7.4.3. Alerting Pipeline Components
+### 7.4.4. Notification Pipeline Components
+
+# Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+### 8.1.3. Experiment-Ready Questions
+### 8.1.4. Question Backlog
+### 8.1.5. Experiment Cards
+
+## 8.2. Experiment Design
+### 8.2.1. Hypotheses
+### 8.2.2. Measures
+### 8.2.3. Conditions
+### 8.2.4. Scale Calculations and Decisions
+### 8.2.5. Methods Selection
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+### 8.2.7. Web and Mobile Tracking Plan
+
+## 8.3. Experimentation
+### 8.3.1. To-Be User Stories
+### 8.3.2. To-Be Product Backlog
 
 # Conclusiones
 ## Conclusiones y recomendaciones
