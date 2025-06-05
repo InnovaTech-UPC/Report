@@ -4501,6 +4501,7 @@ Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas
 <div style="page-break-after: always;"></div>
 
 ## 7.4. Continuous Monitoring
+
 ### 7.4.1. Tools and Practices
 ### 7.4.2. Monitoring Pipeline Components
 ### 7.4.3. Alerting Pipeline Components
@@ -4510,19 +4511,149 @@ Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas
 
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary
+
+Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una plataforma integral diseñada para ayudar a los agricultores a gestionar sus granjas de manera más eficiente. La plataforma se encuentra en la fase de validación de la propuesta de valor, con una landing page activa y un formulario de interés para captar usuarios potenciales, principalmente enfocados en agricultores interesados en asesoramiento técnico especializado.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+**Assumptions (Suposiciones):**
+- **Los agricultores valoran la asesoría personalizada.** Suponemos que los agricultores están dispuestos a pagar por asesoría adaptada a sus necesidades específicas, ya que buscan optimizar la eficiencia de sus granjas.
+- **Tecnología mejora la gestión agrícola.** Creemos que la introducción de una plataforma tecnológica integral puede facilitar la gestión de recursos, mejorar la productividad y reducir los costos operativos.
+- **Interés por soluciones escalables.** Los agricultores están dispuestos a adoptar nuevas tecnologías y modelos de negocio como servicios en la nube si los beneficios son claros y fácilmente accesibles.
+- **El mercado tiene necesidades insatisfechas.** Suponemos que hay un espacio significativo en el mercado para una solución que combine asesoría técnica con herramientas de gestión agrícola inteligentes.
+
+**Knowledge Gaps (Brechas de conocimiento):**
+- **Validación de la necesidad de personalización.** Necesitamos validar cuánto nivel de personalización es necesario para que los agricultores perciban un valor agregado en la asesoría.
+- **Modelo de precio aceptable.** No sabemos cuál es el precio óptimo que los agricultores están dispuestos a pagar por el servicio. Es importante testear precios bajos (mensuales) y altos (anuales).
+- **Comportamiento frente a suscripciones.** Es incierto si los agricultores prefieren pagar por suscripción mensual o anual, o si prefieren pagar por servicio de manera más ad hoc.
+- **Nivel de confianza en la tecnología.** Aún no sabemos si los agricultores confiarán en una plataforma que combine la asesoría humana con herramientas de gestión automatizadas. Necesitamos investigar cómo influyen la confianza en expertos humanos versus IA.
+
+**Ideas (Ideas para experimentos):**
+- **Test de precios.** Probar diferentes modelos de suscripción (mensual vs. anual) y diferentes precios para identificar el punto de precio óptimo.
+- **A/B testing de funcionalidades.** Realizar pruebas A/B para validar qué tipo de funcionalidades premium (monitoreo de cultivos, gestión avanzada de animales, etc.) tienen mayor impacto en la conversión.
+- **MVP (Producto Mínimo Viable).** Desarrollar un MVP que permita a los usuarios tener acceso a una versión básica de la plataforma y medir la demanda, evitando la inversión en características innecesarias antes de validar la necesidad.
+- **Validación de la propuesta de valor.** Usar encuestas y entrevistas con usuarios potenciales para entender sus verdaderas necesidades y expectativas. Esto permitirá ajustar la propuesta de valor.
+
+**Claims (Afirmaciones o hipótesis):**
+- **“Con AgroTech, los agricultores podrán optimizar sus recursos y aumentar la rentabilidad de sus granjas.”** Creemos que la optimización de recursos a través de la asesoría tecnológica será vista como un gran valor por los agricultores.
+- **“Los agricultores prefieren servicios personalizados que les permitan ahorrar tiempo y aumentar su productividad.”** Este es un punto central que queremos validar a través de encuestas y pruebas de usabilidad.
+- **“La integración de IA y asesoría humana ofrecerá un nivel de personalización que no está disponible en soluciones actuales del mercado.”** La combinación de IA con asesoría humana es un factor diferenciador clave y queremos probar si realmente genera una mejor experiencia de usuario.
+
 ### 8.1.3. Experiment-Ready Questions
+
+- ¿Qué tipo de asesoría (cultivos, animales, etc.) genera más conversiones a suscripciones premium?
+- ¿Cuántos usuarios completan el proceso de registro luego de visitar la landing page?
+- ¿Cuál es el precio mínimo aceptable para la suscripción a la plataforma?
+- ¿Qué funcionalidades adicionales de la plataforma (gestión de recintos, monitoreo de animales) incrementan la tasa de pago?
+
 ### 8.1.4. Question Backlog
+
+| Prioridad | Pregunta                                                  | Estado     |
+|-----------|-----------------------------------------------------------|------------|
+| Alta      | ¿Qué tipo de asesoría es más demandada por los usuarios?   | Pendiente  |
+| Alta      | ¿Cuánto estarían dispuestos a pagar por funcionalidades premium? | Pendiente  |
+| Media     | ¿Qué funcionalidades adicionales aumentan las conversiones? | Pendiente  |
+| Baja      | ¿Qué nivel de personalización es necesario para generar fidelidad? | Pendiente  |
+
 ### 8.1.5. Experiment Cards
 
-## 8.2. Experiment Design
+**Experiment Card 1: Reserva de Asesorías para Granjero**  
+- **Nombre:** Impacto de la reserva fácil de asesorías  
+- **Hipótesis:** Los usuarios convierten más a suscripción premium cuando el proceso de reserva de asesorías es sencillo.  
+- **Métrica clave:** Tasa de conversión a suscripción premium  
+- **Tipo de experimento:** A/B Test (reserva sencilla vs. reserva compleja)  
+- **Duración:** 2 semanas  
+- **Resultado esperado:** Aumento del 20% en conversiones con el proceso de reserva sencillo.  
+
+**Experiment Card 2: Precios de Suscripción**
+- **Nombre:** Efecto del precio en la conversión
+- **Hipótesis:** Un precio mensual de $29 genera más conversiones que un precio mensual de $49.
+- **Métrica clave:** Tasa de conversión de pago
+- **Tipo de experimento:** A/B Test
+- **Duración:** 1 semana
+- **Resultado esperado:** La opción de $29 genera 15% más conversiones
+
+**Experiment Card 3: Funcionalidad Premium para Asesores**  
+- **Nombre:** Impacto de la funcionalidad premium en asesores  
+- **Hipótesis:** Los asesores con funcionalidad premium de gestión avanzada de cultivos atraerán a más clientes (agricultores) y aumentarán su tasa de conversión a suscripción premium.  
+- **Métrica clave:** Tasa de conversión a suscripción premium de asesores  
+- **Tipo de experimento:** A/B Test (asesores con funcionalidades premium vs. asesores sin funcionalidades premium)  
+- **Duración:** 3 semanas  
+- **Resultado esperado:** Aumento del 25% en la conversión de asesores con funcionalidades premium, atrayendo a más clientes y generando más suscripciones premium.  
+
+### Experiment Card 4: Impacto del tipo de contenido visual en la conversión
+
+- **Nombre:** Impacto del contenido visual  
+- **Hipótesis:** Los agricultores responderán mejor a demostraciones visuales en formato de video (videos cortos mostrando el uso de la plataforma) que a contenido estático (imágenes o infografías) en la landing page.  
+- **Métrica clave:** Tasa de conversión al registro en la landing page  
+- **Tipo de experimento:** A/B Test en la landing page (Video interactivo vs. Imágenes estáticas)  
+- **Duración:** 2 semanas  
+- **Resultado esperado:** Un 15% más de conversiones con la versión de video en la landing page, ya que los videos pueden captar mejor la atención y explicar de manera más clara y atractiva el funcionamiento de AgroTech.  
+- **Rationale (Justificación):** Los videos tienen un mayor potencial para involucrar a los usuarios, generar curiosidad y explicar visualmente cómo AgroTech puede mejorar la gestión agrícola. Al integrar videos en la landing page, los agricultores podrán ver ejemplos claros de cómo la plataforma les beneficia, lo cual puede aumentar el interés y la conversión al registro. El contenido interactivo es más persuasivo que el contenido estático, lo que puede reducir la fricción y facilitar el proceso de toma de decisión del usuario.  
+
+### Experiment Card 5: Validación del interés en asesorías premium
+
+**Nombre:** Interés por asesorías premium  
+**Hipótesis:** Los agricultores estarán dispuestos a pagar una tarifa adicional por asesorías premium que ofrezcan recomendaciones más personalizadas, como un análisis profundo del rendimiento de los cultivos y sugerencias basadas en IA.  
+**Métrica clave:** Tasa de conversión al pago para asesorías premium  
+**Tipo de experimento:** Prueba de precios (gratis vs. premium)  
+**Duración:** 2 semanas  
+**Resultado esperado:** Un 20% de usuarios dispuestos a pagar por el servicio premium, lo que validaría que la personalización avanzada y el acceso a expertos está generando un valor suficiente para los agricultores.  
+**Rationale (Justificación):** Ofrecer una opción premium permitiría medir el valor percibido por los agricultores respecto a un servicio más especializado y profundizar en su disposición a pagar por un asesoramiento más detallado, lo cual puede ser crucial para ajustar la oferta de productos.
+
+# 8.2. Experiment Design
+
 ### 8.2.1. Hypotheses
+
+1. **Hipótesis 1:** Los agricultores prefieren pagar por una plataforma que les ofrezca asesoría personalizada basada en las necesidades específicas de su granja.
+2. **Hipótesis 2:** Un precio de $29 por mes atraerá a más usuarios que un precio de $49 por mes.
+3. **Hipótesis 3:** Las funcionalidades premium de monitoreo de cultivos y animales aumentarán la tasa de conversión en un 20%.
+
 ### 8.2.2. Measures
+
+- **Conversion Rate (Tasa de Conversión):** Porcentaje de usuarios que se convierten de visitantes a suscriptores premium.
+- **Completion Rate (Tasa de Finalización):** Porcentaje de usuarios que completan el formulario de registro.
+- **Payment Conversion (Conversión de Pago):** Porcentaje de usuarios que realizan un pago después de probar las funcionalidades básicas de la plataforma.
+- **Bounce Rate (Tasa de Rebote):** Porcentaje de usuarios que abandonan la landing page sin interactuar o sin avanzar en el proceso de registro.
+
 ### 8.2.3. Conditions
+
+- **A/B Test entre precios de suscripción mensual ($29 vs. $49).**
+- **A/B Test entre asesoría personalizada vs. asesoría estándar.**
+- **Test con funcionalidades premium (monitoreo de cultivos vs. asesoría estándar).**
+
 ### 8.2.4. Scale Calculations and Decisions
+
+- **Tamaño Mínimo de la Muestra:** Para obtener un 95% de confianza en los resultados con una diferencia mínima detectable del 15%, se necesitarán aproximadamente **100 usuarios por grupo** (A y B) en cada experimento.
+- **Tiempo estimado para los experimentos:** Se planea una duración de **1 semana** por experimento, con campañas de anuncios pagados en plataformas como **Google Ads** para aumentar el tráfico hacia la landing page.
+
 ### 8.2.5. Methods Selection
+
+- **A/B Testing:** Se utilizarán herramientas simples como **Google Optimize** para las pruebas A/B en la landing page y en los precios.
+- **Google Forms / Typeform:** Para facilitar la recolección de datos del formulario de registro.
+
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+| Objetivo                             | KPI                                    | Métrica                                         |
+|---------------------------------------|----------------------------------------|-------------------------------------------------|
+| Validar modelo de precios             | Tasa de conversión por precio          | % de conversión por precio (29 vs 49 dólares)    |
+| Validar tipo de asesoría              | Tasa de conversión a suscripción       | % de conversión con asesoría personalizada      |
+| Validar interés en funciones premium  | Tasa de conversión a funcionalidades premium | % de usuarios que optan por funciones premium    |
+| Validar efectividad del copy          | Tasa de clics en call-to-action (CTA)  | % CTR por versión (A/B de precios o asesoría)    |
+
 ### 8.2.7. Web and Mobile Tracking Plan
+
+**Herramientas:**
+- **Google Analytics:** Para el seguimiento básico de eventos como clics, registros y conversiones.
+- **Hotjar (opcional):** Para generar mapas de calor y ver cómo interactúan los usuarios con la landing page. (Opción más accesible y fácil de integrar).
+- **Google Tag Manager:** Para facilitar la configuración y gestión de eventos sin necesidad de modificar el código del sitio.
+
+**Eventos principales:**
+- **cta_click:** Clic en el botón "Obtén asesoría personalizada" o "Suscríbete ahora".
+- **form_complete:** Cuando un usuario completa el formulario de registro o el cuestionario de necesidades en la plataforma.
+- **purchase_started:** Iniciar el proceso de pago, como hacer clic en "Confirmar pago" o "Suscribirse".
+- **purchase_completed:** Finalizar el proceso de pago para la suscripción premium, confirmando la transacción.
+
 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
