@@ -4398,7 +4398,46 @@ Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema
 
 
 ## 6.3. Validation Interviews
+
 ### 6.3.1. Diseño de Entrevistas
+
+Se realizarán entrevistas a los usuarios finales para validar la funcionalidad de la aplicación. Se realizarán entrevistas a los granjeros y asesores que son altamente beneficiados con nuestra solución.
+
+Para estas entrevistas de validación, se mostrará la Landing Page desarrollada y la aplicación web y móvil.
+
+**Preguntas sobre Landing Page**
+
+- ¿Encuentras útil la información presentada en la landing page?
+- ¿La información en la sección "Sobre Nosotros" te ayuda a confiar en la plataforma?
+- ¿Consideras que la información proporcionada es clara y concisa, o percibes que hay demasiada o muy poca?
+- ¿Qué opinas sobre la organización y disposición de los elementos en la página?
+- ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+- ¿Es fácil comprender la naturaleza de nuestro producto al revisar la página?
+
+**Preguntas sobre la Aplicación**
+
+**Para Granjeros:**
+
+- ¿Qué opinas de la forma de ver las calificaciones y opiniones sobre un asesor?
+- ¿Te resulta fácil utilizar la opción de búsqueda de asesores en la plataforma?
+- ¿Te parece que la funcionalidad para agendar una cita con un asesor es intuitiva y fácil de usar?
+- ¿Te parece ordenada la forma en la que puedes revisar tus citas de la plataforma?
+- ¿Encuentras útil la opción de calificar a un asesor después de una cita?
+- ¿Qué opinas de la opción de cancelar una cita en la aplicación?
+- ¿Te resulta fácil modificar tu perfil de usuario en la aplicación?
+- ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
+
+**Para Asesores:**
+
+- ¿Qué opinas de la forma de recibir notificaciones de recordatorios de citas próximas?
+- ¿Qué tan fácil te parece gestionar y organizar tus próximas citas usando la plataforma?
+- ¿Te parece ordenada la forma en la que puedes revisar tus citas de la plataforma?
+- ¿Cómo evalúas la facilidad de uso para crear publicaciones en la plataforma?
+- ¿Qué opinas de la forma de agregar tus horarios de disponibilidad en la plataforma?
+- ¿Qué opinas de la opción de cancelar una cita en la aplicación?
+- ¿Te resulta fácil modificar tu perfil de usuario en la aplicación?
+- ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
+
 ### 6.3.2. Registro de Entrevistas
 ### 6.3.3. Evaluaciones según heurísticas
 ## 6.4. Auditoría de Experiencias de Usuario
