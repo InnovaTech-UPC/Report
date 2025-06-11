@@ -4439,7 +4439,98 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 - ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
 
 ### 6.3.2. Registro de Entrevistas
+
 ### 6.3.3. Evaluaciones según heurísticas
+
+**Site o App a Evaluar:** AgroTech
+
+**Tareas a evaluar:**
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+1. Acceder a la aplicación desde la landing page
+2. Enviar un mensaje de contacto desde la landing page
+1. Crear cuenta en la aplicación
+2. Inicio de sesión
+3. Visualizar y gestionar citas
+4. Visualizar y gestionar recintos
+5. Visualizar información de asesores
+6. Visualizar publicaciones
+7. Visualizar y gestionar perfil de usuario
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Recuperación de cuenta
+
+**ESCALA DE SEVERIDAD:**
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+**TABLA DE RESUMEN:**
+
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1| El formulario de contacto no confirma el envío del mensaje | 3 | Usability: Visibility of system status |
+|2| El formulario de registro no cuenta con agrupación visual de campos | 2 | Usability: Aesthetic and minimalist design |
+|3| Inconsistencia de términos en la página de recintos | 2 | Usability: Consistency and standards |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** El formulario de contacto no confirma el envío del mensaje
+
+**Severidad:** 2
+
+**Heurística violada:** Usability: Visibility of system status
+
+**Problema**: Cuando el usuario envía un mensaje a través del formulario de contacto en la landing page, no recibe ninguna confirmación de que su mensaje ha sido enviado y solo se reinicia el formulario.
+
+**Imagen:**
+
+<img src="img/heuristics1.png" width="600px">
+
+_Imagen 2XX. Heuristica 2_
+
+**Recomendación:** Implementar un mensaje de confirmación que se muestre al usuario después de enviar el formulario, indicando que su mensaje ha sido enviado correctamente.
+
+-----
+
+**PROBLEMA #2:** El formulario de registro no cuenta con agrupación visual de campos
+
+**Severidad:** 2
+
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema**: Al momento de registrarse en la aplicación, el formulario simplemente muestra los campos de entrada en una sola línea, lo que puede dificultar la comprensión de los campos requeridos y la organización visual del formulario. Esto puede llevar a confusión y errores al completar el registro.
+
+**Imagen:**
+
+<img src="img/heuristics2.png" width="600px">
+
+_Imagen 2XX. Heuristica 2_
+
+**Recomendación:** Organizar los campos del formulario de registro en grupos lógicos, utilizando etiquetas claras y separadores visuales para mejorar la legibilidad y la usabilidad.
+
+-----
+
+**PROBLEMA #3:** Inconsistencia en términos en la página de recintos
+
+**Severidad:** 2
+
+**Heurística violada:** Usability: Consistency and standards
+
+**Problema**: En la página de listado de recintos, hay una inconsistencia en los términos. En caso no haya ningún recinto registrado, se muestra el mensaje "No se han encontrado jaulas". Esto puede generar confusión en los usuarios, ya que el término "jaulas" no es el más adecuado para referirse a los recintos en el contexto de la aplicación.
+
+**Imagen:**
+
+<img src="img/heuristics3.png" width="600px">
+
+_Imagen 2XX. Heuristica 3_
+
+**Recomendación:** Cambiar el término "jaulas" por "recintos" en el mensaje de la página de recintos para mantener la consistencia con el resto de la aplicación y evitar confusiones.
+
 ## 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada
 #### 6.4.1.1. Información del grupo auditado
