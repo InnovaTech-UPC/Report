@@ -4181,10 +4181,6 @@ Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades i
 
 Las pruebas implementadas en los distintos módulos del proyecto utilizan principalmente **JUnit 5** para la ejecución de tests y **Mockito** para la simulación (mocking) de dependencias externas como repositorios, servicios y entidades relacionadas. En algunos casos, también se emplea la validación con **Jakarta Validation** y se integran pruebas de eventos con **Spring Boot Test**.
 
-![Unit Tests](img/unit-tests.png)
-
-_Imagen 210. Unit Tests_
-
 1. Pruebas de comandos y servicios de dominio
 
 - **PostCommandServiceImplTest**  
@@ -4198,9 +4194,59 @@ _Imagen 210. Unit Tests_
 
 **Ejemplo: Prueba para el command service de animal**
 
-![Animal Command Service Test](img/animal-command-service-test.png)
+```java
+class AnimalCommandServiceImplTest {
+    @Mock
+    private AnimalRepository animalRepository;
+    @Mock
+    private EnclosureRepository enclosureRepository;
+    @InjectMocks
+    private AnimalCommandServiceImpl animalCommandService;
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
 
-_Imagen 211. Animal Command Service Test_
+    // Successfully create a new animal with valid CreateAnimalCommand and existing enclosure
+    @Test
+    public void test_handle_create_animal_command_with_valid_data_returns_animal_id() {
+        // Arrange
+        Long enclosureId = 1L;
+        Long expectedAnimalId = 1L;
+
+        CreateAnimalCommand command = new CreateAnimalCommand(
+                "Bessie",
+                3,
+                "Cow",
+                "Holstein",
+                true,
+                450.5f,
+                "HEALTHY",
+                enclosureId
+        );
+
+        // Crea un EnclosureEntity (no Enclosure)
+        EnclosureEntity mockEnclosureEntity = new EnclosureEntity();
+        mockEnclosureEntity.setId(enclosureId);
+
+        // Crea un AnimalEntity simulado con ID
+        AnimalEntity savedAnimalEntity = new AnimalEntity();
+        savedAnimalEntity.setId(expectedAnimalId);
+
+        // Configura mocks correctamente
+        when(enclosureRepository.findById(enclosureId)).thenReturn(Optional.of(mockEnclosureEntity));
+        when(animalRepository.save(any(AnimalEntity.class))).thenReturn(savedAnimalEntity);
+
+        // Act
+        Long actualAnimalId = animalCommandService.handle(command);
+
+        // Assert
+        assertEquals(expectedAnimalId, actualAnimalId);
+        verify(animalRepository).save(any(AnimalEntity.class));
+        verify(enclosureRepository).findById(enclosureId);
+    }
+}
+```
 
 2. Pruebas de modelo y validación
 
@@ -4212,9 +4258,26 @@ _Imagen 211. Animal Command Service Test_
 
 **Ejemplo: Prueba para el usuario**
 
-![User Test](img/user-test.png)
+```java
+class UserTest {
+    // Creating a User with username and password initializes empty roles collection
+    @Test
+    public void test_user_constructor_initializes_empty_collections() {
+        // Arrange
+        String username = "test@example.com";
+        String password = "password123";
 
-_Imagen 212. User Test_
+        // Act
+        User user = new User(username, password);
+
+        // Assert
+        assertEquals(username, user.getUsername());
+        assertEquals(password, user.getPassword());
+        assertNotNull(user.getRoles());
+        assertTrue(user.getRoles().isEmpty());
+    }
+}
+```
 
 3. Pruebas de consulta y eventos
 
@@ -4226,9 +4289,45 @@ _Imagen 212. User Test_
 
 **Ejemplo: Prueba para ApplicationReadyEventHandler**
 
-![Application Ready Event Handler Test](img/application-ready-event-handler-test.png)
+```java
+class ApplicationReadyEventHandlerTest {
+    // Event handler correctly calls roleCommandService.handle with a new SeedRolesCommand
+    @Test
+    public void test_on_application_ready_calls_role_command_service() {
+        // Arrange
+        RoleCommandService mockRoleCommandService = Mockito.mock(RoleCommandService.class);
+        ApplicationReadyEventHandler handler = new ApplicationReadyEventHandler(mockRoleCommandService);
+        ApplicationReadyEvent mockEvent = Mockito.mock(ApplicationReadyEvent.class);
+        ConfigurableApplicationContext mockContext = Mockito.mock(ConfigurableApplicationContext.class);
 
-_Imagen 213. Application Ready Event Handler Test_
+        Mockito.when(mockEvent.getApplicationContext()).thenReturn(mockContext);
+        Mockito.when(mockContext.getId()).thenReturn("test-application");
+
+        // Act
+        handler.on(mockEvent);
+
+        // Assert
+        Mockito.verify(mockRoleCommandService).handle(Mockito.any(SeedRolesCommand.class));
+    }
+    // Handling when roleCommandService throws an exception
+    @Test
+    public void test_on_application_ready_handles_exception_from_role_command_service() {
+        // Arrange
+        RoleCommandService mockRoleCommandService = Mockito.mock(RoleCommandService.class);
+        ApplicationReadyEventHandler handler = new ApplicationReadyEventHandler(mockRoleCommandService);
+        ApplicationReadyEvent mockEvent = Mockito.mock(ApplicationReadyEvent.class);
+        ConfigurableApplicationContext mockContext = Mockito.mock(ConfigurableApplicationContext.class);
+
+        Mockito.when(mockEvent.getApplicationContext()).thenReturn(mockContext);
+        Mockito.when(mockContext.getId()).thenReturn("test-application");
+        Mockito.doThrow(new RuntimeException("Test exception")).when(mockRoleCommandService).handle(Mockito.any(SeedRolesCommand.class));
+
+        // Act & Assert
+        assertThrows(RuntimeException.class, () -> handler.on(mockEvent));
+        Mockito.verify(mockRoleCommandService).handle(Mockito.any(SeedRolesCommand.class));
+    }
+}
+```
 
 4. Pruebas de dominio de citas y notificaciones
 
@@ -4249,9 +4348,39 @@ _Imagen 213. Application Ready Event Handler Test_
 
 **Ejemplo: Prueba para el Appointment**
 
-![Appointment Test](img/appointment-test.png)
+```java
+class AppointmentTest {
+    // Creating a new Appointment with valid CreateAppointmentCommand sets correct initial values
+    @Test
+    public void test_create_appointment_with_valid_command_sets_correct_values() {
+        // Arrange
+        Long availableDateId = 1L;
+        Long farmerId = 2L;
+        String message = "I would like to schedule an appointment";
 
-_Imagen 214. Appointment Test_
+        CreateAppointmentCommand command = new CreateAppointmentCommand(availableDateId, farmerId, message);
+
+        Farmer farmer = mock(Farmer.class);
+        when(farmer.getId()).thenReturn(farmerId);
+
+        AvailableDate availableDate = mock(AvailableDate.class);
+        when(availableDate.getId()).thenReturn(availableDateId);
+
+        // Act
+        Appointment appointment = Appointment.create(command, farmer, availableDate);
+
+        // Assert
+        assertEquals(message, appointment.getMessage());
+        assertEquals(AppointmentStatus.PENDING, appointment.getStatus());
+        assertEquals(farmer, appointment.getFarmer());
+        assertEquals(availableDate, appointment.getAvailableDate());
+        assertNotNull(appointment.getMeetingUrl());
+        assertEquals(farmerId, appointment.getFarmerId());
+        assertEquals(availableDateId, appointment.getAvailableDateId());
+        assertEquals("PENDING", appointment.getAppointmentStatus());
+    }
+}
+```
 
 **Objetivos clave de las pruebas unitarias**
 
@@ -4263,6 +4392,9 @@ _Imagen 214. Appointment Test_
 
 El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo.
 
+![Unit Tests](img/unit-tests.png)
+
+_Imagen 210. Unit Tests_
 
 ### 6.1.2. Core Integration Tests
 
@@ -4274,29 +4406,247 @@ Estas pruebas aseguraron que las diferentes partes del sistema se comunican de m
 
 Se realizaron pruebas de integración en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
 
-![IAM Integration Tests](img/iam-integration-tests.png)
-
-_Imagen 215. IAM Integration Tests_
-
 Por ejemplo, se validó el proceso de creación de un nuevo usuario y su asignación a un rol específico, asegurando que la información se almacene correctamente en la base de datos.
 
-![IAM Integration Test Example](img/iam-integration-example.png)
+```java
+@SpringBootTest(classes = AgrotechApplication.class)
+@AutoConfigureMockMvc
+@Transactional
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+class AuthenticationControllerIntegrationTest {
 
-_Imagen 216. IAM Integration Test Example_
+    @Autowired
+    private MockMvc mockMvc;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @Test
+    void signUpWithValidDataReturnsCreated() throws Exception {
+        // Arrange
+        SignUpResource request = new SignUpResource(
+                "user_" + UUID.randomUUID() + "@test.com", "password", List.of("ROLE_USER")
+        );
+        // Act
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                // Assert
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.username").value(request.username()));
+    }
+
+    @Test
+    void signUpWithExistingEmailReturnsBadRequest() throws Exception {
+        // Arrange
+        String username = "existinguser@test.com";
+
+        // Act
+        SignUpResource request = new SignUpResource(username, "password", List.of("ROLE_USER"));
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isCreated());
+
+        // Second sign-up with same username
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                // Assert
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    void signInWithCorrectCredentialsReturnsOk() throws Exception {
+        // Arrange
+        String username = "validuser@test.com";
+        String password = "password";
+
+        // Act
+        SignUpResource signUp = new SignUpResource(username, password, List.of("ROLE_USER"));
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(signUp)))
+                .andExpect(status().isCreated());
+
+        SignInResource signIn = new SignInResource(username, password);
+        mockMvc.perform(post("/api/v1/authentication/sign-in")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(signIn)))
+                // Assert
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.token").isNotEmpty())
+                .andExpect(jsonPath("$.id").isNumber());
+    }
+
+    @Test
+    void signInWithInvalidCredentialsReturnsBadRequest() throws Exception {
+        // Arrange
+        SignInResource signIn = new SignInResource("nonexistent@test.com", "wrongpassword");
+        // Act
+        mockMvc.perform(post("/api/v1/authentication/sign-in")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(signIn)))
+                // Assert
+                .andExpect(status().isBadRequest());
+    }
+}
+```
+
+![IAM Integration Tests](img/iam-integration-tests.png)
+
+_Imagen 211. IAM Integration Tests_
 
 
 **Management bounded context**
+
 Se realizaron pruebas de integración en los controladores de Animal y Enclosure, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación, actualización, eliminación y consulta de información de animales y recintos.
-
-![Management Integration Tests](img/management-integration-tests.png)
-
-_Imagen 217. Management Integration Tests_
 
 Por ejemplo, se validó el proceso de creación de un recinto asociado a un granjero, asegurando que la información se almacene correctamente en la base de datos. Asimismo, se hizo un setup de datos inicial para facilitar la ejecución de las pruebas, generando un usuario, un granjero y un token de acceso para que no se requiera un inicio de sesión manual en cada prueba.
 
-![Management Integration Test Example](img/management-integration-example.png)
+```java
+@SpringBootTest(classes = AgrotechApplication.class)
+@AutoConfigureMockMvc
+@Transactional
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+class EnclosuresControllerIntegrationTest {
+    @Autowired
+    private MockMvc mockMvc;
+    @Autowired
+    private ObjectMapper objectMapper;
+    @Autowired
+    private FarmerCommandService farmerCommandService;
+    @Autowired
+    private FarmerQueryService farmerQueryService;
+    @Autowired
+    private EnclosureCommandService enclosureCommandService;
+    @Autowired
+    private EnclosureQueryService enclosureQueryService;
+    @Autowired
+    private UserCommandService userCommandService;
 
-_Imagen 218. Management Integration Test Example_
+    private String token;
+    private Farmer farmer;
+
+    @BeforeEach
+    void setup() throws Throwable { // fail es un Throwable
+        User user = userCommandService.handle(new SignUpCommand("testuser@example.com", "password", List.of(Role.getDefaultRole())))
+                .orElseThrow(() -> fail("User creation failed"));
+        ImmutablePair<User, String> signInResult = userCommandService.handle(new SignInCommand("testuser@example.com", "password"))
+                .orElseThrow(() -> fail("User sign-in failed"));
+        Long farmerId = farmerCommandService.handle(new CreateFarmerCommand(user.getId()), user);
+        Farmer farmer = farmerQueryService.handle(new GetFarmerByIdQuery(farmerId))
+                .orElseThrow(() -> fail("Farmer creation failed"));
+        this.token = signInResult.getRight();
+        this.farmer = farmer;
+    }
+
+    @Test
+    void postEnclosure() throws Exception {
+        // Arrange
+        CreateEnclosureResource resource = new CreateEnclosureResource("Barn", 10, "Barn Type", farmer.getId());
+        // Act
+        mockMvc.perform(post("/api/v1/enclosures")
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer " + token)
+                        .content(objectMapper.writeValueAsString(resource)))
+                // Assert
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.name").value("Barn"))
+                .andExpect(jsonPath("$.capacity").value(10))
+                .andExpect(jsonPath("$.type").value("Barn Type"));
+    }
+
+    @Test
+    void getEnclosures() throws Exception {
+        // Arrange
+        CreateEnclosureCommand commandOne = new CreateEnclosureCommand("Stable", 6, "Horse", farmer.getId());
+        CreateEnclosureCommand commandTwo = new CreateEnclosureCommand("Corral", 4, "Cow", farmer.getId());
+        // Act
+        enclosureCommandService.handle(commandOne);
+        enclosureCommandService.handle(commandTwo);
+        mockMvc.perform(get("/api/v1/enclosures")
+                        .header("Authorization", "Bearer " + token))
+                // Assert
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$", hasSize(2)))
+                .andExpect(jsonPath("$[0].name").value("Stable"))
+                .andExpect(jsonPath("$[1].name").value("Corral"));
+    }
+
+    @Test
+    void updateEnclosure() throws Throwable {
+        // Arrange
+        CreateEnclosureCommand command = new CreateEnclosureCommand("Old Corral", 3, "Pig", farmer.getId());
+        Long enclosureId = enclosureCommandService.handle(command);
+        Enclosure enclosure = enclosureQueryService.handle(new GetEnclosureByIdQuery(enclosureId))
+                .orElseThrow(() -> fail("Enclosure creation failed"));
+        UpdateEnclosureResource updateResource = new UpdateEnclosureResource("New Corral", 5, "Pig");
+        // Act
+        mockMvc.perform(put("/api/v1/enclosures/" + enclosure.getId())
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer " + token)
+                        .content(objectMapper.writeValueAsString(updateResource)))
+                // Assert
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name").value("New Corral"))
+                .andExpect(jsonPath("$.capacity").value(5));
+    }
+
+    @Test
+    void deleteEnclosure() throws Exception {
+        // Arrange
+        CreateEnclosureCommand command = new CreateEnclosureCommand("Temporary", 2, "Goat", farmer.getId());
+        Long enclosureId = enclosureCommandService.handle(command);
+        // Act
+        mockMvc.perform(delete("/api/v1/enclosures/" + enclosureId)
+                        .header("Authorization", "Bearer " + token))
+                // Assert
+                .andExpect(status().isOk());
+        assertFalse(enclosureQueryService.handle(new GetEnclosureByIdQuery(enclosureId)).isPresent(), "Enclosure should be deleted");
+    }
+
+    @Test
+    void postEnclosureWithInvalidToken() throws Exception {
+        CreateEnclosureResource resource = new CreateEnclosureResource("Invalid", 3, "Rare Type", 1L);
+
+        mockMvc.perform(post("/api/v1/enclosures")
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer invalid_token")
+                        .content(objectMapper.writeValueAsString(resource)))
+                .andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void getEnclosuresWithInvalidToken() throws Exception {
+        mockMvc.perform(get("/api/v1/enclosures")
+                        .header("Authorization", "Bearer invalid_token"))
+                .andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void updateEnclosureWithInvalidToken() throws Exception {
+        UpdateEnclosureResource update = new UpdateEnclosureResource("Invalid", 1, "Sheep");
+
+        mockMvc.perform(put("/api/v1/enclosures/1")
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer invalid_token")
+                        .content(objectMapper.writeValueAsString(update)))
+                .andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void deleteEnclosureWithInvalidToken() throws Exception {
+        mockMvc.perform(delete("/api/v1/enclosures/1")
+                        .header("Authorization", "Bearer invalid_token"))
+                .andExpect(status().isUnauthorized());
+    }
+}
+```
+
+![Management Integration Tests](img/management-integration-tests.png)
+
+_Imagen 212. Management Integration Tests_
 
 
 ### 6.1.3. Core Behavior-Driven Development
@@ -4307,68 +4657,1286 @@ Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estru
 
 **US01**
 
-![us01.feature](img/us01.feature.png)
+```gherkin
+Feature: Visualización del catálogo de asesores
+  Como granjero con poca experiencia
+  quiero explorar el catálogo de asesores
+  para conocer quiénes me pueden apoyar con asesorías
 
-_Imagen 219. US01_
+  Scenario: Explorar catálogo de asesores
+    Given el granjero con poca experiencia quiere explorar el catálogo de asesores
+    And se encuentra en la plataforma
+    When seleccione el botón relacionado con el "Asesores"
+    Then el sistema le mostrará una lista de todos los asesores disponibles en la plataforma
 
-**US04**
+  Scenario: Filtrar búsqueda de asesores
+    Given el granjero con poca experiencia quiere personalizar su búsqueda
+    And se encuentra en el apartado de "Asesores"
+    When seleccione el botón de filtros
+    Then el sistema le permitirá filtrar el catálogo de asesores por nombre o reputación
+```
 
-![us04.feature](img/us04.feature.png)
+**US02**
 
-_Imagen 220. US04_
+```gherkin
+Feature: Visualización de información de un asesor
+  Como granjero con poca experiencia
+  quiero ver la información de un asesor
+  para tomar una decisión informada antes de separar una cita
+
+  Scenario Outline: Ver información de un asesor
+    Given el granjero con poca experiencia quiere ver información de un asesor
+    And se encuentra en el apartado de Asesores
+    When seleccione al cuadro de un <asesor>
+    Then el sistema le mostrará la información del asesor como nombre, experiencia, calificación y reseñas
+
+    Examples:
+      | asesor |
+      | 2      |
+
+  Scenario Outline: Fallar al visualizar la información del asesor
+    Given el granjero con poca experiencia quiere ver información relevante del asesor
+    And se encuentra en el apartado de Asesores
+    When seleccione al cuadro de un <asesor> en la interfaz
+    And se encuentre con un <error> al cargar la información
+    Then el sistema le mostrará un mensaje de error de carga en la interfaz
+
+    Examples:
+      | asesor | error |
+      | 0      | 404   |
+```
+
+**US03**
+
+```gherkin
+Feature: Visualización de horarios de asesores
+  Como granjero con poca experiencia
+  quiero ver los horarios disponibles de los asesores
+  para seleccionar un horario que se ajuste a mi agenda
+
+  Scenario Outline: Visualizar horarios disponibles
+    Given el granjero con poca experiencia desea visualizar los horarios disponibles de un asesor elegido
+    And se encuentra viendo la información del perfil de un <asesor>
+    When haga clic en el botón Agendar Cita en la interfaz
+    Then el sistema le mostrará una interfaz con los horarios disponibles del asesor
+
+    Examples:
+      | asesor |
+      | 1      |
+
+  Scenario Outline: Fallar al intentar visualizar horarios
+    Given el granjero con poca experiencia desea visualizar los horarios disponibles de un asesor elegido
+    And se encuentra viendo la información del perfil de un <asesor>
+    When haga clic en el botón Agendar Cita en la interfaz
+    And el asesor no tenga horarios disponibles
+    Then el sistema le mostrará un mensaje de error El asesor no tiene horarios disponibles en la interfaz
+
+    Examples:
+      | asesor |
+      | 2      |
+```
+
+**US06**
+
+```gherkin
+Feature: Separación de horarios de disponibilidad para asesorías
+  Como asesor
+  quiero poder separar los horarios en los que estoy disponible
+  para que los usuarios interesados puedan agendar una asesoría en un momento conveniente
+
+  Scenario: Registrar disponibilidad para asesorías
+    Given el asesor desea registrar su horario de disponibilidad para una asesoría
+    And está visualizando la sección de "Horarios disponibles" en su dispositivo
+    When haga clic en el botón para registrar un nuevo horario
+    And complete los datos del nuevo horario
+    Then el sistema actualizará y guardará los horarios y horas seleccionadas como disponibles
+
+  Scenario: Eliminar horario de disponibilidad para asesorías
+    Given el asesor desea eliminar un horario de disponibilidad para asesorías
+    And está visualizando la página de "Horario disponible" en su dispositivo
+    When haga clic en el botón "Eliminar" relacionado al horario que desea eliminar
+    And confirme la eliminación del horario
+    Then el sistema eliminará el horario de disponibilidad seleccionado
+```
+
+**US07**
+
+```gherkin
+Feature: Gestión de publicaciones de asesores
+  Como asesor
+  quiero hacer publicaciones referentes a mis trabajos
+  para tener una mayor visibilidad con los granjeros inexpertos
+
+  Scenario: Crear una nueva publicación
+    Given que el asesor está en el apartado de "Mis publicaciones"
+    When hace clic en "Crear Publicación"
+    And completa el formulario y presiona "Publicar"
+    Then el sistema confirma la acción y la publicación se vuelve visible para los granjeros
+
+  Scenario: Editar una publicación existente
+    Given que el asesor tiene una publicación
+    And está en el apartado "Mis publicaciones"
+    When selecciona "Editar"
+    And modifica el contenido y guarda los cambios
+    Then el sistema confirma la acción y actualiza la publicación
+
+  Scenario: Eliminar una publicación existente
+    Given que el asesor tiene una publicación
+    And está en el apartado "Mis publicaciones"
+    When selecciona "Eliminar"
+    And confirma la acción
+    Then el sistema confirma la eliminación y la publicación desaparece de la lista
+```
 
 **US09**
 
-![us09.feature](img/us09.feature.png)
+```gherkin
+Feature: Registro de un usuario nuevo
+  Como usuario
+  quiero registrarme
+  para acceder a las funciones de usuario
 
-_Imagen 221. US09_
+  Scenario Outline: Registro exitoso
+    Given el usuario quiere registrarse con el servicio
+    When el usuario se registra con su usuario "<user>" y contraseña "<password>"
+    Then la respuesta del registro contiene un status 201
+
+    Examples:
+    | user        | password |
+    | unique_user | 12345678 |
+
+  Scenario Outline: Registro fallido
+    Given el usuario quiere registrarse con el servicio
+    When el usuario se registra con su usuario "<invalid_user>" y contraseña "<password>"
+    Then la respuesta del registro contiene un status 400
+    And la respuesta contiene un mensaje de error
+
+    Examples:
+    | invalid_user      | password |
+    | example2          | 12345678 |
+    | example@gmail.com | 1234567  |
+```
 
 **US10**
 
-![us010.feature](img/us10.feature.png)
+```gherkin
+Feature: Inicio de sesión
+  Como usuario
+  quiero acceder a mi cuenta registrada
+  para acceder a las funciones de usuario
 
-_Imagen 222. US10_
+  # Para este escenario, se requiere que el usuario example@gmail.com
+  # esté registrado con la contraseña 12345678 en la base de datos
+  Scenario Outline: Inicio de sesión exitoso
+    Given el usuario quiere loguearse con el servicio
+    When el usuario ingrese su usuario "<user>" y contraseña "<password>"
+    Then la respuesta del login contiene un status 200
+    And la respuesta contiene un token "token"
 
+    Examples:
+    | user | password |
+    | example@gmail.com | 12345678 |
 
-Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.
+  Scenario Outline: Inicio de sesión fallido
+    Given el usuario quiere loguearse con el servicio
+    When el usuario ingrese su usuario "<invalid_user>" y contraseña "<invalid_password>"
+    Then la respuesta del login contiene un status 400
+    And la respuesta contiene un error "error"
 
-![BDD Tests](img/bdd-tests.png)
+    Examples:
+    | invalid_user | invalid_password |
+    | example@gmail.com | 1234567 |
+    | example2 | 12345678 |
+```
 
-_Imagen 223. BDD Tests_
+**US22**
 
-En este caso, se realizaron pruebas de comportamiento en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
+```gherkin
+Feature: Gestión de recintos
+  Como granjero con poca experiencia,
+  quiero registrar, editar y eliminar recintos de mis animales,
+  para mantener un control organizado y actualizado sobre los espacios donde se encuentran.
+
+  Scenario: Registrar un recinto
+    Given el usuario accede a la sección de recintos
+    When complete el formulario con los datos del nuevo recinto
+    Then el sistema guardará el recinto y lo mostrará en la lista
+
+  Scenario: Editar un recinto existente
+    Given el usuario visualiza un recinto en la lista
+    When seleccione la opción de editar y modifique los datos
+    Then el sistema actualizará la información del recinto
+
+  Scenario: Eliminar un recinto
+    Given el usuario visualiza un recinto en la lista
+    When seleccione la opción de eliminar
+    Then el sistema pedirá confirmación y, al aceptarla, eliminará el recinto
+```
+
+**US23**
+
+```gherkin
+Feature: Gestión de animales
+  Como granjero con poca experiencia,
+  quiero registrar, editar y eliminar animales, asignándoles a recintos específicos,
+  para llevar un registro claro y ordenado de cada uno de ellos.
+
+  Scenario: Registrar un animal en un recinto
+    Given el usuario accede a la sección de recintos
+    When complete el formulario con los  datos del animal y seleccione un recinto
+    Then el sistema guardará el animal y lo asociará al recinto elegido
+
+  Scenario: Editar información de un animal
+    Given el usuario visualiza un animal en la lista
+    When seleccione la opción de editar y realice los cambios
+    Then el sistema actualizará la información del animal
+
+  Scenario: Eliminar un animal
+    Given el usuario visualiza un animal en la lista
+    When seleccione la opción de eliminar el animal
+    Then el sistema pedirá confirmación y, al aceptarla, eliminará al animal del registro
+```
+
+En este caso, se realizaron pruebas de comportamiento en los controladores de Authentication, Post, Appointment y Management, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión, creación de publicaciones, gestión de citas y recintos.
 
 **Prueba para US01**
 
-![US01 Steps](img/us01-steps.png)
+```java
+public class US01Steps {
+    Response response;
+    String token;
 
-_Imagen 224. US01 Steps_
+    @Given("el granjero con poca experiencia quiere explorar el catálogo de asesores")
+    public void el_granjero_con_poca_experiencia_quiere_explorar_el_catálogo_de_asesores() {
+        System.out.println("El granjero quiere explorar el catálogo de asesores.");
+    }
 
-**Prueba para US04**
+    @And("se encuentra en la plataforma")
+    public void se_encuentra_en_la_plataforma() {
+        System.out.println("El granjero está en la plataforma.");
+        baseURI = "http://localhost:8080/api/v1";
 
-![US04 Steps](img/us04-steps.png)
+        // Simulate user login
+        String username = "admin@gmail.com";
+        String password = "123456";
 
-_Imagen 225. US04 Steps_
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        // Debugging: Print the response body
+        System.out.println("Login Response Body: " + response.getBody().asString());
+
+        // Extract token and validate
+        token = response.getBody().jsonPath().get("token");
+        assertNotNull(token, "Token is null. Login failed.");
+        System.out.println("Generated Token: " + token);
+    }
+
+
+    @When("seleccione el botón relacionado con el {string}")
+    public void seleccione_el_botón_relacionado_con_el(String catalogo) {
+        System.out.println("El granjero selecciona el botón: " + catalogo);
+    }
+
+    @Then("el sistema le mostrará una lista de todos los asesores disponibles en la plataforma")
+    public void el_sistema_le_mostrará_una_lista_de_todos_los_asesores_disponibles_en_la_plataforma() {
+        System.out.println("El sistema muestra la lista de asesores.");
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/advisors");
+
+        // Debugging: Print the response body
+        System.out.println("Response Body: " + response.getBody().asString());
+
+        // Verify the response contains the expected data
+        assertNotNull(response.getBody().jsonPath().getList("data"), "The 'data' field in the response is null.");
+        System.out.println("Lista de asesores: " + response.getBody().jsonPath().getList("data"));
+    }
+
+    @Given("el granjero con poca experiencia quiere personalizar su búsqueda")
+    public void el_granjero_con_poca_experiencia_quiere_personalizar_su_búsqueda() {
+        System.out.println("El granjero quiere personalizar su búsqueda.");
+    }
+
+    @And("se encuentra en el apartado de {string}")
+    public void se_encuentra_en_el_apartado_de(String asesores) {
+        System.out.println("El granjero está en el apartado: " + asesores);
+    }
+
+    @When("seleccione el botón de filtros")
+    public void seleccione_el_botón_de_filtros() {
+        System.out.println("El granjero selecciona el botón de filtros.");
+    }
+
+    @Then("el sistema le permitirá filtrar el catálogo de asesores por nombre o reputación")
+    public void el_sistema_le_permitirá_filtrar_el_catálogo_de_asesores_por_nombre_o_reputación() {
+        System.out.println("El sistema permite filtrar el catálogo.");
+    }
+}
+```
+
+**Prueba para US02**
+
+```java
+public class US02Steps {
+    Response response;
+    String token;
+    int error;
+
+    @Given("el granjero con poca experiencia quiere ver información de un asesor")
+    public void el_granjero_con_poca_experiencia_quiere_ver_asesor() {
+        System.out.println("El granjero está en la plataforma.");
+        baseURI = "http://localhost:8080/api/v1";
+        // Simulate user login
+        String username = "example@gmail.com";
+        String password = "12345678";
+
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        token = response.getBody().jsonPath().get("token");
+    }
+
+    @And("se encuentra en el apartado de Asesores")
+    public void se_encuentra_en_el_apartado_asesores() {
+        System.out.println("El granjero se encuentra en: Asesores");
+
+    }
+
+    @When("seleccione al cuadro de un {int}")
+    public void seleccione_el_cuadro_de_un_asesor(int id) {
+        // Simulate selecting an advisor
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/" + id + "/user");
+
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().get(""));
+    }
+
+    @Then("el sistema le mostrará la información del asesor como nombre, experiencia, calificación y reseñas")
+    public void el_sistema_le_mostrará_la_informacion_del_asesor() {
+        // armar salida
+        String name = response.getBody().jsonPath().get("firstName") + " " + response.getBody().jsonPath().get("lastName");
+        String location = response.getBody().jsonPath().get("city") + ", " + response.getBody().jsonPath().get("country");
+        String description = response.getBody().jsonPath().get("description");
+        String occupation = response.getBody().jsonPath().get("occupation");
+        String experience = response.getBody().jsonPath().get("experience") + " años";
+        System.out.println("Información del asesor: "
+                + "\nNombre: " + name
+                + "\nUbicación: " + location
+                + "\nDescripción: " + description
+                + "\nOcupación: " + occupation
+                + "\nExperiencia: " + experience);
+    }
+
+    @Given("el granjero con poca experiencia quiere ver información relevante del asesor")
+    public void el_granjero_con_poca_experiencia_quiere_ver_informacion_relevante_del_asesor() {
+        System.out.println("El granjero está en la plataforma.");
+        baseURI = "http://localhost:8080/api/v1";
+        // Simulate user login
+        String username = "example@gmail.com";
+        String password = "12345678";
+
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        token = response.getBody().jsonPath().get("token");
+    }
+
+    @When("seleccione al cuadro de un {int} en la interfaz")
+    public void seleccione_al_cuadro_de_un_asesor_en_la_interfaz(int id) {
+        // Simulate selecting an advisor
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/" + id + "/user");
+
+    }
+
+    @And("se encuentre con un {int} al cargar la información")
+    public void se_encuentre_con_un_404_al_cargar_informacion(int error) {
+        this.error = error;
+    }
+
+    @Then("el sistema le mostrará un mensaje de error de carga en la interfaz")
+    public void el_sistema_le_mostrará_un_mensaje_de_error_al_no_encontrar_el_asesor() {
+        assertEquals(error, response.getStatusCode());
+        System.out.println("Error: " + response.getStatusCode());
+    }
+}
+```
+
+**Prueba para US03**
+
+```java
+public class US03Steps {
+    Response response;
+    String token;
+    int advisorId;
+
+    @Given("el granjero con poca experiencia desea visualizar los horarios disponibles de un asesor elegido")
+    public void el_granjero_con_poca_experiencia_desea_visualizar_horarios_disponibles() {
+        System.out.println("El granjero quiere ver los horarios de un asesor.");
+        baseURI = "http://localhost:8080/api/v1";
+        // Simulate user login
+        String username = "example@gmail.com";
+        String password = "12345678";
+
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        token = response.getBody().jsonPath().get("token");
+    }
+
+    @And("se encuentra viendo la información del perfil de un {int}")
+    public void se_encuentra_viendo_informacion_perfil_asesor(int id) {
+        System.out.println("El granjero está viendo el perfil del asesor con ID: " + id);
+        advisorId = id;
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/" + id + "/user");
+
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().get(""));
+    }
+
+    @When("haga clic en el botón Agendar Cita en la interfaz")
+    public void haga_clic_en_boton_agendar_cita() {
+        System.out.println("El granjero hace clic en el botón Agendar Cita.");
+        // Load dates
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/available_dates?advisorId=" + advisorId);
+    }
+
+    @Then("el sistema le mostrará una interfaz con los horarios disponibles del asesor")
+    public void el_sistema_le_mostrará_horarios_disponibles() {
+        System.out.println("El sistema muestra los horarios disponibles del asesor.");
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().getList(""));
+        System.out.println("Horarios disponibles: " + response.getBody().jsonPath().getList(""));
+    }
+
+
+    @And("el asesor no tenga horarios disponibles")
+    public void el_asesor_no_tenga_horarios_disponibles() {
+        System.out.println("El asesor no tiene horarios disponibles.");
+    }
+
+    @Then("el sistema le mostrará un mensaje de error El asesor no tiene horarios disponibles en la interfaz")
+    public void el_sistema_le_mostrará_mensaje_error_horarios_no_disponibles() {
+        assertTrue(response.getBody().jsonPath().getList("").isEmpty());
+        System.out.println("Horarios disponibles: " + response.getBody().jsonPath().getList(""));
+        System.out.println("El asesor no tiene horarios disponibles.");
+    }
+}
+```
+
+**Prueba para US06**
+
+```java
+public class US06Steps {
+    Response response;
+    String token;
+    int userId;
+    int advisorId;
+    int availableDateId;
+
+    @Given("el asesor desea registrar su horario de disponibilidad para una asesoría")
+    public void asesor_desea_registrar_disponibilidad() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+    }
+
+    @And("está visualizando la sección de {string} en su dispositivo")
+    public void viendo_seccion(String seccion) {
+        System.out.println("Visualizando sección: " + seccion);
+    }
+
+    @When("haga clic en el botón para registrar un nuevo horario")
+    public void clic_en_registrar_horario() {
+        System.out.println("Clic en botón: Registrar nuevo horario");
+    }
+
+    @And("complete los datos del nuevo horario")
+    public void completar_datos_nuevo_horario() {
+        Date scheduledDate = new Date(System.currentTimeMillis() + 86400000);
+        String formattedDate = String.format("%tF", scheduledDate); // Formato YYYY-MM-DD
+        String body = String.format("{\"advisorId\":\"%s\",\"scheduledDate\":\"%s\",\"startTime\":\"08:00\",\"endTime\":\"09:00\"}", advisorId, formattedDate);
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .post("/available_dates");
+
+    }
+
+    @Then("el sistema actualizará y guardará los horarios y horas seleccionadas como disponibles")
+    public void sistema_guarda_disponibilidad() {
+        availableDateId = response.jsonPath().getInt("id");
+        assertEquals(201, response.getStatusCode());
+        System.out.println("Horario " + availableDateId + " registrado correctamente");
+    }
+
+    @Given("el asesor desea eliminar un horario de disponibilidad para asesorías")
+    public void asesor_desea_eliminar_horario() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+
+        // Asegurarse de que hay un horario disponible para eliminar
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/available_dates?advisorId=" + advisorId);
+
+        assertEquals(200, response.getStatusCode());
+        if (response.jsonPath().getList("id").isEmpty()) {
+            fail("No hay horarios disponibles para eliminar");
+        } else {
+            availableDateId = response.jsonPath().getInt("id[0]"); // Tomar el primer horario disponible
+            System.out.println("Horario disponible para eliminar: " + availableDateId);
+        }
+    }
+
+    @And("está visualizando la página de {string} en su dispositivo")
+    public void esta_visualizando_pagina_en_Dispositivo(String pagina) {
+        System.out.println("Visualizando página: " + pagina);
+    }
+
+    @When("haga clic en el botón {string} relacionado al horario que desea eliminar")
+    public void clic_en_eliminar_horario(String boton) {
+        System.out.println("Clic en botón: " + boton);
+    }
+
+    @And("confirme la eliminación del horario")
+    public void confirmar_eliminacion_horario() {
+        response = given().header("Authorization", "Bearer " + token)
+                .delete("/available_dates/" + availableDateId);
+    }
+
+    @Then("el sistema eliminará el horario de disponibilidad seleccionado")
+    public void sistema_elimina_horario() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Horario eliminado correctamente");
+    }
+}
+```
+
+**Prueba para US07**
+
+```java
+public class US07Steps {
+    Response response;
+    String token;
+    int userId;
+    int advisorId;
+    int postId;
+
+    @Given("que el asesor está en el apartado de {string}")
+    public void asesor_en_apartado(String apartado) {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+
+        System.out.println("Apartado: " + apartado);
+    }
+
+    @When("hace clic en {string}")
+    public void clic_en_crear_publicacion(String boton) {
+        System.out.println("Clic en: " + boton);
+    }
+
+    @And("completa el formulario y presiona {string}")
+    public void completa_formulario_y_publica(String accion) {
+        System.out.println("Completa el formulario y presiona: " + accion);
+        String body = "{\"advisorId\":" + advisorId + ",\"title\":\"Nueva publicación\",\"description\":\"Asesoría en riego por goteo\",\"image\":\"https://example.com/image.jpg\"}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .post("/posts");
+        postId = response.jsonPath().getInt("id");
+    }
+
+    @Then("el sistema confirma la acción y la publicación se vuelve visible para los granjeros")
+    public void sistema_confirma_publicacion() {
+        assertEquals(201, response.getStatusCode());
+        System.out.println("Publicación creada: " + postId);
+    }
+
+    @Given("que el asesor tiene una publicación")
+    public void asesor_tiene_publicacion() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+
+        // Asumiendo que el asesor tiene al menos una publicación
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/posts?advisorId=" + advisorId);
+
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().getList("id"));
+
+        if (response.jsonPath().getList("id").isEmpty()) {
+            fail("No hay publicaciones disponibles para el asesor");
+        }
+        else {
+            postId = response.jsonPath().getInt("id[0]");
+            System.out.println("Publicación encontrada: " + postId);
+        }
+    }
+    @And("está en el apartado {string}")
+    public void esta_en_el_apartado(String apartado) {
+        System.out.println("Asesor esta en el apartado: " + apartado);
+    }
+
+    @When("selecciona {string}")
+    public void selecciona_accion(String accion) {
+        System.out.println("Selecciona: " + accion);
+    }
+
+    @And("modifica el contenido y guarda los cambios")
+    public void modifica_y_guarda() {
+        String updated = "{\"title\":\"Publicación actualizada\",\"description\":\"Actualizado\",\"image\":\"https://example.com/updated_image.jpg\"}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(updated)
+                .put("/posts/" + postId);
+    }
+
+    @Then("el sistema confirma la acción y actualiza la publicación")
+    public void sistema_actualiza_publicacion() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Publicación actualizada correctamente");
+    }
+
+    @And("confirma la acción")
+    public void confirma_eliminar() {
+        response = given().header("Authorization", "Bearer " + token)
+                .delete("/posts/" + postId);
+    }
+
+    @Then("el sistema confirma la eliminación y la publicación desaparece de la lista")
+    public void sistema_elimina_publicacion() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Publicación eliminada");
+    }
+}
+```
 
 **Prueba para US09**
 
-![US09 Steps](img/us09-steps.png)
+```java
+public class US09Steps {
+    Response response;
+    String uniqueEmail;
+    String[] role;
 
-_Imagen 226. US09 Steps_
+    @Given("el usuario quiere registrarse con el servicio")
+    public void servicio_disponible() {
+        baseURI = "http://localhost:8080/api/v1";
+    }
+
+    @When("el usuario se registra con su usuario {string} y contraseña {string}")
+    public void usuario_ingresa_datos(String user, String password) {
+        if (user.equals("unique_user")) {
+            uniqueEmail = "testuser_" + System.currentTimeMillis() + "@gmail.com";
+        } else {
+            uniqueEmail = user;
+        }
+
+        role = new String[]{"ROLE_USER"};
+
+        String jsonBody = String.format(
+                "{\"username\":\"%s\",\"password\":\"%s\", \"roles\":[\"%s\"]}",
+                uniqueEmail, password, String.join("\",\"", role));
+
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-up");
+    }
+
+    @Then("la respuesta del registro contiene un status {int}")
+    public void respuesta_contiene_status(int status) {
+        response.then().statusCode(status);
+    }
+
+    @And("la respuesta contiene un mensaje de error")
+    public void respuesta_contiene() {
+        assertNotNull(response.getBody().jsonPath().get("message"));
+    }
+}
+```
 
 **Prueba para US10**
 
-![US10 Steps](img/us10-steps.png)
+```java
+public class US10Steps {
+    Response response;
 
-_Imagen 227. US10 Steps_
+    @Given("el usuario quiere loguearse con el servicio")
+    public void servicio_esta_disponible() {
+        baseURI="http://localhost:8080/api/v1";
+    }
+
+    @When("el usuario ingrese su usuario {string} y contraseña {string}")
+    public void usuario_ingresa_datos(String username, String password) {
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+    }
+    @Then("la respuesta del login contiene un status {int}")
+    public void respuesta_status(int status) {
+        response.then().statusCode(status);
+    }
+    @And("la respuesta contiene un token {string}")
+    public void respuesta_contiene_token(String text) {
+        assertNotNull(response.getBody().jsonPath().get("token"));
+    }
+
+    @And("la respuesta contiene un error {string}")
+    public void respuesta_contiene_mensaje_error(String text) {
+        assertNotNull(response.getBody().jsonPath().get("error"));
+        assertNotNull(response.getBody().jsonPath().get("message"));
+    }
+
+}
+```
+
+**Prueba para US22**
+
+```java
+public class US22Steps {
+    Response response;
+    String token;
+    int userId;
+    int enclosureId;
+
+    @Given("el usuario accede a la sección de recintos")
+    public void usuario_accede_seccion_recintos() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"farmer@gmail.com\",\"password\":\"123456\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+    }
+
+    @When("complete el formulario con los datos del nuevo recinto")
+    public void completar_formulario_nuevo_recinto() {
+        String body = "{\"name\":\"Recinto A\",\"capacity\":10,\"type\":\"Pequeño\",\"farmerId\":" + userId + "}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .post("/enclosures");
+    }
+
+    @Then("el sistema guardará el recinto y lo mostrará en la lista")
+    public void sistema_guarda_recinto() {
+        enclosureId = response.jsonPath().getInt("id");
+        assertEquals(201, response.getStatusCode());
+        System.out.println("Recinto registrado correctamente con ID: " + enclosureId);
+    }
+
+    @Given("el usuario visualiza un recinto en la lista")
+    public void usuario_visualiza_recinto_lista() {
+        if (token == null || token.isEmpty()) {
+            usuario_accede_seccion_recintos();
+        }
+
+        // Crear un recinto si no hay
+        String recintoBody = "{\"name\":\"Recinto Auto\",\"capacity\":6,\"type\":\"Mediano\",\"farmerId\":" + userId + "}";
+        Response createResponse = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(recintoBody)
+                .post("/enclosures");
+
+        assertEquals(201, createResponse.getStatusCode(), "No se pudo crear recinto para editar o eliminar");
+
+        enclosureId = createResponse.jsonPath().getInt("id");
+
+        // Verificar que se puede obtener desde la API
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/enclosures/" + enclosureId);
+
+        assertEquals(200, response.getStatusCode(), "El recinto no se pudo visualizar tras crearse");
+        System.out.println("Recinto disponible para editar/eliminar: " + enclosureId);
+    }
+
+
+    @When("seleccione la opción de editar y modifique los datos")
+    public void editar_recinto() {
+        String body = "{\"name\":\"Recinto B\",\"capacity\":15,\"type\":\"Grande\"}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .put("/enclosures/" + enclosureId);
+    }
+
+    @Then("el sistema actualizará la información del recinto")
+    public void sistema_actualiza_recinto() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Recinto actualizado correctamente");
+    }
+
+    @When("seleccione la opción de eliminar")
+    public void eliminar_recinto() {
+        response = given().header("Authorization", "Bearer " + token)
+                .delete("/enclosures/" + enclosureId);
+    }
+
+    @Then("el sistema pedirá confirmación y, al aceptarla, eliminará el recinto")
+    public void sistema_elimina_recinto() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Recinto eliminado correctamente");
+    }
+}
+```
+
+**Prueba para US23**
+
+```java
+public class US23Steps {
+    private Response response;
+    private String token;
+    private int userId;
+    private int enclosureId;
+    private int animalId;
+
+    @Given("el usuario accede a la sección de recintos para gestión de animales")
+    public void usuario_accede_seccion_recintos() {
+        baseURI = "http://localhost:8080/api/v1";
+
+        // Login para obtener token y userId
+        String loginJson = "{\"username\":\"farmer@gmail.com\",\"password\":\"123456\"}";
+        response = given()
+                .contentType("application/json")
+                .body(loginJson)
+                .post("/authentication/sign-in");
+
+        assertEquals(200, response.getStatusCode(), "Error al iniciar sesión");
+
+        token = response.jsonPath().getString("token");
+        userId = response.jsonPath().getInt("id");
+
+        assertNotNull(token, "Token no debe ser nulo");
+        assertTrue(userId > 0, "userId inválido");
+
+        // Crear un recinto para asociar animales (si no existe)
+        String enclosureJson = String.format(
+                "{\"name\":\"Recinto Auto\",\"capacity\":10,\"type\":\"Pequeño\",\"farmerId\":%d}",
+                userId
+        );
+
+        Response enclosureResponse = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(enclosureJson)
+                .post("/enclosures");
+
+        assertEquals(201, enclosureResponse.getStatusCode(), "No se pudo crear recinto para asociar animales");
+
+        enclosureId = enclosureResponse.jsonPath().getInt("id");
+        assertTrue(enclosureId > 0, "EnclosureId inválido");
+    }
+
+    @When("complete el formulario con los  datos del animal y seleccione un recinto")
+    public void completar_formulario_animal() {
+        String animalJson = String.format(
+                "{\"name\":\"Animal A\",\"age\":2,\"species\":\"Oveja\",\"breed\":\"Merino\",\"gender\":true,\"weight\":45.0,\"health\":\"HEALTHY\",\"enclosureId\":%d}",
+                enclosureId
+        );
+
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(animalJson)
+                .post("/animals");
+    }
+
+    @Then("el sistema guardará el animal y lo asociará al recinto elegido")
+    public void sistema_guarda_animal() {
+        if (token == null || token.isEmpty() || userId == 0 || enclosureId == 0) {
+            usuario_accede_seccion_recintos();
+        }
+
+        assertEquals(200, response.getStatusCode(), "Código de respuesta incorrecto");
+
+        animalId = response.jsonPath().getInt("id");
+        assertTrue(animalId > 0, "ID del animal no válido");
+
+        System.out.println("Animal registrado correctamente con ID: " + animalId);
+    }
+
+    @Given("el usuario visualiza un animal en la lista")
+    public void usuario_visualiza_animal_lista() {
+        if (token == null || token.isEmpty() || userId == 0 || enclosureId == 0) {
+            usuario_accede_seccion_recintos();
+        }
+
+        // Crear un animal para editar o eliminar
+        String animalJson = String.format(
+                "{\"name\":\"Animal Auto\",\"age\":5,\"species\":\"Caballo\",\"breed\":\"Andaluz\",\"gender\":true,\"weight\":400.5,\"health\":\"HEALTHY\",\"enclosureId\":%d}",
+                enclosureId
+        );
+
+        Response createResponse = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(animalJson)
+                .post("/animals");
+
+        assertEquals(201, createResponse.getStatusCode(), "No se pudo crear animal para editar o eliminar");
+
+        animalId = createResponse.jsonPath().getInt("id");
+        assertTrue(animalId > 0, "ID del animal no válido");
+
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .get("/animals/" + animalId);
+
+        assertEquals(200, response.getStatusCode(), "El animal no se pudo visualizar tras crearse");
+        System.out.println("Animal disponible para editar/eliminar: " + animalId);
+    }
+
+    @When("seleccione la opción de editar y realice los cambios")
+    public void editar_animal() {
+        String animalUpdateJson = String.format(
+                "{\"name\":\"Animal B\",\"age\":3,\"species\":\"Vaca\",\"breed\":\"Holstein\",\"gender\":false,\"weight\":350.0,\"health\":\"SICK\",\"enclosureId\":%d}",
+                enclosureId
+        );
+
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(animalUpdateJson)
+                .put("/animals/" + animalId);
+    }
+
+    @Then("el sistema actualizará la información del animal")
+    public void sistema_actualiza_animal() {
+        assertEquals(200, response.getStatusCode(), "No se pudo actualizar la información del animal");
+        System.out.println("Animal actualizado correctamente");
+    }
+
+    @When("seleccione la opción de eliminar el animal")
+    public void eliminar_animal() {
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .delete("/animals/" + animalId);
+    }
+
+    @Then("el sistema pedirá confirmación y, al aceptarla, eliminará al animal del registro")
+    public void sistema_elimina_animal() {
+        assertEquals(200, response.getStatusCode(), "No se pudo eliminar el animal");
+        System.out.println("Animal eliminado correctamente");
+    }
+}
+```
 
 
 ### 6.1.4. Core System Tests
 
-Se realizaron pruebas de sistema para validar el comportamiento completo de la aplicación tanto en su versión web como móvil. Estas pruebas incluyeron la evaluación de funcionalidades end-to-end (E2E), cubriendo todo el flujo de trabajo del usuario.
+Las pruebas del sistema central se centraron en validar el comportamiento integral de la aplicación, asegurando que los componentes de frontend y backend trabajen de manera fluida y sin errores. Estas pruebas garantizaron que los procesos esenciales, como la navegación, interacción del usuario y la comunicación con los servicios del backend, se ejecuten correctamente dentro del contexto de la aplicación completa.
 
+Para las pruebas de integración del sistema, se utilizó TestBed como herramienta principal, ejecutando pruebas de extremo a extremo (E2E) sobre el frontend desarrollado en Angular. Las pruebas cubrieron los flujos críticos de la aplicación, como la autenticación, la gestión de usuarios y roles, la navegación y validación de los datos visualizados y enviados a la API.
 
-Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto.
+**Autenticación y Gestión de Usuarios**
+
+Se validó el proceso de inicio de sesión, asegurando que los formularios de entrada acepten credenciales válidas, redirijan correctamente al usuario y muestren los mensajes de error adecuados en caso de credenciales incorrectas. Además, se comprobó la creación de usuarios y su correcta asignación a roles, verificando que la información de usuario se refleje correctamente en las interfaces de administración.
+
+**Prueba de Inicio de Sesión y Mensajes de Bienvenida**
+
+```typescript
+describe('AuthenticationApiService', () => {
+  let service: AuthenticationApiService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [AuthenticationApiService]
+    });
+    service = TestBed.inject(AuthenticationApiService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  it('should send correct payload for signUp', () => {
+    const mockUser = { username: 'testuser', password: 'password123', roles: ['ROLE_USER', 'ROLE_ADMIN'] };
+    service.signUp(mockUser.username, mockUser.password, 'ROLE_ADMIN').subscribe(response => {
+      expect(response).toBeTruthy();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/authentication/sign-up`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(mockUser);
+    req.flush({ success: true });
+  });
+
+  it('should send correct payload for signIn and store token', () => {
+    const mockUser = { username: 'testuser', password: 'password123' };
+    const mockToken = 'mock-token';
+    spyOn(service, 'newToken');
+
+    service.signIn(mockUser.username, mockUser.password).subscribe(response => {
+      expect(response).toBeTruthy();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/authentication/sign-in`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(mockUser);
+    req.flush({ token: mockToken });
+
+    expect(service.newToken).toHaveBeenCalledWith(mockToken);
+  });
+
+  it('should return true if user is signed in', () => {
+    localStorage.setItem('isLogged', 'true');
+    expect(service.isSignedIn()).toBeTrue();
+  });
+
+  it('should return false if user is not signed in', () => {
+    localStorage.setItem('isLogged', 'false');
+    expect(service.isSignedIn()).toBeFalse();
+  });
+});
+```
+
+```typescript
+describe('LoginComponent', () => {
+  let component: LoginComponent;
+  let fixture: ComponentFixture<LoginComponent>;
+  let snackBar: jasmine.SpyObj<MatSnackBar>;
+  let authenticationApiService: jasmine.SpyObj<AuthenticationApiService>;
+  let profileApiService: jasmine.SpyObj<ProfileApiService>;
+
+  beforeEach(async () => {
+    authenticationApiService = jasmine.createSpyObj('AuthenticationApiService', ['signIn']);
+    profileApiService = jasmine.createSpyObj('ProfileApiService', ['getProfileByUserId']);
+    snackBar = jasmine.createSpyObj('MatSnackBar', ['open']);
+
+    await TestBed.configureTestingModule({
+      imports: [
+        LoginComponent,
+        ReactiveFormsModule,
+        HttpClientTestingModule,
+        RouterTestingModule,
+        BrowserAnimationsModule
+      ],
+      providers: [
+        { provide: MatSnackBar, useValue: snackBar },
+        { provide: AuthenticationApiService, useValue: authenticationApiService },
+        { provide: ProfileApiService, useValue: profileApiService }
+      ]
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(LoginComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should show a success message when login succeeds', fakeAsync(() => {
+    authenticationApiService.signIn.and.returnValue(of({ id: 1, username: 'john_doe', token: 'valid_token' }));
+    profileApiService.getProfileByUserId.and.returnValue(of({
+      id: 1, userId: 1, firstName: 'John', lastName: 'Doe', city: 'string', country: 'string',
+      birthDate: 'string', description: 'string', photo: 'string', occupation: '', experience: 0
+    }));
+    component.loginForm.controls['email'].setValue('farmer@example.com');
+    component.loginForm.controls['password'].setValue('validpassword');
+    fixture.detectChanges();
+
+    component.login();
+    tick(); // Simulate the passage of time for async operations
+
+    expect(snackBar.open).toHaveBeenCalledWith('Bienvenid@ John 🤗', 'Cerrar', { duration: 2000 });
+  }));
+
+  it('should show an error message when login fails', fakeAsync(() => {
+    authenticationApiService.signIn.and.returnValue(throwError(() => new Error('Invalid credentials')));
+    component.loginForm.controls['email'].setValue('wrong@example.com');
+    component.loginForm.controls['password'].setValue('wrongpassword');
+    fixture.detectChanges();
+
+    component.login();
+    tick(); // Simulate the passage of time for async operations
+
+    expect(snackBar.open).toHaveBeenCalledWith('Error. Credenciales no encontradas😥', 'Cerrar', { duration: 3000 });
+  }));
+});
+```
+
+**Pruebas de CRUD**
+
+```typescript
+// Para la gestión de citas (Appointments)
+describe('AppointmentApiService', () => {
+  let service: AppointmentApiService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [AppointmentApiService]
+    });
+    service = TestBed.inject(AppointmentApiService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  it('should fetch appointments by farmer ID', () => {
+    const farmerId = 1;
+
+    service.getAppointmentsByFarmerId(farmerId).subscribe(appointments => {
+      expect(appointments).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/appointments?farmerId=${farmerId}`);
+    expect(req.request.method).toBe('GET');
+  });
+
+  it('should fetch appointment by ID', () => {
+    const appointmentId = 1;
+
+    service.getOne(appointmentId).subscribe(appointment => {
+      expect(appointment).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/appointments/${appointmentId}`);
+    expect(req.request.method).toBe('GET');
+  });
+
+  it('should create a new appointment', () => {
+    const newAppointment = { id: 1, farmerId: 1, message: 'Help with irrigation', availableDateId: 1, status: 'PENDING', meetingUrl: 'http://example.com/meeting' };
+
+    service.create(newAppointment).subscribe(appointment => {
+      expect(appointment).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/appointments`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(newAppointment);
+  });
+});
+```
+
+```typescript
+// Para la gestión de perfiles (Profiles)
+describe('ProfileApiService', () => {
+  let service: ProfileApiService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [ProfileApiService]
+    });
+    service = TestBed.inject(ProfileApiService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  it('should fetch profile by user ID', () => {
+    const userId = 1;
+
+    service.getProfileByUserId(userId).subscribe(profile => {
+      expect(profile).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/profiles/${userId}/user`);
+    expect(req.request.method).toBe('GET');
+  });
+
+  it('should create a new profile', () => {
+    const newProfile = {id: 1, userId: 1, firstName: 'John', lastName: 'Doe', city: 'Lima', country: 'Peru',
+      birthDate: '1980-01-01', description: 'Hello, I am an advisor.', photo: 'photo-url', occupation: 'Farm manager', experience: 10 };
+
+    service.create(newProfile).subscribe(profile => {
+      expect(profile).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/profiles`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(newProfile);
+  });
+});
+```
+
+![System Tests](img/system-tests.png)
+
+_Imagen 213. Pruebas de Sistema_
 
 ## 6.2. Static testing & Verification
 
@@ -4440,6 +6008,111 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 
 ### 6.3.2. Registro de Entrevistas
 
+**Segmento: Granjero con poca experiencia**
+
+**Entrevista 1**
+
+**Entrevistador:** André La torre
+
+**Entrevistado:** -
+
+**Enlace a entrevista:** -
+
+<img alt="Entrevista con X" src="img/entrevista-validacion-granjero-1.png">
+
+_Imagen 214. Entrevista de validación con X_
+
+**Resumen:**
+En esta entrevista, ...
+
+----
+
+**Entrevista 2**
+
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Marcelo Neyra
+
+**Enlace a entrevista:** https://youtu.be/EP88Jk11Hlk
+
+<img alt="Entrevista con Marcelo Neyra" src="img/entrevista-validacion-granjero-2.png">
+
+_Imagen 215. Entrevista de validación con Marcelo Neyra_
+
+**Resumen:**
+Marcelo Neyra comentó que encontró la información presentada en la landing page útil, especialmente en la sección "Sobre Nosotros," lo cual le inspiró confianza en la plataforma. Sin embargo, sugirió que el contenido podría ser más breve para facilitar la lectura. También mencionó que la barra de navegación y el pie de página le parecieron demasiado grandes, lo cual afectaba la estética.
+En cuanto a la aplicación, Marcelo consideró interesante la forma de ver las calificaciones y opiniones de los asesores y le resultó fácil utilizar la opción de búsqueda. Opinó que la funcionalidad para agendar citas es intuitiva y que la organización para revisar citas es adecuada. Además, destacó la utilidad de la opción de calificar a un asesor después de una cita y calificó positivamente la opción de cancelar citas. Afirmó que le resulta sencillo modificar su perfil y percibe que la organización general de la aplicación es fácil de comprender.
+
+----
+
+**Entrevista 3**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Anderson Gonza
+
+**Enlace a entrevista:** https://youtu.be/qie9o2Rvn4Y
+
+<img alt="Entrevista con Anderson Gonza" src="img/entrevista-validacion-granjero-3.png">
+
+_Imagen 216. Entrevista de validación con Anderson Gonza_
+
+**Resumen:**
+En esta entrevista con Anderson, se le presentó la landing page y la aplicación móvil de AgroTech. Anderson consideró que la información de la landing page es útil y clara para que cualquier persona pueda entender rápidamente sobre de lo que trata la aplicación. En la aplicación, Anderson encontró útil la forma de ver las calificaciones y opiniones de los asesores, así como la opción de búsqueda. Consideró que la funcionalidad para agendar citas es intuitiva y que la organización de la aplicación es fácil de comprender. Opinó que la opción de calificar a un asesor después de una cita es útil y que la opción de cancelar citas es sencilla de utilizar. En general, percibió la aplicación está bien organizada y es fácil de usar.
+
+----
+
+**Segmento: Asesor experto**
+
+**Entrevista 1**
+
+**Entrevistador:** Sergio Pecan
+
+**Entrevistado:** -
+
+**Enlace a entrevista:** -
+
+<img alt="Entrevista con X" src="img/entrevista-validacion-asesor-1.png">
+
+_Imagen 217. Entrevista de validación con X_
+
+**Resumen:**
+En esta entrevista, ...
+
+----
+
+**Entrevista 2**
+
+**Entrevistador:** Britney Qqueso
+
+**Entrevistado:** -
+
+**Enlace a entrevista:** -
+
+<img alt="Entrevista con X" src="img/entrevista-validacion-asesor-2.png">
+
+_Imagen 218. Entrevista de validación con X_
+
+**Resumen:**
+En esta entrevista, ...
+
+----
+
+**Entrevista 3**
+
+**Entrevistador:** Piero Delgado
+
+**Entrevistado:** Adrian Espinoza
+
+**Enlace a entrevista:** https://youtu.be/078AzxKUxCQ
+
+<img alt="Entrevista con X" src="img/entrevista-validacion-asesor-3.png">
+
+_Imagen 219. Entrevista de validación con Adrian Espinoza_
+
+**Resumen:**
+En esta entrevista, Adrián Espinoza encuentra la landing page como una buena forma de concientizar sobre el problema de la gestión de granjas, la información proporcionada le permite conocer más sobre la aplicación y menciona que le da confianza conocer quienes son las personas detrás del aplicativo. Asimismo, menciona que estéticamente la landing es atractiva y los elementos están bien distribuidos. Por otro lado, menciona que la aplicación que es intuitiva y fácil de manejar, y que las funcionalidades cubren sus necesidades y son útiles.
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 **Site o App a Evaluar:** AgroTech
@@ -4491,7 +6164,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 <img src="img/heuristics1.png" width="600px">
 
-_Imagen 2XX. Heuristica 2_
+_Imagen 220. Heuristica 1_
 
 **Recomendación:** Implementar un mensaje de confirmación que se muestre al usuario después de enviar el formulario, indicando que su mensaje ha sido enviado correctamente.
 
@@ -4509,7 +6182,7 @@ _Imagen 2XX. Heuristica 2_
 
 <img src="img/heuristics2.png" width="600px">
 
-_Imagen 2XX. Heuristica 2_
+_Imagen 221. Heuristica 2_
 
 **Recomendación:** Organizar los campos del formulario de registro en grupos lógicos, utilizando etiquetas claras y separadores visuales para mejorar la legibilidad y la usabilidad.
 
@@ -4527,7 +6200,7 @@ _Imagen 2XX. Heuristica 2_
 
 <img src="img/heuristics3.png" width="600px">
 
-_Imagen 2XX. Heuristica 3_
+_Imagen 222. Heuristica 3_
 
 **Recomendación:** Cambiar el término "jaulas" por "recintos" en el mensaje de la página de recintos para mantener la consistencia con el resto de la aplicación y evitar confusiones.
 
