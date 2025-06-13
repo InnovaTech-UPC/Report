@@ -6225,23 +6225,32 @@ La integración continua (CI) es una práctica que permite a los desarrolladores
 
 Para la integración continua, hemos utilizado las siguientes herramientas que nos permiten automatizar el proceso de compilación y validación de nuestro backend desarrollado con Spring Boot:
 
-- GitHub: Es el sistema de control de versiones empleado para gestionar nuestro código fuente. Su integración con Jenkins permite detectar automáticamente nuevos cambios en las ramas del repositorio.
+- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Se ha integrado con GitHub Actions para automatizar la ejecución del flujo de integración continua en cada push o pull request.
 
-- Maven: Utilizado como herramienta de construcción para compilar el proyecto y gestionar dependencias.
+- Maven: Herramienta de construcción empleada para compilar el proyecto, ejecutar pruebas y gestionar las dependencias.
 
-- JUnit: Framework para realizar pruebas unitarias automatizadas del backend.
+- JUnit: Framework utilizado para implementar y ejecutar pruebas unitarias automatizadas que validan el correcto funcionamiento de los componentes del backend.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
-El pipeline de integración continua se compone de las siguientes etapas:
+El pipeline de integración continua implementado con GitHub Actions sigue este flujo:
 
-- Compilación del proyecto: A través de Maven, se genera el artefacto .jar del backend Spring Boot.
+1. Checkout del código fuente: Se utiliza la acción actions/checkout para clonar el repositorio y obtener el estado actual del código.
 
-- Ejecución de pruebas unitarias: Se ejecutan automáticamente con JUnit como parte del pipeline.
+2. Configuración del entorno de ejecución: Se instala el JDK mediante actions/setup-java con las necesidades del proyecto Spring Boot.
 
-- Análisis de calidad de código: Se utiliza SonarQube para medir cobertura de pruebas, complejidad y detección de vulnerabilidades.
+3. Restauración de dependencias y compilación: Se restauran las dependencias mediante el sistema de caché de Maven (actions/cache) y se ejecuta mvn clean install para compilar el proyecto y preparar los artefactos necesarios.
 
-- Notificación de fallos: Si una etapa falla, Jenkins envía alertas al equipo para su corrección inmediata.
+4. Ejecución de pruebas unitarias: Utilizando mvn test, se ejecutan automáticamente las pruebas definidas con JUnit para asegurar la validez del código.
+
+5. Reporte de resultados: El resultado del workflow se muestra directamente en GitHub, indicando si el pipeline fue exitoso o si se detectaron errores. En caso de fallo, se detiene el proceso y se notifica al equipo mediante el estado del pull request.
+
+![CI Pipeline](img/ci-pipeline.png)
+
+_Imagen 2XX. Diagrama del Pipeline de Integración Continua_
+
+![CI Pipeline Evidence](img/ci-pipeline-evidence.png)
+_Imagen 2XX. Evidencia del Pipeline de Integración Continua_
 
 ## 7.2. Continuous Delivery
 
@@ -6251,23 +6260,37 @@ La entrega continua (CD) asegura que el software siempre esté listo para ser de
 
 Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
 
-- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD. Su versatilidad permite a los equipos de desarrollo automatizar procesos clave como la compilación, pruebas y despliegue continuo, lo que mejora la calidad del software y acelera su entrega. Además, ofrece flexibilidad y personalización para adaptarse a distintos entornos de desarrollo.
+- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Se comunica con Jenkins para ejecutar el flujo de entrega continua.
+
+- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD.
+
+- Maven: Herramienta de construcción empleada para compilar el proyecto, ejecutar pruebas y gestionar las dependencias.
+
+- Docker: Utilizado para crear contenedores que encapsulan el backend de Spring Boot, facilitando su despliegue en diferentes entornos.
+
+- Docker Hub: Registro de imágenes Docker donde se almacenan las imágenes generadas del backend, permitiendo su fácil acceso y despliegue.
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
 Los componentes del pipeline de entrega continua incluyen:
 
-- Compilación y empaquetado: Se genera el .jar del backend con Maven.
+- Trigger del pipeline: Se activa el proceso cuando se detectan cambios en la rama main del repositorio.
 
-- Creación de imagen Docker: Se construye una imagen que contiene el backend Spring Boot.
+- Checkout del código fuente: Se clona el repositorio a Jenkins.
 
-- Publicación de imagen: La imagen se sube al Docker Hub o a un registro privado.
+- Preparación del entorno: Se configura en Jenkins el entorno de ejecución, instalando las dependencias necesarias como el JDK, Maven y Docker.
 
-- Despliegue en entorno staging: Jenkins realiza el despliegue automático en un entorno de prueba.
+- Compilación del proyecto: Se ejecuta mvn clean package para compilar el código fuente de Spring Boot y generar el archivo .jar.
 
-- Testing: Se ejecutan pruebas funcionales básicas para validar el correcto funcionamiento.
+- Construcción del artefacto Docker: Se ejecuta el comando docker build para generar una imagen que contiene el backend Spring Boot empaquetado, garantizando portabilidad y consistencia.
 
-- Aprobación manual: Antes de pasar a producción, se requiere validación por parte del equipo.
+- Push a Docker Hub: Se sube la imagen a un repositorio privado en Docker Hub.
+
+![CD Pipeline](img/cd-pipeline.png)
+_Imagen 2XX. Diagrama del Pipeline de Entrega Continua_
+
+![CD Pipeline Evidence](img/cd-pipeline-evidence.png)
+_Imagen 2XX. Evidencia del Pipeline de Entrega Continua_
 
 ## 7.3. Continuous deployment
 
