@@ -6245,11 +6245,11 @@ El pipeline de integración continua implementado con GitHub Actions sigue este 
 
 5. Reporte de resultados: El resultado del workflow se muestra directamente en GitHub, indicando si el pipeline fue exitoso o si se detectaron errores. En caso de fallo, se detiene el proceso y se notifica al equipo mediante el estado del pull request.
 
-![CI Pipeline](img/ci-pipeline.png)
+![Continuous Integration Pipeline](img/ci-pipeline.png)
 
 _Imagen 2XX. Diagrama del Pipeline de Integración Continua_
 
-![CI Pipeline Evidence](img/ci-pipeline-evidence.png)
+![Continuous Integration Pipeline Evidence](img/ci-pipeline-evidence.png)
 _Imagen 2XX. Evidencia del Pipeline de Integración Continua_
 
 ## 7.2. Continuous Delivery
@@ -6260,9 +6260,9 @@ La entrega continua (CD) asegura que el software siempre esté listo para ser de
 
 Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
 
-- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Se comunica con Jenkins para ejecutar el flujo de entrega continua.
+- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Además, permite configurar flujos de automatización a través de GitHub Actions.
 
-- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD.
+GitHub Actions: Plataforma de automatización nativa de GitHub usada para implementar el pipeline de entrega continua. Permite definir workflows que se activan automáticamente al detectar cambios en el repositorio.
 
 - Maven: Herramienta de construcción empleada para compilar el proyecto, ejecutar pruebas y gestionar las dependencias.
 
@@ -6274,22 +6274,24 @@ Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
 
 Los componentes del pipeline de entrega continua incluyen:
 
-- Trigger del pipeline: Se activa el proceso cuando se detectan cambios en la rama main del repositorio.
+- Trigger del pipeline: El workflow se activa automáticamente cuando se detectan cambios en la rama main del repositorio.
 
-- Checkout del código fuente: Se clona el repositorio a Jenkins.
+- Checkout del código fuente: GitHub Actions utiliza la acción actions/checkout para clonar el repositorio en el entorno de ejecución.
 
-- Preparación del entorno: Se configura en Jenkins el entorno de ejecución, instalando las dependencias necesarias como el JDK, Maven y Docker.
+- Preparación del entorno: Se configura el entorno con el JDK 22, Maven y Docker, necesarios para compilar y empaquetar el proyecto.
 
-- Compilación del proyecto: Se ejecuta mvn clean package para compilar el código fuente de Spring Boot y generar el archivo .jar.
+- Compilación del proyecto: Se ejecuta mvn clean package para compilar el código fuente de Spring Boot y generar el archivo .jar, incluyendo la ejecución de pruebas.
 
-- Construcción del artefacto Docker: Se ejecuta el comando docker build para generar una imagen que contiene el backend Spring Boot empaquetado, garantizando portabilidad y consistencia.
+- Construcción del artefacto Docker: Se ejecuta docker build para generar una imagen que contiene el backend empaquetado, garantizando portabilidad y consistencia.
 
-- Push a Docker Hub: Se sube la imagen a un repositorio privado en Docker Hub.
+- Push a Docker Hub: La imagen generada se sube automáticamente a un repositorio privado en Docker Hub, lista para ser desplegada en producción.
 
-![CD Pipeline](img/cd-pipeline.png)
+![Continuous Delivery Pipeline](img/cd-pipeline.png)
+
 _Imagen 2XX. Diagrama del Pipeline de Entrega Continua_
 
-![CD Pipeline Evidence](img/cd-pipeline-evidence.png)
+![Continuous Delivery Pipeline Evidence](img/cd-pipeline-evidence.png)
+
 _Imagen 2XX. Evidencia del Pipeline de Entrega Continua_
 
 ## 7.3. Continuous deployment
@@ -6300,38 +6302,95 @@ El despliegue continuo automatiza completamente el paso del software a producci�
 
 Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas:
 
-- Sistema de control de versiones: Utilizamos Git para llevar un seguimiento y administración del código fuente de la aplicación.
+GitHub: Sistema de control de versiones que gestiona el código fuente del proyecto y ejecuta automáticamente los workflows de integración y despliegue.
 
-- Pruebas automatizadas: Incorporamos pruebas automáticas (como pruebas unitarias de integración, de regresión, entre otras) con el objetivo de asegurar que el software cumple con los criterios de calidad antes de ser desplegado.
+GitHub Actions: Plataforma de automatización que orquesta el pipeline completo, desde la compilación del proyecto, la construcción de la imagen Docker, su subida a Docker Hub y finalmente el despliegue a producción mediante hooks de Render.
 
-- Ambientes de desarrollo y pruebas: Se mantienen entornos de desarrollo y prueba que replican lo más fielmente posible el entorno de producción, con el fin de evitar inconvenientes al momento del despliegue.
+Docker: Utilizado para empaquetar el backend de Spring Boot en contenedores que aseguran consistencia en los diferentes entornos.
 
-- Pipeline automatizado de despliegue: Se implementa un flujo automatizado que contempla etapas como la compilación, ejecución de pruebas y despliegue tanto en entornos de preproducción como en producción.
+Docker Hub: Registro de contenedores que almacena la imagen generada y sirve como fuente para el despliegue en producción.
 
-- Monitoreo y retroalimentación: Se integran herramientas de monitoreo y registro de logs para observar el rendimiento y la estabilidad de la aplicación en producción, permitiendo detectar y solucionar problemas de manera inmediata.
+Render: Plataforma de hosting que detecta los cambios mediante un Deploy Hook y despliega automáticamente la nueva versión del backend.
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-- Compilación (Build): En esta fase, el código fuente se transforma en artefactos listos para ser desplegados en el entorno de producción.
+Los componentes del pipeline de despliegue continuo incluyen:
 
-- Pruebas (Testing): Se ejecutan pruebas automatizadas para verificar que la aplicación cumple con los estándares de calidad y que no se han introducido errores nuevos.
+- Trigger del pipeline: Se activa automáticamente cuando hay cambios en la rama main.
 
-- Entorno de Preproducción (Staging): Antes del despliegue final, se realiza una implementación en un entorno de preproducción para llevar a cabo pruebas adicionales y recibir validación por parte de usuarios beta.
+- Compilación y pruebas: GitHub Actions compila el proyecto, ejecuta los tests y construye la imagen Docker.
 
-- Despliegue en Producción (Production Deployment): El código se lanza al entorno de producción mediante un proceso automatizado.
+- Push a Docker Hub: La imagen se sube al repositorio de Docker Hub como artefacto final.
 
-- Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se supervisa de forma continua el comportamiento y la estabilidad del sistema para detectar y resolver posibles incidencias en tiempo real.
+- Despliegue a producción: Se invoca el Deploy Hook de Render desde un workflow separado (deploy.yml), lo cual inicia automáticamente el despliegue en el entorno de producción.
 
-- Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
+- Monitoreo continuo: Una vez desplegado, Render ofrece seguimiento del estado de la aplicación, errores y consumo de recursos.
+
+- Rollback: En caso de errores críticos, Render permite revertir rápidamente a una versión previa desde su interfaz.
+
+![Continuous Deployment Pipeline](img/cdeploy-pipeline.png)
+
+_Imagen 2XX. Diagrama del Pipeline de Despliegue Continuo_
+
+![Continuous Deployment Pipeline Evidence](img/cdeploy-pipeline-evidence.png)
+
+_Imagen 2XX. Evidencia del Pipeline de Despliegue Continuo_
 
 <div style="page-break-after: always;"></div>
 
 ## 7.4. Continuous Monitoring
 
+El monitoreo continuo permite supervisar en tiempo real el comportamiento y desempeño de la aplicación una vez desplegada en producción. Esta práctica es clave para detectar fallos, cuellos de botella y garantizar la disponibilidad del sistema.
+
 ### 7.4.1. Tools and Practices
+
+Para el monitoreo continuo de nuestro backend desplegado, utilizamos:
+
+- Render Monitoring Tools: Render proporciona herramientas nativas de monitoreo que permiten observar el estado del servicio, uso de CPU, memoria, registros de errores y reinicios automáticos.
+
+- Logs en tiempo real: Render muestra los logs de la aplicación en tiempo real, facilitando la detección de excepciones, advertencias o eventos inesperados.
+
+- Alertas automáticas: Render notifica fallos de despliegue o caídas del servicio mediante correos electrónicos o notificaciones a los administradores del proyecto.
+
 ### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de monitoreo incluye los siguientes componentes:
+
+- Log Stream: Los logs generados por el backend son accesibles en tiempo real a través del panel de Render.
+
+- Render Metrics Dashboard: Render recopila métricas de CPU, RAM, latencia y reinicios automáticos.
+
+![Continuous Monitoring Components Evidence](img/cmonitoring-components-evidence.png)
+
+_Imagen 2XX. Evidencia del Log Stream para monitoreo continuo_
+
 ### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas contempla lo siguiente:
+
+- Fallo de despliegue o build: GitHub Actions y Render notifican si un despliegue falla.
+
+- Caídas del servicio: Render detecta si el contenedor deja de responder y reinicia el servicio automáticamente.
+
+- Alertas por consumo excesivo: Render alerta cuando el uso de memoria o CPU excede los límites asignados al servicio.
+
+![Continuous Monitoring Alert Evidence](img/cmonitoring-alert-evidence.png)
+
+_Imagen 2XX. Evidencia del sistema de alertas_
+
 ### 7.4.4. Notification Pipeline Components
+
+Los canales de notificación incluyen:
+
+- Render Dashboard Notifications: El panel de Render muestra visualmente el estado del servicio y sus logs.
+
+- Correo electrónico: Render envía alertas automáticas por errores críticos o caídas del servicio a los administradores del proyecto.
+
+- GitHub Notifications: GitHub notifica vía interfaz y correo sobre fallos en los workflows de CI/CD.
+
+![Continuous Monitoring Notification Evidence](img/cmonitoring-notification-evidence.png)
+
+_Imagen 2XX. Evidencia de las notificaciones_
 
 # Capítulo VIII: Experiment-Driven Development
 
