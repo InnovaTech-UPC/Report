@@ -6559,7 +6559,7 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 | US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | Alta |
 | US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | Alta |
 | US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | Media |
-| US05 | Reporte de IA sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | Media |
+| US05 | Reporte sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | Media |
 
 
 # Conclusiones
