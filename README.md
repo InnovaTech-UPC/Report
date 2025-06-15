@@ -6446,7 +6446,6 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 - ¿Qué tipo de asesoría (cultivos, animales, etc.) genera más conversiones a suscripciones premium?
 - ¿Cuántos usuarios completan el proceso de registro luego de visitar la landing page?
 - ¿Cuál es el precio mínimo aceptable para la suscripción a la plataforma?
-- ¿Qué funcionalidades adicionales de la plataforma (gestión de recintos, monitoreo de animales) incrementan la tasa de pago?
 
 ### 8.1.4. Question Backlog
 
@@ -6547,34 +6546,8 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ---
 
-## **Experiment Card 4: Funcionalidades Premium para Asesores**  
-1. **Nombre:** "Adopción de herramientas premium por asesores".  
-2. **Hipótesis Vinculada:** H4 (*Funcionalidades premium atraen agricultores*).  
-3. **Objetivo:** Validar si las herramientas avanzadas aumentan retención.  
-4. **Métricas Principales:**  
-   - % de asesores que activan premium (meta: 40%).  
-   - Retención de agricultores a 30 días (meta: +25%).  
-5. **Métricas Secundarias:**  
-   - Número de recomendaciones generadas por asesor.  
-6. **Método:** Rollout progresivo:  
-   - **Grupo A:** 50% asesores sin acceso.  
-   - **Grupo B:** 50% asesores con acceso temprano.  
-7. **Población:** 200 asesores técnicos.  
-8. **Herramientas:**  
-   - Mixpanel (análisis de comportamiento).  
-   - SQL (query de retención).  
-9. **Criterio de Éxito:**  
-   - Si Grupo B retiene ≥25% más agricultores, liberar para todos.  
-10. **Riesgos:**  
-    - Curva de aprendizaje reduce productividad inicial.  
-    - Sobrecarga de notificaciones para agricultores.  
-    - Dependencia de calidad de datos de entrada.  
-11. **Mitigaciones:**  
-    - Crear tutoriales interactivos obligatorios.  
-    - Permitir personalización de frecuencia de alertas.  
-    - Implementar sistema de validación de datos en tiempo real.  
 
----
+
 # 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
@@ -6582,7 +6555,6 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 1. **Hipótesis 1:** Los agricultores prefieren pagar por una plataforma que les ofrezca asesoría personalizada basada en las necesidades específicas de su granja.
 2. **Hipótesis 2:** Un precio de $29 por mes atraerá a más usuarios que un precio de $49 por mes.
 3. **Hipótesis 3:** Las funcionalidades premium de monitoreo de cultivos y animales aumentarán la tasa de conversión en un 20%.
-4. **Hipótesis 4:** Los asesores con herramientas premium aumentan la retención de agricultores en un 25%.
 ### 8.2.2. Measures
 
 - **Conversion Rate (Tasa de Conversión):** Porcentaje de usuarios que se convierten de visitantes a suscriptores premium.
@@ -6615,7 +6587,6 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 | Validar **interés en asesorías**   | Tasa de conversión a premium     | +20% en reservas con autocompletado (H1)  | Google Analytics + Hotjar     |  
 | Validar **modelo de precios**      | Conversión por precio            | $29 logra 15% más pagos que $49 (H2)     | Google Optimize (A/B Test)    |  
 | Validar **contenido persuasivo**   | CTR en CTA de registro           | +15% CTR con videos (H3)                  | Google Analytics (Eventos)    |  
-| Validar **valor de func. premium** | Retención de agricultores        | 25% más retención con asesores premium (H4)| Mixpanel (si es posible)      |  
 
 
 ### 8.2.7. Web and Mobile Tracking Plan
@@ -6635,24 +6606,24 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
 --------------
-|ID|Nombre|Descripción|Criterios de aceptación|
-|--|------|-----------|-----------------------|
-| US01 | Reserva express de asesorías| Como agricultor, quiero agendar una asesoría en menos de 3 pasos para ahorrar tiempo.| **Escenario 1: Reserva exitosa** <br> Given el agricultor selecciona un asesor. <br> When el sistema autocompleta ubicación y tipo de cultivo. <br> And confirma la reserva en un solo clic. <br> Then recibe un SMS de confirmación. <br> **Escenario 2: Validación de campos** <br> Given el agricultor deja campos obligatorios vacíos. <br> When intenta reservar. <br> Then el sistema muestra errores específicos.|
-| US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | **Escenario 1: Reproducción correcta** <br> Given el usuario entra a la landing page. <br> When se carga el video automáticamente. <br> Then se muestra el botón “Ver más” y la CTA para registro.|
-| US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | **Escenario 1: Visualización de precios** <br> Given el usuario accede a la sección de precios. <br> When visualiza el plan mensual y el anual. <br> Then puede ver claramente los beneficios de cada uno. <br> **Escenario 2: Selección y redirección** <br> Given el usuario selecciona un plan. <br> When hace clic en “Suscribirse”. <br> Then el sistema lo redirige al proceso de pago.|
-| US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | **Escenario 1: Acceso a módulo de gestión**<br> Given el asesor inicia sesión. <br> When accede a su panel de trabajo. <br> Then puede ver y usar el módulo premium de análisis de cultivos. <br> **Escenario 2: Recomendaciones personalizadas** <br> Given el asesor revisa datos de un cultivo. <br> When activa el análisis. <br> Then el sistema genera recomendaciones automáticas.|
-| US05 | Reporte sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | **Escenario 1: Generación de reporte** <br> Given el agricultor sube los datos de su cultivo. <br> When solicita un análisis. <br> Then recibe un reporte con recomendaciones específicas. <br> **Escenario 2: Acceso limitado por plan** <br> Given el agricultor no tiene plan premium. <br> When intenta acceder al análisis. <br> Then el sistema muestra una opción para actualizar su plan. |
+| ID | Nombre | Descripción | Criterios de aceptación |
+|----|--------|-------------|-------------------------|
+| US01 | Contacto rápido con asesor | Como agricultor, quiero contactar a un asesor técnico en menos de 2 pasos | **Escenario 1:** <br> Given ingreso a la web <br> When completo nombre y teléfono <br> Then recibo email de confirmación <br> **Escenario 2:** <br> Given dejo el teléfono vacío <br> When intento enviar <br> Then veo mensaje de error claro |
+| US02 | Video explicativo básico | Como visitante, quiero entender en 1 minuto qué ofrece AgroTech | **Escenario:** <br> Given abro la landing page <br> When veo el video de 60s <br> Then identifico al menos 3 beneficios clave |
+| US03 | Registro simplificado | Como usuario nuevo, quiero registrarme solo con email y ubicación | **Escenario:** <br> Given accedo al formulario <br> When ingreso email y permito geolocalización <br> Then recibo acceso inmediato |
+
+--------------
 
 ### 8.3.2. To-Be Product Backlog
 ----------------
-|ID |	Nombre	| Descripción	| Priodidad |
-|---|---------|-------------|-----------|
-| US01 | Reserva express de asesorías | Como agricultor, quiero agendar una asesoría en menos de 3 pasos para ahorrar tiempo. | Alta |
-| US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | Alta |
-| US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | Alta |
-| US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | Media |
-| US05 | Reporte sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | Media |
+| ID | Nombre | Descripción | Prioridad | Notas |
+|----|--------|-------------|-----------|-------|
+| US01 | Formulario de contacto | Implementar formulario de 2 campos (nombre, teléfono) | Alta | Validar tasa de conversión |
+| US02 | Video landing page | Grabar video explicativo de 60s | Alta | Medir tiempo de visualización |
+| US03 | Autocompletado ubicación | Integrar geolocalización en registro | Media | Requiere API Google Maps |
+| US04 | WhatsApp business | Alternativa de contacto por WhatsApp | Baja | Solo si sobra tiempo |
 
+-------------- 
 
 # Conclusiones
 ## Conclusiones y recomendaciones
