@@ -6542,7 +6542,25 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
+--------------
+|ID|Nombre|Descripción|Criterios de aceptación|
+|--|------|-----------|-----------------------|
+| US01 | Reserva express de asesorías| Como agricultor, quiero agendar una asesoría en menos de 3 pasos para ahorrar tiempo.| **Escenario 1: Reserva exitosa** <br> Given el agricultor selecciona un asesor. <br> When el sistema autocompleta ubicación y tipo de cultivo. <br> And confirma la reserva en un solo clic. <br> Then recibe un SMS de confirmación. <br> **Escenario 2: Validación de campos** <br> Given el agricultor deja campos obligatorios vacíos. <br> When intenta reservar. <br> Then el sistema muestra errores específicos.|
+| US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | **Escenario 1: Reproducción correcta** <br> Given el usuario entra a la landing page. <br> When se carga el video automáticamente. <br> Then se muestra el botón “Ver más” y la CTA para registro.|
+| US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | **Escenario 1: Visualización de precios** <br> Given el usuario accede a la sección de precios. <br> When visualiza el plan mensual y el anual. <br> Then puede ver claramente los beneficios de cada uno. <br> **Escenario 2: Selección y redirección** <br> Given el usuario selecciona un plan. <br> When hace clic en “Suscribirse”. <br> Then el sistema lo redirige al proceso de pago.|
+| US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | **Escenario 1: Acceso a módulo de gestión**<br> Given el asesor inicia sesión. <br> When accede a su panel de trabajo. <br> Then puede ver y usar el módulo premium de análisis de cultivos. <br> **Escenario 2: Recomendaciones personalizadas** <br> Given el asesor revisa datos de un cultivo. <br> When activa el análisis. <br> Then el sistema genera recomendaciones automáticas.|
+| US05 | Reporte sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | **Escenario 1: Generación de reporte** <br> Given el agricultor sube los datos de su cultivo. <br> When solicita un análisis. <br> Then recibe un reporte con recomendaciones específicas. <br> **Escenario 2: Acceso limitado por plan** <br> Given el agricultor no tiene plan premium. <br> When intenta acceder al análisis. <br> Then el sistema muestra una opción para actualizar su plan. |
+
 ### 8.3.2. To-Be Product Backlog
+----------------
+|ID |	Nombre	| Descripción	| Priodidad |
+|---|---------|-------------|-----------|
+| US01 | Reserva express de asesorías | Como agricultor, quiero agendar una asesoría en menos de 3 pasos para ahorrar tiempo. | Alta |
+| US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | Alta |
+| US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | Alta |
+| US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | Media |
+| US05 | Reporte de IA sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | Media |
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
