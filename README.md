@@ -5986,6 +5986,15 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 
 **Para Granjeros:**
 
+Se considerará los userflows de:
+- Creación de cuenta e inicio de sesión
+- Interacción con la sección de citas
+- Interacción con la sección de asesores
+- Interacción con la sección de publicaciones
+- Interacción con la sección de recintos
+- Interacción con la sección de notificaciones
+- Interacción con la sección de perfil de usuario
+
 - ¿Qué opinas de la forma de ver las calificaciones y opiniones sobre un asesor?
 - ¿Te resulta fácil utilizar la opción de búsqueda de asesores en la plataforma?
 - ¿Te parece que la funcionalidad para agendar una cita con un asesor es intuitiva y fácil de usar?
@@ -5996,6 +6005,14 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 - ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
 
 **Para Asesores:**
+
+Se considerará los userflows de:
+- Creación de cuenta e inicio de sesión
+- Interacción con la sección de citas
+- Interacción con la sección de mis publicaciones
+- Interacción con la sección de horarios de disponibilidad
+- Interacción con la sección de notificaciones
+- Interacción con la sección de perfil de usuario
 
 - ¿Qué opinas de la forma de recibir notificaciones de recordatorios de citas próximas?
 - ¿Qué tan fácil te parece gestionar y organizar tus próximas citas usando la plataforma?
