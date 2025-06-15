@@ -6442,50 +6442,122 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.1.5. Experiment Cards
 
-**Experiment Card 1: Reserva de Asesorías para Granjero**  
-- **Nombre:** Impacto de la reserva fácil de asesorías  
-- **Hipótesis:** Los usuarios convierten más a suscripción premium cuando el proceso de reserva de asesorías es sencillo.  
-- **Métrica clave:** Tasa de conversión a suscripción premium  
-- **Tipo de experimento:** A/B Test (reserva sencilla vs. reserva compleja)  
-- **Duración:** 2 semanas  
-- **Resultado esperado:** Aumento del 20% en conversiones con el proceso de reserva sencillo.  
+## **Experiment Card 1: Validación de Reserva Express**  
+1. **Nombre:** "Impacto de la reserva en 1 clic en la conversión premium".  
+2. **Hipótesis Vinculada:** H1 (*Asesoría personalizada reduce tiempo de gestión*).  
+3. **Objetivo:** Validar si simplificar el proceso de reserva aumenta suscripciones premium.  
+4. **Métricas Principales:**  
+   - Tasa de conversión a premium (meta: +20%).  
+   - Tiempo promedio en completar reserva (meta: <30 segundos).  
+5. **Métricas Secundarias:**  
+   - Abandono en paso 2 del formulario actual.  
+6. **Método:** A/B Test:  
+   - **Grupo A:** Formulario actual (5 pasos).  
+   - **Grupo B:** Autocompletado con geolocalización + confirmación en 1 clic.  
+7. **Población:** 500 agricultores (250 por grupo).  
+8. **Herramientas:**  
+   - Google Optimize (A/B Test).  
+   - Hotjar (mapas de calor).  
+   - Segment (tracking de eventos).  
+9. **Criterio de Éxito:**  
+   - Si Grupo B logra ≥20% más conversiones que Grupo A, escalar.  
+10. **Riesgos:**  
+    - Baja adopción por desconfianza en autocompletado de datos.  
+    - Sesgo geográfico (solo agricultores con buena conexión).  
+    - Error en geolocalización que afecte calidad de datos.  
+11. **Mitigaciones:**  
+    - Incluir tooltip explicando el uso de datos autocompletados.  
+    - Ofrecer modo offline con sincronización posterior.  
+    - Implementar validación manual de ubicaciones críticas.  
 
-**Experiment Card 2: Precios de Suscripción**
-- **Nombre:** Efecto del precio en la conversión
-- **Hipótesis:** Un precio mensual de $29 genera más conversiones que un precio mensual de $49.
-- **Métrica clave:** Tasa de conversión de pago
-- **Tipo de experimento:** A/B Test
-- **Duración:** 1 semana
-- **Resultado esperado:** La opción de $29 genera 15% más conversiones
+---
 
-**Experiment Card 3: Funcionalidad Premium para Asesores**  
-- **Nombre:** Impacto de la funcionalidad premium en asesores  
-- **Hipótesis:** Los asesores con funcionalidad premium de gestión avanzada de cultivos atraerán a más clientes (agricultores) y aumentarán su tasa de conversión a suscripción premium.  
-- **Métrica clave:** Tasa de conversión a suscripción premium de asesores  
-- **Tipo de experimento:** A/B Test (asesores con funcionalidades premium vs. asesores sin funcionalidades premium)  
-- **Duración:** 3 semanas  
-- **Resultado esperado:** Aumento del 25% en la conversión de asesores con funcionalidades premium, atrayendo a más clientes y generando más suscripciones premium.  
+## **Experiment Card 2: Test de Sensibilidad al Precio**  
+1. **Nombre:** "Efecto del precio en la conversión ($29 vs. $49)".  
+2. **Hipótesis Vinculada:** H2 (*Precio bajo aumenta conversiones*).  
+3. **Objetivo:** Identificar el punto de precio óptimo para suscripciones mensuales.  
+4. **Métricas Principales:**  
+   - Tasa de conversión a pagado (meta: $29 > $49 en 15%).  
+   - LTV estimado por grupo.  
+5. **Métricas Secundarias:**  
+   - Tasa de rebote en página de precios.  
+6. **Método:** A/B Test multivariable:  
+   - **Versión A:** $29/mes + "Plan Básico".  
+   - **Versión B:** $49/mes + "Plan Recomendado".  
+7. **Población:** 1,000 visitantes (500 por grupo).  
+8. **Herramientas:**  
+   - Google Optimize (A/B/n).  
+   - Stripe (análisis de transacciones).  
+9. **Criterio de Éxito:**  
+   - Si $29 genera ≥15% más conversiones sin afectar LTV, adoptar.  
+10. **Riesgos:**  
+    - Atracción de usuarios low-value con precio bajo.  
+    - Estacionalidad agrícola afectando disposición a pagar.  
+    - Cannibalización de planes anuales.  
+11. **Mitigaciones:**  
+    - Filtrar tráfico con preguntas de calificación.  
+    - Ejecutar en temporada alta (siembra/cosecha).  
+    - Monitorear impacto en suscripciones anuales.  
 
-### Experiment Card 4: Impacto del tipo de contenido visual en la conversión
+---
 
-- **Nombre:** Impacto del contenido visual  
-- **Hipótesis:** Los agricultores responderán mejor a demostraciones visuales en formato de video (videos cortos mostrando el uso de la plataforma) que a contenido estático (imágenes o infografías) en la landing page.  
-- **Métrica clave:** Tasa de conversión al registro en la landing page  
-- **Tipo de experimento:** A/B Test en la landing page (Video interactivo vs. Imágenes estáticas)  
-- **Duración:** 2 semanas  
-- **Resultado esperado:** Un 15% más de conversiones con la versión de video en la landing page, ya que los videos pueden captar mejor la atención y explicar de manera más clara y atractiva el funcionamiento de AgroTech.  
-- **Rationale (Justificación):** Los videos tienen un mayor potencial para involucrar a los usuarios, generar curiosidad y explicar visualmente cómo AgroTech puede mejorar la gestión agrícola. Al integrar videos en la landing page, los agricultores podrán ver ejemplos claros de cómo la plataforma les beneficia, lo cual puede aumentar el interés y la conversión al registro. El contenido interactivo es más persuasivo que el contenido estático, lo que puede reducir la fricción y facilitar el proceso de toma de decisión del usuario.  
+## **Experiment Card 3: Impacto de Videos Explicativos**  
+1. **Nombre:** "Conversión con video demo vs. imágenes estáticas".  
+2. **Hipótesis Vinculada:** H3 (*Videos aumentan registros*).  
+3. **Objetivo:** Determinar si el contenido audiovisual mejora el engagement.  
+4. **Métricas Principales:**  
+   - CTR en CTA "Registrarse" (meta: +15%).  
+   - Tiempo en página (meta: >1.5 minutos).  
+5. **Métricas Secundarias:**  
+   - Reproducciones completas del video.  
+6. **Método:** A/B Test:  
+   - **Grupo A:** Landing page con carrusel de imágenes.  
+   - **Grupo B:** Misma página con video embedido (90 segundos).  
+7. **Población:** 800 visitantes orgánicos (400 por grupo).  
+8. **Herramientas:**  
+   - Vimeo (analíticas de video).  
+   - Google Analytics (eventos).  
+9. **Criterio de Éxito:**  
+   - Si Grupo B tiene CTR ≥15% mayor, reemplazar imágenes.  
+10. **Riesgos:**  
+    - Mayor tasa de rebote por autoplay molesto.  
+    - Problemas de carga en conexiones lentas.  
+    - Mensaje clave no comunicado en primeros 10 segundos.  
+11. **Mitigaciones:**  
+    - Desactivar autoplay con sonido.  
+    - Ofrecer versión lightweight para móviles.  
+    - Testear script del video con 5 usuarios antes del lanzamiento.  
 
-### Experiment Card 5: Validación del interés en asesorías premium
+---
 
-**Nombre:** Interés por asesorías premium  
-**Hipótesis:** Los agricultores estarán dispuestos a pagar una tarifa adicional por asesorías premium que ofrezcan recomendaciones más personalizadas, como un análisis profundo del rendimiento de los cultivos y sugerencias basadas en IA.  
-**Métrica clave:** Tasa de conversión al pago para asesorías premium  
-**Tipo de experimento:** Prueba de precios (gratis vs. premium)  
-**Duración:** 2 semanas  
-**Resultado esperado:** Un 20% de usuarios dispuestos a pagar por el servicio premium, lo que validaría que la personalización avanzada y el acceso a expertos está generando un valor suficiente para los agricultores.  
-**Rationale (Justificación):** Ofrecer una opción premium permitiría medir el valor percibido por los agricultores respecto a un servicio más especializado y profundizar en su disposición a pagar por un asesoramiento más detallado, lo cual puede ser crucial para ajustar la oferta de productos.
+## **Experiment Card 4: Funcionalidades Premium para Asesores**  
+1. **Nombre:** "Adopción de herramientas premium por asesores".  
+2. **Hipótesis Vinculada:** H4 (*Funcionalidades premium atraen agricultores*).  
+3. **Objetivo:** Validar si las herramientas avanzadas aumentan retención.  
+4. **Métricas Principales:**  
+   - % de asesores que activan premium (meta: 40%).  
+   - Retención de agricultores a 30 días (meta: +25%).  
+5. **Métricas Secundarias:**  
+   - Número de recomendaciones generadas por asesor.  
+6. **Método:** Rollout progresivo:  
+   - **Grupo A:** 50% asesores sin acceso.  
+   - **Grupo B:** 50% asesores con acceso temprano.  
+7. **Población:** 200 asesores técnicos.  
+8. **Herramientas:**  
+   - Mixpanel (análisis de comportamiento).  
+   - SQL (query de retención).  
+9. **Criterio de Éxito:**  
+   - Si Grupo B retiene ≥25% más agricultores, liberar para todos.  
+10. **Riesgos:**  
+    - Curva de aprendizaje reduce productividad inicial.  
+    - Sobrecarga de notificaciones para agricultores.  
+    - Dependencia de calidad de datos de entrada.  
+11. **Mitigaciones:**  
+    - Crear tutoriales interactivos obligatorios.  
+    - Permitir personalización de frecuencia de alertas.  
+    - Implementar sistema de validación de datos en tiempo real.  
 
+---
 # 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
@@ -6493,7 +6565,7 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 1. **Hipótesis 1:** Los agricultores prefieren pagar por una plataforma que les ofrezca asesoría personalizada basada en las necesidades específicas de su granja.
 2. **Hipótesis 2:** Un precio de $29 por mes atraerá a más usuarios que un precio de $49 por mes.
 3. **Hipótesis 3:** Las funcionalidades premium de monitoreo de cultivos y animales aumentarán la tasa de conversión en un 20%.
-
+4. **Hipótesis 4:** Los asesores con herramientas premium aumentan la retención de agricultores en un 25%.
 ### 8.2.2. Measures
 
 - **Conversion Rate (Tasa de Conversión):** Porcentaje de usuarios que se convierten de visitantes a suscriptores premium.
@@ -6509,7 +6581,7 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.2.4. Scale Calculations and Decisions
 
-- **Tamaño Mínimo de la Muestra:** Para obtener un 95% de confianza en los resultados con una diferencia mínima detectable del 15%, se necesitarán aproximadamente **100 usuarios por grupo** (A y B) en cada experimento.
+- **Tamaño Mínimo de la Muestra:** 200-500 usuarios/grupo (según poder estadístico del 80% y efecto mínimo del 15%).
 - **Tiempo estimado para los experimentos:** Se planea una duración de **1 semana** por experimento, con campañas de anuncios pagados en plataformas como **Google Ads** para aumentar el tráfico hacia la landing page.
 
 ### 8.2.5. Methods Selection
@@ -6519,12 +6591,15 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
-| Objetivo                             | KPI                                    | Métrica                                         |
-|---------------------------------------|----------------------------------------|-------------------------------------------------|
-| Validar modelo de precios             | Tasa de conversión por precio          | % de conversión por precio (29 vs 49 dólares)    |
-| Validar tipo de asesoría              | Tasa de conversión a suscripción       | % de conversión con asesoría personalizada      |
-| Validar interés en funciones premium  | Tasa de conversión a funcionalidades premium | % de usuarios que optan por funciones premium    |
-| Validar efectividad del copy          | Tasa de clics en call-to-action (CTA)  | % CTR por versión (A/B de precios o asesoría)    |
+**Regla de oro:** Cada métrica responde a una hipótesis y se mide con herramientas específicas.  
+
+| Objetivo                          | KPI                              | Métrica de Éxito                          | Herramienta de Tracking       |  
+|------------------------------------|----------------------------------|-------------------------------------------|-------------------------------|  
+| Validar **interés en asesorías**   | Tasa de conversión a premium     | +20% en reservas con autocompletado (H1)  | Google Analytics + Hotjar     |  
+| Validar **modelo de precios**      | Conversión por precio            | $29 logra 15% más pagos que $49 (H2)     | Google Optimize (A/B Test)    |  
+| Validar **contenido persuasivo**   | CTR en CTA de registro           | +15% CTR con videos (H3)                  | Google Analytics (Eventos)    |  
+| Validar **valor de func. premium** | Retención de agricultores        | 25% más retención con asesores premium (H4)| Mixpanel (si es posible)      |  
+
 
 ### 8.2.7. Web and Mobile Tracking Plan
 
