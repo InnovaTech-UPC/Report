@@ -6418,131 +6418,150 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-**Assumptions (Suposiciones):**
-- **Los agricultores valoran la asesoría personalizada.** Suponemos que los agricultores están dispuestos a pagar por asesoría adaptada a sus necesidades específicas, ya que buscan optimizar la eficiencia de sus granjas.
-- **Tecnología mejora la gestión agrícola.** Creemos que la introducción de una plataforma tecnológica integral puede facilitar la gestión de recursos, mejorar la productividad y reducir los costos operativos.
-- **Interés por soluciones escalables.** Los agricultores están dispuestos a adoptar nuevas tecnologías y modelos de negocio como servicios en la nube si los beneficios son claros y fácilmente accesibles.
-- **El mercado tiene necesidades insatisfechas.** Suponemos que hay un espacio significativo en el mercado para una solución que combine asesoría técnica con herramientas de gestión agrícola inteligentes.
+**Assumptions (Suposiciones realistas):**
+1. Los agricultores completarán formularios con ≤3 campos si son relevantes
+2. El contacto vía WhatsApp tiene mayor adopción que formularios web
+3. Videos cortos (<1 min) aumentarán la comprensión del servicio
+4. La selección manual de provincia es suficiente para el MVP
 
-**Knowledge Gaps (Brechas de conocimiento):**
-- **Validación de la necesidad de personalización.** Necesitamos validar cuánto nivel de personalización es necesario para que los agricultores perciban un valor agregado en la asesoría.
-- **Modelo de precio aceptable.** No sabemos cuál es el precio óptimo que los agricultores están dispuestos a pagar por el servicio. Es importante testear precios bajos (mensuales) y altos (anuales).
-- **Comportamiento frente a suscripciones.** Es incierto si los agricultores prefieren pagar por suscripción mensual o anual, o si prefieren pagar por servicio de manera más ad hoc.
-- **Nivel de confianza en la tecnología.** Aún no sabemos si los agricultores confiarán en una plataforma que combine la asesoría humana con herramientas de gestión automatizadas. Necesitamos investigar cómo influyen la confianza en expertos humanos versus IA.
+**Knowledge Gaps (Brechas prácticas):**
+1. ¿Qué campos mínimos son indispensables para iniciar contacto?
+2. ¿Qué canal (WhatsApp vs Formulario) genera más interacciones?
+3. ¿El contenido audiovisual mejora la comprensión del servicio?
 
-**Ideas (Ideas para experimentos):**
-- **Test de precios.** Probar diferentes modelos de suscripción (mensual vs. anual) y diferentes precios para identificar el punto de precio óptimo.
-- **A/B testing de funcionalidades.** Realizar pruebas A/B para validar qué tipo de funcionalidades premium (monitoreo de cultivos, gestión avanzada de animales, etc.) tienen mayor impacto en la conversión.
-- **MVP (Producto Mínimo Viable).** Desarrollar un MVP que permita a los usuarios tener acceso a una versión básica de la plataforma y medir la demanda, evitando la inversión en características innecesarias antes de validar la necesidad.
-- **Validación de la propuesta de valor.** Usar encuestas y entrevistas con usuarios potenciales para entender sus verdaderas necesidades y expectativas. Esto permitirá ajustar la propuesta de valor.
+**Ideas Ejecutables (1 semana):**
+1. A/B test de formulario (3 vs 5 campos)
+2. Comparar conversión: WhatsApp vs formulario web
+3. Testear video explicativo de 60s vs texto descriptivo
 
-**Claims (Afirmaciones o hipótesis):**
-- **“Con AgroTech, los agricultores podrán optimizar sus recursos y aumentar la rentabilidad de sus granjas.”** Creemos que la optimización de recursos a través de la asesoría tecnológica será vista como un gran valor por los agricultores.
-- **“Los agricultores prefieren servicios personalizados que les permitan ahorrar tiempo y aumentar su productividad.”** Este es un punto central que queremos validar a través de encuestas y pruebas de usabilidad.
-- **“La integración de IA y asesoría humana ofrecerá un nivel de personalización que no está disponible en soluciones actuales del mercado.”** La combinación de IA con asesoría humana es un factor diferenciador clave y queremos probar si realmente genera una mejor experiencia de usuario.
+**Claims (Afirmaciones testables):**
+1. **"El formulario de 3 campos tendrá 30% más completados que el de 5 campos"**
+   - Métrica: Tasa de completado
+   - Límite temporal: 3 días
 
+2. **"WhatsApp generará 20% más contactos que el formulario web"**
+   - Métrica: Contactos iniciados
+   - Herramienta: Google Analytics eventos
+
+3. **"El video aumentará el tiempo en página en 15 segundos"**
+   - Métrica: Avg. Time on Page
+   - Comparativo: Video vs texto
+
+   
 ### 8.1.3. Experiment-Ready Questions
 
-- ¿Qué tipo de asesoría (cultivos, animales, etc.) genera más conversiones a suscripciones premium?
-- ¿Cuántos usuarios completan el proceso de registro luego de visitar la landing page?
-- ¿Cuál es el precio mínimo aceptable para la suscripción a la plataforma?
+1. ¿El formulario reducido mejora la tasa de completado en ≥30%?
+2. ¿WhatsApp tiene ≥20% más conversión que el formulario web?
+3. ¿El video incrementa el engagement medido en tiempo en página?
 
 ### 8.1.4. Question Backlog
 
-| Prioridad | Pregunta                                                  | Estado     |
-|-----------|-----------------------------------------------------------|------------|
-| Alta      | ¿Qué tipo de asesoría es más demandada por los usuarios?   | Pendiente  |
-| Alta      | ¿Cuánto estarían dispuestos a pagar por funcionalidades premium? | Pendiente  |
-| Media     | ¿Qué funcionalidades adicionales aumentan las conversiones? | Pendiente  |
-| Baja      | ¿Qué nivel de personalización es necesario para generar fidelidad? | Pendiente  |
+| Prioridad | Pregunta | Métrica asociada | Estado |
+|-----------|----------|------------------|--------|
+| Alta | ¿Cuál formato de contacto genera más leads? | Contactos iniciados | Pendiente |
+| Alta | ¿Qué campos son imprescindibles? | Tasa de abandono | Pendiente |
+| Media | ¿El video mejora la comprensión? | Tiempo en página | Pendiente |
 
 ### 8.1.5. Experiment Cards
 
-## **Experiment Card 1: Validación de Reserva Express**  
-1. **Nombre:** "Impacto de la reserva en 1 clic en la conversión premium".  
-2. **Hipótesis Vinculada:** H1 (*Asesoría personalizada reduce tiempo de gestión*).  
-3. **Objetivo:** Validar si simplificar el proceso de reserva aumenta suscripciones premium.  
-4. **Métricas Principales:**  
-   - Tasa de conversión a premium (meta: +20%).  
-   - Tiempo promedio en completar reserva (meta: <30 segundos).  
-5. **Métricas Secundarias:**  
-   - Abandono en paso 2 del formulario actual.  
-6. **Método:** A/B Test:  
-   - **Grupo A:** Formulario actual (5 pasos).  
-   - **Grupo B:** Autocompletado con geolocalización + confirmación en 1 clic.  
-7. **Población:** 500 agricultores (250 por grupo).  
-8. **Herramientas:**  
-   - Google Optimize (A/B Test).  
-   - Hotjar (mapas de calor).  
-   - Segment (tracking de eventos).  
-9. **Criterio de Éxito:**  
-   - Si Grupo B logra ≥20% más conversiones que Grupo A, escalar.  
-10. **Riesgos:**  
-    - Baja adopción por desconfianza en autocompletado de datos.  
-    - Sesgo geográfico (solo agricultores con buena conexión).  
-    - Error en geolocalización que afecte calidad de datos.  
-11. **Mitigaciones:**  
-    - Incluir tooltip explicando el uso de datos autocompletados.  
-    - Ofrecer modo offline con sincronización posterior.  
-    - Implementar validación manual de ubicaciones críticas.  
+#### **Experiment Card 1: Optimización de Formulario de Contacto**
+1. **Nombre:** "Impacto de formulario minimalista en tasa de conversión"
+2. **Hipótesis Vinculada:** H1 (*Formularios cortos aumentan completados*)
+3. **Objetivo:** Validar si reducir campos mejora la experiencia de usuario
+4. **Métricas Principales:**
+   - Tasa de completado (meta: +30%)
+   - Tiempo promedio de llenado (meta: <1 minuto)
+5. **Métricas Secundarias:**
+   - Tasa de rebote en formulario
+   - Porcentaje de campos opcionales utilizados
+6. **Método:** A/B Testing
+   - Grupo A: Formulario actual (5 campos obligatorios)
+   - Grupo B: Formulario minimalista (3 campos obligatorios)
+7. **Población:** 300 agricultores (150 por grupo)
+8. **Herramientas:**
+   - Google Forms (formularios)
+   - Hotjar (mapas de calor)
+   - Google Analytics (eventos)
+9. **Criterio de Éxito:** 
+   - Grupo B muestra ≥30% más completados con p<0.05
+10. **Riesgos Identificados:**
+    - Pérdida de información valiosa al eliminar campos
+    - Posible aumento de leads no calificados
+    - Dificultad en segmentación posterior
+11. **Mitigaciones:**
+    - Incluir campos eliminados como opcionales
+    - Implementar preguntas de calificación post-contacto
+    - Realizar prueba piloto con 20 usuarios antes del rollout completo
+12. **Consideraciones Éticas:**
+    - Garantizar protección de datos personales
+    - Obtener consentimiento explícito para uso de información
 
----
+#### **Experiment Card 2: Canal de Contacto Preferido**
+1. **Nombre:** "Efectividad de WhatsApp vs Formulario Web"
+2. **Hipótesis Vinculada:** H2 (*Canales familiares aumentan engagement*)
+3. **Objetivo:** Determinar el canal más efectivo para primer contacto
+4. **Métricas Principales:**
+   - Tasa de conversión a contacto (meta: +25% para WhatsApp)
+   - Tiempo hasta primer respuesta (meta: <15 minutos para WhatsApp)
+5. **Métricas Secundarias:**
+   - Satisfacción reportada (encuesta post-contacto)
+   - Tasa de resolución en primera interacción
+6. **Método:** A/B Testing Multivariable
+   - Grupo A: Flujo tradicional (formulario web + email)
+   - Grupo B: Integración directa con WhatsApp Business
+7. **Población:** 400 visitantes (200 por grupo)
+8. **Herramientas:**
+   - WhatsApp Business API
+   - Google Tag Manager
+   - Typeform (encuestas)
+9. **Criterio de Éxito:**
+   - WhatsApp muestra ≥25% más contactos iniciados
+   - Tiempo de respuesta promedio <15 minutos
+10. **Riesgos Identificados:**
+    - Saturación del equipo de atención vía WhatsApp
+    - Posible sesgo generacional (agricultores mayores prefieren llamadas)
+    - Dificultad para escalar atención personalizada
+11. **Mitigaciones:**
+    - Implementar chatbot básico para preguntas frecuentes
+    - Ofrecer alternativa de llamada telefónica
+    - Capacitar al equipo en gestión de conversaciones múltiples
+12. **Consideraciones Operativas:**
+    - Horarios de atención claramente comunicados
+    - Protocolos para manejo de picos de demanda
 
-## **Experiment Card 2: Test de Sensibilidad al Precio**  
-1. **Nombre:** "Efecto del precio en la conversión ($29 vs. $49)".  
-2. **Hipótesis Vinculada:** H2 (*Precio bajo aumenta conversiones*).  
-3. **Objetivo:** Identificar el punto de precio óptimo para suscripciones mensuales.  
-4. **Métricas Principales:**  
-   - Tasa de conversión a pagado (meta: $29 > $49 en 15%).  
-   - LTV estimado por grupo.  
-5. **Métricas Secundarias:**  
-   - Tasa de rebote en página de precios.  
-6. **Método:** A/B Test multivariable:  
-   - **Versión A:** $29/mes + "Plan Básico".  
-   - **Versión B:** $49/mes + "Plan Recomendado".  
-7. **Población:** 1,000 visitantes (500 por grupo).  
-8. **Herramientas:**  
-   - Google Optimize (A/B/n).  
-   - Stripe (análisis de transacciones).  
-9. **Criterio de Éxito:**  
-   - Si $29 genera ≥15% más conversiones sin afectar LTV, adoptar.  
-10. **Riesgos:**  
-    - Atracción de usuarios low-value con precio bajo.  
-    - Estacionalidad agrícola afectando disposición a pagar.  
-    - Cannibalización de planes anuales.  
-11. **Mitigaciones:**  
-    - Filtrar tráfico con preguntas de calificación.  
-    - Ejecutar en temporada alta (siembra/cosecha).  
-    - Monitorear impacto en suscripciones anuales.  
+#### **Experiment Card 3: Contenido Explicativo**
+1. **Nombre:** "Impacto de video explicativo en comprensión del servicio"
+2. **Hipótesis Vinculada:** H3 (*Medios audiovisuales mejoran retención*)
+3. **Objetivo:** Medir efectividad de contenido audiovisual vs texto
+4. **Métricas Principales:**
+   - Tiempo en página (meta: +20 segundos)
+   - Tasa de rebote (meta: reducción del 15%)
+5. **Métricas Secundarias:**
+   - Porcentaje de reproducción completa del video
+   - Conversión a contacto después de ver contenido
+6. **Método:** A/B Testing con Segmentación
+   - Grupo A: Landing page con texto descriptivo (actual)
+   - Grupo B: Landing page con video embedido (60s)
+7. **Población:** 500 visitantes orgánicos (250 por grupo)
+8. **Herramientas:**
+   - Loom (grabación y hosting de video)
+   - Google Analytics (comportamiento)
+   - Vimeo Analytics (engagement con video)
+9. **Criterio de Éxito:**
+   - Grupo B muestra ≥20s más tiempo en página
+   - Reducción ≥15% en tasa de rebote
+10. **Riesgos Identificados:**
+    - Problemas de carga en conexiones lentas
+    - Barrera de idioma para agricultores indígenas
+    - Mensaje no adaptado a diferentes niveles de alfabetización digital
+11. **Mitigaciones:**
+    - Versión ligera del video para móviles
+    - Subtítulos en español y lenguas indígenas principales
+    - Versión audio-only como alternativa
+12. **Consideraciones de Accesibilidad:**
+    - Cumplimiento WCAG 2.1 AA
+    - Pruebas con usuarios de diferentes edades y habilidades técnicas
 
----
-
-## **Experiment Card 3: Impacto de Videos Explicativos**  
-1. **Nombre:** "Conversión con video demo vs. imágenes estáticas".  
-2. **Hipótesis Vinculada:** H3 (*Videos aumentan registros*).  
-3. **Objetivo:** Determinar si el contenido audiovisual mejora el engagement.  
-4. **Métricas Principales:**  
-   - CTR en CTA "Registrarse" (meta: +15%).  
-   - Tiempo en página (meta: >1.5 minutos).  
-5. **Métricas Secundarias:**  
-   - Reproducciones completas del video.  
-6. **Método:** A/B Test:  
-   - **Grupo A:** Landing page con carrusel de imágenes.  
-   - **Grupo B:** Misma página con video embedido (90 segundos).  
-7. **Población:** 800 visitantes orgánicos (400 por grupo).  
-8. **Herramientas:**  
-   - Vimeo (analíticas de video).  
-   - Google Analytics (eventos).  
-9. **Criterio de Éxito:**  
-   - Si Grupo B tiene CTR ≥15% mayor, reemplazar imágenes.  
-10. **Riesgos:**  
-    - Mayor tasa de rebote por autoplay molesto.  
-    - Problemas de carga en conexiones lentas.  
-    - Mensaje clave no comunicado en primeros 10 segundos.  
-11. **Mitigaciones:**  
-    - Desactivar autoplay con sonido.  
-    - Ofrecer versión lightweight para móviles.  
-    - Testear script del video con 5 usuarios antes del lanzamiento.  
 
 ---
 
@@ -6584,9 +6603,10 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 | Objetivo                          | KPI                              | Métrica de Éxito                          | Herramienta de Tracking       |  
 |------------------------------------|----------------------------------|-------------------------------------------|-------------------------------|  
-| Validar **interés en asesorías**   | Tasa de conversión a premium     | +20% en reservas con autocompletado (H1)  | Google Analytics + Hotjar     |  
-| Validar **modelo de precios**      | Conversión por precio            | $29 logra 15% más pagos que $49 (H2)     | Google Optimize (A/B Test)    |  
-| Validar **contenido persuasivo**   | CTR en CTA de registro           | +15% CTR con videos (H3)                  | Google Analytics (Eventos)    |  
+| **Optimizar experiencia de contacto** | Tasa completado formularios      | ≥30% aumento en formulario minimalista    | Google Analytics + Hotjar     |  
+| **Validar canal preferido**        | Ratio conversión a contacto      | WhatsApp ≥25% más efectivo que formulario | Google Tag Manager + WhatsApp Business API |  
+| **Mejorar comprensión del servicio** | Tiempo en página                | ≥20s aumento con video                    | Google Analytics + Vimeo      |  
+| **Garantizar calidad de datos**    | Precisión información contacto   | ≤10% errores en datos críticos            | Validación manual + Google Sheets |  
 
 
 ### 8.2.7. Web and Mobile Tracking Plan
