@@ -5984,7 +5984,7 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 
 **Preguntas sobre la Aplicación**
 
-**Para Granjeros:**
+**Para Granjeros**
 
 Se considerará los userflows de:
 - Creación de cuenta e inicio de sesión
@@ -5995,6 +5995,7 @@ Se considerará los userflows de:
 - Interacción con la sección de notificaciones
 - Interacción con la sección de perfil de usuario
 
+Preguntas:
 - ¿Qué opinas de la forma de ver las calificaciones y opiniones sobre un asesor?
 - ¿Te resulta fácil utilizar la opción de búsqueda de asesores en la plataforma?
 - ¿Te parece que la funcionalidad para agendar una cita con un asesor es intuitiva y fácil de usar?
@@ -6004,7 +6005,7 @@ Se considerará los userflows de:
 - ¿Te resulta fácil modificar tu perfil de usuario en la aplicación?
 - ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
 
-**Para Asesores:**
+**Para Asesores**
 
 Se considerará los userflows de:
 - Creación de cuenta e inicio de sesión
@@ -6014,6 +6015,7 @@ Se considerará los userflows de:
 - Interacción con la sección de notificaciones
 - Interacción con la sección de perfil de usuario
 
+Preguntas:
 - ¿Qué opinas de la forma de recibir notificaciones de recordatorios de citas próximas?
 - ¿Qué tan fácil te parece gestionar y organizar tus próximas citas usando la plataforma?
 - ¿Te parece ordenada la forma en la que puedes revisar tus citas de la plataforma?
