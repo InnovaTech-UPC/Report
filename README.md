@@ -6423,46 +6423,54 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 **Assumptions (Suposiciones realistas):**
 1. Los agricultores completarán formularios con ≤3 campos si son relevantes
 2. El contacto vía WhatsApp tiene mayor adopción que formularios web
-3. Videos cortos (<1 min) aumentarán la comprensión del servicio
-4. La selección manual de provincia es suficiente para el MVP
+3. La personalización de la interfaz de usuario
+4. Foro para que los usuarios puedan compartir experiencias y consejos
+5. Videos cortos (<1 min) aumentarán la comprensión del servicio
+
 
 **Knowledge Gaps (Brechas prácticas):**
 1. ¿Qué campos mínimos son indispensables para iniciar contacto?
 2. ¿Qué canal (WhatsApp vs Formulario) genera más interacciones?
-3. ¿El contenido audiovisual mejora la comprensión del servicio?
+3. ¿Qué elementos de la interfaz son más valorados por los usuarios?
+4. ¿Qué temas son de interés para los usuarios en el foro?
+5. ¿El contenido audiovisual mejora la comprensión del servicio?
 
-**Ideas Ejecutables (1 semana):**
+
+**Ideas Ejecutables:**
 1. A/B test de formulario (3 vs 5 campos)
 2. Comparar conversión: WhatsApp vs formulario web
-3. Testear video explicativo de 60s vs texto descriptivo
+3. Personalizar interfaz de usuario con temas oscuros y claros
+4. Implementar una sección donde los usuarios puedan compartir consejos y experiencias
+5. Testear video explicativo de 60s vs texto descriptivo
+
 
 **Claims (Afirmaciones testables):**
-1. **"El formulario de 3 campos tendrá 30% más completados que el de 5 campos"**
-   - Métrica: Tasa de completado
-   - Límite temporal: 3 días
-
-2. **"WhatsApp generará 20% más contactos que el formulario web"**
-   - Métrica: Contactos iniciados
-   - Herramienta: Google Analytics eventos
-
-3. **"El video aumentará el tiempo en página en 15 segundos"**
-   - Métrica: Avg. Time on Page
-   - Comparativo: Video vs texto
-
+1. **Formulario de contacto optimizado:** Se espera que un formulario de contacto con una menor cantidad de campos genere más contactos iniciados en comparación con uno de 5 campos.
+2. **WhatsApp como canal preferido:** Se afirma que el uso de WhatsApp para iniciar contacto generará un mayor porcentaje de contactos iniciados en comparación con el formulario web.
+3. **Personalización de la interfaz:** Se afirmará que la personalización de la interfaz con modo oscuro de usuario incrementará la satisfacción del usuario.
+4. **Participación mediante un foro:** Se postula que la creación de un foro de experiencias y consejos puede aumentar la participación activa y la adherencia a las mejores prácticas de agricultura.
+5. **Video explicativo efectivo:** Se postula que un video explicativo de 60 segundos aumentará el tiempo promedio en página en comparación con un texto descriptivo equivalente.
    
 ### 8.1.3. Experiment-Ready Questions
 
-1. ¿El formulario reducido mejora la tasa de completado en ≥30%?
-2. ¿WhatsApp tiene ≥20% más conversión que el formulario web?
-3. ¿El video incrementa el engagement medido en tiempo en página?
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|----------|------------|------|--------|----------|-------------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | 8 - Formularios más cortos suelen tener mejores tasas de completado. | 1 - Bajo riesgo, ya que es una práctica común. | 5 - Puede aumentar la cantidad de contactos iniciados. | 6 - Interés alto, ya que mejora la conversión. | 20 |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | 7 - WhatsApp es un canal popular y familiar para los usuarios. | 2 - Riesgo bajo, ya que es una implementación técnica sencilla. | 4 - Puede aumentar la tasa de contactos iniciados. | 6 - Interés alto, ya que mejora la experiencia del usuario. | 19 |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | 7 - Es una funcionalidad popular, aunque no todos los usuarios la utilizan. | 2 - Bajo riesgo, ya que es una implementación técnica estándar. | 4 - Puede mejorar la experiencia del usuario. | 5 - Interés moderado, ya que la personalización es un tema recurrente. | 18 |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | 6 - La interacción en foros es variable, pero puede ser un buen canal de comunicación. | 3 - Riesgo moderado, ya que depende de la participación activa de los usuarios. | 6 - Puede aumentar la retención y el engagement. | 6 - Interés alto, ya que fomenta la comunidad. | 21 |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | 6 - Los videos suelen aumentar el tiempo en página. | 3 - Riesgo moderado, ya que depende de la calidad del contenido. | 5 - Puede mejorar la comprensión del servicio. | 4 - Interés moderado, ya que no todos los usuarios verán el video. | 18 |
+
 
 ### 8.1.4. Question Backlog
 
 | Prioridad | Pregunta | Métrica asociada | Estado |
 |-----------|----------|------------------|--------|
-| Alta | ¿Cuál formato de contacto genera más leads? | Contactos iniciados | Pendiente |
-| Alta | ¿Qué campos son imprescindibles? | Tasa de abandono | Pendiente |
-| Media | ¿El video mejora la comprensión? | Tiempo en página | Pendiente |
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Contactos iniciados | Pendiente |
+| 3 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Tasa de abandono | Pendiente |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Satisfacción del usuario | Pendiente |
+| 3 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Interacciones en el foro | Pendiente |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Tiempo en página | Pendiente |
 
 ### 8.1.5. Experiment Cards
 
@@ -6531,9 +6539,70 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
     - Horarios de atención claramente comunicados
     - Protocolos para manejo de picos de demanda
 
-#### **Experiment Card 3: Contenido Explicativo**
+#### **Experiment Card 3: Personalización de Interfaz**
+1. **Nombre:** "Efecto de personalización de interfaz en satisfacción del usuario"
+2. **Hipótesis Vinculada:** H3 (*Personalización mejora experiencia de usuario*)
+3. **Objetivo:** Evaluar si temas personalizados aumentan la satisfacción
+4. **Métricas Principales:**
+   - Satisfacción del usuario (meta: +25% en encuesta post-uso)
+   - Tasa de retención de usuarios (meta: +15% en 30 días)
+5. **Métricas Secundarias:**
+   - Tiempo promedio de sesión (meta: +10%)
+   - Número de interacciones por sesión (meta: +20%) 
+6. **Método:** A/B Testing con Personalización
+   - Grupo A: Interfaz estándar (actual)
+   - Grupo B: Interfaz personalizada (modo claro/oscuro, temas)
+7. **Población:** 600 usuarios registrados (300 por grupo)
+8. **Herramientas:**
+   - Google Forms (encuesta de satisfacción)
+9. **Criterio de Éxito:**
+   - Grupo B muestra ≥25% más satisfacción en encuesta
+   - Tasa de retención ≥15% superior al grupo A
+10. **Riesgos Identificados:**
+    - Sobrecarga cognitiva por demasiadas opciones de personalización
+    - Posible rechazo a cambios en la interfaz por usuarios acostumbrados
+    - Dificultad técnica para implementar personalización en el MVP
+11. **Mitigaciones:**
+    - Implementar opciones limitadas de personalización inicialmente
+    - Realizar pruebas de usabilidad con usuarios representativos
+    - Proporcionar tutoriales breves sobre cómo personalizar la interfaz
+12. **Consideraciones de Usabilidad:**  
+    - Asegurar que la personalización no afecte la accesibilidad
+    - Mantener consistencia visual y funcional en todas las opciones de personalización
+
+#### **Experiment Card 4: Interacción en el Foro**
+1. **Nombre:** "Impacto del foro en la interacción de usuarios"
+2. **Hipótesis Vinculada:** H4 (*Foros aumentan la comunidad y el engagement*)
+3. **Objetivo:** Medir si la implementación de un foro incrementa la interacción entre usuarios
+4. **Métricas Principales:**
+    - Número de publicaciones en el foro (meta: +50% en 2 semanas)
+    - Número de comentarios por publicación (meta: +30%)
+5. **Métricas Secundarias:**
+    - Tasa de retorno al foro (meta: +20% en 30 días)
+    - Tiempo promedio de interacción por usuario (meta: +15%)
+6. **Método:** Implementación de Foro y Seguimiento
+   - Grupo A: Usuarios con acceso al foro
+   - Grupo B: Usuarios sin acceso al foro (control)
+7. **Población:** 800 usuarios activos (400 por grupo)
+8. **Herramientas:**
+    - Google Analytics (seguimiento de interacciones)
+    - Typeform (encuesta de satisfacción)
+9. **Criterio de Éxito:**
+    - Grupo A muestra ≥50% más publicaciones y ≥30% más comentarios
+    - Tasa de retorno al foro ≥20% superior al grupo B
+10. **Riesgos Identificados:**
+    - Moderación insuficiente puede llevar a spam o contenido inapropiado
+    - Usuarios inactivos que no contribuyen al foro
+    - Dificultad para mantener la calidad de las interacciones
+11. **Mitigaciones:**
+    - Implementar moderación activa y reglas claras de uso
+    - Realizar encuestas periódicas para evaluar la calidad del contenido
+12. **Consideraciones de Comunidad:**
+    - Fomentar un ambiente inclusivo y respetuoso
+
+#### **Experiment Card 5: Contenido Explicativo**
 1. **Nombre:** "Impacto de video explicativo en comprensión del servicio"
-2. **Hipótesis Vinculada:** H3 (*Medios audiovisuales mejoran retención*)
+2. **Hipótesis Vinculada:** H5 (*Medios audiovisuales mejoran retención*)
 3. **Objetivo:** Medir efectividad de contenido audiovisual vs texto
 4. **Métricas Principales:**
    - Tiempo en página (meta: +20 segundos)
@@ -6564,35 +6633,53 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
     - Cumplimiento WCAG 2.1 AA
     - Pruebas con usuarios de diferentes edades y habilidades técnicas
 
-
----
-
-
-
 # 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
 
-1. **Hipótesis 1:** Los agricultores prefieren pagar por una plataforma que les ofrezca asesoría personalizada basada en las necesidades específicas de su granja.
-2. **Hipótesis 2:** Un precio de $29 por mes atraerá a más usuarios que un precio de $49 por mes.
-3. **Hipótesis 3:** Las funcionalidades premium de monitoreo de cultivos y animales aumentarán la tasa de conversión en un 20%.
+| ID | Question | Belief | Hypothesis |
+|----|-----------|-------------|-----------------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Los formularios con menos campos aumentarán la tasa de completado | Reducir campos a 3 aumentará la tasa de completado en ≥30% a comparación con el anterior |
+| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | WhatsApp es un canal más familiar y accesible para los usuarios | WhatsApp tendrá ≥20% más contactos iniciados que el formulario web |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La personalización de la interfaz mejora la experiencia del usuario | La personalización de la interfaz aumentará la satisfacción del usuario en ≥25% |
+| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Los foros fomentan la comunidad y el intercambio de conocimientos | La implementación de un foro aumentará la interacción de usuarios en un 50% |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Los videos cortos mejoran la comprensión del servicio | Un video de 60s incrementará el tiempo en página en ≥20 segundos comparado con texto descriptivo |
+
+
 ### 8.2.2. Measures
 
-- **Conversion Rate (Tasa de Conversión):** Porcentaje de usuarios que se convierten de visitantes a suscriptores premium.
-- **Completion Rate (Tasa de Finalización):** Porcentaje de usuarios que completan el formulario de registro.
-- **Payment Conversion (Conversión de Pago):** Porcentaje de usuarios que realizan un pago después de probar las funcionalidades básicas de la plataforma.
-- **Bounce Rate (Tasa de Rebote):** Porcentaje de usuarios que abandonan la landing page sin interactuar o sin avanzar en el proceso de registro.
+| ID | Question | Measure |
+|----|-----------|---------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Se medirá la tasa de completado del formulario con 3 campos comparado con el formulario actual de 5 campos. Se espera un aumento en la tasa de completado. |
+| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Comparar la tasa de contactos iniciados a través de WhatsApp con la tasa de contactos iniciados mediante el formulario web. Se espera que WhatsApp tenga un mayor número de contactos iniciados. |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Medir la satisfacción de los usuarios mediante encuestas y puntajes de valoración de experiencia visual antes y después de habilitar el modo oscuro. Esto permitirá evaluar si la nueva función mejora la comodidad y la percepción general de la aplicación. |
+| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Evaluar la cantidad de publicaciones, respuestas y la interacción en el foro, comparando la actividad antes y después de su lanzamiento. También se pueden usar encuestas para medir la percepción de los usuarios sobre el valor del foro. |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Comparar el tiempo promedio en página de usuarios que ven el video de 60 segundos con aquellos que leen el texto descriptivo. Se espera un aumento del tiempo en página para los que ven el video. |
 
 ### 8.2.3. Conditions
 
-- **A/B Test entre precios de suscripción mensual ($29 vs. $49).**
-- **A/B Test entre asesoría personalizada vs. asesoría estándar.**
-- **Test con funcionalidades premium (monitoreo de cultivos vs. asesoría estándar).**
+| Question | Condición experimental | Condición de control |
+|-----------|------------------------|----------------------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | La tasa de completado del formulario con 3 campos será ≥30% superior al formulario actual de 5 campos | No habrá un aumento significativo en la tasa de completado del formulario actual de 5 campos |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | La tasa de contactos iniciados a través de WhatsApp será ≥20% superior a la del formulario web | No habrá un aumento significativo en la tasa de contactos iniciados a través del formulario web |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La satisfacción del usuario se medirá con una encuesta post-uso después de habilitar el modo oscuro | No habrá un aumento significativo en la satisfacción del usuario tras la implementación del modo oscuro |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | La participación de los usuario aumentará en un 50% tras la implementación del foro | No habrá un aumento significativo en la interacción de usuarios tras la implementación del foro |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | El tiempo promedio en página será ≥20 segundos mayor para usuarios que vean el video de 60 segundos | El tiempo promedio no mostrará un aumento significativo para usuarios que lean el texto descriptivo |
 
 ### 8.2.4. Scale Calculations and Decisions
 
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en un proyecto. Cada hipótesis se asocia con un indicador de éxito: se considera ideal cuando la métrica alcanza plenamente el objetivo, aceptable cuando está entre el mínimo y el ideal, y desfavorable si queda por debajo del mínimo, requiriendo así una revisión. Un nivel excelente se define como cuando el valor supera el ideal en un 25% o más, indicando un éxito significativo. Este enfoque permite tomar decisiones fundamentadas en métricas para validar o ajustar las hipótesis del proyecto.
+
 - **Tamaño Mínimo de la Muestra:** 200-500 usuarios/grupo (según poder estadístico del 80% y efecto mínimo del 15%).
 - **Tiempo estimado para los experimentos:** Se planea una duración de **1 semana** por experimento, con campañas de anuncios pagados en plataformas como **Google Ads** para aumentar el tráfico hacia la landing page.
+
+| Scale Calculation | Decision | Factor |
+|-------------------|----------|--------|
+| Creemos que al reducir el número de campos en el formulario de contacto a 3, se incrementará la tasa de completado en al menos un 30%. Sabremos que esto es cierto cuando observemos un aumento del 30% en la tasa de completado del formulario. | Implementar el formulario con 3 campos y medir la tasa de completado | Excelente |
+| Creemos que al implementar un canal de contacto a través de WhatsApp, se incrementará la tasa de contactos iniciados en al menos un 20% en comparación con el formulario web. Sabremos que esto es cierto cuando observemos un aumento del 20% en la tasa de contactos iniciados a través de WhatsApp. | Implementar el canal de WhatsApp y medir la tasa de contactos iniciados | Aceptable |
+| Creemos que al agregar un modo oscuro a la aplicación web, se mejorará la experiencia del usuario en al menos un 25%, reduciendo la fatiga visual y aumentando el tiempo de uso promedio. Sabremos que esto es cierto cuando observemos un aumento del 25% en la satisfacción del usuario. | Implementar el modo oscuro y permitir que el usuario pueda activarlo si desea | Aceptable |
+| Creemos que al implementar un foro en la aplicación que permita a los usuarios compartir experiencias y consejos sobre la gestión de granjas, se incrementará la interacción y la participación de los usuarios. Sabremos que esto es cierto cuando observemos un aumento del 50% en la participación de los usuarios en el foro. | Implementar el foro y medir la participación de los usuarios | Excelente |
+| Creemos que al agregar un video explicativo de 60 segundos en la landing page, se incrementará el tiempo promedio en página en al menos 20 segundos, mejorando la comprensión del servicio. Sabremos que esto es cierto cuando observemos un aumento del 20% en el tiempo promedio en página. | Implementar el video explicativo y medir el tiempo promedio en página | Aceptable |
 
 ### 8.2.5. Methods Selection
 
@@ -6607,6 +6694,8 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 |------------------------------------|----------------------------------|-------------------------------------------|-------------------------------|  
 | **Optimizar experiencia de contacto** | Tasa completado formularios      | ≥30% aumento en formulario minimalista    | Google Analytics + Hotjar     |  
 | **Validar canal preferido**        | Ratio conversión a contacto      | WhatsApp ≥25% más efectivo que formulario | Google Tag Manager + WhatsApp Business API |  
+| **Mejorar satisfacción del usuario** | Satisfacción del usuario         | ≥25% aumento en encuestas post-uso        | Google Forms + Typeform       |
+| **Fomentar comunidad activa**      | Interacciones en el foro         | ≥50% más publicaciones y comentarios      | Google Analytics + Foros      |
 | **Mejorar comprensión del servicio** | Tiempo en página                | ≥20s aumento con video                    | Google Analytics + Vimeo      |  
 | **Garantizar calidad de datos**    | Precisión información contacto   | ≤10% errores en datos críticos            | Validación manual + Google Sheets |  
 
@@ -6630,22 +6719,23 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 --------------
 | ID | Nombre | Descripción | Criterios de aceptación |
 |----|--------|-------------|-------------------------|
-| US01 | Contacto rápido con asesor | Como agricultor, quiero contactar a un asesor técnico en menos de 2 pasos | **Escenario 1:** <br> Given ingreso a la web <br> When completo nombre y teléfono <br> Then recibo email de confirmación <br> **Escenario 2:** <br> Given dejo el teléfono vacío <br> When intento enviar <br> Then veo mensaje de error claro |
-| US02 | Video explicativo básico | Como visitante, quiero entender en 1 minuto qué ofrece AgroTech | **Escenario:** <br> Given abro la landing page <br> When veo el video de 60s <br> Then identifico al menos 3 beneficios clave |
-| US03 | Registro simplificado | Como usuario nuevo, quiero registrarme solo con email y ubicación | **Escenario:** <br> Given accedo al formulario <br> When ingreso email y permito geolocalización <br> Then recibo acceso inmediato |
+| UE01 | Formulario de contacto optimizado | Como  usuario, quiero un formulario de contacto con 3 campos para facilitar el registro | **Escenario:** <br> Given el usuario se encuentra en la sección de contacto de la landing page <br> When completa el formulario con 3 campos necesarios <br> Then recibirá confirmación de registro <br> And notará lo sencillo que fue llenar el formulario reducido |
+| UE02 | Video explicativo básico | Como visitante, quiero entender en 1 minuto qué ofrece AgroTech | **Escenario:** <br> Given abro la landing page <br> When veo el video de 60s <br> Then identifico al menos 3 beneficios clave |
+| UE03 | Canal de contacto por WhatsApp | Como usuario, quiero contactar a AgroTech por WhatsApp para recibir asesoría rápida | **Escenario:** <br> Given el usuario se encuentra en la landing page <br> When hace clic en el botón de WhatsApp <br> Then se abre una conversación con AgroTech en WhatsApp <br> And puede realizar sus consultas sin problema |
+| UE04 | Personalización de interfaz | Como usuario, quiero elegir entre modo claro y oscuro para mejorar mi experiencia visual | **Escenario:** <br> Given el usuario se encuentra en la aplicación web <br> When selecciona el modo oscuro en la configuración <br> Then la interfaz cambia a modo oscuro |
+| UE05 | Foro de experiencias y consejos | Como usuario, quiero participar en un foro para compartir y aprender de otros agricultores | **Escenario:** <br> Given el usuario se encuentra registrado en AgroTech <br> When accede al foro <br> Then puede publicar preguntas y responder a otros usuarios <br> And visualiza las publicaciones recientes |
 
---------------
 
 ### 8.3.2. To-Be Product Backlog
-----------------
-| ID | Nombre | Descripción | Prioridad | Notas |
-|----|--------|-------------|-----------|-------|
-| US01 | Formulario de contacto | Implementar formulario de 2 campos (nombre, teléfono) | Alta | Validar tasa de conversión |
-| US02 | Video landing page | Grabar video explicativo de 60s | Alta | Medir tiempo de visualización |
-| US03 | Autocompletado ubicación | Integrar geolocalización en registro | Media | Requiere API Google Maps |
-| US04 | WhatsApp business | Alternativa de contacto por WhatsApp | Baja | Solo si sobra tiempo |
 
--------------- 
+| Orden | ID | Nombre | Story Points |
+|------|----|--------|--------------|
+| 1 | UE01 | Formulario de contacto optimizado | 3 |
+| 2 | UE03 | Canal de contacto por WhatsApp | 8 |
+| 3 | UE04 | Personalización de interfaz | 5 |
+| 4 | UE05 | Foro de experiencias y consejos | 5 |
+| 5 | UE02 | Video explicativo básico | 3 |
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
