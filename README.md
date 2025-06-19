@@ -107,6 +107,28 @@
         </ul>
       </td>
   </tr>
+  <tr>
+      <td><strong>TB2</strong></td>
+      <td>19/06/25</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>La Torre Soto, André Sebastián</li>
+          <li>Paredes Puente, Sebastian Roberto</li>
+          <li>Pecan Pariona, Sergio Joel</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Qqueso Rodriguez, Britney Delhy</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>Capítulo VI: Product Verification & Validation</li>
+          <li>Capítulo VII: DevOps Practices</li>
+          <li>Capítulo VIII: Experiment-Driven Development</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
@@ -353,6 +375,7 @@
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
         <p><strong>TP:</strong> En esta entrega parcial, apoyé en el desarollo de las pruebas dentro del Backend, los cuales fueron de mucha utilidad para determinar que nuestra solución esté funcionando de forma esperada, garantizando integridad y seguridad de datos.</p>
+        <p><strong>TB2:</strong> En esta entrega, apoyé en el desarrollo de las prácticas DevOps, las cuales incluyen la integración continua, entrega continua, entre otras; así como en el desarrollo basado en experimentos. Para ello, usé los conocimientos aprendidos en clase y investigación autónoma.</p>
         <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
         <p><strong>TP:</strong> En esta entrega, asumí una participación activa en la redacción del informe técnico, asegurando una comunicación clara y profesional. Asimismo, colaboré en el desarrollo y ejecución de pruebas en el Backend, respetando los principios éticos de calidad y responsabilidad en el proceso de validación del software.</p>
       </td>
@@ -379,6 +402,7 @@
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
         <p><strong>TP:</strong>  Realicé la indagación acerca de las herramientas y practicas a utilizar para las DevOps Practices, considerando la integración continua, entrega continua y despliegue continuo.</p>
+        <p><strong>TB2:</strong> En esta entrega, se realizaron las entrevistas de validación y las evaluaciones según heurísticas. Estas fueron de mucha utilidad para seguir mejorando nuestro producto a partir de las ideas que nos brinda nuestros segmentos objetivo.</p>
         <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
         <p><strong>TP:</strong>  En esta entrega, realicé el análisis y la selección de herramientas y procesos adecuados para implementar las pruebas, considerando su viabilidad técnica y su impacto en el rendimiento del sistema, la eficiencia operativa y la sostenibilidad del proyecto en distintos contextos sociales y económicos.</p>
       </td>
