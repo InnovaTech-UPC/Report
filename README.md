@@ -6248,14 +6248,59 @@ _Imagen 222. Heuristica 3_
 **Recomendación:** Cambiar el término "jaulas" por "recintos" en el mensaje de la página de recintos para mantener la consistencia con el resto de la aplicación y evitar confusiones.
 
 ## 6.4. Auditoría de Experiencias de Usuario
+
 ### 6.4.1. Auditoría realizada
+
 #### 6.4.1.1. Información del grupo auditado
+
+**Grupo auditado:** CodeMinds
+**Fecha de auditoría:** 19-06-2025
+**Integrantes del grupo auditado:**
+- Luis Eduardo Herrera González
+- Abel Angel Ortega Huaraca
+- Franky Oswald Mallma Espiritu
+- Belen del Rocio Ramos Rios
+- Ariana Vargas Revollé
+- Mateo Alejandro Vilchez Rios
+
 #### 6.4.1.2. Cronograma de auditoría realizada
+
+| Fecha | Actividad | Responsable |
+| :---: | :---: | :---: |
+| 19-06-2025 | Revisión del alcance del proyecto y planificación de auditoría | Piero Delgado |
+| 19-06-2025 | Revisión de la landing page | Britney Qqueso |
+| 19-06-2025 | Revisión de la aplicación web | Andre La Torre |
+| 19-06-2025 | Revisión de la aplicación móvil | Sebastian Paredes |
+| 19-06-2025 | Evaluación de heurísticas | Salvador Salinas |
+| 19-06-2025 | Envío de evaluación | Sergio Pecan |
+
 #### 6.4.1.3. Contenido de auditoría realizada
+
 ### 6.4.2. Auditoría recibida
+
 #### 6.4.2.1. Información del grupo auditor
+
+**Grupo auditor:** SuperMedStartUp
+**Fecha de auditoría:** 19-06-2025
+**Integrantes del grupo auditado:**
+- Astrid Jimena Boronda Heidinger
+- Luis Sebastian Chinchihualpa Saldarriaga
+- Juan Eduardo Montes Figueroa
+- Adrián Enrique Jesús Palma Obispo
+- Erick Joaquin Palomino Santa Cruz
+- Eduardo Renato Ventura Chancafe
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha | Actividad | Responsable |
+| :---: | :---: | :---: |
+| 19-06-2025 | Planificación de auditoría | Salvador Salinas |
+| 19-06-2025 | Revisión de artefactos | Sebastian Paredes |
+| 19-06-2025 | Envío de artefactos a revisar | Sergio Pecan |
+| 19-06-2025 | Recepción de evaluación | Piero Delgado |
+
 #### 6.4.2.3. Contenido de auditoría recibida
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 # Capítulo VII: DevOps Practices
@@ -6739,16 +6784,17 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 
 
 ## 8.3. Experimentation
+
 ### 8.3.1. To-Be User Stories
---------------
+
 | ID | Nombre | Descripción | Criterios de aceptación |
 |----|--------|-------------|-------------------------|
 | UE01 | Formulario de contacto optimizado | Como  usuario, quiero un formulario de contacto con 3 campos para facilitar el registro | **Escenario:** <br> Given el usuario se encuentra en la sección de contacto de la landing page <br> When completa el formulario con 3 campos necesarios <br> Then recibirá confirmación de registro <br> And notará lo sencillo que fue llenar el formulario reducido |
 | UE02 | Video explicativo básico | Como visitante, quiero entender en 1 minuto qué ofrece AgroTech | **Escenario:** <br> Given abro la landing page <br> When veo el video de 60s <br> Then identifico al menos 3 beneficios clave |
 | UE03 | Canal de contacto por WhatsApp | Como usuario, quiero contactar a AgroTech por WhatsApp para recibir asesoría rápida | **Escenario:** <br> Given el usuario se encuentra en la landing page <br> When hace clic en el botón de WhatsApp <br> Then se abre una conversación con AgroTech en WhatsApp <br> And puede realizar sus consultas sin problema |
 | UE04 | Personalización de interfaz | Como usuario, quiero elegir entre modo claro y oscuro para mejorar mi experiencia visual | **Escenario:** <br> Given el usuario se encuentra en la aplicación web <br> When selecciona el modo oscuro en la configuración <br> Then la interfaz cambia a modo oscuro |
-| UE05 | Foro de experiencias y consejos | Como usuario, quiero participar en un foro para compartir y aprender de otros agricultores | **Escenario:** <br> Given el usuario se encuentra registrado en AgroTech <br> When accede al foro <br> Then puede publicar preguntas y responder a otros usuarios <br> And visualiza las publicaciones recientes |
-
+| UE05 | Visualización de foro | Como usuario, quiero participar en un foro para compartir y aprender de otros agricultores | **Escenario:** <br> Given el usuario se encuentra registrado en AgroTech <br> When accede al foro <br> Then puede publicar preguntas y responder a otros usuarios <br> And visualiza las publicaciones recientes |
+| UE06 | Guardar publicaciones del foro como favoritas | Como usuario, quiero guardar publicaciones del foro como favoritas para consultarlas después | **Escenario:** <br> Given el usuario está navegando por el foro <br> When hace clic en "Guardar como favorito" en una publicación <br> Then la publicación se agrega a su lista de favoritos <br> And puede acceder a ella desde su perfil |
 
 ### 8.3.2. To-Be Product Backlog
 
@@ -6757,8 +6803,30 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 | 1 | UE01 | Formulario de contacto optimizado | 3 |
 | 2 | UE03 | Canal de contacto por WhatsApp | 8 |
 | 3 | UE04 | Personalización de interfaz | 5 |
-| 4 | UE05 | Foro de experiencias y consejos | 5 |
-| 5 | UE02 | Video explicativo básico | 3 |
+| 4 | UE05 | Visualización de foro | 5 |
+| 5 | UE06 | Guardar publicaciones del foro como favoritas | 3 |
+| 6 | UE02 | Video explicativo básico | 3 |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">UE01</td><td colspan="1" rowspan="2" valign="top">Formulario de contacto optimizado</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Diseñar nueva interfaz de contacto</td><td colspan="1" valign="top">Se diseña e implementa la nueva interfaz del formulario de contacto optimizado.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para contacto</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el envío del nuevo formulario.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">UE03</td><td colspan="1" rowspan="3" valign="top">Canal de contacto por WhatsApp</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Crear botón en Landing Page</td><td colspan="1" valign="top">Se crea el botón que redirige al contacto por WhatsApp.</td><td colspan="1" rowspan="3" valign="top">8</td><td colspan="1" valign="top">Britney Qqueso</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Configuración de número de contacto</td><td colspan="1" valign="top">Configurar el número de Agrotech usando la API oficial de WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Mensaje de bienvenida</td><td colspan="1" valign="top">Agregar mensaje de bienvenida automático en WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">UE04</td><td colspan="1" valign="top">Personalización de interfaz</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de modo oscuro</td><td colspan="1" valign="top">Implementar la opción de modo oscuro para poder reducir la fatiga visual.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">UE05</td><td colspan="1" rowspan="2" valign="top">Visualización de foro</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Diseñar interfaz de foro</td><td colspan="1" valign="top">Se diseña e implementa la vista del foro, junto con las publicaciones y comentarios.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de foro</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el foro.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">UE06</td><td colspan="1" rowspan="1" valign="top">Guardar publicaciones del foro como favoritas</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de listado de favoritos</td><td colspan="1" valign="top">Se implementa el listado de favoritos para que los usuarios puedan guardar publicaciones del foro.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">UE02</td><td colspan="1" rowspan="1" valign="top">Video explicativo básico</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integrar video en Landing Page</td><td colspan="1" valign="top">Integrar video dentro de la Landing Page.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">To-Do</td></tr>
+
+</table>
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
