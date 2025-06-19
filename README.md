@@ -6014,18 +6014,16 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 
 **Entrevistador:** André La torre
 
-**Entrevistado:** -
+**Entrevistado:** Pedro Ramos
 
-**Enlace a entrevista:** -
+**Enlace a entrevista:** https://youtu.be/jBAWRKVgvvU
 
-<img alt="Entrevista con X" src="img/entrevista-validacion-granjero-1.png">
+<img alt="Entrevista con Pedro Ramos" src="img/entrevista-validacion-granjero-1.png">
 
 _Imagen 214. Entrevista de validación con X_
 
 **Resumen:**
-En esta entrevista, ...
-
-----
+En esta entrevista, Pedro Ramos comentó que la información presentada en la landing page le pareció útil y clara, destacando que la sección "Sobre Nosotros" le generó confianza en la plataforma. Señaló que el contenido está bien distribuido y no resulta excesivo, aunque sugirió incorporar elementos más visuales como videos explicativos. También valoró positivamente los colores e imágenes utilizados por ser agradables y relacionados con el ámbito agrícola. En cuanto a la aplicación, Pedro consideró útil la visualización de calificaciones y opiniones de los asesores, y le resultó fácil buscar expertos, aunque recomendó incluir filtros por tipo de cultivo. Opinó que agendar citas es un proceso intuitivo, y la sección para revisar citas le pareció ordenada. Destacó la opción de calificar y cancelar citas como herramientas necesarias. Además, indicó que modificar el perfil fue sencillo y que la organización general de la aplicación es comprensible y práctica para un usuario con poca experiencia.
 
 **Entrevista 2**
 
