@@ -6278,7 +6278,9 @@ _Imagen 222. Heuristica 3_
 #### 6.4.1.1. Información del grupo auditado
 
 **Grupo auditado:** CodeMinds
+
 **Fecha de auditoría:** 19-06-2025
+
 **Integrantes del grupo auditado:**
 - Luis Eduardo Herrera González
 - Abel Angel Ortega Huaraca
@@ -6305,7 +6307,9 @@ _Imagen 222. Heuristica 3_
 #### 6.4.2.1. Información del grupo auditor
 
 **Grupo auditor:** SuperMedStartUp
+
 **Fecha de auditoría:** 19-06-2025
+
 **Integrantes del grupo auditado:**
 - Astrid Jimena Boronda Heidinger
 - Luis Sebastian Chinchihualpa Saldarriaga
@@ -6730,24 +6734,24 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.2.1. Hypotheses
 
-| ID | Question | Belief | Hypothesis |
-|----|-----------|-------------|-----------------|
-| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Los formularios con menos campos aumentarán la tasa de completado | Reducir campos a 3 aumentará la tasa de completado en ≥30% a comparación con el anterior |
-| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | WhatsApp es un canal más familiar y accesible para los usuarios | WhatsApp tendrá ≥20% más contactos iniciados que el formulario web |
-| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La personalización de la interfaz mejora la experiencia del usuario | La personalización de la interfaz aumentará la satisfacción del usuario en ≥25% |
-| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Los foros fomentan la comunidad y el intercambio de conocimientos | La implementación de un foro aumentará la interacción de usuarios en un 50% |
-| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Los videos cortos mejoran la comprensión del servicio | Un video de 60s incrementará el tiempo en página en ≥20 segundos comparado con texto descriptivo |
+| ID | Question | Belief | Hypothesis | Null Hypothesis |
+|----|-----------|-------------|-----------------|------------------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Los formularios con menos campos aumentarán la tasa de completado | Reducir campos a 3 aumentará la tasa de completado en ≥30% a comparación con el anterior | Reducir campos a 3 no tendrá un impacto significativo en la tasa de completado |
+| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | WhatsApp es un canal más familiar y accesible para los usuarios | WhatsApp tendrá ≥20% más contactos iniciados que el formulario web | WhatsApp no tendrá un aumento significativo en la tasa de contactos iniciados comparado con el formulario web |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La personalización de la interfaz mejora la experiencia del usuario | La personalización de la interfaz aumentará la satisfacción del usuario en ≥25% | La personalización de la interfaz no tendrá un impacto significativo en la satisfacción del usuario |
+| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Los foros fomentan la comunidad y el intercambio de conocimientos | La implementación de un foro aumentará la interacción de usuarios en un 50% | La implementación del foro no tendrá un impacto significativo en la interacción de usuarios |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Los videos cortos mejoran la comprensión del servicio | Un video de 60s incrementará el tiempo en página en ≥20 segundos comparado con texto descriptivo | Un video de 60s no tendrá un impacto significativo en el tiempo en página comparado con el texto descriptivo |
 
 
 ### 8.2.2. Measures
 
-| ID | Question | Measure |
-|----|-----------|---------|
-| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Se medirá la tasa de completado del formulario con 3 campos comparado con el formulario actual de 5 campos. Se espera un aumento en la tasa de completado. |
-| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Comparar la tasa de contactos iniciados a través de WhatsApp con la tasa de contactos iniciados mediante el formulario web. Se espera que WhatsApp tenga un mayor número de contactos iniciados. |
-| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Medir la satisfacción de los usuarios mediante encuestas y puntajes de valoración de experiencia visual antes y después de habilitar el modo oscuro. Esto permitirá evaluar si la nueva función mejora la comodidad y la percepción general de la aplicación. |
-| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Evaluar la cantidad de publicaciones, respuestas y la interacción en el foro, comparando la actividad antes y después de su lanzamiento. También se pueden usar encuestas para medir la percepción de los usuarios sobre el valor del foro. |
-| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Comparar el tiempo promedio en página de usuarios que ven el video de 60 segundos con aquellos que leen el texto descriptivo. Se espera un aumento del tiempo en página para los que ven el video. |
+| Question | Measure |
+|-----------|---------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Se medirá la tasa de completado del formulario con 3 campos comparado con el formulario actual de 5 campos. Se espera un aumento en la tasa de completado. |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Comparar la tasa de contactos iniciados a través de WhatsApp con la tasa de contactos iniciados mediante el formulario web. Se espera que WhatsApp tenga un mayor número de contactos iniciados. |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Medir la satisfacción de los usuarios mediante encuestas y puntajes de valoración de experiencia visual antes y después de habilitar el modo oscuro. Esto permitirá evaluar si la nueva función mejora la comodidad y la percepción general de la aplicación. |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Evaluar la cantidad de publicaciones, respuestas y la interacción en el foro, comparando la actividad antes y después de su lanzamiento. También se pueden usar encuestas para medir la percepción de los usuarios sobre el valor del foro. |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Comparar el tiempo promedio en página de usuarios que ven el video de 60 segundos con aquellos que leen el texto descriptivo. Se espera un aumento del tiempo en página para los que ven el video. |
 
 ### 8.2.3. Conditions
 
@@ -6822,7 +6826,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 
 ### 8.3.2. To-Be Product Backlog
 
-| Orden | ID | Nombre | Story Points |
+| Orden | ID | Título | Story Points |
 |------|----|--------|--------------|
 | 1 | UE01 | Formulario de contacto optimizado | 3 |
 | 2 | UE03 | Canal de contacto por WhatsApp | 8 |
@@ -6848,7 +6852,6 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 <tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de foro</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el foro.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
 <tr><td colspan="1" rowspan="1" valign="top">UE06</td><td colspan="1" rowspan="1" valign="top">Guardar publicaciones del foro como favoritas</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de listado de favoritos</td><td colspan="1" valign="top">Se implementa el listado de favoritos para que los usuarios puedan guardar publicaciones del foro.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
 <tr><td colspan="1" rowspan="1" valign="top">UE02</td><td colspan="1" rowspan="1" valign="top">Video explicativo básico</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integrar video en Landing Page</td><td colspan="1" valign="top">Integrar video dentro de la Landing Page.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">To-Do</td></tr>
-
 </table>
 
 
