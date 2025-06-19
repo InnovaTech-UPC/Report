@@ -6745,6 +6745,12 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.2.2. Measures
 
+- Completion Rate: Porcentaje de usuarios que completan el formulario de contacto.
+- Contact Initiation Rate: Porcentaje de usuarios que inician contacto a través de WhatsApp o formulario web.
+- User Satisfaction Score: Medido a través de encuestas post-uso, evaluando la satisfacción del usuario con la personalización de la interfaz.
+- Forum Engagement: Número de publicaciones y respuestas en el foro, así como la tasa de retorno de usuarios al foro.
+- Time on Page: Tiempo promedio que los usuarios pasan en la página después de ver el video comparado con aquellos que leen el texto descriptivo.
+
 | Question | Measure |
 |-----------|---------|
 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Se medirá la tasa de completado del formulario con 3 campos comparado con el formulario actual de 5 campos. Se espera un aumento en la tasa de completado. |
@@ -6754,6 +6760,12 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Comparar el tiempo promedio en página de usuarios que ven el video de 60 segundos con aquellos que leen el texto descriptivo. Se espera un aumento del tiempo en página para los que ven el video. |
 
 ### 8.2.3. Conditions
+
+- A/B Testing para formulario de contacto básico vs. detallado.
+- WhatsApp como canal de contacto vs. formulario web.
+- Test entre modo oscuro y claro.
+- Test de foro implementado vs. sin foro.
+- Video explicativo de 60 segundos vs. texto descriptivo.
 
 | Question | Condición experimental | Condición de control |
 |-----------|------------------------|----------------------|
@@ -6782,6 +6794,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 
 - **A/B Testing:** Se utilizarán herramientas simples como **Google Optimize** para las pruebas A/B en la landing page y en los precios.
 - **Google Forms / Typeform:** Para facilitar la recolección de datos del formulario de registro.
+- **Google Analytics:** Para medir el tráfico, la tasa de conversión y el comportamiento del usuario en la landing page.
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
