@@ -6805,10 +6805,11 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 - **Google Tag Manager:** Para facilitar la configuración y gestión de eventos sin necesidad de modificar el código del sitio.
 
 **Eventos principales:**
-- **cta_click:** Clic en el botón "Obtén asesoría personalizada" o "Suscríbete ahora".
 - **form_complete:** Cuando un usuario completa el formulario de registro o el cuestionario de necesidades en la plataforma.
-- **purchase_started:** Iniciar el proceso de pago, como hacer clic en "Confirmar pago" o "Suscribirse".
-- **purchase_completed:** Finalizar el proceso de pago para la suscripción premium, confirmando la transacción.
+- **contact_initiated:** Cuando un usuario inicia contacto a través de WhatsApp o el formulario web.
+- **video_played:** Cuando un usuario reproduce el video explicativo en la landing page.
+- **forum_interaction:** Cuando un usuario publica o responde en el foro.
+- **theme_changed:** Cuando un usuario cambia entre el modo claro y oscuro en la aplicación web.
 
 
 ## 8.3. Experimentation
