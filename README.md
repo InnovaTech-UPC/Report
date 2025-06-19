@@ -341,6 +341,7 @@
         <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
         <p><strong>TP:</strong> Para esta entrega, participé activamente en la elaboración de las pruebas de integración y BDD para validar la funcionalidad del Backend.</p>
+        <p><strong>TB2:</strong> Para esta entrega, elaboré mejoras al capitulo 7, enfocándome en la parte de los componentes de integracion, entrega y despliegue continuo asegurandome su correcta implementación.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
         <p><strong>TP:</strong> A lo largo de este trabajo, he planteado soluciones tecnológicas centradas en la temática del proyecto. En este proceso, he reconocido mi responsabilidad ética y profesional como futuro ingeniero de software</p>
@@ -366,6 +367,7 @@
         <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé el impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
         <p><strong>TP:</strong> Para esta entrega, analicé las herramientas y procesos necesarios para el continuous deployment, delivery y monitoring.</p>
+        <p><strong>TB2:</strong> Para esta entrega, analicé nuevas herramientas de integración continua y entrega continua, evaluando nuestras capacidades de implementación para asegurar una implementación factible para el equipo y el proyecto.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
         <p><strong>TP:</strong> En esta etapa del proyecto, he explorado e investigado distintas tecnologías como JUnit 5, que podrían ser útiles para nuestra solución. Al hacerlo, he procurado emitir juicios informados, evaluando no solo la viabilidad técnica, sino también el impacto económico, social y ambiental que estas decisiones podrían tener.</p>
@@ -5984,8 +5986,18 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 
 **Preguntas sobre la Aplicación**
 
-**Para Granjeros:**
+**Para Granjeros**
 
+Se considerará los userflows de:
+- Creación de cuenta e inicio de sesión
+- Interacción con la sección de citas
+- Interacción con la sección de asesores
+- Interacción con la sección de publicaciones
+- Interacción con la sección de recintos
+- Interacción con la sección de notificaciones
+- Interacción con la sección de perfil de usuario
+
+Preguntas:
 - ¿Qué opinas de la forma de ver las calificaciones y opiniones sobre un asesor?
 - ¿Te resulta fácil utilizar la opción de búsqueda de asesores en la plataforma?
 - ¿Te parece que la funcionalidad para agendar una cita con un asesor es intuitiva y fácil de usar?
@@ -5995,8 +6007,17 @@ Para estas entrevistas de validación, se mostrará la Landing Page desarrollada
 - ¿Te resulta fácil modificar tu perfil de usuario en la aplicación?
 - ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
 
-**Para Asesores:**
+**Para Asesores**
 
+Se considerará los userflows de:
+- Creación de cuenta e inicio de sesión
+- Interacción con la sección de citas
+- Interacción con la sección de mis publicaciones
+- Interacción con la sección de horarios de disponibilidad
+- Interacción con la sección de notificaciones
+- Interacción con la sección de perfil de usuario
+
+Preguntas:
 - ¿Qué opinas de la forma de recibir notificaciones de recordatorios de citas próximas?
 - ¿Qué tan fácil te parece gestionar y organizar tus próximas citas usando la plataforma?
 - ¿Te parece ordenada la forma en la que puedes revisar tus citas de la plataforma?
@@ -6243,11 +6264,11 @@ El pipeline de integración continua implementado con GitHub Actions sigue este 
 
 5. Reporte de resultados: El resultado del workflow se muestra directamente en GitHub, indicando si el pipeline fue exitoso o si se detectaron errores. En caso de fallo, se detiene el proceso y se notifica al equipo mediante el estado del pull request.
 
-![CI Pipeline](img/ci-pipeline.png)
+![Continuous Integration Pipeline](img/ci-pipeline.png)
 
 _Imagen 2XX. Diagrama del Pipeline de Integración Continua_
 
-![CI Pipeline Evidence](img/ci-pipeline-evidence.png)
+![Continuous Integration Pipeline Evidence](img/ci-pipeline-evidence.png)
 _Imagen 2XX. Evidencia del Pipeline de Integración Continua_
 
 ## 7.2. Continuous Delivery
@@ -6258,9 +6279,9 @@ La entrega continua (CD) asegura que el software siempre esté listo para ser de
 
 Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
 
-- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Se comunica con Jenkins para ejecutar el flujo de entrega continua.
+- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Además, permite configurar flujos de automatización a través de GitHub Actions.
 
-- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD.
+GitHub Actions: Plataforma de automatización nativa de GitHub usada para implementar el pipeline de entrega continua. Permite definir workflows que se activan automáticamente al detectar cambios en el repositorio.
 
 - Maven: Herramienta de construcción empleada para compilar el proyecto, ejecutar pruebas y gestionar las dependencias.
 
@@ -6272,22 +6293,24 @@ Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
 
 Los componentes del pipeline de entrega continua incluyen:
 
-- Trigger del pipeline: Se activa el proceso cuando se detectan cambios en la rama main del repositorio.
+- Trigger del pipeline: El workflow se activa automáticamente cuando se detectan cambios en la rama main del repositorio.
 
-- Checkout del código fuente: Se clona el repositorio a Jenkins.
+- Checkout del código fuente: GitHub Actions utiliza la acción actions/checkout para clonar el repositorio en el entorno de ejecución.
 
-- Preparación del entorno: Se configura en Jenkins el entorno de ejecución, instalando las dependencias necesarias como el JDK, Maven y Docker.
+- Preparación del entorno: Se configura el entorno con el JDK 22, Maven y Docker, necesarios para compilar y empaquetar el proyecto.
 
-- Compilación del proyecto: Se ejecuta mvn clean package para compilar el código fuente de Spring Boot y generar el archivo .jar.
+- Compilación del proyecto: Se ejecuta mvn clean package para compilar el código fuente de Spring Boot y generar el archivo .jar, incluyendo la ejecución de pruebas.
 
-- Construcción del artefacto Docker: Se ejecuta el comando docker build para generar una imagen que contiene el backend Spring Boot empaquetado, garantizando portabilidad y consistencia.
+- Construcción del artefacto Docker: Se ejecuta docker build para generar una imagen que contiene el backend empaquetado, garantizando portabilidad y consistencia.
 
-- Push a Docker Hub: Se sube la imagen a un repositorio privado en Docker Hub.
+- Push a Docker Hub: La imagen generada se sube automáticamente a un repositorio privado en Docker Hub, lista para ser desplegada en producción.
 
-![CD Pipeline](img/cd-pipeline.png)
+![Continuous Delivery Pipeline](img/cd-pipeline.png)
+
 _Imagen 2XX. Diagrama del Pipeline de Entrega Continua_
 
-![CD Pipeline Evidence](img/cd-pipeline-evidence.png)
+![Continuous Delivery Pipeline Evidence](img/cd-pipeline-evidence.png)
+
 _Imagen 2XX. Evidencia del Pipeline de Entrega Continua_
 
 ## 7.3. Continuous deployment
@@ -6298,38 +6321,95 @@ El despliegue continuo automatiza completamente el paso del software a producci�
 
 Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas:
 
-- Sistema de control de versiones: Utilizamos Git para llevar un seguimiento y administración del código fuente de la aplicación.
+GitHub: Sistema de control de versiones que gestiona el código fuente del proyecto y ejecuta automáticamente los workflows de integración y despliegue.
 
-- Pruebas automatizadas: Incorporamos pruebas automáticas (como pruebas unitarias de integración, de regresión, entre otras) con el objetivo de asegurar que el software cumple con los criterios de calidad antes de ser desplegado.
+GitHub Actions: Plataforma de automatización que orquesta el pipeline completo, desde la compilación del proyecto, la construcción de la imagen Docker, su subida a Docker Hub y finalmente el despliegue a producción mediante hooks de Render.
 
-- Ambientes de desarrollo y pruebas: Se mantienen entornos de desarrollo y prueba que replican lo más fielmente posible el entorno de producción, con el fin de evitar inconvenientes al momento del despliegue.
+Docker: Utilizado para empaquetar el backend de Spring Boot en contenedores que aseguran consistencia en los diferentes entornos.
 
-- Pipeline automatizado de despliegue: Se implementa un flujo automatizado que contempla etapas como la compilación, ejecución de pruebas y despliegue tanto en entornos de preproducción como en producción.
+Docker Hub: Registro de contenedores que almacena la imagen generada y sirve como fuente para el despliegue en producción.
 
-- Monitoreo y retroalimentación: Se integran herramientas de monitoreo y registro de logs para observar el rendimiento y la estabilidad de la aplicación en producción, permitiendo detectar y solucionar problemas de manera inmediata.
+Render: Plataforma de hosting que detecta los cambios mediante un Deploy Hook y despliega automáticamente la nueva versión del backend.
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-- Compilación (Build): En esta fase, el código fuente se transforma en artefactos listos para ser desplegados en el entorno de producción.
+Los componentes del pipeline de despliegue continuo incluyen:
 
-- Pruebas (Testing): Se ejecutan pruebas automatizadas para verificar que la aplicación cumple con los estándares de calidad y que no se han introducido errores nuevos.
+- Trigger del pipeline: Se activa automáticamente cuando hay cambios en la rama main.
 
-- Entorno de Preproducción (Staging): Antes del despliegue final, se realiza una implementación en un entorno de preproducción para llevar a cabo pruebas adicionales y recibir validación por parte de usuarios beta.
+- Compilación y pruebas: GitHub Actions compila el proyecto, ejecuta los tests y construye la imagen Docker.
 
-- Despliegue en Producción (Production Deployment): El código se lanza al entorno de producción mediante un proceso automatizado.
+- Push a Docker Hub: La imagen se sube al repositorio de Docker Hub como artefacto final.
 
-- Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se supervisa de forma continua el comportamiento y la estabilidad del sistema para detectar y resolver posibles incidencias en tiempo real.
+- Despliegue a producción: Se invoca el Deploy Hook de Render desde un workflow separado (deploy.yml), lo cual inicia automáticamente el despliegue en el entorno de producción.
 
-- Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
+- Monitoreo continuo: Una vez desplegado, Render ofrece seguimiento del estado de la aplicación, errores y consumo de recursos.
+
+- Rollback: En caso de errores críticos, Render permite revertir rápidamente a una versión previa desde su interfaz.
+
+![Continuous Deployment Pipeline](img/cdeploy-pipeline.png)
+
+_Imagen 2XX. Diagrama del Pipeline de Despliegue Continuo_
+
+![Continuous Deployment Pipeline Evidence](img/cdeploy-pipeline-evidence.png)
+
+_Imagen 2XX. Evidencia del Pipeline de Despliegue Continuo_
 
 <div style="page-break-after: always;"></div>
 
 ## 7.4. Continuous Monitoring
 
+El monitoreo continuo permite supervisar en tiempo real el comportamiento y desempeño de la aplicación una vez desplegada en producción. Esta práctica es clave para detectar fallos, cuellos de botella y garantizar la disponibilidad del sistema.
+
 ### 7.4.1. Tools and Practices
+
+Para el monitoreo continuo de nuestro backend desplegado, utilizamos:
+
+- Render Monitoring Tools: Render proporciona herramientas nativas de monitoreo que permiten observar el estado del servicio, uso de CPU, memoria, registros de errores y reinicios automáticos.
+
+- Logs en tiempo real: Render muestra los logs de la aplicación en tiempo real, facilitando la detección de excepciones, advertencias o eventos inesperados.
+
+- Alertas automáticas: Render notifica fallos de despliegue o caídas del servicio mediante correos electrónicos o notificaciones a los administradores del proyecto.
+
 ### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de monitoreo incluye los siguientes componentes:
+
+- Log Stream: Los logs generados por el backend son accesibles en tiempo real a través del panel de Render.
+
+- Render Metrics Dashboard: Render recopila métricas de CPU, RAM, latencia y reinicios automáticos.
+
+![Continuous Monitoring Components Evidence](img/cmonitoring-components-evidence.png)
+
+_Imagen 2XX. Evidencia del Log Stream para monitoreo continuo_
+
 ### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas contempla lo siguiente:
+
+- Fallo de despliegue o build: GitHub Actions y Render notifican si un despliegue falla.
+
+- Caídas del servicio: Render detecta si el contenedor deja de responder y reinicia el servicio automáticamente.
+
+- Alertas por consumo excesivo: Render alerta cuando el uso de memoria o CPU excede los límites asignados al servicio.
+
+![Continuous Monitoring Alert Evidence](img/cmonitoring-alert-evidence.png)
+
+_Imagen 2XX. Evidencia del sistema de alertas_
+
 ### 7.4.4. Notification Pipeline Components
+
+Los canales de notificación incluyen:
+
+- Render Dashboard Notifications: El panel de Render muestra visualmente el estado del servicio y sus logs.
+
+- Correo electrónico: Render envía alertas automáticas por errores críticos o caídas del servicio a los administradores del proyecto.
+
+- GitHub Notifications: GitHub notifica vía interfaz y correo sobre fallos en los workflows de CI/CD.
+
+![Continuous Monitoring Notification Evidence](img/cmonitoring-notification-evidence.png)
+
+_Imagen 2XX. Evidencia de las notificaciones_
 
 # Capítulo VIII: Experiment-Driven Development
 
@@ -6340,116 +6420,266 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-**Assumptions (Suposiciones):**
-- **Los agricultores valoran la asesoría personalizada.** Suponemos que los agricultores están dispuestos a pagar por asesoría adaptada a sus necesidades específicas, ya que buscan optimizar la eficiencia de sus granjas.
-- **Tecnología mejora la gestión agrícola.** Creemos que la introducción de una plataforma tecnológica integral puede facilitar la gestión de recursos, mejorar la productividad y reducir los costos operativos.
-- **Interés por soluciones escalables.** Los agricultores están dispuestos a adoptar nuevas tecnologías y modelos de negocio como servicios en la nube si los beneficios son claros y fácilmente accesibles.
-- **El mercado tiene necesidades insatisfechas.** Suponemos que hay un espacio significativo en el mercado para una solución que combine asesoría técnica con herramientas de gestión agrícola inteligentes.
+**Assumptions (Suposiciones realistas):**
+1. Los agricultores completarán formularios con ≤3 campos si son relevantes
+2. El contacto vía WhatsApp tiene mayor adopción que formularios web
+3. La personalización de la interfaz de usuario
+4. Foro para que los usuarios puedan compartir experiencias y consejos
+5. Videos cortos (<1 min) aumentarán la comprensión del servicio
 
-**Knowledge Gaps (Brechas de conocimiento):**
-- **Validación de la necesidad de personalización.** Necesitamos validar cuánto nivel de personalización es necesario para que los agricultores perciban un valor agregado en la asesoría.
-- **Modelo de precio aceptable.** No sabemos cuál es el precio óptimo que los agricultores están dispuestos a pagar por el servicio. Es importante testear precios bajos (mensuales) y altos (anuales).
-- **Comportamiento frente a suscripciones.** Es incierto si los agricultores prefieren pagar por suscripción mensual o anual, o si prefieren pagar por servicio de manera más ad hoc.
-- **Nivel de confianza en la tecnología.** Aún no sabemos si los agricultores confiarán en una plataforma que combine la asesoría humana con herramientas de gestión automatizadas. Necesitamos investigar cómo influyen la confianza en expertos humanos versus IA.
 
-**Ideas (Ideas para experimentos):**
-- **Test de precios.** Probar diferentes modelos de suscripción (mensual vs. anual) y diferentes precios para identificar el punto de precio óptimo.
-- **A/B testing de funcionalidades.** Realizar pruebas A/B para validar qué tipo de funcionalidades premium (monitoreo de cultivos, gestión avanzada de animales, etc.) tienen mayor impacto en la conversión.
-- **MVP (Producto Mínimo Viable).** Desarrollar un MVP que permita a los usuarios tener acceso a una versión básica de la plataforma y medir la demanda, evitando la inversión en características innecesarias antes de validar la necesidad.
-- **Validación de la propuesta de valor.** Usar encuestas y entrevistas con usuarios potenciales para entender sus verdaderas necesidades y expectativas. Esto permitirá ajustar la propuesta de valor.
+**Knowledge Gaps (Brechas prácticas):**
+1. ¿Qué campos mínimos son indispensables para iniciar contacto?
+2. ¿Qué canal (WhatsApp vs Formulario) genera más interacciones?
+3. ¿Qué elementos de la interfaz son más valorados por los usuarios?
+4. ¿Qué temas son de interés para los usuarios en el foro?
+5. ¿El contenido audiovisual mejora la comprensión del servicio?
 
-**Claims (Afirmaciones o hipótesis):**
-- **“Con AgroTech, los agricultores podrán optimizar sus recursos y aumentar la rentabilidad de sus granjas.”** Creemos que la optimización de recursos a través de la asesoría tecnológica será vista como un gran valor por los agricultores.
-- **“Los agricultores prefieren servicios personalizados que les permitan ahorrar tiempo y aumentar su productividad.”** Este es un punto central que queremos validar a través de encuestas y pruebas de usabilidad.
-- **“La integración de IA y asesoría humana ofrecerá un nivel de personalización que no está disponible en soluciones actuales del mercado.”** La combinación de IA con asesoría humana es un factor diferenciador clave y queremos probar si realmente genera una mejor experiencia de usuario.
 
+**Ideas Ejecutables:**
+1. A/B test de formulario (3 vs 5 campos)
+2. Comparar conversión: WhatsApp vs formulario web
+3. Personalizar interfaz de usuario con temas oscuros y claros
+4. Implementar una sección donde los usuarios puedan compartir consejos y experiencias
+5. Testear video explicativo de 60s vs texto descriptivo
+
+
+**Claims (Afirmaciones testables):**
+1. **Formulario de contacto optimizado:** Se espera que un formulario de contacto con una menor cantidad de campos genere más contactos iniciados en comparación con uno de 5 campos.
+2. **WhatsApp como canal preferido:** Se afirma que el uso de WhatsApp para iniciar contacto generará un mayor porcentaje de contactos iniciados en comparación con el formulario web.
+3. **Personalización de la interfaz:** Se afirmará que la personalización de la interfaz con modo oscuro de usuario incrementará la satisfacción del usuario.
+4. **Participación mediante un foro:** Se postula que la creación de un foro de experiencias y consejos puede aumentar la participación activa y la adherencia a las mejores prácticas de agricultura.
+5. **Video explicativo efectivo:** Se postula que un video explicativo de 60 segundos aumentará el tiempo promedio en página en comparación con un texto descriptivo equivalente.
+   
 ### 8.1.3. Experiment-Ready Questions
 
-- ¿Qué tipo de asesoría (cultivos, animales, etc.) genera más conversiones a suscripciones premium?
-- ¿Cuántos usuarios completan el proceso de registro luego de visitar la landing page?
-- ¿Cuál es el precio mínimo aceptable para la suscripción a la plataforma?
-- ¿Qué funcionalidades adicionales de la plataforma (gestión de recintos, monitoreo de animales) incrementan la tasa de pago?
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|----------|------------|------|--------|----------|-------------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | 8 - Formularios más cortos suelen tener mejores tasas de completado. | 1 - Bajo riesgo, ya que es una práctica común. | 5 - Puede aumentar la cantidad de contactos iniciados. | 6 - Interés alto, ya que mejora la conversión. | 20 |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | 7 - WhatsApp es un canal popular y familiar para los usuarios. | 2 - Riesgo bajo, ya que es una implementación técnica sencilla. | 4 - Puede aumentar la tasa de contactos iniciados. | 6 - Interés alto, ya que mejora la experiencia del usuario. | 19 |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | 7 - Es una funcionalidad popular, aunque no todos los usuarios la utilizan. | 2 - Bajo riesgo, ya que es una implementación técnica estándar. | 4 - Puede mejorar la experiencia del usuario. | 5 - Interés moderado, ya que la personalización es un tema recurrente. | 18 |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | 6 - La interacción en foros es variable, pero puede ser un buen canal de comunicación. | 3 - Riesgo moderado, ya que depende de la participación activa de los usuarios. | 6 - Puede aumentar la retención y el engagement. | 6 - Interés alto, ya que fomenta la comunidad. | 21 |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | 6 - Los videos suelen aumentar el tiempo en página. | 3 - Riesgo moderado, ya que depende de la calidad del contenido. | 5 - Puede mejorar la comprensión del servicio. | 4 - Interés moderado, ya que no todos los usuarios verán el video. | 18 |
+
 
 ### 8.1.4. Question Backlog
 
-| Prioridad | Pregunta                                                  | Estado     |
-|-----------|-----------------------------------------------------------|------------|
-| Alta      | ¿Qué tipo de asesoría es más demandada por los usuarios?   | Pendiente  |
-| Alta      | ¿Cuánto estarían dispuestos a pagar por funcionalidades premium? | Pendiente  |
-| Media     | ¿Qué funcionalidades adicionales aumentan las conversiones? | Pendiente  |
-| Baja      | ¿Qué nivel de personalización es necesario para generar fidelidad? | Pendiente  |
+| Prioridad | Pregunta | Métrica asociada | Estado |
+|-----------|----------|------------------|--------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Contactos iniciados | Pendiente |
+| 3 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Tasa de abandono | Pendiente |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Satisfacción del usuario | Pendiente |
+| 3 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Interacciones en el foro | Pendiente |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Tiempo en página | Pendiente |
 
 ### 8.1.5. Experiment Cards
 
-**Experiment Card 1: Reserva de Asesorías para Granjero**  
-- **Nombre:** Impacto de la reserva fácil de asesorías  
-- **Hipótesis:** Los usuarios convierten más a suscripción premium cuando el proceso de reserva de asesorías es sencillo.  
-- **Métrica clave:** Tasa de conversión a suscripción premium  
-- **Tipo de experimento:** A/B Test (reserva sencilla vs. reserva compleja)  
-- **Duración:** 2 semanas  
-- **Resultado esperado:** Aumento del 20% en conversiones con el proceso de reserva sencillo.  
+#### **Experiment Card 1: Optimización de Formulario de Contacto**
+1. **Nombre:** "Impacto de formulario minimalista en tasa de conversión"
+2. **Hipótesis Vinculada:** H1 (*Formularios cortos aumentan completados*)
+3. **Objetivo:** Validar si reducir campos mejora la experiencia de usuario
+4. **Métricas Principales:**
+   - Tasa de completado (meta: +30%)
+   - Tiempo promedio de llenado (meta: <1 minuto)
+5. **Métricas Secundarias:**
+   - Tasa de rebote en formulario
+   - Porcentaje de campos opcionales utilizados
+6. **Método:** A/B Testing
+   - Grupo A: Formulario actual (5 campos obligatorios)
+   - Grupo B: Formulario minimalista (3 campos obligatorios)
+7. **Población:** 300 agricultores (150 por grupo)
+8. **Herramientas:**
+   - Google Forms (formularios)
+   - Hotjar (mapas de calor)
+   - Google Analytics (eventos)
+9. **Criterio de Éxito:** 
+   - Grupo B muestra ≥30% más completados con p<0.05
+10. **Riesgos Identificados:**
+    - Pérdida de información valiosa al eliminar campos
+    - Posible aumento de leads no calificados
+    - Dificultad en segmentación posterior
+11. **Mitigaciones:**
+    - Incluir campos eliminados como opcionales
+    - Implementar preguntas de calificación post-contacto
+    - Realizar prueba piloto con 20 usuarios antes del rollout completo
+12. **Consideraciones Éticas:**
+    - Garantizar protección de datos personales
+    - Obtener consentimiento explícito para uso de información
 
-**Experiment Card 2: Precios de Suscripción**
-- **Nombre:** Efecto del precio en la conversión
-- **Hipótesis:** Un precio mensual de $29 genera más conversiones que un precio mensual de $49.
-- **Métrica clave:** Tasa de conversión de pago
-- **Tipo de experimento:** A/B Test
-- **Duración:** 1 semana
-- **Resultado esperado:** La opción de $29 genera 15% más conversiones
+#### **Experiment Card 2: Canal de Contacto Preferido**
+1. **Nombre:** "Efectividad de WhatsApp vs Formulario Web"
+2. **Hipótesis Vinculada:** H2 (*Canales familiares aumentan engagement*)
+3. **Objetivo:** Determinar el canal más efectivo para primer contacto
+4. **Métricas Principales:**
+   - Tasa de conversión a contacto (meta: +25% para WhatsApp)
+   - Tiempo hasta primer respuesta (meta: <15 minutos para WhatsApp)
+5. **Métricas Secundarias:**
+   - Satisfacción reportada (encuesta post-contacto)
+   - Tasa de resolución en primera interacción
+6. **Método:** A/B Testing Multivariable
+   - Grupo A: Flujo tradicional (formulario web + email)
+   - Grupo B: Integración directa con WhatsApp Business
+7. **Población:** 400 visitantes (200 por grupo)
+8. **Herramientas:**
+   - WhatsApp Business API
+   - Google Tag Manager
+   - Typeform (encuestas)
+9. **Criterio de Éxito:**
+   - WhatsApp muestra ≥25% más contactos iniciados
+   - Tiempo de respuesta promedio <15 minutos
+10. **Riesgos Identificados:**
+    - Saturación del equipo de atención vía WhatsApp
+    - Posible sesgo generacional (agricultores mayores prefieren llamadas)
+    - Dificultad para escalar atención personalizada
+11. **Mitigaciones:**
+    - Implementar chatbot básico para preguntas frecuentes
+    - Ofrecer alternativa de llamada telefónica
+    - Capacitar al equipo en gestión de conversaciones múltiples
+12. **Consideraciones Operativas:**
+    - Horarios de atención claramente comunicados
+    - Protocolos para manejo de picos de demanda
 
-**Experiment Card 3: Funcionalidad Premium para Asesores**  
-- **Nombre:** Impacto de la funcionalidad premium en asesores  
-- **Hipótesis:** Los asesores con funcionalidad premium de gestión avanzada de cultivos atraerán a más clientes (agricultores) y aumentarán su tasa de conversión a suscripción premium.  
-- **Métrica clave:** Tasa de conversión a suscripción premium de asesores  
-- **Tipo de experimento:** A/B Test (asesores con funcionalidades premium vs. asesores sin funcionalidades premium)  
-- **Duración:** 3 semanas  
-- **Resultado esperado:** Aumento del 25% en la conversión de asesores con funcionalidades premium, atrayendo a más clientes y generando más suscripciones premium.  
+#### **Experiment Card 3: Personalización de Interfaz**
+1. **Nombre:** "Efecto de personalización de interfaz en satisfacción del usuario"
+2. **Hipótesis Vinculada:** H3 (*Personalización mejora experiencia de usuario*)
+3. **Objetivo:** Evaluar si temas personalizados aumentan la satisfacción
+4. **Métricas Principales:**
+   - Satisfacción del usuario (meta: +25% en encuesta post-uso)
+   - Tasa de retención de usuarios (meta: +15% en 30 días)
+5. **Métricas Secundarias:**
+   - Tiempo promedio de sesión (meta: +10%)
+   - Número de interacciones por sesión (meta: +20%) 
+6. **Método:** A/B Testing con Personalización
+   - Grupo A: Interfaz estándar (actual)
+   - Grupo B: Interfaz personalizada (modo claro/oscuro, temas)
+7. **Población:** 600 usuarios registrados (300 por grupo)
+8. **Herramientas:**
+   - Google Forms (encuesta de satisfacción)
+9. **Criterio de Éxito:**
+   - Grupo B muestra ≥25% más satisfacción en encuesta
+   - Tasa de retención ≥15% superior al grupo A
+10. **Riesgos Identificados:**
+    - Sobrecarga cognitiva por demasiadas opciones de personalización
+    - Posible rechazo a cambios en la interfaz por usuarios acostumbrados
+    - Dificultad técnica para implementar personalización en el MVP
+11. **Mitigaciones:**
+    - Implementar opciones limitadas de personalización inicialmente
+    - Realizar pruebas de usabilidad con usuarios representativos
+    - Proporcionar tutoriales breves sobre cómo personalizar la interfaz
+12. **Consideraciones de Usabilidad:**  
+    - Asegurar que la personalización no afecte la accesibilidad
+    - Mantener consistencia visual y funcional en todas las opciones de personalización
 
-### Experiment Card 4: Impacto del tipo de contenido visual en la conversión
+#### **Experiment Card 4: Interacción en el Foro**
+1. **Nombre:** "Impacto del foro en la interacción de usuarios"
+2. **Hipótesis Vinculada:** H4 (*Foros aumentan la comunidad y el engagement*)
+3. **Objetivo:** Medir si la implementación de un foro incrementa la interacción entre usuarios
+4. **Métricas Principales:**
+    - Número de publicaciones en el foro (meta: +50% en 2 semanas)
+    - Número de comentarios por publicación (meta: +30%)
+5. **Métricas Secundarias:**
+    - Tasa de retorno al foro (meta: +20% en 30 días)
+    - Tiempo promedio de interacción por usuario (meta: +15%)
+6. **Método:** Implementación de Foro y Seguimiento
+   - Grupo A: Usuarios con acceso al foro
+   - Grupo B: Usuarios sin acceso al foro (control)
+7. **Población:** 800 usuarios activos (400 por grupo)
+8. **Herramientas:**
+    - Google Analytics (seguimiento de interacciones)
+    - Typeform (encuesta de satisfacción)
+9. **Criterio de Éxito:**
+    - Grupo A muestra ≥50% más publicaciones y ≥30% más comentarios
+    - Tasa de retorno al foro ≥20% superior al grupo B
+10. **Riesgos Identificados:**
+    - Moderación insuficiente puede llevar a spam o contenido inapropiado
+    - Usuarios inactivos que no contribuyen al foro
+    - Dificultad para mantener la calidad de las interacciones
+11. **Mitigaciones:**
+    - Implementar moderación activa y reglas claras de uso
+    - Realizar encuestas periódicas para evaluar la calidad del contenido
+12. **Consideraciones de Comunidad:**
+    - Fomentar un ambiente inclusivo y respetuoso
 
-- **Nombre:** Impacto del contenido visual  
-- **Hipótesis:** Los agricultores responderán mejor a demostraciones visuales en formato de video (videos cortos mostrando el uso de la plataforma) que a contenido estático (imágenes o infografías) en la landing page.  
-- **Métrica clave:** Tasa de conversión al registro en la landing page  
-- **Tipo de experimento:** A/B Test en la landing page (Video interactivo vs. Imágenes estáticas)  
-- **Duración:** 2 semanas  
-- **Resultado esperado:** Un 15% más de conversiones con la versión de video en la landing page, ya que los videos pueden captar mejor la atención y explicar de manera más clara y atractiva el funcionamiento de AgroTech.  
-- **Rationale (Justificación):** Los videos tienen un mayor potencial para involucrar a los usuarios, generar curiosidad y explicar visualmente cómo AgroTech puede mejorar la gestión agrícola. Al integrar videos en la landing page, los agricultores podrán ver ejemplos claros de cómo la plataforma les beneficia, lo cual puede aumentar el interés y la conversión al registro. El contenido interactivo es más persuasivo que el contenido estático, lo que puede reducir la fricción y facilitar el proceso de toma de decisión del usuario.  
-
-### Experiment Card 5: Validación del interés en asesorías premium
-
-**Nombre:** Interés por asesorías premium  
-**Hipótesis:** Los agricultores estarán dispuestos a pagar una tarifa adicional por asesorías premium que ofrezcan recomendaciones más personalizadas, como un análisis profundo del rendimiento de los cultivos y sugerencias basadas en IA.  
-**Métrica clave:** Tasa de conversión al pago para asesorías premium  
-**Tipo de experimento:** Prueba de precios (gratis vs. premium)  
-**Duración:** 2 semanas  
-**Resultado esperado:** Un 20% de usuarios dispuestos a pagar por el servicio premium, lo que validaría que la personalización avanzada y el acceso a expertos está generando un valor suficiente para los agricultores.  
-**Rationale (Justificación):** Ofrecer una opción premium permitiría medir el valor percibido por los agricultores respecto a un servicio más especializado y profundizar en su disposición a pagar por un asesoramiento más detallado, lo cual puede ser crucial para ajustar la oferta de productos.
+#### **Experiment Card 5: Contenido Explicativo**
+1. **Nombre:** "Impacto de video explicativo en comprensión del servicio"
+2. **Hipótesis Vinculada:** H5 (*Medios audiovisuales mejoran retención*)
+3. **Objetivo:** Medir efectividad de contenido audiovisual vs texto
+4. **Métricas Principales:**
+   - Tiempo en página (meta: +20 segundos)
+   - Tasa de rebote (meta: reducción del 15%)
+5. **Métricas Secundarias:**
+   - Porcentaje de reproducción completa del video
+   - Conversión a contacto después de ver contenido
+6. **Método:** A/B Testing con Segmentación
+   - Grupo A: Landing page con texto descriptivo (actual)
+   - Grupo B: Landing page con video embedido (60s)
+7. **Población:** 500 visitantes orgánicos (250 por grupo)
+8. **Herramientas:**
+   - Loom (grabación y hosting de video)
+   - Google Analytics (comportamiento)
+   - Vimeo Analytics (engagement con video)
+9. **Criterio de Éxito:**
+   - Grupo B muestra ≥20s más tiempo en página
+   - Reducción ≥15% en tasa de rebote
+10. **Riesgos Identificados:**
+    - Problemas de carga en conexiones lentas
+    - Barrera de idioma para agricultores indígenas
+    - Mensaje no adaptado a diferentes niveles de alfabetización digital
+11. **Mitigaciones:**
+    - Versión ligera del video para móviles
+    - Subtítulos en español y lenguas indígenas principales
+    - Versión audio-only como alternativa
+12. **Consideraciones de Accesibilidad:**
+    - Cumplimiento WCAG 2.1 AA
+    - Pruebas con usuarios de diferentes edades y habilidades técnicas
 
 # 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
 
-1. **Hipótesis 1:** Los agricultores prefieren pagar por una plataforma que les ofrezca asesoría personalizada basada en las necesidades específicas de su granja.
-2. **Hipótesis 2:** Un precio de $29 por mes atraerá a más usuarios que un precio de $49 por mes.
-3. **Hipótesis 3:** Las funcionalidades premium de monitoreo de cultivos y animales aumentarán la tasa de conversión en un 20%.
+| ID | Question | Belief | Hypothesis |
+|----|-----------|-------------|-----------------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Los formularios con menos campos aumentarán la tasa de completado | Reducir campos a 3 aumentará la tasa de completado en ≥30% a comparación con el anterior |
+| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | WhatsApp es un canal más familiar y accesible para los usuarios | WhatsApp tendrá ≥20% más contactos iniciados que el formulario web |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La personalización de la interfaz mejora la experiencia del usuario | La personalización de la interfaz aumentará la satisfacción del usuario en ≥25% |
+| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Los foros fomentan la comunidad y el intercambio de conocimientos | La implementación de un foro aumentará la interacción de usuarios en un 50% |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Los videos cortos mejoran la comprensión del servicio | Un video de 60s incrementará el tiempo en página en ≥20 segundos comparado con texto descriptivo |
+
 
 ### 8.2.2. Measures
 
-- **Conversion Rate (Tasa de Conversión):** Porcentaje de usuarios que se convierten de visitantes a suscriptores premium.
-- **Completion Rate (Tasa de Finalización):** Porcentaje de usuarios que completan el formulario de registro.
-- **Payment Conversion (Conversión de Pago):** Porcentaje de usuarios que realizan un pago después de probar las funcionalidades básicas de la plataforma.
-- **Bounce Rate (Tasa de Rebote):** Porcentaje de usuarios que abandonan la landing page sin interactuar o sin avanzar en el proceso de registro.
+| ID | Question | Measure |
+|----|-----------|---------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Se medirá la tasa de completado del formulario con 3 campos comparado con el formulario actual de 5 campos. Se espera un aumento en la tasa de completado. |
+| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Comparar la tasa de contactos iniciados a través de WhatsApp con la tasa de contactos iniciados mediante el formulario web. Se espera que WhatsApp tenga un mayor número de contactos iniciados. |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Medir la satisfacción de los usuarios mediante encuestas y puntajes de valoración de experiencia visual antes y después de habilitar el modo oscuro. Esto permitirá evaluar si la nueva función mejora la comodidad y la percepción general de la aplicación. |
+| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Evaluar la cantidad de publicaciones, respuestas y la interacción en el foro, comparando la actividad antes y después de su lanzamiento. También se pueden usar encuestas para medir la percepción de los usuarios sobre el valor del foro. |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Comparar el tiempo promedio en página de usuarios que ven el video de 60 segundos con aquellos que leen el texto descriptivo. Se espera un aumento del tiempo en página para los que ven el video. |
 
 ### 8.2.3. Conditions
 
-- **A/B Test entre precios de suscripción mensual ($29 vs. $49).**
-- **A/B Test entre asesoría personalizada vs. asesoría estándar.**
-- **Test con funcionalidades premium (monitoreo de cultivos vs. asesoría estándar).**
+| Question | Condición experimental | Condición de control |
+|-----------|------------------------|----------------------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | La tasa de completado del formulario con 3 campos será ≥30% superior al formulario actual de 5 campos | No habrá un aumento significativo en la tasa de completado del formulario actual de 5 campos |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | La tasa de contactos iniciados a través de WhatsApp será ≥20% superior a la del formulario web | No habrá un aumento significativo en la tasa de contactos iniciados a través del formulario web |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La satisfacción del usuario se medirá con una encuesta post-uso después de habilitar el modo oscuro | No habrá un aumento significativo en la satisfacción del usuario tras la implementación del modo oscuro |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | La participación de los usuario aumentará en un 50% tras la implementación del foro | No habrá un aumento significativo en la interacción de usuarios tras la implementación del foro |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | El tiempo promedio en página será ≥20 segundos mayor para usuarios que vean el video de 60 segundos | El tiempo promedio no mostrará un aumento significativo para usuarios que lean el texto descriptivo |
 
 ### 8.2.4. Scale Calculations and Decisions
 
-- **Tamaño Mínimo de la Muestra:** Para obtener un 95% de confianza en los resultados con una diferencia mínima detectable del 15%, se necesitarán aproximadamente **100 usuarios por grupo** (A y B) en cada experimento.
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en un proyecto. Cada hipótesis se asocia con un indicador de éxito: se considera ideal cuando la métrica alcanza plenamente el objetivo, aceptable cuando está entre el mínimo y el ideal, y desfavorable si queda por debajo del mínimo, requiriendo así una revisión. Un nivel excelente se define como cuando el valor supera el ideal en un 25% o más, indicando un éxito significativo. Este enfoque permite tomar decisiones fundamentadas en métricas para validar o ajustar las hipótesis del proyecto.
+
+- **Tamaño Mínimo de la Muestra:** 200-500 usuarios/grupo (según poder estadístico del 80% y efecto mínimo del 15%).
 - **Tiempo estimado para los experimentos:** Se planea una duración de **1 semana** por experimento, con campañas de anuncios pagados en plataformas como **Google Ads** para aumentar el tráfico hacia la landing page.
+
+| Scale Calculation | Decision | Factor |
+|-------------------|----------|--------|
+| Creemos que al reducir el número de campos en el formulario de contacto a 3, se incrementará la tasa de completado en al menos un 30%. Sabremos que esto es cierto cuando observemos un aumento del 30% en la tasa de completado del formulario. | Implementar el formulario con 3 campos y medir la tasa de completado | Excelente |
+| Creemos que al implementar un canal de contacto a través de WhatsApp, se incrementará la tasa de contactos iniciados en al menos un 20% en comparación con el formulario web. Sabremos que esto es cierto cuando observemos un aumento del 20% en la tasa de contactos iniciados a través de WhatsApp. | Implementar el canal de WhatsApp y medir la tasa de contactos iniciados | Aceptable |
+| Creemos que al agregar un modo oscuro a la aplicación web, se mejorará la experiencia del usuario en al menos un 25%, reduciendo la fatiga visual y aumentando el tiempo de uso promedio. Sabremos que esto es cierto cuando observemos un aumento del 25% en la satisfacción del usuario. | Implementar el modo oscuro y permitir que el usuario pueda activarlo si desea | Aceptable |
+| Creemos que al implementar un foro en la aplicación que permita a los usuarios compartir experiencias y consejos sobre la gestión de granjas, se incrementará la interacción y la participación de los usuarios. Sabremos que esto es cierto cuando observemos un aumento del 50% en la participación de los usuarios en el foro. | Implementar el foro y medir la participación de los usuarios | Excelente |
+| Creemos que al agregar un video explicativo de 60 segundos en la landing page, se incrementará el tiempo promedio en página en al menos 20 segundos, mejorando la comprensión del servicio. Sabremos que esto es cierto cuando observemos un aumento del 20% en el tiempo promedio en página. | Implementar el video explicativo y medir el tiempo promedio en página | Aceptable |
 
 ### 8.2.5. Methods Selection
 
@@ -6458,12 +6688,17 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
-| Objetivo                             | KPI                                    | Métrica                                         |
-|---------------------------------------|----------------------------------------|-------------------------------------------------|
-| Validar modelo de precios             | Tasa de conversión por precio          | % de conversión por precio (29 vs 49 dólares)    |
-| Validar tipo de asesoría              | Tasa de conversión a suscripción       | % de conversión con asesoría personalizada      |
-| Validar interés en funciones premium  | Tasa de conversión a funcionalidades premium | % de usuarios que optan por funciones premium    |
-| Validar efectividad del copy          | Tasa de clics en call-to-action (CTA)  | % CTR por versión (A/B de precios o asesoría)    |
+**Regla de oro:** Cada métrica responde a una hipótesis y se mide con herramientas específicas.  
+
+| Objetivo                          | KPI                              | Métrica de Éxito                          | Herramienta de Tracking       |  
+|------------------------------------|----------------------------------|-------------------------------------------|-------------------------------|  
+| **Optimizar experiencia de contacto** | Tasa completado formularios      | ≥30% aumento en formulario minimalista    | Google Analytics + Hotjar     |  
+| **Validar canal preferido**        | Ratio conversión a contacto      | WhatsApp ≥25% más efectivo que formulario | Google Tag Manager + WhatsApp Business API |  
+| **Mejorar satisfacción del usuario** | Satisfacción del usuario         | ≥25% aumento en encuestas post-uso        | Google Forms + Typeform       |
+| **Fomentar comunidad activa**      | Interacciones en el foro         | ≥50% más publicaciones y comentarios      | Google Analytics + Foros      |
+| **Mejorar comprensión del servicio** | Tiempo en página                | ≥20s aumento con video                    | Google Analytics + Vimeo      |  
+| **Garantizar calidad de datos**    | Precisión información contacto   | ≤10% errores en datos críticos            | Validación manual + Google Sheets |  
+
 
 ### 8.2.7. Web and Mobile Tracking Plan
 
@@ -6482,23 +6717,24 @@ Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories
 --------------
-|ID|Nombre|Descripción|Criterios de aceptación|
-|--|------|-----------|-----------------------|
-| US01 | Reserva express de asesorías| Como agricultor, quiero agendar una asesoría en menos de 3 pasos para ahorrar tiempo.| **Escenario 1: Reserva exitosa** <br> Given el agricultor selecciona un asesor. <br> When el sistema autocompleta ubicación y tipo de cultivo. <br> And confirma la reserva en un solo clic. <br> Then recibe un SMS de confirmación. <br> **Escenario 2: Validación de campos** <br> Given el agricultor deja campos obligatorios vacíos. <br> When intenta reservar. <br> Then el sistema muestra errores específicos.|
-| US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | **Escenario 1: Reproducción correcta** <br> Given el usuario entra a la landing page. <br> When se carga el video automáticamente. <br> Then se muestra el botón “Ver más” y la CTA para registro.|
-| US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | **Escenario 1: Visualización de precios** <br> Given el usuario accede a la sección de precios. <br> When visualiza el plan mensual y el anual. <br> Then puede ver claramente los beneficios de cada uno. <br> **Escenario 2: Selección y redirección** <br> Given el usuario selecciona un plan. <br> When hace clic en “Suscribirse”. <br> Then el sistema lo redirige al proceso de pago.|
-| US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | **Escenario 1: Acceso a módulo de gestión**<br> Given el asesor inicia sesión. <br> When accede a su panel de trabajo. <br> Then puede ver y usar el módulo premium de análisis de cultivos. <br> **Escenario 2: Recomendaciones personalizadas** <br> Given el asesor revisa datos de un cultivo. <br> When activa el análisis. <br> Then el sistema genera recomendaciones automáticas.|
-| US05 | Reporte sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | **Escenario 1: Generación de reporte** <br> Given el agricultor sube los datos de su cultivo. <br> When solicita un análisis. <br> Then recibe un reporte con recomendaciones específicas. <br> **Escenario 2: Acceso limitado por plan** <br> Given el agricultor no tiene plan premium. <br> When intenta acceder al análisis. <br> Then el sistema muestra una opción para actualizar su plan. |
+| ID | Nombre | Descripción | Criterios de aceptación |
+|----|--------|-------------|-------------------------|
+| UE01 | Formulario de contacto optimizado | Como  usuario, quiero un formulario de contacto con 3 campos para facilitar el registro | **Escenario:** <br> Given el usuario se encuentra en la sección de contacto de la landing page <br> When completa el formulario con 3 campos necesarios <br> Then recibirá confirmación de registro <br> And notará lo sencillo que fue llenar el formulario reducido |
+| UE02 | Video explicativo básico | Como visitante, quiero entender en 1 minuto qué ofrece AgroTech | **Escenario:** <br> Given abro la landing page <br> When veo el video de 60s <br> Then identifico al menos 3 beneficios clave |
+| UE03 | Canal de contacto por WhatsApp | Como usuario, quiero contactar a AgroTech por WhatsApp para recibir asesoría rápida | **Escenario:** <br> Given el usuario se encuentra en la landing page <br> When hace clic en el botón de WhatsApp <br> Then se abre una conversación con AgroTech en WhatsApp <br> And puede realizar sus consultas sin problema |
+| UE04 | Personalización de interfaz | Como usuario, quiero elegir entre modo claro y oscuro para mejorar mi experiencia visual | **Escenario:** <br> Given el usuario se encuentra en la aplicación web <br> When selecciona el modo oscuro en la configuración <br> Then la interfaz cambia a modo oscuro |
+| UE05 | Foro de experiencias y consejos | Como usuario, quiero participar en un foro para compartir y aprender de otros agricultores | **Escenario:** <br> Given el usuario se encuentra registrado en AgroTech <br> When accede al foro <br> Then puede publicar preguntas y responder a otros usuarios <br> And visualiza las publicaciones recientes |
+
 
 ### 8.3.2. To-Be Product Backlog
-----------------
-|ID |	Nombre	| Descripción	| Priodidad |
-|---|---------|-------------|-----------|
-| US01 | Reserva express de asesorías | Como agricultor, quiero agendar una asesoría en menos de 3 pasos para ahorrar tiempo. | Alta |
-| US02 | Video demo en landing page | Como usuario interesado, quiero ver un video corto que muestre cómo funciona AgroTech, para entender sus beneficios antes de registrarme. | Alta |
-| US03 | Comparación de planes de suscripción | Como agricultor, quiero comparar visualmente las opciones de suscripción mensual y anual, para elegir la que más me conviene. | Alta |
-| US04 | Funcionalidades premium para asesores | Como asesor técnico, quiero tener herramientas avanzadas para gestionar cultivos, para brindar un mejor servicio a los agricultores. | Media |
-| US05 | Reporte sobre rendimiento de cultivos | Como agricultor, quiero recibir análisis personalizados sobre mis cultivos, para tomar decisiones informadas. | Media |
+
+| Orden | ID | Nombre | Story Points |
+|------|----|--------|--------------|
+| 1 | UE01 | Formulario de contacto optimizado | 3 |
+| 2 | UE03 | Canal de contacto por WhatsApp | 8 |
+| 3 | UE04 | Personalización de interfaz | 5 |
+| 4 | UE05 | Foro de experiencias y consejos | 5 |
+| 5 | UE02 | Video explicativo básico | 3 |
 
 # Conclusiones
 ## Conclusiones y recomendaciones
