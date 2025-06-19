@@ -45,7 +45,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Mayo 2025</b></p>
+<p align="center"><b>Junio 2025</b></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -5950,9 +5950,15 @@ Durante el desarrollo de la aplicación, se establecieron y aplicaron estándare
 
 Para el backend en Spring Boot, se aplicaron las buenas prácticas de desarrollo en Java, asegurando un uso correcto de estructuras de control, modularización del código y comentarios descriptivos cuando fueron necesarios. Estas convenciones permitieron mantener una base de código coherente entre los distintos integrantes del equipo y facilitaron la revisión y el mantenimiento del proyecto.
 
+Además, se implementaron principios de diseño de software para mejorar la calidad del código y su seguridad:
+
+-	Clean Code: Es fundamental utilizar nombres claros y descriptivos para variables, funciones y clases. Las funciones deben ser cortas y enfocarse en una sola responsabilidad, eliminando el código muerto y los comentarios innecesarios. Este enfoque contribuye a una mayor comprensión y facilita la colaboración entre desarrolladores.
+
+-	Domain-Driven Design (DDD): Se debe emplear un lenguaje ubicuo que refleje los términos del negocio. Es esencial dividir el sistema en bounded contexts y utilizar entidades y objetos de valor de manera apropiada. Además, la lógica del dominio debe ser gestionada a través de servicios de dominio y repositorios, lo que promueve una arquitectura más organizada y alineada con los objetivos del negocio.
+
 #### 6.2.1.2. Code Quality & Code Security
 
-Con el objetivo de asegurar un código de alta calidad y libre de vulnerabilidades, se llevó a cabo un proceso continuo de análisis estático y revisión manual del código, apoyado por herramientas como ESLint. Estas herramientas permitieron identificar problemas de complejidad excesiva, duplicación de lógica, código no utilizado, y otras prácticas que afectan la mantenibilidad del sistema.
+Con el objetivo de asegurar un código de alta calidad y libre de vulnerabilidades, se llevó a cabo un proceso continuo de análisis estático y revisión manual del código, apoyado por herramientas como ESLint y SonarQube. Estas herramientas permitieron identificar problemas de complejidad excesiva, duplicación de lógica, código no utilizado, y otras prácticas que afectan la mantenibilidad del sistema.
 
 En el ámbito de la seguridad del código, se detectaron y abordaron varias vulnerabilidades durante el desarrollo:
 
@@ -5965,6 +5971,24 @@ En el ámbito de la seguridad del código, se detectaron y abordaron varias vuln
 Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema y reducir el riesgo de ataques comunes en aplicaciones web y móviles. Estas medidas se mantendrán en futuras fases de desarrollo mediante procesos automatizados de análisis y validación en cada etapa del pipeline de integración continua.
 
 ### 6.2.2. Reviews
+
+Las revisiones de código son un proceso fundamental para garantizar la calidad y la conformidad con las normas establecidas. Este proceso implica tanto revisiones manuales como automáticas y debe seguir ciertas pautas:
+
+Tipos de Revisiones:
+-	Revisión de Código por Pares: Un desarrollador revisa el código de otro desarrollador para garantizar que cumpla con los estándares y sea comprensible.
+-	Revisión de Código Formal: Incluye una reunión estructurada donde se evalúa el código con un checklist, lo que permite detectar problemas en grupo.
+-	Revisión Automática: Utilización de herramientas como ESLint y SonarQube para detectar errores y problemas de calidad en tiempo real.
+
+Proceso de Revisión:
+-	Creación de Pull Requests: Los desarrolladores deben crear un PR que incluya una descripción clara de los cambios realizados y las pruebas asociadas.
+-	Checklist de Revisión: Debe existir una lista de verificación que cubra aspectos como la claridad del código, la cobertura de pruebas y el manejo de errores.
+-	Comentarios y Feedback: Los revisores deben proporcionar comentarios constructivos y específicos, y cualquier problema identificado debe ser abordado antes de la aprobación final.
+-	Aprobación o Rechazo de PR: El PR debe ser aprobado por al menos un revisor adicional antes de fusionarse en la rama principal.
+Criterios de Aceptación:
+-	Calidad y Seguridad del Código: El código debe cumplir con los estándares de calidad y no introducir vulnerabilidades de seguridad.
+-	Cobertura de Pruebas: Se requiere una cobertura mínima de pruebas (por ejemplo, 80%) para asegurar que el código nuevo esté adecuadamente probado.
+Frecuencia de Revisiones: 
+Se deben realizar revisiones de código de forma regular, preferiblemente al final de cada sprint o en intervalos definidos, para asegurar que el código no se acumule y se mantenga la calidad.
 
 
 ## 6.3. Validation Interviews
@@ -6041,7 +6065,7 @@ Preguntas:
 
 <img alt="Entrevista con Pedro Ramos" src="img/entrevista-validacion-granjero-1.png">
 
-_Imagen 214. Entrevista de validación con X_
+_Imagen 214. Entrevista de validación con Pedro Ramos_
 
 **Resumen:**
 En esta entrevista, Pedro Ramos comentó que la información presentada en la landing page le pareció útil y clara, destacando que la sección "Sobre Nosotros" le generó confianza en la plataforma. Señaló que el contenido está bien distribuido y no resulta excesivo, aunque sugirió incorporar elementos más visuales como videos explicativos. También valoró positivamente los colores e imágenes utilizados por ser agradables y relacionados con el ámbito agrícola. En cuanto a la aplicación, Pedro consideró útil la visualización de calificaciones y opiniones de los asesores, y le resultó fácil buscar expertos, aunque recomendó incluir filtros por tipo de cultivo. Opinó que agendar citas es un proceso intuitivo, y la sección para revisar citas le pareció ordenada. Destacó la opción de calificar y cancelar citas como herramientas necesarias. Además, indicó que modificar el perfil fue sencillo y que la organización general de la aplicación es comprensible y práctica para un usuario con poca experiencia.
