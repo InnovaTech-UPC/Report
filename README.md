@@ -6139,7 +6139,7 @@ En esta entrevista con Anderson, se le presentó la landing page y la aplicació
 
 **Entrevistado:** -Yudi Pariona
 
-**Enlace a entrevista:** -https://drive.google.com/file/d/102mdHO_ER4ZH1q-jE8CPOYDko0L869oc/view?usp=drive_link
+**Enlace a entrevista:** -https://drive.google.com/file/d/102mdHO_ER4ZH1q-jE8CPOYDko0L869oc/view?usp=sharing
 
 <img alt="Entrevista con Yudi" src="img/entrevista-validacion-asesor-1.png">
 
