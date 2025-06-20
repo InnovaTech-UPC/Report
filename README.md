@@ -6137,16 +6137,16 @@ En esta entrevista con Anderson, se le presentó la landing page y la aplicació
 
 **Entrevistador:** Sergio Pecan
 
-**Entrevistado:** -
+**Entrevistado:** -Yudi Pariona
 
-**Enlace a entrevista:** -
+**Enlace a entrevista:** -https://drive.google.com/file/d/102mdHO_ER4ZH1q-jE8CPOYDko0L869oc/view?usp=drive_link
 
-<img alt="Entrevista con X" src="img/entrevista-validacion-asesor-1.png">
+<img alt="Entrevista con Yudi" src="img/entrevista-validacion-asesor-1.png">
 
-_Imagen 217. Entrevista de validación con X_
+_Imagen 217. Entrevista de validación con Yudi_
 
 **Resumen:**
-En esta entrevista, ...
+Yudi considera que la landing page es clara, pero necesita ver precios y casos reales para confiar más. Sugiere reemplazar imágenes de stock por fotos auténticas. Sobre la app, destaca lo intuitivo de agendar y revisar citas, pero pide mejores filtros por cultivo y clima. Valora poder calificar asesores y sugiere añadir fotos. Cancelar es fácil, aunque poco clara la penalización. En general, ve valor en la plataforma y nota que mejora con el uso.
 
 ----
 
