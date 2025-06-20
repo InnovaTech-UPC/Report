@@ -6277,9 +6277,11 @@ _Imagen 222. Heuristica 3_
 
 #### 6.4.1.1. Información del grupo auditado
 
-**Grupo auditado:** CodeMinds
+**Nombre del grupo auditado:** CodeMinds
 
-**Fecha de auditoría:** 19-06-2025
+**Proyecto auditado:** RutaKids
+
+**Segmento objetivo evaluado:** Directivos escolares/Padres de familia
 
 **Integrantes del grupo auditado:**
 - Luis Eduardo Herrera González
@@ -6293,24 +6295,72 @@ _Imagen 222. Heuristica 3_
 
 | Fecha | Actividad | Responsable |
 | :---: | :---: | :---: |
-| 19-06-2025 | Revisión del alcance del proyecto y planificación de auditoría | Piero Delgado |
-| 19-06-2025 | Revisión de la landing page | Britney Qqueso |
-| 19-06-2025 | Revisión de la aplicación web | Andre La Torre |
-| 19-06-2025 | Revisión de la aplicación móvil | Sebastian Paredes |
-| 19-06-2025 | Evaluación de heurísticas | Salvador Salinas |
-| 19-06-2025 | Envío de evaluación | Sergio Pecan |
+| 19-06-2025 | Reunión de coordinación con grupo auditado | Miembros de ambos equipos |
+| 19-06-2025 | Evaluación de heurísticas | InnovaTech |
+| 19-06-2025 | Discusión de hallazgos y entrega de recomendaciones | InnovaTech |
 
 #### 6.4.1.3. Contenido de auditoría realizada
+
+**a) Criterios utilizados**
+
+La auditoría se basó en los siguientes principios de evaluación:
+-	Usabilidad (heurísticas de Nielsen)
+- Diseño inclusivo
+-	Arquitectura de información
+-	Accesibilidad visual y funcional
+-	Percepción de confianza
+
+Se empleó la plantilla de evaluación heurística proporcionada en el curso, adaptando las observaciones según el contexto del proyecto RutaKids.
+
+
+**b) Interfaz(es) evaluadas**
+
+**1. Landing Page – https://llantatech.org.pe/**
+
+Se analizó la claridad de la propuesta de valor, la estructura del contenido, la efectividad de los llamados a la acción (CTAs) y el nivel de confianza que transmite. Además, se examinó el diseño visual, la jerarquía tipográfica y el estilo del lenguaje empleado en los textos para verificar si resulta relevante y comprensible para los distintos tipos de usuarios.
+
+Hallazgos:
+-	La propuesta de valor se comprende desde el inicio.
+-	Se identificaron buenas prácticas en cuanto a diseño visual: uso coherente de colores, adecuada jerarquía tipográfica, espacios en blanco bien distribuidos que favorecen la lectura, imágenes de calidad alineadas con el mensaje de la marca, diseño responsive que se adapta correctamente a distintos dispositivos.
+
+**2. Aplicación Web –  https://rutakids-webapp-angular18.onrender.com/authentication/sign-in**
+
+Se evaluaron los siguientes flujos principales:
+-	Inicio de sesión
+-	Dashboard principal
+-	Módulo de estudiantes
+-	Módulo de movilidad
+-	Módulo de rutas
+-	Módulo de notificaciones
+-	Módulo de correos
+-	Módulo de perfil
+-	Módulo de configuración
+-	Navegación y estructura de menús laterales
+
+Hallazgos:
+- La navegación es clara y consistente, con menús laterales bien estructurados.
+- El dashboard principal proporciona una visión general clara de las funcionalidades disponibles.
+- Los módulos de estudiantes, movilidad y rutas están bien organizados, permitiendo un acceso rápido a la información relevante.
+
+**c) Resultados de la auditoría basada en heurísticas**
+
+A continuación, se presentan los principales hallazgos encontrados durante la evaluación heurística de las interfaces del proyecto RutaKids, agrupados según los principios de usabilidad de Nielsen y arquitectura de información. Cada problema identificado incluye su severidad y una recomendación específica para su mejora.
+
+|#|Problema|Severidad|Heurística violada|Recomendación|Ubicación|
+| :-: | :- | :-: | :- | :- | :- |
+|1|El botón CTA para iniciar sesión no funciona|2|Arquitectura de Información: ¿Es utilizable?|Agregar la url de la aplicación para que sea redirigido.|Landing Page|
+|2|La sección FAQ no cuenta con información relevante|3|Usabilidad: Ayuda y Documentación|Agregar preguntas frecuentes que respondan a las dudas comunes de los usuarios.|App Web|
+|3|La sección de correo no funciona correctamente|3|Arquitectura de Información: ¿Es controlable? |Corregir el enlace para que los usuarios puedan enviar correos electrónicos.|App Web|
+|4|El formulario de registro de una movilidad no valida correctamente los campos|2|Usabilidad: Prevención de errores|Implementar validaciones en los campos del formulario para evitar errores al enviar.|App Web|
+|5|Falta consistencia en el lenguaje utilizado en la aplicación, muestra mensajes en español e inglés.|3|Usabilidad: Consistencia y estándares|Unificar el lenguaje utilizado en toda la aplicación para evitar confusiones, e implementar correctamente internacionalización (i18n) para soportar múltiples idiomas.|App Web|
 
 ### 6.4.2. Auditoría recibida
 
 #### 6.4.2.1. Información del grupo auditor
 
-**Grupo auditor:** SuperMedStartUp
+**Nombre del grupo auditado:** SuperMedStartUp
 
-**Fecha de auditoría:** 19-06-2025
-
-**Integrantes del grupo auditado:**
+**Integrantes del grupo auditor:**
 - Astrid Jimena Boronda Heidinger
 - Luis Sebastian Chinchihualpa Saldarriaga
 - Juan Eduardo Montes Figueroa
@@ -6322,10 +6372,9 @@ _Imagen 222. Heuristica 3_
 
 | Fecha | Actividad | Responsable |
 | :---: | :---: | :---: |
-| 19-06-2025 | Planificación de auditoría | Salvador Salinas |
-| 19-06-2025 | Revisión de artefactos | Sebastian Paredes |
-| 19-06-2025 | Envío de artefactos a revisar | Sergio Pecan |
-| 19-06-2025 | Recepción de evaluación | Piero Delgado |
+| 19-06-2025 | Reunión de coordinación con grupo auditado | Miembros de ambos equipos |
+| 19-06-2025 | Envío de artefactos a revisar | InnovaTech |
+| 19-06-2025 | Recepción de auditoría | InnovaTech |
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
