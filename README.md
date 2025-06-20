@@ -45,7 +45,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Mayo 2025</b></p>
+<p align="center"><b>Junio 2025</b></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -104,6 +104,28 @@
           <li>Capítulo V: Product Implementation</li>
           <li>Capítulo VI: Product Verification & Validation</li>
           <li>Capítulo VII: DevOps Practices</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>TB2</strong></td>
+      <td>19/06/25</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>La Torre Soto, André Sebastián</li>
+          <li>Paredes Puente, Sebastian Roberto</li>
+          <li>Pecan Pariona, Sergio Joel</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Qqueso Rodriguez, Britney Delhy</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>Capítulo VI: Product Verification & Validation</li>
+          <li>Capítulo VII: DevOps Practices</li>
+          <li>Capítulo VIII: Experiment-Driven Development</li>
         </ul>
       </td>
   </tr>
@@ -341,19 +363,26 @@
         <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
         <p><strong>TP:</strong> Para esta entrega, participé activamente en la elaboración de las pruebas de integración y BDD para validar la funcionalidad del Backend.</p>
+        <p><strong>TB2:</strong> Para esta entrega, elaboré mejoras al capitulo 7, enfocándome en la parte de los componentes de integracion, entrega y despliegue continuo asegurandome su correcta implementación.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
         <p><strong>TP:</strong> A lo largo de este trabajo, he planteado soluciones tecnológicas centradas en la temática del proyecto. En este proceso, he reconocido mi responsabilidad ética y profesional como futuro ingeniero de software</p>
+         <p><strong>TB2:</strong> Para este proyecto investigué y aprendí sobre la entrega continua usando GitHub Actions y pipelines. Entendí la responsabilidad ética que implica automatizar procesos que impactan la calidad del software y cómo estas decisiones afectan contextos sociales, económicos y tecnológicos.</p>
         <p><strong>La torre Soto, André Sebastian</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé mayormente en la elaboración del informe en puntos como el registro de entrevistas, el desarrollo del modelo C4 y la revisión de los diversos puntos del entregable para verificar que todo esté de acuerdo a las normativas del trabajo.</p>
+        <p><strong>TP:</strong> Para esta entrega, participé en la elaboración de las pruebas de integración y BDD del backend.</p>
+        <p><strong>TB2:</strong> Para esta entrega, participé en la implementación y validación de los componentes de integración continua, enfocándome especialmente en el desarrollo de pruebas de integración. Estas pruebas permitieron verificar la correcta interacción entre los distintos módulos del sistema, asegurando que el flujo de datos y funcionalidades se mantuviera consistente a lo largo del pipeline. Para ello, me apoyé tanto en los conocimientos adquiridos en clase como en material complementario investigado de forma autónoma.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
         <p><strong>TB1:</strong> Asumí un rol clave desde las primeras etapas del proyecto, liderando las entrevistas iniciales para entender el contexto de los usuarios. También fui responsable del dimensionamiento del sistema y de establecer la estructura general del proyecto, asegurándome de mantener la coherencia técnica y ética a lo largo del desarrollo.</p>
         <p><strong>TP:</strong> Durante el desarrollo del proyecto, asumí la responsabilidad ética y profesional de garantizar la calidad del sistema mediante la implementación de pruebas unitarias rigurosas.</p>
+        <p><strong>TB2:</strong> En esta entrega, me encargué de supervisar la correcta integración de los componentes del sistema y de asegurar que las prácticas de entrega continua fueran implementadas de manera responsable. Consideré el impacto técnico y organizacional de cada decisión, promoviendo buenas prácticas de documentación, validación automatizada y despliegue seguro.</p>
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Me aseguré de comprender profundamente las necesidades reales de los usuarios mediante entrevistas y procesos de needfinding. Utilicé enfoques como Lean UX y diseño centrado en el usuario para garantizar soluciones útiles y responsables. Seguí buenas prácticas de modelado de datos y arquitectura (C4 Model), documentación clara (Product backlog) asegurando la calidad, seguridad y mantenibilidad del sistema</p>
         <p><strong>TP:</strong> En esta entrega parcial, apoyé en el desarollo de las pruebas dentro del Backend, los cuales fueron de mucha utilidad para determinar que nuestra solución esté funcionando de forma esperada, garantizando integridad y seguridad de datos.</p>
+        <p><strong>TB2:</strong> En esta entrega, apoyé en el desarrollo de las prácticas DevOps, las cuales incluyen la integración continua, entrega continua, entre otras; así como en el desarrollo basado en experimentos. Para ello, usé los conocimientos aprendidos en clase y investigación autónoma.</p>
         <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
         <p><strong>TP:</strong> En esta entrega, asumí una participación activa en la redacción del informe técnico, asegurando una comunicación clara y profesional. Asimismo, colaboré en el desarrollo y ejecución de pruebas en el Backend, respetando los principios éticos de calidad y responsabilidad en el proceso de validación del software.</p>
+        <p><strong>TB2:</strong>En este entregable, apoye al documentar una entrevista de validación, entre otros artefactos, apliqué los conocimientos adquiridos en el curso, para asegurar un enfoque ético y profesional en el desarrollo.</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, cada integrante aportó desde sus fortalezas para desarrollar una solución sólida, ética y centrada en el usuario. Desde la conducción de entrevistas y el proceso de needfinding, hasta el diseño de wireframes y la arquitectura técnica con modelos C4, demostramos un compromiso compartido con la calidad, la coherencia y el impacto responsable del proyecto. La colaboración efectiva y el enfoque en el usuario guiaron nuestras decisiones, permitiéndonos construir una aplicación funcional y alineada con principios profesionales y éticos de la ingeniería de software.</p>
@@ -366,19 +395,26 @@
         <p><strong>Delgado Corrales, Piero Gonzalo</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé el impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
         <p><strong>TP:</strong> Para esta entrega, analicé las herramientas y procesos necesarios para el continuous deployment, delivery y monitoring.</p>
+        <p><strong>TB2:</strong> Para esta entrega, analicé nuevas herramientas de integración continua y entrega continua, evaluando nuestras capacidades de implementación para asegurar una implementación factible para el equipo y el proyecto.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
         <p><strong>TP:</strong> En esta etapa del proyecto, he explorado e investigado distintas tecnologías como JUnit 5, que podrían ser útiles para nuestra solución. Al hacerlo, he procurado emitir juicios informados, evaluando no solo la viabilidad técnica, sino también el impacto económico, social y ambiental que estas decisiones podrían tener.</p>
+        <p><strong>TB2:</strong> En este proyecto comprendí la importancia de tomar decisiones conscientes al aplicar herramientas de integración y entrega continua, como GitHub Actions, valorando cómo estas soluciones de software pueden influir en el entorno global, económico y social.</p>
         <p><strong>La torre Soto, André Sebastian</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, identifiqué mediante las entrevistas las condiciones reales del entorno y los desafíos que enfrentan los actores involucrados. Con base en esa información, elaboré un modelo C4 que nos permitió visualizar la propuesta en distintos niveles de abstracción, facilitando un análisis crítico sobre cómo nuestro proyecto podría influir en dimensiones como la equidad social, el uso responsable de recursos, el acceso tecnológico y la dinámica económica de las comunidades involucradas.</p>
+              <p><strong>TP:</strong> Para esta entrega, desarrolle e implemente pruebas unitarias para verificar el funcionamiento de cada componente del sistema. Empleé herramientas como JUnit 5 y Mockito para simular dependencias a través de mocks, lo que facilitó evaluar clases y métodos clave de forma aislada. </p>
+      <p><strong>TB2:</strong> Para esta entrega, realice las respectivas entrevistas de validacion y el desarrollo de diversas pruebas de integracion para nuestro proyecto. Estas fueron de gran utilidad para mejorar nuestro producto con los datos recopilados en la entrevista y asegurar el correcto funcionamiento de los diversos componentes de este.</p>
         <p><strong>Pecan Pariona, Sergio Joel</strong></p>
         <p><strong>TB1:</strong> Desde el inicio del proyecto, enfoqué mis esfuerzos en comprender el entorno socioeconómico de los usuarios a través de entrevistas y análisis contextual. Esto me permitió dimensionar adecuadamente el sistema y proponer una estructura tecnológica que se alinee con las condiciones reales de las zonas rurales, contribuyendo así a una solución viable, inclusiva y de alto impacto social.</p>
         <p><strong>TP:</strong> Realicé En el proyecto, me encargué de desarrollar y ejecutar pruebas unitarias para validar el comportamiento correcto de los componentes individuales del sistema. Utilicé JUnit 5 y Mockito para asegurar que cada clase y método clave funcionaran de forma aislada, simulando dependencias mediante mocks. Estas pruebas permitieron detectar errores tempranos y garantizar que la lógica de negocio cumpliera con los requisitos establecidos. </p>
+        <p><strong>TB2:</strong> Para esta entrega, analicé cómo la implementación de procesos automatizados como CI/CD puede escalar nuestras soluciones sin perder de vista su impacto en entornos rurales con limitaciones tecnológicas. Evalué alternativas ligeras y eficientes, considerando la sostenibilidad de los despliegues en contextos de baja conectividad y recursos limitados. </p>
         <p><strong>Salinas Torres, Salvador Antonio</strong></p>
         <p><strong>TB1:</strong> Desarrollamos una app web y móvil utilizando entrevistas, prototipos y modelado, lo cual ayudó a tomar decisiones informadas, comprendí que una solución accesible y eficiente no solo mejora la experiencia del usuario, sino que también reduce barreras sociales, costos y el impacto ambiental.</p>
         <p><strong>TP:</strong>  Realicé la indagación acerca de las herramientas y practicas a utilizar para las DevOps Practices, considerando la integración continua, entrega continua y despliegue continuo.</p>
+        <p><strong>TB2:</strong> En esta entrega, se realizaron las entrevistas de validación y las evaluaciones según heurísticas. Estas fueron de mucha utilidad para seguir mejorando nuestro producto a partir de las ideas que nos brinda nuestros segmentos objetivo.</p>
         <p><strong>Qqueso Rodriguez, Britney Delhy</strong></p>
         <p><strong>TP:</strong>  En esta entrega, realicé el análisis y la selección de herramientas y procesos adecuados para implementar las pruebas, considerando su viabilidad técnica y su impacto en el rendimiento del sistema, la eficiencia operativa y la sostenibilidad del proyecto en distintos contextos sociales y económicos.</p>
+        <p><strong>TB2:</strong> En esta entrega, llevamos a cabo entrevistas de validación con los segmentos objetivo, las cuales nos permitieron identificar áreas de mejora en nuestro producto. Esto fue clave para tomar decisiones de mejora alineadas con las necesidades de los usuarios</p>
       </td>
       <td style="border: 1px solid #000; padding: 8px;">
         <p><strong>TB1:</strong> Como equipo, demostramos un enfoque crítico y consciente al evaluar el impacto de nuestra solución tecnológica en contextos reales. A través del análisis de entrevistas, diseño accesible y modelado arquitectónico, consideramos factores sociales, económicos y ambientales que afectan directamente a las comunidades rurales. Esto nos permitió diseñar una aplicación viable, inclusiva y sostenible, comprometida con el desarrollo equitativo y con decisiones informadas que buscan generar un cambio positivo en la agricultura local.</p>
@@ -3413,19 +3449,27 @@ _Imagen 188. Diagrama de componentes del API Rest_
 
 Los diagramas de clase son herramientas cruciales en el diseño de sistemas orientados a objetos, ya que proporcionan una representación visual de las clases y sus relaciones dentro del sistema. En esta sección, se presentarán los diagramas de clase que detallan la estructura de cada bounded context: Profile, Appointment, Management y Post.
 
-<img alt="Diagrama de Clase: Profile" src="img/ClassDiagram_Profile.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Profile" src="img/ClassDiagram_Profile.png" height="800">
+</p>
 
 _Imagen 189. Diagrama de Clase: Profile_
 
-<img alt="Diagrama de Clase: Appointment" src="img/ClassDiagram_Appointment.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Appointment" src="img/ClassDiagram_Appointment.png" height="800">
+</p>
 
 _Imagen 190. Diagrama de Clase: Appointment_
 
-<img alt="Diagrama de Clase: Management" src="img/ClassDiagram_Management.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Management" src="img/ClassDiagram_Management.png" height="600">
+</p>
 
 _Imagen 191. Diagrama de Clase: Management_
 
-<img alt="Diagrama de Clase: Post" src="img/ClassDiagram_Post.png">
+<p align="center">
+  <img alt="Diagrama de Clase: Post" src="img/ClassDiagram_Post.png" height="600">
+</p>
 
 _Imagen 192. Diagrama de Clase: Post_
 
@@ -3467,19 +3511,19 @@ En esta sección, se especificarán las características detalladas de cada clas
         </tr>
         <tr>
             <td>Appointment</td>
-            <td>Representa una cita programada entre un asesor y un granjero. Incluye atributos como <em>id</em>, <em>scheduled_date</em>, <em>start_time</em>, <em>end_time</em>, <em>status</em>, un <em>advisor</em>, y un <em>farmer</em>. Método principal: <em>getAppointment()</em>.</td>
+            <td>Representa una cita programada entre un asesor y un granjero. Incluye atributos como <em>id</em>, <em>message</em>, <em>meeting_url</em>, <em>status</em>, un <em>available_date</em>, y un <em>farmer</em>. Método principal: <em>getAppointment()</em>.</td>
         </tr>
         <tr>
             <td>Review</td>
-            <td>Contiene la evaluación y comentario de una asesoría. Incluye atributos como <em>id</em>, <em>rating</em>, <em>comment</em>, y un <em>appointment</em> asociado. Método principal: <em>getReview()</em>.</td>
+            <td>Contiene la evaluación y comentario de una asesoría. Incluye atributos como <em>id</em>, <em>rating</em>, <em>comment</em>, un <em>advisor</em> y un <em>farmer</em>. Método principal: <em>getReview()</em>.</td>
         </tr>
         <tr>
             <td>AvailableDate</td>
-            <td>Representa los horarios cuando el asesor puede realizar una asesoría. Incluye atributos como <em>id</em>, <em>date</em>, <em>start_time</em>, <em>end_time</em>, y un <em>advisor</em> asociado. Método principal: <em>getAvailableDate()</em>.</td>
+            <td>Representa los horarios cuando el asesor puede realizar una asesoría. Incluye atributos como <em>id</em>, <em>scheduled_date</em>, <em>start_time</em>, <em>end_time</em>, <em>status</em>, y un <em>advisor</em> asociado. Método principal: <em>getAvailableDate()</em>.</td>
         </tr>
         <tr>
             <td>Status</td>
-            <td>Representa los estados posibles de una cita: <em>PENDING</em>, <em>ONGOING</em>, <em>COMPLETED</em>, <em>REVIEWED</em>.</td>
+            <td>Representa los estados posibles de una cita: <em>PENDING</em>, <em>ONGOING</em>, <em>COMPLETED</em>.</td>
         </tr>
         <tr>
             <td>Enclosure</td>
@@ -4159,9 +4203,9 @@ Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe
 
 Para garantizar la calidad del producto, se implementaron diferentes tipos de pruebas a lo largo del ciclo de desarrollo. Estas pruebas abarcaron desde pruebas unitarias hasta pruebas de sistema, asegurando que cada componente del sistema funcionara correctamente y cumpliese con los requisitos establecidos.
 
-Hasta el momento, se han realizado pruebas que alcanzan una cobertura del 50% en el código de la API RESTful, lo que indica un alto nivel de calidad y fiabilidad en el sistema. Estas pruebas se llevaron a cabo utilizando herramientas como JUnit y Mockito para el backend.
+Hasta el momento, se han realizado pruebas que alcanzan una cobertura del 84% en el código de la API RESTful, lo que indica un alto nivel de calidad y fiabilidad en el sistema. Estas pruebas se llevaron a cabo utilizando herramientas como JUnit y Mockito para el backend.
 
-![Coverage Report](img/coverage.png)
+![Coverage Report](img/coveragev2.png)
 
 _Imagen 209. Coverage Report_
 
@@ -4172,10 +4216,6 @@ Cada prueba se ejecutó en aislamiento para garantizar que las funcionalidades i
 **Resumen de pruebas unitarias en Agrotech API**
 
 Las pruebas implementadas en los distintos módulos del proyecto utilizan principalmente **JUnit 5** para la ejecución de tests y **Mockito** para la simulación (mocking) de dependencias externas como repositorios, servicios y entidades relacionadas. En algunos casos, también se emplea la validación con **Jakarta Validation** y se integran pruebas de eventos con **Spring Boot Test**.
-
-![Unit Tests](img/unit-tests.png)
-
-_Imagen 210. Unit Tests_
 
 1. Pruebas de comandos y servicios de dominio
 
@@ -4190,9 +4230,59 @@ _Imagen 210. Unit Tests_
 
 **Ejemplo: Prueba para el command service de animal**
 
-![Animal Command Service Test](img/animal-command-service-test.png)
+```java
+class AnimalCommandServiceImplTest {
+    @Mock
+    private AnimalRepository animalRepository;
+    @Mock
+    private EnclosureRepository enclosureRepository;
+    @InjectMocks
+    private AnimalCommandServiceImpl animalCommandService;
+    @BeforeEach
+    void setUp() {
+        MockitoAnnotations.openMocks(this);
+    }
 
-_Imagen 211. Animal Command Service Test_
+    // Successfully create a new animal with valid CreateAnimalCommand and existing enclosure
+    @Test
+    public void test_handle_create_animal_command_with_valid_data_returns_animal_id() {
+        // Arrange
+        Long enclosureId = 1L;
+        Long expectedAnimalId = 1L;
+
+        CreateAnimalCommand command = new CreateAnimalCommand(
+                "Bessie",
+                3,
+                "Cow",
+                "Holstein",
+                true,
+                450.5f,
+                "HEALTHY",
+                enclosureId
+        );
+
+        // Crea un EnclosureEntity (no Enclosure)
+        EnclosureEntity mockEnclosureEntity = new EnclosureEntity();
+        mockEnclosureEntity.setId(enclosureId);
+
+        // Crea un AnimalEntity simulado con ID
+        AnimalEntity savedAnimalEntity = new AnimalEntity();
+        savedAnimalEntity.setId(expectedAnimalId);
+
+        // Configura mocks correctamente
+        when(enclosureRepository.findById(enclosureId)).thenReturn(Optional.of(mockEnclosureEntity));
+        when(animalRepository.save(any(AnimalEntity.class))).thenReturn(savedAnimalEntity);
+
+        // Act
+        Long actualAnimalId = animalCommandService.handle(command);
+
+        // Assert
+        assertEquals(expectedAnimalId, actualAnimalId);
+        verify(animalRepository).save(any(AnimalEntity.class));
+        verify(enclosureRepository).findById(enclosureId);
+    }
+}
+```
 
 2. Pruebas de modelo y validación
 
@@ -4204,9 +4294,26 @@ _Imagen 211. Animal Command Service Test_
 
 **Ejemplo: Prueba para el usuario**
 
-![User Test](img/user-test.png)
+```java
+class UserTest {
+    // Creating a User with username and password initializes empty roles collection
+    @Test
+    public void test_user_constructor_initializes_empty_collections() {
+        // Arrange
+        String username = "test@example.com";
+        String password = "password123";
 
-_Imagen 212. User Test_
+        // Act
+        User user = new User(username, password);
+
+        // Assert
+        assertEquals(username, user.getUsername());
+        assertEquals(password, user.getPassword());
+        assertNotNull(user.getRoles());
+        assertTrue(user.getRoles().isEmpty());
+    }
+}
+```
 
 3. Pruebas de consulta y eventos
 
@@ -4218,9 +4325,45 @@ _Imagen 212. User Test_
 
 **Ejemplo: Prueba para ApplicationReadyEventHandler**
 
-![Application Ready Event Handler Test](img/application-ready-event-handler-test.png)
+```java
+class ApplicationReadyEventHandlerTest {
+    // Event handler correctly calls roleCommandService.handle with a new SeedRolesCommand
+    @Test
+    public void test_on_application_ready_calls_role_command_service() {
+        // Arrange
+        RoleCommandService mockRoleCommandService = Mockito.mock(RoleCommandService.class);
+        ApplicationReadyEventHandler handler = new ApplicationReadyEventHandler(mockRoleCommandService);
+        ApplicationReadyEvent mockEvent = Mockito.mock(ApplicationReadyEvent.class);
+        ConfigurableApplicationContext mockContext = Mockito.mock(ConfigurableApplicationContext.class);
 
-_Imagen 213. Application Ready Event Handler Test_
+        Mockito.when(mockEvent.getApplicationContext()).thenReturn(mockContext);
+        Mockito.when(mockContext.getId()).thenReturn("test-application");
+
+        // Act
+        handler.on(mockEvent);
+
+        // Assert
+        Mockito.verify(mockRoleCommandService).handle(Mockito.any(SeedRolesCommand.class));
+    }
+    // Handling when roleCommandService throws an exception
+    @Test
+    public void test_on_application_ready_handles_exception_from_role_command_service() {
+        // Arrange
+        RoleCommandService mockRoleCommandService = Mockito.mock(RoleCommandService.class);
+        ApplicationReadyEventHandler handler = new ApplicationReadyEventHandler(mockRoleCommandService);
+        ApplicationReadyEvent mockEvent = Mockito.mock(ApplicationReadyEvent.class);
+        ConfigurableApplicationContext mockContext = Mockito.mock(ConfigurableApplicationContext.class);
+
+        Mockito.when(mockEvent.getApplicationContext()).thenReturn(mockContext);
+        Mockito.when(mockContext.getId()).thenReturn("test-application");
+        Mockito.doThrow(new RuntimeException("Test exception")).when(mockRoleCommandService).handle(Mockito.any(SeedRolesCommand.class));
+
+        // Act & Assert
+        assertThrows(RuntimeException.class, () -> handler.on(mockEvent));
+        Mockito.verify(mockRoleCommandService).handle(Mockito.any(SeedRolesCommand.class));
+    }
+}
+```
 
 4. Pruebas de dominio de citas y notificaciones
 
@@ -4241,9 +4384,39 @@ _Imagen 213. Application Ready Event Handler Test_
 
 **Ejemplo: Prueba para el Appointment**
 
-![Appointment Test](img/appointment-test.png)
+```java
+class AppointmentTest {
+    // Creating a new Appointment with valid CreateAppointmentCommand sets correct initial values
+    @Test
+    public void test_create_appointment_with_valid_command_sets_correct_values() {
+        // Arrange
+        Long availableDateId = 1L;
+        Long farmerId = 2L;
+        String message = "I would like to schedule an appointment";
 
-_Imagen 214. Appointment Test_
+        CreateAppointmentCommand command = new CreateAppointmentCommand(availableDateId, farmerId, message);
+
+        Farmer farmer = mock(Farmer.class);
+        when(farmer.getId()).thenReturn(farmerId);
+
+        AvailableDate availableDate = mock(AvailableDate.class);
+        when(availableDate.getId()).thenReturn(availableDateId);
+
+        // Act
+        Appointment appointment = Appointment.create(command, farmer, availableDate);
+
+        // Assert
+        assertEquals(message, appointment.getMessage());
+        assertEquals(AppointmentStatus.PENDING, appointment.getStatus());
+        assertEquals(farmer, appointment.getFarmer());
+        assertEquals(availableDate, appointment.getAvailableDate());
+        assertNotNull(appointment.getMeetingUrl());
+        assertEquals(farmerId, appointment.getFarmerId());
+        assertEquals(availableDateId, appointment.getAvailableDateId());
+        assertEquals("PENDING", appointment.getAppointmentStatus());
+    }
+}
+```
 
 **Objetivos clave de las pruebas unitarias**
 
@@ -4255,6 +4428,9 @@ _Imagen 214. Appointment Test_
 
 El éxito de estas pruebas permitió detectar y corregir errores lógicos de manera temprana en el ciclo de desarrollo.
 
+![Unit Tests](img/unit-tests.png)
+
+_Imagen 210. Unit Tests_
 
 ### 6.1.2. Core Integration Tests
 
@@ -4266,29 +4442,247 @@ Estas pruebas aseguraron que las diferentes partes del sistema se comunican de m
 
 Se realizaron pruebas de integración en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
 
-![IAM Integration Tests](img/iam-integration-tests.png)
-
-_Imagen 215. IAM Integration Tests_
-
 Por ejemplo, se validó el proceso de creación de un nuevo usuario y su asignación a un rol específico, asegurando que la información se almacene correctamente en la base de datos.
 
-![IAM Integration Test Example](img/iam-integration-example.png)
+```java
+@SpringBootTest(classes = AgrotechApplication.class)
+@AutoConfigureMockMvc
+@Transactional
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+class AuthenticationControllerIntegrationTest {
 
-_Imagen 216. IAM Integration Test Example_
+    @Autowired
+    private MockMvc mockMvc;
+
+    @Autowired
+    private ObjectMapper objectMapper;
+
+    @Test
+    void signUpWithValidDataReturnsCreated() throws Exception {
+        // Arrange
+        SignUpResource request = new SignUpResource(
+                "user_" + UUID.randomUUID() + "@test.com", "password", List.of("ROLE_USER")
+        );
+        // Act
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                // Assert
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.username").value(request.username()));
+    }
+
+    @Test
+    void signUpWithExistingEmailReturnsBadRequest() throws Exception {
+        // Arrange
+        String username = "existinguser@test.com";
+
+        // Act
+        SignUpResource request = new SignUpResource(username, "password", List.of("ROLE_USER"));
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                .andExpect(status().isCreated());
+
+        // Second sign-up with same username
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(request)))
+                // Assert
+                .andExpect(status().isBadRequest());
+    }
+
+    @Test
+    void signInWithCorrectCredentialsReturnsOk() throws Exception {
+        // Arrange
+        String username = "validuser@test.com";
+        String password = "password";
+
+        // Act
+        SignUpResource signUp = new SignUpResource(username, password, List.of("ROLE_USER"));
+        mockMvc.perform(post("/api/v1/authentication/sign-up")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(signUp)))
+                .andExpect(status().isCreated());
+
+        SignInResource signIn = new SignInResource(username, password);
+        mockMvc.perform(post("/api/v1/authentication/sign-in")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(signIn)))
+                // Assert
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.token").isNotEmpty())
+                .andExpect(jsonPath("$.id").isNumber());
+    }
+
+    @Test
+    void signInWithInvalidCredentialsReturnsBadRequest() throws Exception {
+        // Arrange
+        SignInResource signIn = new SignInResource("nonexistent@test.com", "wrongpassword");
+        // Act
+        mockMvc.perform(post("/api/v1/authentication/sign-in")
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .content(objectMapper.writeValueAsString(signIn)))
+                // Assert
+                .andExpect(status().isBadRequest());
+    }
+}
+```
+
+![IAM Integration Tests](img/iam-integration-tests.png)
+
+_Imagen 211. IAM Integration Tests_
 
 
 **Management bounded context**
+
 Se realizaron pruebas de integración en los controladores de Animal y Enclosure, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación, actualización, eliminación y consulta de información de animales y recintos.
-
-![Management Integration Tests](img/management-integration-tests.png)
-
-_Imagen 217. Management Integration Tests_
 
 Por ejemplo, se validó el proceso de creación de un recinto asociado a un granjero, asegurando que la información se almacene correctamente en la base de datos. Asimismo, se hizo un setup de datos inicial para facilitar la ejecución de las pruebas, generando un usuario, un granjero y un token de acceso para que no se requiera un inicio de sesión manual en cada prueba.
 
-![Management Integration Test Example](img/management-integration-example.png)
+```java
+@SpringBootTest(classes = AgrotechApplication.class)
+@AutoConfigureMockMvc
+@Transactional
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+class EnclosuresControllerIntegrationTest {
+    @Autowired
+    private MockMvc mockMvc;
+    @Autowired
+    private ObjectMapper objectMapper;
+    @Autowired
+    private FarmerCommandService farmerCommandService;
+    @Autowired
+    private FarmerQueryService farmerQueryService;
+    @Autowired
+    private EnclosureCommandService enclosureCommandService;
+    @Autowired
+    private EnclosureQueryService enclosureQueryService;
+    @Autowired
+    private UserCommandService userCommandService;
 
-_Imagen 218. Management Integration Test Example_
+    private String token;
+    private Farmer farmer;
+
+    @BeforeEach
+    void setup() throws Throwable { // fail es un Throwable
+        User user = userCommandService.handle(new SignUpCommand("testuser@example.com", "password", List.of(Role.getDefaultRole())))
+                .orElseThrow(() -> fail("User creation failed"));
+        ImmutablePair<User, String> signInResult = userCommandService.handle(new SignInCommand("testuser@example.com", "password"))
+                .orElseThrow(() -> fail("User sign-in failed"));
+        Long farmerId = farmerCommandService.handle(new CreateFarmerCommand(user.getId()), user);
+        Farmer farmer = farmerQueryService.handle(new GetFarmerByIdQuery(farmerId))
+                .orElseThrow(() -> fail("Farmer creation failed"));
+        this.token = signInResult.getRight();
+        this.farmer = farmer;
+    }
+
+    @Test
+    void postEnclosure() throws Exception {
+        // Arrange
+        CreateEnclosureResource resource = new CreateEnclosureResource("Barn", 10, "Barn Type", farmer.getId());
+        // Act
+        mockMvc.perform(post("/api/v1/enclosures")
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer " + token)
+                        .content(objectMapper.writeValueAsString(resource)))
+                // Assert
+                .andExpect(status().isCreated())
+                .andExpect(jsonPath("$.name").value("Barn"))
+                .andExpect(jsonPath("$.capacity").value(10))
+                .andExpect(jsonPath("$.type").value("Barn Type"));
+    }
+
+    @Test
+    void getEnclosures() throws Exception {
+        // Arrange
+        CreateEnclosureCommand commandOne = new CreateEnclosureCommand("Stable", 6, "Horse", farmer.getId());
+        CreateEnclosureCommand commandTwo = new CreateEnclosureCommand("Corral", 4, "Cow", farmer.getId());
+        // Act
+        enclosureCommandService.handle(commandOne);
+        enclosureCommandService.handle(commandTwo);
+        mockMvc.perform(get("/api/v1/enclosures")
+                        .header("Authorization", "Bearer " + token))
+                // Assert
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$", hasSize(2)))
+                .andExpect(jsonPath("$[0].name").value("Stable"))
+                .andExpect(jsonPath("$[1].name").value("Corral"));
+    }
+
+    @Test
+    void updateEnclosure() throws Throwable {
+        // Arrange
+        CreateEnclosureCommand command = new CreateEnclosureCommand("Old Corral", 3, "Pig", farmer.getId());
+        Long enclosureId = enclosureCommandService.handle(command);
+        Enclosure enclosure = enclosureQueryService.handle(new GetEnclosureByIdQuery(enclosureId))
+                .orElseThrow(() -> fail("Enclosure creation failed"));
+        UpdateEnclosureResource updateResource = new UpdateEnclosureResource("New Corral", 5, "Pig");
+        // Act
+        mockMvc.perform(put("/api/v1/enclosures/" + enclosure.getId())
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer " + token)
+                        .content(objectMapper.writeValueAsString(updateResource)))
+                // Assert
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name").value("New Corral"))
+                .andExpect(jsonPath("$.capacity").value(5));
+    }
+
+    @Test
+    void deleteEnclosure() throws Exception {
+        // Arrange
+        CreateEnclosureCommand command = new CreateEnclosureCommand("Temporary", 2, "Goat", farmer.getId());
+        Long enclosureId = enclosureCommandService.handle(command);
+        // Act
+        mockMvc.perform(delete("/api/v1/enclosures/" + enclosureId)
+                        .header("Authorization", "Bearer " + token))
+                // Assert
+                .andExpect(status().isOk());
+        assertFalse(enclosureQueryService.handle(new GetEnclosureByIdQuery(enclosureId)).isPresent(), "Enclosure should be deleted");
+    }
+
+    @Test
+    void postEnclosureWithInvalidToken() throws Exception {
+        CreateEnclosureResource resource = new CreateEnclosureResource("Invalid", 3, "Rare Type", 1L);
+
+        mockMvc.perform(post("/api/v1/enclosures")
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer invalid_token")
+                        .content(objectMapper.writeValueAsString(resource)))
+                .andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void getEnclosuresWithInvalidToken() throws Exception {
+        mockMvc.perform(get("/api/v1/enclosures")
+                        .header("Authorization", "Bearer invalid_token"))
+                .andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void updateEnclosureWithInvalidToken() throws Exception {
+        UpdateEnclosureResource update = new UpdateEnclosureResource("Invalid", 1, "Sheep");
+
+        mockMvc.perform(put("/api/v1/enclosures/1")
+                        .contentType("application/json")
+                        .header("Authorization", "Bearer invalid_token")
+                        .content(objectMapper.writeValueAsString(update)))
+                .andExpect(status().isUnauthorized());
+    }
+
+    @Test
+    void deleteEnclosureWithInvalidToken() throws Exception {
+        mockMvc.perform(delete("/api/v1/enclosures/1")
+                        .header("Authorization", "Bearer invalid_token"))
+                .andExpect(status().isUnauthorized());
+    }
+}
+```
+
+![Management Integration Tests](img/management-integration-tests.png)
+
+_Imagen 212. Management Integration Tests_
 
 
 ### 6.1.3. Core Behavior-Driven Development
@@ -4299,68 +4693,1702 @@ Utilizando herramientas como Cucumber y Gherkin  se escribieron escenarios estru
 
 **US01**
 
-![us01.feature](img/us01.feature.png)
+```gherkin
+Feature: Visualización del catálogo de asesores
+  Como granjero con poca experiencia
+  quiero explorar el catálogo de asesores
+  para conocer quiénes me pueden apoyar con asesorías
 
-_Imagen 219. US01_
+  Scenario: Explorar catálogo de asesores
+    Given el granjero con poca experiencia quiere explorar el catálogo de asesores
+    And se encuentra en la plataforma
+    When seleccione el botón relacionado con el "Asesores"
+    Then el sistema le mostrará una lista de todos los asesores disponibles en la plataforma
 
-**US04**
+  Scenario: Filtrar búsqueda de asesores
+    Given el granjero con poca experiencia quiere personalizar su búsqueda
+    And se encuentra en el apartado de "Asesores"
+    When seleccione el botón de filtros
+    Then el sistema le permitirá filtrar el catálogo de asesores por nombre o reputación
+```
 
-![us04.feature](img/us04.feature.png)
+**US02**
 
-_Imagen 220. US04_
+```gherkin
+Feature: Visualización de información de un asesor
+  Como granjero con poca experiencia
+  quiero ver la información de un asesor
+  para tomar una decisión informada antes de separar una cita
+
+  Scenario Outline: Ver información de un asesor
+    Given el granjero con poca experiencia quiere ver información de un asesor
+    And se encuentra en el apartado de Asesores
+    When seleccione al cuadro de un <asesor>
+    Then el sistema le mostrará la información del asesor como nombre, experiencia, calificación y reseñas
+
+    Examples:
+      | asesor |
+      | 2      |
+
+  Scenario Outline: Fallar al visualizar la información del asesor
+    Given el granjero con poca experiencia quiere ver información relevante del asesor
+    And se encuentra en el apartado de Asesores
+    When seleccione al cuadro de un <asesor> en la interfaz
+    And se encuentre con un <error> al cargar la información
+    Then el sistema le mostrará un mensaje de error de carga en la interfaz
+
+    Examples:
+      | asesor | error |
+      | 0      | 404   |
+```
+
+**US03**
+
+```gherkin
+Feature: Visualización de horarios de asesores
+  Como granjero con poca experiencia
+  quiero ver los horarios disponibles de los asesores
+  para seleccionar un horario que se ajuste a mi agenda
+
+  Scenario Outline: Visualizar horarios disponibles
+    Given el granjero con poca experiencia desea visualizar los horarios disponibles de un asesor elegido
+    And se encuentra viendo la información del perfil de un <asesor>
+    When haga clic en el botón Agendar Cita en la interfaz
+    Then el sistema le mostrará una interfaz con los horarios disponibles del asesor
+
+    Examples:
+      | asesor |
+      | 1      |
+
+  Scenario Outline: Fallar al intentar visualizar horarios
+    Given el granjero con poca experiencia desea visualizar los horarios disponibles de un asesor elegido
+    And se encuentra viendo la información del perfil de un <asesor>
+    When haga clic en el botón Agendar Cita en la interfaz
+    And el asesor no tenga horarios disponibles
+    Then el sistema le mostrará un mensaje de error El asesor no tiene horarios disponibles en la interfaz
+
+    Examples:
+      | asesor |
+      | 2      |
+```
+
+**US06**
+
+```gherkin
+Feature: Separación de horarios de disponibilidad para asesorías
+  Como asesor
+  quiero poder separar los horarios en los que estoy disponible
+  para que los usuarios interesados puedan agendar una asesoría en un momento conveniente
+
+  Scenario: Registrar disponibilidad para asesorías
+    Given el asesor desea registrar su horario de disponibilidad para una asesoría
+    And está visualizando la sección de "Horarios disponibles" en su dispositivo
+    When haga clic en el botón para registrar un nuevo horario
+    And complete los datos del nuevo horario
+    Then el sistema actualizará y guardará los horarios y horas seleccionadas como disponibles
+
+  Scenario: Eliminar horario de disponibilidad para asesorías
+    Given el asesor desea eliminar un horario de disponibilidad para asesorías
+    And está visualizando la página de "Horario disponible" en su dispositivo
+    When haga clic en el botón "Eliminar" relacionado al horario que desea eliminar
+    And confirme la eliminación del horario
+    Then el sistema eliminará el horario de disponibilidad seleccionado
+```
+
+**US07**
+
+```gherkin
+Feature: Gestión de publicaciones de asesores
+  Como asesor
+  quiero hacer publicaciones referentes a mis trabajos
+  para tener una mayor visibilidad con los granjeros inexpertos
+
+  Scenario: Crear una nueva publicación
+    Given que el asesor está en el apartado de "Mis publicaciones"
+    When hace clic en "Crear Publicación"
+    And completa el formulario y presiona "Publicar"
+    Then el sistema confirma la acción y la publicación se vuelve visible para los granjeros
+
+  Scenario: Editar una publicación existente
+    Given que el asesor tiene una publicación
+    And está en el apartado "Mis publicaciones"
+    When selecciona "Editar"
+    And modifica el contenido y guarda los cambios
+    Then el sistema confirma la acción y actualiza la publicación
+
+  Scenario: Eliminar una publicación existente
+    Given que el asesor tiene una publicación
+    And está en el apartado "Mis publicaciones"
+    When selecciona "Eliminar"
+    And confirma la acción
+    Then el sistema confirma la eliminación y la publicación desaparece de la lista
+```
 
 **US09**
 
-![us09.feature](img/us09.feature.png)
+```gherkin
+Feature: Registro de un usuario nuevo
+  Como usuario
+  quiero registrarme
+  para acceder a las funciones de usuario
 
-_Imagen 221. US09_
+  Scenario Outline: Registro exitoso
+    Given el usuario quiere registrarse con el servicio
+    When el usuario se registra con su usuario "<user>" y contraseña "<password>"
+    Then la respuesta del registro contiene un status 201
+
+    Examples:
+    | user        | password |
+    | unique_user | 12345678 |
+
+  Scenario Outline: Registro fallido
+    Given el usuario quiere registrarse con el servicio
+    When el usuario se registra con su usuario "<invalid_user>" y contraseña "<password>"
+    Then la respuesta del registro contiene un status 400
+    And la respuesta contiene un mensaje de error
+
+    Examples:
+    | invalid_user      | password |
+    | example2          | 12345678 |
+    | example@gmail.com | 1234567  |
+```
 
 **US10**
 
-![us010.feature](img/us10.feature.png)
+```gherkin
+Feature: Inicio de sesión
+  Como usuario
+  quiero acceder a mi cuenta registrada
+  para acceder a las funciones de usuario
 
-_Imagen 222. US10_
+  # Para este escenario, se requiere que el usuario example@gmail.com
+  # esté registrado con la contraseña 12345678 en la base de datos
+  Scenario Outline: Inicio de sesión exitoso
+    Given el usuario quiere loguearse con el servicio
+    When el usuario ingrese su usuario "<user>" y contraseña "<password>"
+    Then la respuesta del login contiene un status 200
+    And la respuesta contiene un token "token"
 
+    Examples:
+    | user | password |
+    | example@gmail.com | 12345678 |
 
-Estas pruebas fueron ejecutadas automáticamente y vinculadas a funciones reales del sistema, permitiendo validar la lógica de negocio.
+  Scenario Outline: Inicio de sesión fallido
+    Given el usuario quiere loguearse con el servicio
+    When el usuario ingrese su usuario "<invalid_user>" y contraseña "<invalid_password>"
+    Then la respuesta del login contiene un status 400
+    And la respuesta contiene un error "error"
 
-![BDD Tests](img/bdd-tests.png)
+    Examples:
+    | invalid_user | invalid_password |
+    | example@gmail.com | 1234567 |
+    | example2 | 12345678 |
+```
 
-_Imagen 223. BDD Tests_
+**US22**
 
-En este caso, se realizaron pruebas de comportamiento en los controladores de Authentication, User y Roles, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión y asignación de roles.
+```gherkin
+Feature: Gestión de recintos
+  Como granjero con poca experiencia,
+  quiero registrar, editar y eliminar recintos de mis animales,
+  para mantener un control organizado y actualizado sobre los espacios donde se encuentran.
+
+  Scenario: Registrar un recinto
+    Given el usuario accede a la sección de recintos
+    When complete el formulario con los datos del nuevo recinto
+    Then el sistema guardará el recinto y lo mostrará en la lista
+
+  Scenario: Editar un recinto existente
+    Given el usuario visualiza un recinto en la lista
+    When seleccione la opción de editar y modifique los datos
+    Then el sistema actualizará la información del recinto
+
+  Scenario: Eliminar un recinto
+    Given el usuario visualiza un recinto en la lista
+    When seleccione la opción de eliminar
+    Then el sistema pedirá confirmación y, al aceptarla, eliminará el recinto
+```
+
+**US23**
+
+```gherkin
+Feature: Gestión de animales
+  Como granjero con poca experiencia,
+  quiero registrar, editar y eliminar animales, asignándoles a recintos específicos,
+  para llevar un registro claro y ordenado de cada uno de ellos.
+
+  Scenario: Registrar un animal en un recinto
+    Given el usuario accede a la sección de recintos
+    When complete el formulario con los  datos del animal y seleccione un recinto
+    Then el sistema guardará el animal y lo asociará al recinto elegido
+
+  Scenario: Editar información de un animal
+    Given el usuario visualiza un animal en la lista
+    When seleccione la opción de editar y realice los cambios
+    Then el sistema actualizará la información del animal
+
+  Scenario: Eliminar un animal
+    Given el usuario visualiza un animal en la lista
+    When seleccione la opción de eliminar el animal
+    Then el sistema pedirá confirmación y, al aceptarla, eliminará al animal del registro
+```
+
+En este caso, se realizaron pruebas de comportamiento en los controladores de Authentication, Post, Appointment y Management, asegurando que los endpoints funcionen correctamente. Estas pruebas incluyeron la verificación de la creación de usuarios, inicio de sesión, creación de publicaciones, gestión de citas y recintos.
 
 **Prueba para US01**
 
-![US01 Steps](img/us01-steps.png)
+```java
+public class US01Steps {
+    Response response;
+    String token;
 
-_Imagen 224. US01 Steps_
+    @Given("el granjero con poca experiencia quiere explorar el catálogo de asesores")
+    public void el_granjero_con_poca_experiencia_quiere_explorar_el_catálogo_de_asesores() {
+        System.out.println("El granjero quiere explorar el catálogo de asesores.");
+    }
 
-**Prueba para US04**
+    @And("se encuentra en la plataforma")
+    public void se_encuentra_en_la_plataforma() {
+        System.out.println("El granjero está en la plataforma.");
+        baseURI = "http://localhost:8080/api/v1";
 
-![US04 Steps](img/us04-steps.png)
+        // Simulate user login
+        String username = "admin@gmail.com";
+        String password = "123456";
 
-_Imagen 225. US04 Steps_
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        // Debugging: Print the response body
+        System.out.println("Login Response Body: " + response.getBody().asString());
+
+        // Extract token and validate
+        token = response.getBody().jsonPath().get("token");
+        assertNotNull(token, "Token is null. Login failed.");
+        System.out.println("Generated Token: " + token);
+    }
+
+
+    @When("seleccione el botón relacionado con el {string}")
+    public void seleccione_el_botón_relacionado_con_el(String catalogo) {
+        System.out.println("El granjero selecciona el botón: " + catalogo);
+    }
+
+    @Then("el sistema le mostrará una lista de todos los asesores disponibles en la plataforma")
+    public void el_sistema_le_mostrará_una_lista_de_todos_los_asesores_disponibles_en_la_plataforma() {
+        System.out.println("El sistema muestra la lista de asesores.");
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/advisors");
+
+        // Debugging: Print the response body
+        System.out.println("Response Body: " + response.getBody().asString());
+
+        // Verify the response contains the expected data
+        assertNotNull(response.getBody().jsonPath().getList("data"), "The 'data' field in the response is null.");
+        System.out.println("Lista de asesores: " + response.getBody().jsonPath().getList("data"));
+    }
+
+    @Given("el granjero con poca experiencia quiere personalizar su búsqueda")
+    public void el_granjero_con_poca_experiencia_quiere_personalizar_su_búsqueda() {
+        System.out.println("El granjero quiere personalizar su búsqueda.");
+    }
+
+    @And("se encuentra en el apartado de {string}")
+    public void se_encuentra_en_el_apartado_de(String asesores) {
+        System.out.println("El granjero está en el apartado: " + asesores);
+    }
+
+    @When("seleccione el botón de filtros")
+    public void seleccione_el_botón_de_filtros() {
+        System.out.println("El granjero selecciona el botón de filtros.");
+    }
+
+    @Then("el sistema le permitirá filtrar el catálogo de asesores por nombre o reputación")
+    public void el_sistema_le_permitirá_filtrar_el_catálogo_de_asesores_por_nombre_o_reputación() {
+        System.out.println("El sistema permite filtrar el catálogo.");
+    }
+}
+```
+
+**Prueba para US02**
+
+```java
+public class US02Steps {
+    Response response;
+    String token;
+    int error;
+
+    @Given("el granjero con poca experiencia quiere ver información de un asesor")
+    public void el_granjero_con_poca_experiencia_quiere_ver_asesor() {
+        System.out.println("El granjero está en la plataforma.");
+        baseURI = "http://localhost:8080/api/v1";
+        // Simulate user login
+        String username = "example@gmail.com";
+        String password = "12345678";
+
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        token = response.getBody().jsonPath().get("token");
+    }
+
+    @And("se encuentra en el apartado de Asesores")
+    public void se_encuentra_en_el_apartado_asesores() {
+        System.out.println("El granjero se encuentra en: Asesores");
+
+    }
+
+    @When("seleccione al cuadro de un {int}")
+    public void seleccione_el_cuadro_de_un_asesor(int id) {
+        // Simulate selecting an advisor
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/" + id + "/user");
+
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().get(""));
+    }
+
+    @Then("el sistema le mostrará la información del asesor como nombre, experiencia, calificación y reseñas")
+    public void el_sistema_le_mostrará_la_informacion_del_asesor() {
+        // armar salida
+        String name = response.getBody().jsonPath().get("firstName") + " " + response.getBody().jsonPath().get("lastName");
+        String location = response.getBody().jsonPath().get("city") + ", " + response.getBody().jsonPath().get("country");
+        String description = response.getBody().jsonPath().get("description");
+        String occupation = response.getBody().jsonPath().get("occupation");
+        String experience = response.getBody().jsonPath().get("experience") + " años";
+        System.out.println("Información del asesor: "
+                + "\nNombre: " + name
+                + "\nUbicación: " + location
+                + "\nDescripción: " + description
+                + "\nOcupación: " + occupation
+                + "\nExperiencia: " + experience);
+    }
+
+    @Given("el granjero con poca experiencia quiere ver información relevante del asesor")
+    public void el_granjero_con_poca_experiencia_quiere_ver_informacion_relevante_del_asesor() {
+        System.out.println("El granjero está en la plataforma.");
+        baseURI = "http://localhost:8080/api/v1";
+        // Simulate user login
+        String username = "example@gmail.com";
+        String password = "12345678";
+
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        token = response.getBody().jsonPath().get("token");
+    }
+
+    @When("seleccione al cuadro de un {int} en la interfaz")
+    public void seleccione_al_cuadro_de_un_asesor_en_la_interfaz(int id) {
+        // Simulate selecting an advisor
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/" + id + "/user");
+
+    }
+
+    @And("se encuentre con un {int} al cargar la información")
+    public void se_encuentre_con_un_404_al_cargar_informacion(int error) {
+        this.error = error;
+    }
+
+    @Then("el sistema le mostrará un mensaje de error de carga en la interfaz")
+    public void el_sistema_le_mostrará_un_mensaje_de_error_al_no_encontrar_el_asesor() {
+        assertEquals(error, response.getStatusCode());
+        System.out.println("Error: " + response.getStatusCode());
+    }
+}
+```
+
+**Prueba para US03**
+
+```java
+public class US03Steps {
+    Response response;
+    String token;
+    int advisorId;
+
+    @Given("el granjero con poca experiencia desea visualizar los horarios disponibles de un asesor elegido")
+    public void el_granjero_con_poca_experiencia_desea_visualizar_horarios_disponibles() {
+        System.out.println("El granjero quiere ver los horarios de un asesor.");
+        baseURI = "http://localhost:8080/api/v1";
+        // Simulate user login
+        String username = "example@gmail.com";
+        String password = "12345678";
+
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+
+        token = response.getBody().jsonPath().get("token");
+    }
+
+    @And("se encuentra viendo la información del perfil de un {int}")
+    public void se_encuentra_viendo_informacion_perfil_asesor(int id) {
+        System.out.println("El granjero está viendo el perfil del asesor con ID: " + id);
+        advisorId = id;
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/profiles/" + id + "/user");
+
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().get(""));
+    }
+
+    @When("haga clic en el botón Agendar Cita en la interfaz")
+    public void haga_clic_en_boton_agendar_cita() {
+        System.out.println("El granjero hace clic en el botón Agendar Cita.");
+        // Load dates
+        response = given()
+                .contentType("application/json")
+                .header("Authorization", "Bearer " + token)
+                .when()
+                .get("/available_dates?advisorId=" + advisorId);
+    }
+
+    @Then("el sistema le mostrará una interfaz con los horarios disponibles del asesor")
+    public void el_sistema_le_mostrará_horarios_disponibles() {
+        System.out.println("El sistema muestra los horarios disponibles del asesor.");
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().getList(""));
+        System.out.println("Horarios disponibles: " + response.getBody().jsonPath().getList(""));
+    }
+
+
+    @And("el asesor no tenga horarios disponibles")
+    public void el_asesor_no_tenga_horarios_disponibles() {
+        System.out.println("El asesor no tiene horarios disponibles.");
+    }
+
+    @Then("el sistema le mostrará un mensaje de error El asesor no tiene horarios disponibles en la interfaz")
+    public void el_sistema_le_mostrará_mensaje_error_horarios_no_disponibles() {
+        assertTrue(response.getBody().jsonPath().getList("").isEmpty());
+        System.out.println("Horarios disponibles: " + response.getBody().jsonPath().getList(""));
+        System.out.println("El asesor no tiene horarios disponibles.");
+    }
+}
+```
+
+**Prueba para US06**
+
+```java
+public class US06Steps {
+    Response response;
+    String token;
+    int userId;
+    int advisorId;
+    int availableDateId;
+
+    @Given("el asesor desea registrar su horario de disponibilidad para una asesoría")
+    public void asesor_desea_registrar_disponibilidad() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+    }
+
+    @And("está visualizando la sección de {string} en su dispositivo")
+    public void viendo_seccion(String seccion) {
+        System.out.println("Visualizando sección: " + seccion);
+    }
+
+    @When("haga clic en el botón para registrar un nuevo horario")
+    public void clic_en_registrar_horario() {
+        System.out.println("Clic en botón: Registrar nuevo horario");
+    }
+
+    @And("complete los datos del nuevo horario")
+    public void completar_datos_nuevo_horario() {
+        Date scheduledDate = new Date(System.currentTimeMillis() + 86400000);
+        String formattedDate = String.format("%tF", scheduledDate); // Formato YYYY-MM-DD
+        String body = String.format("{\"advisorId\":\"%s\",\"scheduledDate\":\"%s\",\"startTime\":\"08:00\",\"endTime\":\"09:00\"}", advisorId, formattedDate);
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .post("/available_dates");
+
+    }
+
+    @Then("el sistema actualizará y guardará los horarios y horas seleccionadas como disponibles")
+    public void sistema_guarda_disponibilidad() {
+        availableDateId = response.jsonPath().getInt("id");
+        assertEquals(201, response.getStatusCode());
+        System.out.println("Horario " + availableDateId + " registrado correctamente");
+    }
+
+    @Given("el asesor desea eliminar un horario de disponibilidad para asesorías")
+    public void asesor_desea_eliminar_horario() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+
+        // Asegurarse de que hay un horario disponible para eliminar
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/available_dates?advisorId=" + advisorId);
+
+        assertEquals(200, response.getStatusCode());
+        if (response.jsonPath().getList("id").isEmpty()) {
+            fail("No hay horarios disponibles para eliminar");
+        } else {
+            availableDateId = response.jsonPath().getInt("id[0]"); // Tomar el primer horario disponible
+            System.out.println("Horario disponible para eliminar: " + availableDateId);
+        }
+    }
+
+    @And("está visualizando la página de {string} en su dispositivo")
+    public void esta_visualizando_pagina_en_Dispositivo(String pagina) {
+        System.out.println("Visualizando página: " + pagina);
+    }
+
+    @When("haga clic en el botón {string} relacionado al horario que desea eliminar")
+    public void clic_en_eliminar_horario(String boton) {
+        System.out.println("Clic en botón: " + boton);
+    }
+
+    @And("confirme la eliminación del horario")
+    public void confirmar_eliminacion_horario() {
+        response = given().header("Authorization", "Bearer " + token)
+                .delete("/available_dates/" + availableDateId);
+    }
+
+    @Then("el sistema eliminará el horario de disponibilidad seleccionado")
+    public void sistema_elimina_horario() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Horario eliminado correctamente");
+    }
+}
+```
+
+**Prueba para US07**
+
+```java
+public class US07Steps {
+    Response response;
+    String token;
+    int userId;
+    int advisorId;
+    int postId;
+
+    @Given("que el asesor está en el apartado de {string}")
+    public void asesor_en_apartado(String apartado) {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+
+        System.out.println("Apartado: " + apartado);
+    }
+
+    @When("hace clic en {string}")
+    public void clic_en_crear_publicacion(String boton) {
+        System.out.println("Clic en: " + boton);
+    }
+
+    @And("completa el formulario y presiona {string}")
+    public void completa_formulario_y_publica(String accion) {
+        System.out.println("Completa el formulario y presiona: " + accion);
+        String body = "{\"advisorId\":" + advisorId + ",\"title\":\"Nueva publicación\",\"description\":\"Asesoría en riego por goteo\",\"image\":\"https://example.com/image.jpg\"}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .post("/posts");
+        postId = response.jsonPath().getInt("id");
+    }
+
+    @Then("el sistema confirma la acción y la publicación se vuelve visible para los granjeros")
+    public void sistema_confirma_publicacion() {
+        assertEquals(201, response.getStatusCode());
+        System.out.println("Publicación creada: " + postId);
+    }
+
+    @Given("que el asesor tiene una publicación")
+    public void asesor_tiene_publicacion() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"example2@gmail.com\",\"password\":\"12345678\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/advisors/" + userId + "/user");
+        advisorId = response.jsonPath().getInt("id");
+
+        // Asumiendo que el asesor tiene al menos una publicación
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/posts?advisorId=" + advisorId);
+
+        assertEquals(200, response.getStatusCode());
+        assertNotNull(response.getBody().jsonPath().getList("id"));
+
+        if (response.jsonPath().getList("id").isEmpty()) {
+            fail("No hay publicaciones disponibles para el asesor");
+        }
+        else {
+            postId = response.jsonPath().getInt("id[0]");
+            System.out.println("Publicación encontrada: " + postId);
+        }
+    }
+    @And("está en el apartado {string}")
+    public void esta_en_el_apartado(String apartado) {
+        System.out.println("Asesor esta en el apartado: " + apartado);
+    }
+
+    @When("selecciona {string}")
+    public void selecciona_accion(String accion) {
+        System.out.println("Selecciona: " + accion);
+    }
+
+    @And("modifica el contenido y guarda los cambios")
+    public void modifica_y_guarda() {
+        String updated = "{\"title\":\"Publicación actualizada\",\"description\":\"Actualizado\",\"image\":\"https://example.com/updated_image.jpg\"}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(updated)
+                .put("/posts/" + postId);
+    }
+
+    @Then("el sistema confirma la acción y actualiza la publicación")
+    public void sistema_actualiza_publicacion() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Publicación actualizada correctamente");
+    }
+
+    @And("confirma la acción")
+    public void confirma_eliminar() {
+        response = given().header("Authorization", "Bearer " + token)
+                .delete("/posts/" + postId);
+    }
+
+    @Then("el sistema confirma la eliminación y la publicación desaparece de la lista")
+    public void sistema_elimina_publicacion() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Publicación eliminada");
+    }
+}
+```
 
 **Prueba para US09**
 
-![US09 Steps](img/us09-steps.png)
+```java
+public class US09Steps {
+    Response response;
+    String uniqueEmail;
+    String[] role;
 
-_Imagen 226. US09 Steps_
+    @Given("el usuario quiere registrarse con el servicio")
+    public void servicio_disponible() {
+        baseURI = "http://localhost:8080/api/v1";
+    }
+
+    @When("el usuario se registra con su usuario {string} y contraseña {string}")
+    public void usuario_ingresa_datos(String user, String password) {
+        if (user.equals("unique_user")) {
+            uniqueEmail = "testuser_" + System.currentTimeMillis() + "@gmail.com";
+        } else {
+            uniqueEmail = user;
+        }
+
+        role = new String[]{"ROLE_USER"};
+
+        String jsonBody = String.format(
+                "{\"username\":\"%s\",\"password\":\"%s\", \"roles\":[\"%s\"]}",
+                uniqueEmail, password, String.join("\",\"", role));
+
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-up");
+    }
+
+    @Then("la respuesta del registro contiene un status {int}")
+    public void respuesta_contiene_status(int status) {
+        response.then().statusCode(status);
+    }
+
+    @And("la respuesta contiene un mensaje de error")
+    public void respuesta_contiene() {
+        assertNotNull(response.getBody().jsonPath().get("message"));
+    }
+}
+```
 
 **Prueba para US10**
 
-![US10 Steps](img/us10-steps.png)
+```java
+public class US10Steps {
+    Response response;
 
-_Imagen 227. US10 Steps_
+    @Given("el usuario quiere loguearse con el servicio")
+    public void servicio_esta_disponible() {
+        baseURI="http://localhost:8080/api/v1";
+    }
+
+    @When("el usuario ingrese su usuario {string} y contraseña {string}")
+    public void usuario_ingresa_datos(String username, String password) {
+        String jsonBody = String.format("{\"username\":\"%s\",\"password\":\"%s\"}", username, password);
+        response = given()
+                .contentType("application/json")
+                .body(jsonBody)
+                .when()
+                .post("/authentication/sign-in");
+    }
+    @Then("la respuesta del login contiene un status {int}")
+    public void respuesta_status(int status) {
+        response.then().statusCode(status);
+    }
+    @And("la respuesta contiene un token {string}")
+    public void respuesta_contiene_token(String text) {
+        assertNotNull(response.getBody().jsonPath().get("token"));
+    }
+
+    @And("la respuesta contiene un error {string}")
+    public void respuesta_contiene_mensaje_error(String text) {
+        assertNotNull(response.getBody().jsonPath().get("error"));
+        assertNotNull(response.getBody().jsonPath().get("message"));
+    }
+
+}
+```
+
+**Prueba para US22**
+
+```java
+public class US22Steps {
+    Response response;
+    String token;
+    int userId;
+    int enclosureId;
+
+    @Given("el usuario accede a la sección de recintos")
+    public void usuario_accede_seccion_recintos() {
+        baseURI = "http://localhost:8080/api/v1";
+        String jsonBody = "{\"username\":\"farmer@gmail.com\",\"password\":\"123456\"}";
+        response = given().contentType("application/json").body(jsonBody).post("/authentication/sign-in");
+        token = response.jsonPath().get("token");
+        userId = response.jsonPath().getInt("id");
+    }
+
+    @When("complete el formulario con los datos del nuevo recinto")
+    public void completar_formulario_nuevo_recinto() {
+        String body = "{\"name\":\"Recinto A\",\"capacity\":10,\"type\":\"Pequeño\",\"farmerId\":" + userId + "}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .post("/enclosures");
+    }
+
+    @Then("el sistema guardará el recinto y lo mostrará en la lista")
+    public void sistema_guarda_recinto() {
+        enclosureId = response.jsonPath().getInt("id");
+        assertEquals(201, response.getStatusCode());
+        System.out.println("Recinto registrado correctamente con ID: " + enclosureId);
+    }
+
+    @Given("el usuario visualiza un recinto en la lista")
+    public void usuario_visualiza_recinto_lista() {
+        if (token == null || token.isEmpty()) {
+            usuario_accede_seccion_recintos();
+        }
+
+        // Crear un recinto si no hay
+        String recintoBody = "{\"name\":\"Recinto Auto\",\"capacity\":6,\"type\":\"Mediano\",\"farmerId\":" + userId + "}";
+        Response createResponse = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(recintoBody)
+                .post("/enclosures");
+
+        assertEquals(201, createResponse.getStatusCode(), "No se pudo crear recinto para editar o eliminar");
+
+        enclosureId = createResponse.jsonPath().getInt("id");
+
+        // Verificar que se puede obtener desde la API
+        response = given().header("Authorization", "Bearer " + token)
+                .get("/enclosures/" + enclosureId);
+
+        assertEquals(200, response.getStatusCode(), "El recinto no se pudo visualizar tras crearse");
+        System.out.println("Recinto disponible para editar/eliminar: " + enclosureId);
+    }
+
+
+    @When("seleccione la opción de editar y modifique los datos")
+    public void editar_recinto() {
+        String body = "{\"name\":\"Recinto B\",\"capacity\":15,\"type\":\"Grande\"}";
+        response = given().header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(body)
+                .put("/enclosures/" + enclosureId);
+    }
+
+    @Then("el sistema actualizará la información del recinto")
+    public void sistema_actualiza_recinto() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Recinto actualizado correctamente");
+    }
+
+    @When("seleccione la opción de eliminar")
+    public void eliminar_recinto() {
+        response = given().header("Authorization", "Bearer " + token)
+                .delete("/enclosures/" + enclosureId);
+    }
+
+    @Then("el sistema pedirá confirmación y, al aceptarla, eliminará el recinto")
+    public void sistema_elimina_recinto() {
+        assertEquals(200, response.getStatusCode());
+        System.out.println("Recinto eliminado correctamente");
+    }
+}
+```
+
+**Prueba para US23**
+
+```java
+public class US23Steps {
+    private Response response;
+    private String token;
+    private int userId;
+    private int enclosureId;
+    private int animalId;
+
+    @Given("el usuario accede a la sección de recintos para gestión de animales")
+    public void usuario_accede_seccion_recintos() {
+        baseURI = "http://localhost:8080/api/v1";
+
+        // Login para obtener token y userId
+        String loginJson = "{\"username\":\"farmer@gmail.com\",\"password\":\"123456\"}";
+        response = given()
+                .contentType("application/json")
+                .body(loginJson)
+                .post("/authentication/sign-in");
+
+        assertEquals(200, response.getStatusCode(), "Error al iniciar sesión");
+
+        token = response.jsonPath().getString("token");
+        userId = response.jsonPath().getInt("id");
+
+        assertNotNull(token, "Token no debe ser nulo");
+        assertTrue(userId > 0, "userId inválido");
+
+        // Crear un recinto para asociar animales (si no existe)
+        String enclosureJson = String.format(
+                "{\"name\":\"Recinto Auto\",\"capacity\":10,\"type\":\"Pequeño\",\"farmerId\":%d}",
+                userId
+        );
+
+        Response enclosureResponse = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(enclosureJson)
+                .post("/enclosures");
+
+        assertEquals(201, enclosureResponse.getStatusCode(), "No se pudo crear recinto para asociar animales");
+
+        enclosureId = enclosureResponse.jsonPath().getInt("id");
+        assertTrue(enclosureId > 0, "EnclosureId inválido");
+    }
+
+    @When("complete el formulario con los  datos del animal y seleccione un recinto")
+    public void completar_formulario_animal() {
+        String animalJson = String.format(
+                "{\"name\":\"Animal A\",\"age\":2,\"species\":\"Oveja\",\"breed\":\"Merino\",\"gender\":true,\"weight\":45.0,\"health\":\"HEALTHY\",\"enclosureId\":%d}",
+                enclosureId
+        );
+
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(animalJson)
+                .post("/animals");
+    }
+
+    @Then("el sistema guardará el animal y lo asociará al recinto elegido")
+    public void sistema_guarda_animal() {
+        if (token == null || token.isEmpty() || userId == 0 || enclosureId == 0) {
+            usuario_accede_seccion_recintos();
+        }
+
+        assertEquals(200, response.getStatusCode(), "Código de respuesta incorrecto");
+
+        animalId = response.jsonPath().getInt("id");
+        assertTrue(animalId > 0, "ID del animal no válido");
+
+        System.out.println("Animal registrado correctamente con ID: " + animalId);
+    }
+
+    @Given("el usuario visualiza un animal en la lista")
+    public void usuario_visualiza_animal_lista() {
+        if (token == null || token.isEmpty() || userId == 0 || enclosureId == 0) {
+            usuario_accede_seccion_recintos();
+        }
+
+        // Crear un animal para editar o eliminar
+        String animalJson = String.format(
+                "{\"name\":\"Animal Auto\",\"age\":5,\"species\":\"Caballo\",\"breed\":\"Andaluz\",\"gender\":true,\"weight\":400.5,\"health\":\"HEALTHY\",\"enclosureId\":%d}",
+                enclosureId
+        );
+
+        Response createResponse = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(animalJson)
+                .post("/animals");
+
+        assertEquals(201, createResponse.getStatusCode(), "No se pudo crear animal para editar o eliminar");
+
+        animalId = createResponse.jsonPath().getInt("id");
+        assertTrue(animalId > 0, "ID del animal no válido");
+
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .get("/animals/" + animalId);
+
+        assertEquals(200, response.getStatusCode(), "El animal no se pudo visualizar tras crearse");
+        System.out.println("Animal disponible para editar/eliminar: " + animalId);
+    }
+
+    @When("seleccione la opción de editar y realice los cambios")
+    public void editar_animal() {
+        String animalUpdateJson = String.format(
+                "{\"name\":\"Animal B\",\"age\":3,\"species\":\"Vaca\",\"breed\":\"Holstein\",\"gender\":false,\"weight\":350.0,\"health\":\"SICK\",\"enclosureId\":%d}",
+                enclosureId
+        );
+
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .contentType("application/json")
+                .body(animalUpdateJson)
+                .put("/animals/" + animalId);
+    }
+
+    @Then("el sistema actualizará la información del animal")
+    public void sistema_actualiza_animal() {
+        assertEquals(200, response.getStatusCode(), "No se pudo actualizar la información del animal");
+        System.out.println("Animal actualizado correctamente");
+    }
+
+    @When("seleccione la opción de eliminar el animal")
+    public void eliminar_animal() {
+        response = given()
+                .header("Authorization", "Bearer " + token)
+                .delete("/animals/" + animalId);
+    }
+
+    @Then("el sistema pedirá confirmación y, al aceptarla, eliminará al animal del registro")
+    public void sistema_elimina_animal() {
+        assertEquals(200, response.getStatusCode(), "No se pudo eliminar el animal");
+        System.out.println("Animal eliminado correctamente");
+    }
+}
+```
 
 
 ### 6.1.4. Core System Tests
 
-Se realizaron pruebas de sistema para validar el comportamiento completo de la aplicación tanto en su versión web como móvil. Estas pruebas incluyeron la evaluación de funcionalidades end-to-end (E2E), cubriendo todo el flujo de trabajo del usuario.
+Las pruebas del sistema central se centraron en validar el comportamiento integral de la aplicación, asegurando que los componentes de frontend y backend trabajen de manera fluida y sin errores. Estas pruebas garantizaron que los procesos esenciales, como la navegación, interacción del usuario y la comunicación con los servicios del backend, se ejecuten correctamente dentro del contexto de la aplicación completa.
+
+Para las pruebas de integración del sistema, se utilizó TestBed como herramienta principal, ejecutando pruebas de extremo a extremo (E2E) sobre el frontend desarrollado en Angular. Las pruebas cubrieron los flujos críticos de la aplicación, como la autenticación, la gestión de usuarios y roles, la navegación y validación de los datos visualizados y enviados a la API.
+
+**Autenticación y Gestión de Usuarios**
+
+Se validó el proceso de inicio de sesión, asegurando que los formularios de entrada acepten credenciales válidas, redirijan correctamente al usuario y muestren los mensajes de error adecuados en caso de credenciales incorrectas. Además, se comprobó la creación de usuarios y su correcta asignación a roles, verificando que la información de usuario se refleje correctamente en las interfaces de administración.
+
+**Prueba de Inicio de Sesión y Mensajes de Bienvenida**
+
+```typescript
+describe('AuthenticationApiService', () => {
+  let service: AuthenticationApiService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [AuthenticationApiService]
+    });
+    service = TestBed.inject(AuthenticationApiService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  it('should send correct payload for signUp', () => {
+    const mockUser = { username: 'testuser', password: 'password123', roles: ['ROLE_USER', 'ROLE_ADMIN'] };
+    service.signUp(mockUser.username, mockUser.password, 'ROLE_ADMIN').subscribe(response => {
+      expect(response).toBeTruthy();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/authentication/sign-up`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(mockUser);
+    req.flush({ success: true });
+  });
+
+  it('should send correct payload for signIn and store token', () => {
+    const mockUser = { username: 'testuser', password: 'password123' };
+    const mockToken = 'mock-token';
+    spyOn(service, 'newToken');
+
+    service.signIn(mockUser.username, mockUser.password).subscribe(response => {
+      expect(response).toBeTruthy();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/authentication/sign-in`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(mockUser);
+    req.flush({ token: mockToken });
+
+    expect(service.newToken).toHaveBeenCalledWith(mockToken);
+  });
+
+  it('should return true if user is signed in', () => {
+    localStorage.setItem('isLogged', 'true');
+    expect(service.isSignedIn()).toBeTrue();
+  });
+
+  it('should return false if user is not signed in', () => {
+    localStorage.setItem('isLogged', 'false');
+    expect(service.isSignedIn()).toBeFalse();
+  });
+});
+```
+
+```typescript
+describe('LoginComponent', () => {
+  let component: LoginComponent;
+  let fixture: ComponentFixture<LoginComponent>;
+  let snackBar: jasmine.SpyObj<MatSnackBar>;
+  let authenticationApiService: jasmine.SpyObj<AuthenticationApiService>;
+  let profileApiService: jasmine.SpyObj<ProfileApiService>;
+
+  beforeEach(async () => {
+    authenticationApiService = jasmine.createSpyObj('AuthenticationApiService', ['signIn']);
+    profileApiService = jasmine.createSpyObj('ProfileApiService', ['getProfileByUserId']);
+    snackBar = jasmine.createSpyObj('MatSnackBar', ['open']);
+
+    await TestBed.configureTestingModule({
+      imports: [
+        LoginComponent,
+        ReactiveFormsModule,
+        HttpClientTestingModule,
+        RouterTestingModule,
+        BrowserAnimationsModule
+      ],
+      providers: [
+        { provide: MatSnackBar, useValue: snackBar },
+        { provide: AuthenticationApiService, useValue: authenticationApiService },
+        { provide: ProfileApiService, useValue: profileApiService }
+      ]
+    }).compileComponents();
+
+    fixture = TestBed.createComponent(LoginComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should show a success message when login succeeds', fakeAsync(() => {
+    authenticationApiService.signIn.and.returnValue(of({ id: 1, username: 'john_doe', token: 'valid_token' }));
+    profileApiService.getProfileByUserId.and.returnValue(of({
+      id: 1, userId: 1, firstName: 'John', lastName: 'Doe', city: 'string', country: 'string',
+      birthDate: 'string', description: 'string', photo: 'string', occupation: '', experience: 0
+    }));
+    component.loginForm.controls['email'].setValue('farmer@example.com');
+    component.loginForm.controls['password'].setValue('validpassword');
+    fixture.detectChanges();
+
+    component.login();
+    tick(); // Simulate the passage of time for async operations
+
+    expect(snackBar.open).toHaveBeenCalledWith('Bienvenid@ John 🤗', 'Cerrar', { duration: 2000 });
+  }));
+
+  it('should show an error message when login fails', fakeAsync(() => {
+    authenticationApiService.signIn.and.returnValue(throwError(() => new Error('Invalid credentials')));
+    component.loginForm.controls['email'].setValue('wrong@example.com');
+    component.loginForm.controls['password'].setValue('wrongpassword');
+    fixture.detectChanges();
+
+    component.login();
+    tick(); // Simulate the passage of time for async operations
+
+    expect(snackBar.open).toHaveBeenCalledWith('Error. Credenciales no encontradas😥', 'Cerrar', { duration: 3000 });
+  }));
+});
+```
+
+**Pruebas de CRUD**
+
+```typescript
+// Para la gestión de citas (Appointments)
+describe('AppointmentApiService', () => {
+  let service: AppointmentApiService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [AppointmentApiService]
+    });
+    service = TestBed.inject(AppointmentApiService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  it('should fetch appointments by farmer ID', () => {
+    const farmerId = 1;
+
+    service.getAppointmentsByFarmerId(farmerId).subscribe(appointments => {
+      expect(appointments).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/appointments?farmerId=${farmerId}`);
+    expect(req.request.method).toBe('GET');
+  });
+
+  it('should fetch appointment by ID', () => {
+    const appointmentId = 1;
+
+    service.getOne(appointmentId).subscribe(appointment => {
+      expect(appointment).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/appointments/${appointmentId}`);
+    expect(req.request.method).toBe('GET');
+  });
+
+  it('should create a new appointment', () => {
+    const newAppointment = { id: 1, farmerId: 1, message: 'Help with irrigation', availableDateId: 1, status: 'PENDING', meetingUrl: 'http://example.com/meeting' };
+
+    service.create(newAppointment).subscribe(appointment => {
+      expect(appointment).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/appointments`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(newAppointment);
+  });
+});
+```
+
+```typescript
+// Para la gestión de perfiles (Profiles)
+describe('ProfileApiService', () => {
+  let service: ProfileApiService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [ProfileApiService]
+    });
+    service = TestBed.inject(ProfileApiService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  afterEach(() => {
+    httpMock.verify();
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+
+  it('should fetch profile by user ID', () => {
+    const userId = 1;
+
+    service.getProfileByUserId(userId).subscribe(profile => {
+      expect(profile).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/profiles/${userId}/user`);
+    expect(req.request.method).toBe('GET');
+  });
+
+  it('should create a new profile', () => {
+    const newProfile = {id: 1, userId: 1, firstName: 'John', lastName: 'Doe', city: 'Lima', country: 'Peru',
+      birthDate: '1980-01-01', description: 'Hello, I am an advisor.', photo: 'photo-url', occupation: 'Farm manager', experience: 10 };
+
+    service.create(newProfile).subscribe(profile => {
+      expect(profile).toBeDefined();
+    });
+
+    const req = httpMock.expectOne(`http://localhost:8080/api/v1/profiles`);
+    expect(req.request.method).toBe('POST');
+    expect(req.request.body).toEqual(newProfile);
+  });
+});
+```
+
+![System Tests](img/system-tests.png)
+
+_Imagen 213. Pruebas de Sistema_
+
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+Durante el desarrollo de la aplicación, se establecieron y aplicaron estándares de codificación específicos para cada tecnología utilizada en el proyecto. Para el frontend web con Angular, se emplearon las convenciones recomendadas por la comunidad de TypeScript junto con herramientas como ESLint, que permitieron asegurar un estilo de código uniforme, legible y mantenible. En el desarrollo móvil con Kotlin, se siguieron las guías oficiales de codificación proporcionadas por JetBrains, haciendo énfasis en la claridad, la nomenclatura adecuada de variables y funciones, y la correcta indentación del código.
+
+Para el backend en Spring Boot, se aplicaron las buenas prácticas de desarrollo en Java, asegurando un uso correcto de estructuras de control, modularización del código y comentarios descriptivos cuando fueron necesarios. Estas convenciones permitieron mantener una base de código coherente entre los distintos integrantes del equipo y facilitaron la revisión y el mantenimiento del proyecto.
+
+Además, se implementaron principios de diseño de software para mejorar la calidad del código y su seguridad:
+
+-	Clean Code: Es fundamental utilizar nombres claros y descriptivos para variables, funciones y clases. Las funciones deben ser cortas y enfocarse en una sola responsabilidad, eliminando el código muerto y los comentarios innecesarios. Este enfoque contribuye a una mayor comprensión y facilita la colaboración entre desarrolladores.
+
+-	Domain-Driven Design (DDD): Se debe emplear un lenguaje ubicuo que refleje los términos del negocio. Es esencial dividir el sistema en bounded contexts y utilizar entidades y objetos de valor de manera apropiada. Además, la lógica del dominio debe ser gestionada a través de servicios de dominio y repositorios, lo que promueve una arquitectura más organizada y alineada con los objetivos del negocio.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Con el objetivo de asegurar un código de alta calidad y libre de vulnerabilidades, se llevó a cabo un proceso continuo de análisis estático y revisión manual del código, apoyado por herramientas como ESLint y SonarQube. Estas herramientas permitieron identificar problemas de complejidad excesiva, duplicación de lógica, código no utilizado, y otras prácticas que afectan la mantenibilidad del sistema.
+
+En el ámbito de la seguridad del código, se detectaron y abordaron varias vulnerabilidades durante el desarrollo:
+
+**Inyección SQL:** En el backend desarrollado con Spring Boot, se refactoró el código utilizando consultas preparadas con parámetros (PreparedStatement) y consultas JPQL seguras en los repositorios de JPA.
+
+**Cross-Site Scripting (XSS):** En la aplicación web (Angular), se detectaron puntos vulnerables a XSS donde se insertaba contenido dinámico en el DOM sin sanitización previa. Para ello, utilizaremos DomSanitizer, el cual incluye las funciones de sanitización automática de Angular. Así, evitaremos el uso de innerHTML cuando no era estrictamente necesario.
+
+**Manejo inseguro de autenticación y sesiones:** En la integración entre frontend, backend y la app móvil, se verificó que los tokens JWT utilizados para autenticación eran enviados de forma segura mediante el encabezado HTTP Authorization. Se establecieron tiempos de expiración apropiados para los tokens y se implementó la renovación de sesión controlada.
+
+Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema y reducir el riesgo de ataques comunes en aplicaciones web y móviles. Estas medidas se mantendrán en futuras fases de desarrollo mediante procesos automatizados de análisis y validación en cada etapa del pipeline de integración continua.
+
+### 6.2.2. Reviews
+
+Las revisiones de código son un proceso fundamental para garantizar la calidad y la conformidad con las normas establecidas. Este proceso implica tanto revisiones manuales como automáticas y debe seguir ciertas pautas:
+
+Tipos de Revisiones:
+-	Revisión de Código por Pares: Un desarrollador revisa el código de otro desarrollador para garantizar que cumpla con los estándares y sea comprensible.
+-	Revisión de Código Formal: Incluye una reunión estructurada donde se evalúa el código con un checklist, lo que permite detectar problemas en grupo.
+-	Revisión Automática: Utilización de herramientas como ESLint y SonarQube para detectar errores y problemas de calidad en tiempo real.
+
+Proceso de Revisión:
+-	Creación de Pull Requests: Los desarrolladores deben crear un PR que incluya una descripción clara de los cambios realizados y las pruebas asociadas.
+-	Checklist de Revisión: Debe existir una lista de verificación que cubra aspectos como la claridad del código, la cobertura de pruebas y el manejo de errores.
+-	Comentarios y Feedback: Los revisores deben proporcionar comentarios constructivos y específicos, y cualquier problema identificado debe ser abordado antes de la aprobación final.
+-	Aprobación o Rechazo de PR: El PR debe ser aprobado por al menos un revisor adicional antes de fusionarse en la rama principal.
+Criterios de Aceptación:
+-	Calidad y Seguridad del Código: El código debe cumplir con los estándares de calidad y no introducir vulnerabilidades de seguridad.
+-	Cobertura de Pruebas: Se requiere una cobertura mínima de pruebas (por ejemplo, 80%) para asegurar que el código nuevo esté adecuadamente probado.
+Frecuencia de Revisiones: 
+Se deben realizar revisiones de código de forma regular, preferiblemente al final de cada sprint o en intervalos definidos, para asegurar que el código no se acumule y se mantenga la calidad.
 
 
-Estas validaciones garantizaron que el sistema respondiera correctamente en un entorno real de producción, cumpliendo con los requisitos de calidad, usabilidad y rendimiento definidos desde el inicio del proyecto.
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+Se realizarán entrevistas a los usuarios finales para validar la funcionalidad de la aplicación. Se realizarán entrevistas a los granjeros y asesores que son altamente beneficiados con nuestra solución.
+
+Para estas entrevistas de validación, se mostrará la Landing Page desarrollada y la aplicación web y móvil.
+
+**Preguntas sobre Landing Page**
+
+- ¿Encuentras útil la información presentada en la landing page?
+- ¿La información en la sección "Sobre Nosotros" te ayuda a confiar en la plataforma?
+- ¿Consideras que la información proporcionada es clara y concisa, o percibes que hay demasiada o muy poca?
+- ¿Qué opinas sobre la organización y disposición de los elementos en la página?
+- ¿Los elementos visuales, como imágenes y colores, son atractivos y relevantes?
+- ¿Es fácil comprender la naturaleza de nuestro producto al revisar la página?
+
+**Preguntas sobre la Aplicación**
+
+**Para Granjeros**
+
+Se considerará los userflows de:
+- Creación de cuenta e inicio de sesión
+- Interacción con la sección de citas
+- Interacción con la sección de asesores
+- Interacción con la sección de publicaciones
+- Interacción con la sección de recintos
+- Interacción con la sección de notificaciones
+- Interacción con la sección de perfil de usuario
+
+Preguntas:
+- ¿Qué opinas de la forma de ver las calificaciones y opiniones sobre un asesor?
+- ¿Te resulta fácil utilizar la opción de búsqueda de asesores en la plataforma?
+- ¿Te parece que la funcionalidad para agendar una cita con un asesor es intuitiva y fácil de usar?
+- ¿Te parece ordenada la forma en la que puedes revisar tus citas de la plataforma?
+- ¿Encuentras útil la opción de calificar a un asesor después de una cita?
+- ¿Qué opinas de la opción de cancelar una cita en la aplicación?
+- ¿Te resulta fácil modificar tu perfil de usuario en la aplicación?
+- ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
+
+**Para Asesores**
+
+Se considerará los userflows de:
+- Creación de cuenta e inicio de sesión
+- Interacción con la sección de citas
+- Interacción con la sección de mis publicaciones
+- Interacción con la sección de horarios de disponibilidad
+- Interacción con la sección de notificaciones
+- Interacción con la sección de perfil de usuario
+
+Preguntas:
+- ¿Qué opinas de la forma de recibir notificaciones de recordatorios de citas próximas?
+- ¿Qué tan fácil te parece gestionar y organizar tus próximas citas usando la plataforma?
+- ¿Te parece ordenada la forma en la que puedes revisar tus citas de la plataforma?
+- ¿Cómo evalúas la facilidad de uso para crear publicaciones en la plataforma?
+- ¿Qué opinas de la forma de agregar tus horarios de disponibilidad en la plataforma?
+- ¿Qué opinas de la opción de cancelar una cita en la aplicación?
+- ¿Te resulta fácil modificar tu perfil de usuario en la aplicación?
+- ¿Te parece que la organización de la aplicación se entiende y comprende fácilmente?
+
+### 6.3.2. Registro de Entrevistas
+
+**Segmento: Granjero con poca experiencia**
+
+**Entrevista 1**
+
+**Entrevistador:** André La torre
+
+**Entrevistado:** Pedro Ramos
+
+**Enlace a entrevista:** https://youtu.be/jBAWRKVgvvU
+
+<img alt="Entrevista con Pedro Ramos" src="img/entrevista-validacion-granjero-1.png">
+
+_Imagen 214. Entrevista de validación con Pedro Ramos_
+
+**Resumen:**
+En esta entrevista, Pedro Ramos comentó que la información presentada en la landing page le pareció útil y clara, destacando que la sección "Sobre Nosotros" le generó confianza en la plataforma. Señaló que el contenido está bien distribuido y no resulta excesivo, aunque sugirió incorporar elementos más visuales como videos explicativos. También valoró positivamente los colores e imágenes utilizados por ser agradables y relacionados con el ámbito agrícola. En cuanto a la aplicación, Pedro consideró útil la visualización de calificaciones y opiniones de los asesores, y le resultó fácil buscar expertos, aunque recomendó incluir filtros por tipo de cultivo. Opinó que agendar citas es un proceso intuitivo, y la sección para revisar citas le pareció ordenada. Destacó la opción de calificar y cancelar citas como herramientas necesarias. Además, indicó que modificar el perfil fue sencillo y que la organización general de la aplicación es comprensible y práctica para un usuario con poca experiencia.
+
+**Entrevista 2**
+
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Marcelo Neyra
+
+**Enlace a entrevista:** https://youtu.be/EP88Jk11Hlk
+
+<img alt="Entrevista con Marcelo Neyra" src="img/entrevista-validacion-granjero-2.png">
+
+_Imagen 215. Entrevista de validación con Marcelo Neyra_
+
+**Resumen:**
+Marcelo Neyra comentó que encontró la información presentada en la landing page útil, especialmente en la sección "Sobre Nosotros," lo cual le inspiró confianza en la plataforma. Sin embargo, sugirió que el contenido podría ser más breve para facilitar la lectura. También mencionó que la barra de navegación y el pie de página le parecieron demasiado grandes, lo cual afectaba la estética.
+En cuanto a la aplicación, Marcelo consideró interesante la forma de ver las calificaciones y opiniones de los asesores y le resultó fácil utilizar la opción de búsqueda. Opinó que la funcionalidad para agendar citas es intuitiva y que la organización para revisar citas es adecuada. Además, destacó la utilidad de la opción de calificar a un asesor después de una cita y calificó positivamente la opción de cancelar citas. Afirmó que le resulta sencillo modificar su perfil y percibe que la organización general de la aplicación es fácil de comprender.
+
+----
+
+**Entrevista 3**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Anderson Gonza
+
+**Enlace a entrevista:** https://youtu.be/qie9o2Rvn4Y
+
+<img alt="Entrevista con Anderson Gonza" src="img/entrevista-validacion-granjero-3.png">
+
+_Imagen 216. Entrevista de validación con Anderson Gonza_
+
+**Resumen:**
+En esta entrevista con Anderson, se le presentó la landing page y la aplicación móvil de AgroTech. Anderson consideró que la información de la landing page es útil y clara para que cualquier persona pueda entender rápidamente sobre de lo que trata la aplicación. En la aplicación, Anderson encontró útil la forma de ver las calificaciones y opiniones de los asesores, así como la opción de búsqueda. Consideró que la funcionalidad para agendar citas es intuitiva y que la organización de la aplicación es fácil de comprender. Opinó que la opción de calificar a un asesor después de una cita es útil y que la opción de cancelar citas es sencilla de utilizar. En general, percibió la aplicación está bien organizada y es fácil de usar.
+
+----
+
+**Segmento: Asesor experto**
+
+**Entrevista 1**
+
+**Entrevistador:** Sergio Pecan
+
+**Entrevistado:** -Yudi Pariona
+
+**Enlace a entrevista:** -https://drive.google.com/file/d/102mdHO_ER4ZH1q-jE8CPOYDko0L869oc/view?usp=sharing
+
+<img alt="Entrevista con Yudi" src="img/entrevista-validacion-asesor-1.png">
+
+_Imagen 217. Entrevista de validación con Yudi_
+
+**Resumen:**
+Yudi considera que la landing page es clara, pero necesita ver precios y casos reales para confiar más. Sugiere reemplazar imágenes de stock por fotos auténticas. Sobre la app, destaca lo intuitivo de agendar y revisar citas, pero pide mejores filtros por cultivo y clima. Valora poder calificar asesores y sugiere añadir fotos. Cancelar es fácil, aunque poco clara la penalización. En general, ve valor en la plataforma y nota que mejora con el uso.
+
+----
+
+**Entrevista 2**
+
+**Entrevistador:** Britney Qqueso
+
+**Entrevistado:** Arnold Vargas
+
+**Enlace a entrevista:** https://youtu.be/EnyzLlLAlc0
+
+<img alt="Entrevista con Arnold Vargas" src="img/entrevista-validacion-asesor-2.png">
+
+_Imagen 218. Entrevista de validación con Arnold Vargas_
+
+**Resumen:**
+En esta entrevista con Arnold, se le presentó la landing page y la aplicación web de AgroTech. Arnold consideró la landing page útil, clara y concisa, generando confianza y permitiendo comprender rápidamente el producto gracias a su diseño agradable e intuitivo. En cuanto a la aplicación web, destacó la utilidad de las notificaciones de citas y la facilidad para gestionar citas y publicaciones. En general, la percibió como una herramienta intuitiva, fácil de usar y bien organizada. Como sugerencias, propuso integrar comentarios en las publicaciones y añadir enlaces a redes profesionales (como LinkedIn) en los perfiles para brindar mayor información y confianza a los granjeros.
+
+----
+
+**Entrevista 3**
+
+**Entrevistador:** Piero Delgado
+
+**Entrevistado:** Adrian Espinoza
+
+**Enlace a entrevista:** https://youtu.be/078AzxKUxCQ
+
+<img alt="Entrevista con X" src="img/entrevista-validacion-asesor-3.png">
+
+_Imagen 219. Entrevista de validación con Adrian Espinoza_
+
+**Resumen:**
+En esta entrevista, Adrián Espinoza encuentra la landing page como una buena forma de concientizar sobre el problema de la gestión de granjas, la información proporcionada le permite conocer más sobre la aplicación y menciona que le da confianza conocer quienes son las personas detrás del aplicativo. Asimismo, menciona que estéticamente la landing es atractiva y los elementos están bien distribuidos. Por otro lado, menciona que la aplicación que es intuitiva y fácil de manejar, y que las funcionalidades cubren sus necesidades y son útiles.
+
+### 6.3.3. Evaluaciones según heurísticas
+
+**Site o App a Evaluar:** AgroTech
+
+**Tareas a evaluar:**
+
+El alcance de esta evaluación incluye la revisión de usabilidad de las siguientes tareas:
+1. Acceder a la aplicación desde la landing page
+2. Enviar un mensaje de contacto desde la landing page
+1. Crear cuenta en la aplicación
+2. Inicio de sesión
+3. Visualizar y gestionar citas
+4. Visualizar y gestionar recintos
+5. Visualizar información de asesores
+6. Visualizar publicaciones
+7. Visualizar y gestionar perfil de usuario
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. Recuperación de cuenta
+
+**ESCALA DE SEVERIDAD:**
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+|***Nivel***|***Descripción***|
+| :-: | :-: |
+|*1*|*Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.*|
+|*2*|*Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase*|
+|*3*|*Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.*|
+|*4*|*Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.*|
+
+**TABLA DE RESUMEN:**
+
+|**#**|**Problema**|**Escala de severidad**|**Heurística/principio violada(o)**|
+| :- | :- | :- | :- |
+|1| El formulario de contacto no confirma el envío del mensaje | 3 | Usability: Visibility of system status |
+|2| El formulario de registro no cuenta con agrupación visual de campos | 2 | Usability: Aesthetic and minimalist design |
+|3| Inconsistencia de términos en la página de recintos | 2 | Usability: Consistency and standards |
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** El formulario de contacto no confirma el envío del mensaje
+
+**Severidad:** 2
+
+**Heurística violada:** Usability: Visibility of system status
+
+**Problema**: Cuando el usuario envía un mensaje a través del formulario de contacto en la landing page, no recibe ninguna confirmación de que su mensaje ha sido enviado y solo se reinicia el formulario.
+
+**Imagen:**
+
+<img src="img/heuristics1.png" width="600px">
+
+_Imagen 220. Heuristica 1_
+
+**Recomendación:** Implementar un mensaje de confirmación que se muestre al usuario después de enviar el formulario, indicando que su mensaje ha sido enviado correctamente.
+
+-----
+
+**PROBLEMA #2:** El formulario de registro no cuenta con agrupación visual de campos
+
+**Severidad:** 2
+
+**Heurística violada:** Usability: Aesthetic and minimalist design
+
+**Problema**: Al momento de registrarse en la aplicación, el formulario simplemente muestra los campos de entrada en una sola línea, lo que puede dificultar la comprensión de los campos requeridos y la organización visual del formulario. Esto puede llevar a confusión y errores al completar el registro.
+
+**Imagen:**
+
+<img src="img/heuristics2.png" width="600px">
+
+_Imagen 221. Heuristica 2_
+
+**Recomendación:** Organizar los campos del formulario de registro en grupos lógicos, utilizando etiquetas claras y separadores visuales para mejorar la legibilidad y la usabilidad.
+
+-----
+
+**PROBLEMA #3:** Inconsistencia en términos en la página de recintos
+
+**Severidad:** 2
+
+**Heurística violada:** Usability: Consistency and standards
+
+**Problema**: En la página de listado de recintos, hay una inconsistencia en los términos. En caso no haya ningún recinto registrado, se muestra el mensaje "No se han encontrado jaulas". Esto puede generar confusión en los usuarios, ya que el término "jaulas" no es el más adecuado para referirse a los recintos en el contexto de la aplicación.
+
+**Imagen:**
+
+<img src="img/heuristics3.png" width="600px">
+
+_Imagen 222. Heuristica 3_
+
+**Recomendación:** Cambiar el término "jaulas" por "recintos" en el mensaje de la página de recintos para mantener la consistencia con el resto de la aplicación y evitar confusiones.
+
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada
+
+#### 6.4.1.1. Información del grupo auditado
+
+**Nombre del grupo auditado:** CodeMinds
+
+**Proyecto auditado:** RutaKids
+
+**Segmento objetivo evaluado:** Directivos escolares/Padres de familia
+
+**Integrantes del grupo auditado:**
+- Luis Eduardo Herrera González
+- Abel Angel Ortega Huaraca
+- Franky Oswald Mallma Espiritu
+- Belen del Rocio Ramos Rios
+- Ariana Vargas Revollé
+- Mateo Alejandro Vilchez Rios
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+| Fecha | Actividad | Responsable |
+| :---: | :---: | :---: |
+| 19-06-2025 | Reunión de coordinación con grupo auditado | Miembros de ambos equipos |
+| 19-06-2025 | Evaluación de heurísticas | InnovaTech |
+| 19-06-2025 | Discusión de hallazgos y entrega de recomendaciones | InnovaTech |
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+**a) Criterios utilizados**
+
+La auditoría se basó en los siguientes principios de evaluación:
+-	Usabilidad (heurísticas de Nielsen)
+- Diseño inclusivo
+-	Arquitectura de información
+-	Accesibilidad visual y funcional
+-	Percepción de confianza
+
+Se empleó la plantilla de evaluación heurística proporcionada en el curso, adaptando las observaciones según el contexto del proyecto RutaKids.
+
+
+**b) Interfaz(es) evaluadas**
+
+**1. Landing Page – https://llantatech.org.pe/**
+
+Se analizó la claridad de la propuesta de valor, la estructura del contenido, la efectividad de los llamados a la acción (CTAs) y el nivel de confianza que transmite. Además, se examinó el diseño visual, la jerarquía tipográfica y el estilo del lenguaje empleado en los textos para verificar si resulta relevante y comprensible para los distintos tipos de usuarios.
+
+Hallazgos:
+-	La propuesta de valor se comprende desde el inicio.
+-	Se identificaron buenas prácticas en cuanto a diseño visual: uso coherente de colores, adecuada jerarquía tipográfica, espacios en blanco bien distribuidos que favorecen la lectura, imágenes de calidad alineadas con el mensaje de la marca, diseño responsive que se adapta correctamente a distintos dispositivos.
+
+**2. Aplicación Web –  https://rutakids-webapp-angular18.onrender.com/authentication/sign-in**
+
+Se evaluaron los siguientes flujos principales:
+-	Inicio de sesión
+-	Dashboard principal
+-	Módulo de estudiantes
+-	Módulo de movilidad
+-	Módulo de rutas
+-	Módulo de notificaciones
+-	Módulo de correos
+-	Módulo de perfil
+-	Módulo de configuración
+-	Navegación y estructura de menús laterales
+
+Hallazgos:
+- La navegación es clara y consistente, con menús laterales bien estructurados.
+- El dashboard principal proporciona una visión general clara de las funcionalidades disponibles.
+- Los módulos de estudiantes, movilidad y rutas están bien organizados, permitiendo un acceso rápido a la información relevante.
+
+**c) Resultados de la auditoría basada en heurísticas**
+
+A continuación, se presentan los principales hallazgos encontrados durante la evaluación heurística de las interfaces del proyecto RutaKids, agrupados según los principios de usabilidad de Nielsen y arquitectura de información. Cada problema identificado incluye su severidad y una recomendación específica para su mejora.
+
+|#|Problema|Severidad|Heurística violada|Recomendación|Ubicación|
+| :-: | :- | :-: | :- | :- | :- |
+|1|El botón CTA para iniciar sesión no funciona|2|Arquitectura de Información: ¿Es utilizable?|Agregar la url de la aplicación para que sea redirigido.|Landing Page|
+|2|La sección FAQ no cuenta con información relevante|3|Usabilidad: Ayuda y Documentación|Agregar preguntas frecuentes que respondan a las dudas comunes de los usuarios.|App Web|
+|3|La sección de correo no funciona correctamente|3|Arquitectura de Información: ¿Es controlable? |Corregir el enlace para que los usuarios puedan enviar correos electrónicos.|App Web|
+|4|El formulario de registro de una movilidad no valida correctamente los campos|2|Usabilidad: Prevención de errores|Implementar validaciones en los campos del formulario para evitar errores al enviar.|App Web|
+|5|Falta consistencia en el lenguaje utilizado en la aplicación, muestra mensajes en español e inglés.|3|Usabilidad: Consistencia y estándares|Unificar el lenguaje utilizado en toda la aplicación para evitar confusiones, e implementar correctamente internacionalización (i18n) para soportar múltiples idiomas.|App Web|
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+**Nombre del grupo auditado:** SuperMedStartUp
+
+**Integrantes del grupo auditor:**
+- Astrid Jimena Boronda Heidinger
+- Luis Sebastian Chinchihualpa Saldarriaga
+- Juan Eduardo Montes Figueroa
+- Adrián Enrique Jesús Palma Obispo
+- Erick Joaquin Palomino Santa Cruz
+- Eduardo Renato Ventura Chancafe
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+| Fecha | Actividad | Responsable |
+| :---: | :---: | :---: |
+| 19-06-2025 | Reunión de coordinación con grupo auditado | Miembros de ambos equipos |
+| 19-06-2025 | Envío de artefactos a revisar | InnovaTech |
+| 19-06-2025 | Recepción de auditoría | InnovaTech |
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 # Capítulo VII: DevOps Practices
 
@@ -4372,23 +6400,32 @@ La integración continua (CI) es una práctica que permite a los desarrolladores
 
 Para la integración continua, hemos utilizado las siguientes herramientas que nos permiten automatizar el proceso de compilación y validación de nuestro backend desarrollado con Spring Boot:
 
-- GitHub: Es el sistema de control de versiones empleado para gestionar nuestro código fuente. Su integración con Jenkins permite detectar automáticamente nuevos cambios en las ramas del repositorio.
+- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Se ha integrado con GitHub Actions para automatizar la ejecución del flujo de integración continua en cada push o pull request.
 
-- Maven: Utilizado como herramienta de construcción para compilar el proyecto y gestionar dependencias.
+- Maven: Herramienta de construcción empleada para compilar el proyecto, ejecutar pruebas y gestionar las dependencias.
 
-- JUnit: Framework para realizar pruebas unitarias automatizadas del backend.
+- JUnit: Framework utilizado para implementar y ejecutar pruebas unitarias automatizadas que validan el correcto funcionamiento de los componentes del backend.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
-El pipeline de integración continua se compone de las siguientes etapas:
+El pipeline de integración continua implementado con GitHub Actions sigue este flujo:
 
-- Compilación del proyecto: A través de Maven, se genera el artefacto .jar del backend Spring Boot.
+1. Checkout del código fuente: Se utiliza la acción actions/checkout para clonar el repositorio y obtener el estado actual del código.
 
-- Ejecución de pruebas unitarias: Se ejecutan automáticamente con JUnit como parte del pipeline.
+2. Configuración del entorno de ejecución: Se instala el JDK mediante actions/setup-java con las necesidades del proyecto Spring Boot.
 
-- Análisis de calidad de código: Se utiliza SonarQube para medir cobertura de pruebas, complejidad y detección de vulnerabilidades.
+3. Restauración de dependencias y compilación: Se restauran las dependencias mediante el sistema de caché de Maven (actions/cache) y se ejecuta mvn clean install para compilar el proyecto y preparar los artefactos necesarios.
 
-- Notificación de fallos: Si una etapa falla, Jenkins envía alertas al equipo para su corrección inmediata.
+4. Ejecución de pruebas unitarias: Utilizando mvn test, se ejecutan automáticamente las pruebas definidas con JUnit para asegurar la validez del código.
+
+5. Reporte de resultados: El resultado del workflow se muestra directamente en GitHub, indicando si el pipeline fue exitoso o si se detectaron errores. En caso de fallo, se detiene el proceso y se notifica al equipo mediante el estado del pull request.
+
+![Continuous Integration Pipeline](img/ci-pipeline.png)
+
+_Imagen 2XX. Diagrama del Pipeline de Integración Continua_
+
+![Continuous Integration Pipeline Evidence](img/ci-pipeline-evidence.png)
+_Imagen 2XX. Evidencia del Pipeline de Integración Continua_
 
 ## 7.2. Continuous Delivery
 
@@ -4398,23 +6435,39 @@ La entrega continua (CD) asegura que el software siempre esté listo para ser de
 
 Para la entrega continua, utilizamos las siguientes herramientas y prácticas:
 
-- Jenkins: Herramienta de automatización de código abierto elegida por su capacidad para gestionar eficientemente pipelines de CI/CD. Su versatilidad permite a los equipos de desarrollo automatizar procesos clave como la compilación, pruebas y despliegue continuo, lo que mejora la calidad del software y acelera su entrega. Además, ofrece flexibilidad y personalización para adaptarse a distintos entornos de desarrollo.
+- GitHub: Sistema de control de versiones utilizado para gestionar el código fuente del proyecto. Además, permite configurar flujos de automatización a través de GitHub Actions.
+
+GitHub Actions: Plataforma de automatización nativa de GitHub usada para implementar el pipeline de entrega continua. Permite definir workflows que se activan automáticamente al detectar cambios en el repositorio.
+
+- Maven: Herramienta de construcción empleada para compilar el proyecto, ejecutar pruebas y gestionar las dependencias.
+
+- Docker: Utilizado para crear contenedores que encapsulan el backend de Spring Boot, facilitando su despliegue en diferentes entornos.
+
+- Docker Hub: Registro de imágenes Docker donde se almacenan las imágenes generadas del backend, permitiendo su fácil acceso y despliegue.
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
 Los componentes del pipeline de entrega continua incluyen:
 
-- Compilación y empaquetado: Se genera el .jar del backend con Maven.
+- Trigger del pipeline: El workflow se activa automáticamente cuando se detectan cambios en la rama main del repositorio.
 
-- Creación de imagen Docker: Se construye una imagen que contiene el backend Spring Boot.
+- Checkout del código fuente: GitHub Actions utiliza la acción actions/checkout para clonar el repositorio en el entorno de ejecución.
 
-- Publicación de imagen: La imagen se sube al Docker Hub o a un registro privado.
+- Preparación del entorno: Se configura el entorno con el JDK 22, Maven y Docker, necesarios para compilar y empaquetar el proyecto.
 
-- Despliegue en entorno staging: Jenkins realiza el despliegue automático en un entorno de prueba.
+- Compilación del proyecto: Se ejecuta mvn clean package para compilar el código fuente de Spring Boot y generar el archivo .jar, incluyendo la ejecución de pruebas.
 
-- Testing: Se ejecutan pruebas funcionales básicas para validar el correcto funcionamiento.
+- Construcción del artefacto Docker: Se ejecuta docker build para generar una imagen que contiene el backend empaquetado, garantizando portabilidad y consistencia.
 
-- Aprobación manual: Antes de pasar a producción, se requiere validación por parte del equipo.
+- Push a Docker Hub: La imagen generada se sube automáticamente a un repositorio privado en Docker Hub, lista para ser desplegada en producción.
+
+![Continuous Delivery Pipeline](img/cd-pipeline.png)
+
+_Imagen 2XX. Diagrama del Pipeline de Entrega Continua_
+
+![Continuous Delivery Pipeline Evidence](img/cd-pipeline-evidence.png)
+
+_Imagen 2XX. Evidencia del Pipeline de Entrega Continua_
 
 ## 7.3. Continuous deployment
 
@@ -4424,31 +6477,456 @@ El despliegue continuo automatiza completamente el paso del software a producci�
 
 Para el despliegue continuo, utilizamos las siguientes herramientas y prácticas:
 
-- Sistema de control de versiones: Utilizamos Git para llevar un seguimiento y administración del código fuente de la aplicación.
+GitHub: Sistema de control de versiones que gestiona el código fuente del proyecto y ejecuta automáticamente los workflows de integración y despliegue.
 
-- Pruebas automatizadas: Incorporamos pruebas automáticas (como pruebas unitarias de integración, de regresión, entre otras) con el objetivo de asegurar que el software cumple con los criterios de calidad antes de ser desplegado.
+GitHub Actions: Plataforma de automatización que orquesta el pipeline completo, desde la compilación del proyecto, la construcción de la imagen Docker, su subida a Docker Hub y finalmente el despliegue a producción mediante hooks de Render.
 
-- Ambientes de desarrollo y pruebas: Se mantienen entornos de desarrollo y prueba que replican lo más fielmente posible el entorno de producción, con el fin de evitar inconvenientes al momento del despliegue.
+Docker: Utilizado para empaquetar el backend de Spring Boot en contenedores que aseguran consistencia en los diferentes entornos.
 
-- Pipeline automatizado de despliegue: Se implementa un flujo automatizado que contempla etapas como la compilación, ejecución de pruebas y despliegue tanto en entornos de preproducción como en producción.
+Docker Hub: Registro de contenedores que almacena la imagen generada y sirve como fuente para el despliegue en producción.
 
-- Monitoreo y retroalimentación: Se integran herramientas de monitoreo y registro de logs para observar el rendimiento y la estabilidad de la aplicación en producción, permitiendo detectar y solucionar problemas de manera inmediata.
+Render: Plataforma de hosting que detecta los cambios mediante un Deploy Hook y despliega automáticamente la nueva versión del backend.
 
 ### 7.3.2. Production Deployment Pipeline Components
 
-- Compilación (Build): En esta fase, el código fuente se transforma en artefactos listos para ser desplegados en el entorno de producción.
+Los componentes del pipeline de despliegue continuo incluyen:
 
-- Pruebas (Testing): Se ejecutan pruebas automatizadas para verificar que la aplicación cumple con los estándares de calidad y que no se han introducido errores nuevos.
+- Trigger del pipeline: Se activa automáticamente cuando hay cambios en la rama main.
 
-- Entorno de Preproducción (Staging): Antes del despliegue final, se realiza una implementación en un entorno de preproducción para llevar a cabo pruebas adicionales y recibir validación por parte de usuarios beta.
+- Compilación y pruebas: GitHub Actions compila el proyecto, ejecuta los tests y construye la imagen Docker.
 
-- Despliegue en Producción (Production Deployment): El código se lanza al entorno de producción mediante un proceso automatizado.
+- Push a Docker Hub: La imagen se sube al repositorio de Docker Hub como artefacto final.
 
-- Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se supervisa de forma continua el comportamiento y la estabilidad del sistema para detectar y resolver posibles incidencias en tiempo real.
+- Despliegue a producción: Se invoca el Deploy Hook de Render desde un workflow separado (deploy.yml), lo cual inicia automáticamente el despliegue en el entorno de producción.
 
-- Reversión (Rollback): Si se presentan fallos en producción, el pipeline debe permitir revertir rápidamente a una versión anterior del software.
+- Monitoreo continuo: Una vez desplegado, Render ofrece seguimiento del estado de la aplicación, errores y consumo de recursos.
+
+- Rollback: En caso de errores críticos, Render permite revertir rápidamente a una versión previa desde su interfaz.
+
+![Continuous Deployment Pipeline](img/cdeploy-pipeline.png)
+
+_Imagen 2XX. Diagrama del Pipeline de Despliegue Continuo_
+
+![Continuous Deployment Pipeline Evidence](img/cdeploy-pipeline-evidence.png)
+
+_Imagen 2XX. Evidencia del Pipeline de Despliegue Continuo_
 
 <div style="page-break-after: always;"></div>
+
+## 7.4. Continuous Monitoring
+
+El monitoreo continuo permite supervisar en tiempo real el comportamiento y desempeño de la aplicación una vez desplegada en producción. Esta práctica es clave para detectar fallos, cuellos de botella y garantizar la disponibilidad del sistema.
+
+### 7.4.1. Tools and Practices
+
+Para el monitoreo continuo de nuestro backend desplegado, utilizamos:
+
+- Render Monitoring Tools: Render proporciona herramientas nativas de monitoreo que permiten observar el estado del servicio, uso de CPU, memoria, registros de errores y reinicios automáticos.
+
+- Logs en tiempo real: Render muestra los logs de la aplicación en tiempo real, facilitando la detección de excepciones, advertencias o eventos inesperados.
+
+- Alertas automáticas: Render notifica fallos de despliegue o caídas del servicio mediante correos electrónicos o notificaciones a los administradores del proyecto.
+
+### 7.4.2. Monitoring Pipeline Components
+
+El pipeline de monitoreo incluye los siguientes componentes:
+
+- Log Stream: Los logs generados por el backend son accesibles en tiempo real a través del panel de Render.
+
+- Render Metrics Dashboard: Render recopila métricas de CPU, RAM, latencia y reinicios automáticos.
+
+![Continuous Monitoring Components Evidence](img/cmonitoring-components-evidence.png)
+
+_Imagen 2XX. Evidencia del Log Stream para monitoreo continuo_
+
+### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas contempla lo siguiente:
+
+- Fallo de despliegue o build: GitHub Actions y Render notifican si un despliegue falla.
+
+- Caídas del servicio: Render detecta si el contenedor deja de responder y reinicia el servicio automáticamente.
+
+- Alertas por consumo excesivo: Render alerta cuando el uso de memoria o CPU excede los límites asignados al servicio.
+
+![Continuous Monitoring Alert Evidence](img/cmonitoring-alert-evidence.png)
+
+_Imagen 2XX. Evidencia del sistema de alertas_
+
+### 7.4.4. Notification Pipeline Components
+
+Los canales de notificación incluyen:
+
+- Render Dashboard Notifications: El panel de Render muestra visualmente el estado del servicio y sus logs.
+
+- Correo electrónico: Render envía alertas automáticas por errores críticos o caídas del servicio a los administradores del proyecto.
+
+- GitHub Notifications: GitHub notifica vía interfaz y correo sobre fallos en los workflows de CI/CD.
+
+![Continuous Monitoring Notification Evidence](img/cmonitoring-notification-evidence.png)
+
+_Imagen 2XX. Evidencia de las notificaciones_
+
+# Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary
+
+Actualmente, Innovatech está en la fase de desarrollo inicial de AgroTech, una plataforma integral diseñada para ayudar a los agricultores a gestionar sus granjas de manera más eficiente. La plataforma se encuentra en la fase de validación de la propuesta de valor, con una landing page activa y un formulario de interés para captar usuarios potenciales, principalmente enfocados en agricultores interesados en asesoramiento técnico especializado.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+**Assumptions (Suposiciones realistas):**
+1. Los agricultores completarán formularios con ≤3 campos si son relevantes
+2. El contacto vía WhatsApp tiene mayor adopción que formularios web
+3. La personalización de la interfaz de usuario
+4. Foro para que los usuarios puedan compartir experiencias y consejos
+5. Videos cortos (<1 min) aumentarán la comprensión del servicio
+
+
+**Knowledge Gaps (Brechas prácticas):**
+1. ¿Qué campos mínimos son indispensables para iniciar contacto?
+2. ¿Qué canal (WhatsApp vs Formulario) genera más interacciones?
+3. ¿Qué elementos de la interfaz son más valorados por los usuarios?
+4. ¿Qué temas son de interés para los usuarios en el foro?
+5. ¿El contenido audiovisual mejora la comprensión del servicio?
+
+
+**Ideas Ejecutables:**
+1. A/B test de formulario (3 vs 5 campos)
+2. Comparar conversión: WhatsApp vs formulario web
+3. Personalizar interfaz de usuario con temas oscuros y claros
+4. Implementar una sección donde los usuarios puedan compartir consejos y experiencias
+5. Testear video explicativo de 60s vs texto descriptivo
+
+
+**Claims (Afirmaciones testables):**
+1. **Formulario de contacto optimizado:** Se espera que un formulario de contacto con una menor cantidad de campos genere más contactos iniciados en comparación con uno de 5 campos.
+2. **WhatsApp como canal preferido:** Se afirma que el uso de WhatsApp para iniciar contacto generará un mayor porcentaje de contactos iniciados en comparación con el formulario web.
+3. **Personalización de la interfaz:** Se afirmará que la personalización de la interfaz con modo oscuro de usuario incrementará la satisfacción del usuario.
+4. **Participación mediante un foro:** Se postula que la creación de un foro de experiencias y consejos puede aumentar la participación activa y la adherencia a las mejores prácticas de agricultura.
+5. **Video explicativo efectivo:** Se postula que un video explicativo de 60 segundos aumentará el tiempo promedio en página en comparación con un texto descriptivo equivalente.
+   
+### 8.1.3. Experiment-Ready Questions
+
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|----------|------------|------|--------|----------|-------------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | 8 - Formularios más cortos suelen tener mejores tasas de completado. | 1 - Bajo riesgo, ya que es una práctica común. | 5 - Puede aumentar la cantidad de contactos iniciados. | 6 - Interés alto, ya que mejora la conversión. | 20 |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | 7 - WhatsApp es un canal popular y familiar para los usuarios. | 2 - Riesgo bajo, ya que es una implementación técnica sencilla. | 4 - Puede aumentar la tasa de contactos iniciados. | 6 - Interés alto, ya que mejora la experiencia del usuario. | 19 |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | 7 - Es una funcionalidad popular, aunque no todos los usuarios la utilizan. | 2 - Bajo riesgo, ya que es una implementación técnica estándar. | 4 - Puede mejorar la experiencia del usuario. | 5 - Interés moderado, ya que la personalización es un tema recurrente. | 18 |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | 6 - La interacción en foros es variable, pero puede ser un buen canal de comunicación. | 3 - Riesgo moderado, ya que depende de la participación activa de los usuarios. | 6 - Puede aumentar la retención y el engagement. | 6 - Interés alto, ya que fomenta la comunidad. | 21 |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | 6 - Los videos suelen aumentar el tiempo en página. | 3 - Riesgo moderado, ya que depende de la calidad del contenido. | 5 - Puede mejorar la comprensión del servicio. | 4 - Interés moderado, ya que no todos los usuarios verán el video. | 18 |
+
+
+### 8.1.4. Question Backlog
+
+| Prioridad | Pregunta | Métrica asociada | Estado |
+|-----------|----------|------------------|--------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Contactos iniciados | Pendiente |
+| 3 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Tasa de abandono | Pendiente |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Satisfacción del usuario | Pendiente |
+| 3 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Interacciones en el foro | Pendiente |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Tiempo en página | Pendiente |
+
+### 8.1.5. Experiment Cards
+
+#### **Experiment Card 1: Optimización de Formulario de Contacto**
+1. **Nombre:** "Impacto de formulario minimalista en tasa de conversión"
+2. **Hipótesis Vinculada:** H1 (*Formularios cortos aumentan completados*)
+3. **Objetivo:** Validar si reducir campos mejora la experiencia de usuario
+4. **Métricas Principales:**
+   - Tasa de completado (meta: +30%)
+   - Tiempo promedio de llenado (meta: <1 minuto)
+5. **Métricas Secundarias:**
+   - Tasa de rebote en formulario
+   - Porcentaje de campos opcionales utilizados
+6. **Método:** A/B Testing
+   - Grupo A: Formulario actual (5 campos obligatorios)
+   - Grupo B: Formulario minimalista (3 campos obligatorios)
+7. **Población:** 300 agricultores (150 por grupo)
+8. **Herramientas:**
+   - Google Forms (formularios)
+   - Hotjar (mapas de calor)
+   - Google Analytics (eventos)
+9. **Criterio de Éxito:** 
+   - Grupo B muestra ≥30% más completados con p<0.05
+10. **Riesgos Identificados:**
+    - Pérdida de información valiosa al eliminar campos
+    - Posible aumento de leads no calificados
+    - Dificultad en segmentación posterior
+11. **Mitigaciones:**
+    - Incluir campos eliminados como opcionales
+    - Implementar preguntas de calificación post-contacto
+    - Realizar prueba piloto con 20 usuarios antes del rollout completo
+12. **Consideraciones Éticas:**
+    - Garantizar protección de datos personales
+    - Obtener consentimiento explícito para uso de información
+
+#### **Experiment Card 2: Canal de Contacto Preferido**
+1. **Nombre:** "Efectividad de WhatsApp vs Formulario Web"
+2. **Hipótesis Vinculada:** H2 (*Canales familiares aumentan engagement*)
+3. **Objetivo:** Determinar el canal más efectivo para primer contacto
+4. **Métricas Principales:**
+   - Tasa de conversión a contacto (meta: +25% para WhatsApp)
+   - Tiempo hasta primer respuesta (meta: <15 minutos para WhatsApp)
+5. **Métricas Secundarias:**
+   - Satisfacción reportada (encuesta post-contacto)
+   - Tasa de resolución en primera interacción
+6. **Método:** A/B Testing Multivariable
+   - Grupo A: Flujo tradicional (formulario web + email)
+   - Grupo B: Integración directa con WhatsApp Business
+7. **Población:** 400 visitantes (200 por grupo)
+8. **Herramientas:**
+   - WhatsApp Business API
+   - Google Tag Manager
+   - Typeform (encuestas)
+9. **Criterio de Éxito:**
+   - WhatsApp muestra ≥25% más contactos iniciados
+   - Tiempo de respuesta promedio <15 minutos
+10. **Riesgos Identificados:**
+    - Saturación del equipo de atención vía WhatsApp
+    - Posible sesgo generacional (agricultores mayores prefieren llamadas)
+    - Dificultad para escalar atención personalizada
+11. **Mitigaciones:**
+    - Implementar chatbot básico para preguntas frecuentes
+    - Ofrecer alternativa de llamada telefónica
+    - Capacitar al equipo en gestión de conversaciones múltiples
+12. **Consideraciones Operativas:**
+    - Horarios de atención claramente comunicados
+    - Protocolos para manejo de picos de demanda
+
+#### **Experiment Card 3: Personalización de Interfaz**
+1. **Nombre:** "Efecto de personalización de interfaz en satisfacción del usuario"
+2. **Hipótesis Vinculada:** H3 (*Personalización mejora experiencia de usuario*)
+3. **Objetivo:** Evaluar si temas personalizados aumentan la satisfacción
+4. **Métricas Principales:**
+   - Satisfacción del usuario (meta: +25% en encuesta post-uso)
+   - Tasa de retención de usuarios (meta: +15% en 30 días)
+5. **Métricas Secundarias:**
+   - Tiempo promedio de sesión (meta: +10%)
+   - Número de interacciones por sesión (meta: +20%) 
+6. **Método:** A/B Testing con Personalización
+   - Grupo A: Interfaz estándar (actual)
+   - Grupo B: Interfaz personalizada (modo claro/oscuro, temas)
+7. **Población:** 600 usuarios registrados (300 por grupo)
+8. **Herramientas:**
+   - Google Forms (encuesta de satisfacción)
+9. **Criterio de Éxito:**
+   - Grupo B muestra ≥25% más satisfacción en encuesta
+   - Tasa de retención ≥15% superior al grupo A
+10. **Riesgos Identificados:**
+    - Sobrecarga cognitiva por demasiadas opciones de personalización
+    - Posible rechazo a cambios en la interfaz por usuarios acostumbrados
+    - Dificultad técnica para implementar personalización en el MVP
+11. **Mitigaciones:**
+    - Implementar opciones limitadas de personalización inicialmente
+    - Realizar pruebas de usabilidad con usuarios representativos
+    - Proporcionar tutoriales breves sobre cómo personalizar la interfaz
+12. **Consideraciones de Usabilidad:**  
+    - Asegurar que la personalización no afecte la accesibilidad
+    - Mantener consistencia visual y funcional en todas las opciones de personalización
+
+#### **Experiment Card 4: Interacción en el Foro**
+1. **Nombre:** "Impacto del foro en la interacción de usuarios"
+2. **Hipótesis Vinculada:** H4 (*Foros aumentan la comunidad y el engagement*)
+3. **Objetivo:** Medir si la implementación de un foro incrementa la interacción entre usuarios
+4. **Métricas Principales:**
+    - Número de publicaciones en el foro (meta: +50% en 2 semanas)
+    - Número de comentarios por publicación (meta: +30%)
+5. **Métricas Secundarias:**
+    - Tasa de retorno al foro (meta: +20% en 30 días)
+    - Tiempo promedio de interacción por usuario (meta: +15%)
+6. **Método:** Implementación de Foro y Seguimiento
+   - Grupo A: Usuarios con acceso al foro
+   - Grupo B: Usuarios sin acceso al foro (control)
+7. **Población:** 800 usuarios activos (400 por grupo)
+8. **Herramientas:**
+    - Google Analytics (seguimiento de interacciones)
+    - Typeform (encuesta de satisfacción)
+9. **Criterio de Éxito:**
+    - Grupo A muestra ≥50% más publicaciones y ≥30% más comentarios
+    - Tasa de retorno al foro ≥20% superior al grupo B
+10. **Riesgos Identificados:**
+    - Moderación insuficiente puede llevar a spam o contenido inapropiado
+    - Usuarios inactivos que no contribuyen al foro
+    - Dificultad para mantener la calidad de las interacciones
+11. **Mitigaciones:**
+    - Implementar moderación activa y reglas claras de uso
+    - Realizar encuestas periódicas para evaluar la calidad del contenido
+12. **Consideraciones de Comunidad:**
+    - Fomentar un ambiente inclusivo y respetuoso
+
+#### **Experiment Card 5: Contenido Explicativo**
+1. **Nombre:** "Impacto de video explicativo en comprensión del servicio"
+2. **Hipótesis Vinculada:** H5 (*Medios audiovisuales mejoran retención*)
+3. **Objetivo:** Medir efectividad de contenido audiovisual vs texto
+4. **Métricas Principales:**
+   - Tiempo en página (meta: +20 segundos)
+   - Tasa de rebote (meta: reducción del 15%)
+5. **Métricas Secundarias:**
+   - Porcentaje de reproducción completa del video
+   - Conversión a contacto después de ver contenido
+6. **Método:** A/B Testing con Segmentación
+   - Grupo A: Landing page con texto descriptivo (actual)
+   - Grupo B: Landing page con video embedido (60s)
+7. **Población:** 500 visitantes orgánicos (250 por grupo)
+8. **Herramientas:**
+   - Loom (grabación y hosting de video)
+   - Google Analytics (comportamiento)
+   - Vimeo Analytics (engagement con video)
+9. **Criterio de Éxito:**
+   - Grupo B muestra ≥20s más tiempo en página
+   - Reducción ≥15% en tasa de rebote
+10. **Riesgos Identificados:**
+    - Problemas de carga en conexiones lentas
+    - Barrera de idioma para agricultores indígenas
+    - Mensaje no adaptado a diferentes niveles de alfabetización digital
+11. **Mitigaciones:**
+    - Versión ligera del video para móviles
+    - Subtítulos en español y lenguas indígenas principales
+    - Versión audio-only como alternativa
+12. **Consideraciones de Accesibilidad:**
+    - Cumplimiento WCAG 2.1 AA
+    - Pruebas con usuarios de diferentes edades y habilidades técnicas
+
+# 8.2. Experiment Design
+
+### 8.2.1. Hypotheses
+
+| ID | Question | Belief | Hypothesis | Null Hypothesis |
+|----|-----------|-------------|-----------------|------------------|
+| 1 | ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Los formularios con menos campos aumentarán la tasa de completado | Reducir campos a 3 aumentará la tasa de completado en ≥30% a comparación con el anterior | Reducir campos a 3 no tendrá un impacto significativo en la tasa de completado |
+| 2 | ¿Tendrá Whatsapp una mayor interacción que el formulario web? | WhatsApp es un canal más familiar y accesible para los usuarios | WhatsApp tendrá ≥20% más contactos iniciados que el formulario web | WhatsApp no tendrá un aumento significativo en la tasa de contactos iniciados comparado con el formulario web |
+| 3 | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La personalización de la interfaz mejora la experiencia del usuario | La personalización de la interfaz aumentará la satisfacción del usuario en ≥25% | La personalización de la interfaz no tendrá un impacto significativo en la satisfacción del usuario |
+| 4 | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Los foros fomentan la comunidad y el intercambio de conocimientos | La implementación de un foro aumentará la interacción de usuarios en un 50% | La implementación del foro no tendrá un impacto significativo en la interacción de usuarios |
+| 5 | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Los videos cortos mejoran la comprensión del servicio | Un video de 60s incrementará el tiempo en página en ≥20 segundos comparado con texto descriptivo | Un video de 60s no tendrá un impacto significativo en el tiempo en página comparado con el texto descriptivo |
+
+
+### 8.2.2. Measures
+
+- Completion Rate: Porcentaje de usuarios que completan el formulario de contacto.
+- Contact Initiation Rate: Porcentaje de usuarios que inician contacto a través de WhatsApp o formulario web.
+- User Satisfaction Score: Medido a través de encuestas post-uso, evaluando la satisfacción del usuario con la personalización de la interfaz.
+- Forum Engagement: Número de publicaciones y respuestas en el foro, así como la tasa de retorno de usuarios al foro.
+- Time on Page: Tiempo promedio que los usuarios pasan en la página después de ver el video comparado con aquellos que leen el texto descriptivo.
+
+| Question | Measure |
+|-----------|---------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | Se medirá la tasa de completado del formulario con 3 campos comparado con el formulario actual de 5 campos. Se espera un aumento en la tasa de completado. |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | Comparar la tasa de contactos iniciados a través de WhatsApp con la tasa de contactos iniciados mediante el formulario web. Se espera que WhatsApp tenga un mayor número de contactos iniciados. |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | Medir la satisfacción de los usuarios mediante encuestas y puntajes de valoración de experiencia visual antes y después de habilitar el modo oscuro. Esto permitirá evaluar si la nueva función mejora la comodidad y la percepción general de la aplicación. |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | Evaluar la cantidad de publicaciones, respuestas y la interacción en el foro, comparando la actividad antes y después de su lanzamiento. También se pueden usar encuestas para medir la percepción de los usuarios sobre el valor del foro. |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | Comparar el tiempo promedio en página de usuarios que ven el video de 60 segundos con aquellos que leen el texto descriptivo. Se espera un aumento del tiempo en página para los que ven el video. |
+
+### 8.2.3. Conditions
+
+- A/B Testing para formulario de contacto básico vs. detallado.
+- WhatsApp como canal de contacto vs. formulario web.
+- Test entre modo oscuro y claro.
+- Test de foro implementado vs. sin foro.
+- Video explicativo de 60 segundos vs. texto descriptivo.
+
+| Question | Condición experimental | Condición de control |
+|-----------|------------------------|----------------------|
+| ¿Ayudará el formulario reducido a mejorar la tasa de completado? | La tasa de completado del formulario con 3 campos será ≥30% superior al formulario actual de 5 campos | No habrá un aumento significativo en la tasa de completado del formulario actual de 5 campos |
+| ¿Tendrá Whatsapp una mayor interacción que el formulario web? | La tasa de contactos iniciados a través de WhatsApp será ≥20% superior a la del formulario web | No habrá un aumento significativo en la tasa de contactos iniciados a través del formulario web |
+| ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? | La satisfacción del usuario se medirá con una encuesta post-uso después de habilitar el modo oscuro | No habrá un aumento significativo en la satisfacción del usuario tras la implementación del modo oscuro |
+| ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? | La participación de los usuario aumentará en un 50% tras la implementación del foro | No habrá un aumento significativo en la interacción de usuarios tras la implementación del foro |
+| ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? | El tiempo promedio en página será ≥20 segundos mayor para usuarios que vean el video de 60 segundos | El tiempo promedio no mostrará un aumento significativo para usuarios que lean el texto descriptivo |
+
+### 8.2.4. Scale Calculations and Decisions
+
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en un proyecto. Cada hipótesis se asocia con un indicador de éxito: se considera ideal cuando la métrica alcanza plenamente el objetivo, aceptable cuando está entre el mínimo y el ideal, y desfavorable si queda por debajo del mínimo, requiriendo así una revisión. Un nivel excelente se define como cuando el valor supera el ideal en un 25% o más, indicando un éxito significativo. Este enfoque permite tomar decisiones fundamentadas en métricas para validar o ajustar las hipótesis del proyecto.
+
+- **Tamaño Mínimo de la Muestra:** 200-500 usuarios/grupo (según poder estadístico del 80% y efecto mínimo del 15%).
+- **Tiempo estimado para los experimentos:** Se planea una duración de **1 semana** por experimento, con campañas de anuncios pagados en plataformas como **Google Ads** para aumentar el tráfico hacia la landing page.
+
+| Scale Calculation | Decision | Factor |
+|-------------------|----------|--------|
+| Creemos que al reducir el número de campos en el formulario de contacto a 3, se incrementará la tasa de completado en al menos un 30%. Sabremos que esto es cierto cuando observemos un aumento del 30% en la tasa de completado del formulario. | Implementar el formulario con 3 campos y medir la tasa de completado | Excelente |
+| Creemos que al implementar un canal de contacto a través de WhatsApp, se incrementará la tasa de contactos iniciados en al menos un 20% en comparación con el formulario web. Sabremos que esto es cierto cuando observemos un aumento del 20% en la tasa de contactos iniciados a través de WhatsApp. | Implementar el canal de WhatsApp y medir la tasa de contactos iniciados | Aceptable |
+| Creemos que al agregar un modo oscuro a la aplicación web, se mejorará la experiencia del usuario en al menos un 25%, reduciendo la fatiga visual y aumentando el tiempo de uso promedio. Sabremos que esto es cierto cuando observemos un aumento del 25% en la satisfacción del usuario. | Implementar el modo oscuro y permitir que el usuario pueda activarlo si desea | Aceptable |
+| Creemos que al implementar un foro en la aplicación que permita a los usuarios compartir experiencias y consejos sobre la gestión de granjas, se incrementará la interacción y la participación de los usuarios. Sabremos que esto es cierto cuando observemos un aumento del 50% en la participación de los usuarios en el foro. | Implementar el foro y medir la participación de los usuarios | Excelente |
+| Creemos que al agregar un video explicativo de 60 segundos en la landing page, se incrementará el tiempo promedio en página en al menos 20 segundos, mejorando la comprensión del servicio. Sabremos que esto es cierto cuando observemos un aumento del 20% en el tiempo promedio en página. | Implementar el video explicativo y medir el tiempo promedio en página | Aceptable |
+
+### 8.2.5. Methods Selection
+
+- **A/B Testing:** Se utilizarán herramientas simples como **Google Optimize** para las pruebas A/B en la landing page y en los precios.
+- **Google Forms / Typeform:** Para facilitar la recolección de datos del formulario de registro.
+- **Google Analytics:** Para medir el tráfico, la tasa de conversión y el comportamiento del usuario en la landing page.
+
+### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+**Regla de oro:** Cada métrica responde a una hipótesis y se mide con herramientas específicas.  
+
+| Objetivo                          | KPI                              | Métrica de Éxito                          | Herramienta de Tracking       |  
+|------------------------------------|----------------------------------|-------------------------------------------|-------------------------------|  
+| **Optimizar experiencia de contacto** | Tasa completado formularios      | ≥30% aumento en formulario minimalista    | Google Analytics + Hotjar     |  
+| **Validar canal preferido**        | Ratio conversión a contacto      | WhatsApp ≥25% más efectivo que formulario | Google Tag Manager + WhatsApp Business API |  
+| **Mejorar satisfacción del usuario** | Satisfacción del usuario         | ≥25% aumento en encuestas post-uso        | Google Forms + Typeform       |
+| **Fomentar comunidad activa**      | Interacciones en el foro         | ≥50% más publicaciones y comentarios      | Google Analytics + Foros      |
+| **Mejorar comprensión del servicio** | Tiempo en página                | ≥20s aumento con video                    | Google Analytics + Vimeo      |  
+| **Garantizar calidad de datos**    | Precisión información contacto   | ≤10% errores en datos críticos            | Validación manual + Google Sheets |  
+
+
+### 8.2.7. Web and Mobile Tracking Plan
+
+**Herramientas:**
+- **Google Analytics:** Para el seguimiento básico de eventos como clics, registros y conversiones.
+- **Hotjar (opcional):** Para generar mapas de calor y ver cómo interactúan los usuarios con la landing page. (Opción más accesible y fácil de integrar).
+- **Google Tag Manager:** Para facilitar la configuración y gestión de eventos sin necesidad de modificar el código del sitio.
+
+**Eventos principales:**
+- **form_complete:** Cuando un usuario completa el formulario de registro o el cuestionario de necesidades en la plataforma.
+- **contact_initiated:** Cuando un usuario inicia contacto a través de WhatsApp o el formulario web.
+- **video_played:** Cuando un usuario reproduce el video explicativo en la landing page.
+- **forum_interaction:** Cuando un usuario publica o responde en el foro.
+- **theme_changed:** Cuando un usuario cambia entre el modo claro y oscuro en la aplicación web.
+
+
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories
+
+| ID | Nombre | Descripción | Criterios de aceptación |
+|----|--------|-------------|-------------------------|
+| UE01 | Formulario de contacto optimizado | Como  usuario, quiero un formulario de contacto con 3 campos para facilitar el registro | **Escenario:** <br> Given el usuario se encuentra en la sección de contacto de la landing page <br> When completa el formulario con 3 campos necesarios <br> Then recibirá confirmación de registro <br> And notará lo sencillo que fue llenar el formulario reducido |
+| UE02 | Video explicativo básico | Como visitante, quiero entender en 1 minuto qué ofrece AgroTech | **Escenario:** <br> Given abro la landing page <br> When veo el video de 60s <br> Then identifico al menos 3 beneficios clave |
+| UE03 | Canal de contacto por WhatsApp | Como usuario, quiero contactar a AgroTech por WhatsApp para recibir asesoría rápida | **Escenario:** <br> Given el usuario se encuentra en la landing page <br> When hace clic en el botón de WhatsApp <br> Then se abre una conversación con AgroTech en WhatsApp <br> And puede realizar sus consultas sin problema |
+| UE04 | Personalización de interfaz | Como usuario, quiero elegir entre modo claro y oscuro para mejorar mi experiencia visual | **Escenario:** <br> Given el usuario se encuentra en la aplicación web <br> When selecciona el modo oscuro en la configuración <br> Then la interfaz cambia a modo oscuro |
+| UE05 | Visualización de foro | Como usuario, quiero participar en un foro para compartir y aprender de otros agricultores | **Escenario:** <br> Given el usuario se encuentra registrado en AgroTech <br> When accede al foro <br> Then puede publicar preguntas y responder a otros usuarios <br> And visualiza las publicaciones recientes |
+| UE06 | Guardar publicaciones del foro como favoritas | Como usuario, quiero guardar publicaciones del foro como favoritas para consultarlas después | **Escenario:** <br> Given el usuario está navegando por el foro <br> When hace clic en "Guardar como favorito" en una publicación <br> Then la publicación se agrega a su lista de favoritos <br> And puede acceder a ella desde su perfil |
+
+### 8.3.2. To-Be Product Backlog
+
+| Orden | ID | Título | Story Points |
+|------|----|--------|--------------|
+| 1 | UE01 | Formulario de contacto optimizado | 3 |
+| 2 | UE03 | Canal de contacto por WhatsApp | 8 |
+| 3 | UE04 | Personalización de interfaz | 5 |
+| 4 | UE05 | Visualización de foro | 5 |
+| 5 | UE06 | Guardar publicaciones del foro como favoritas | 3 |
+| 6 | UE02 | Video explicativo básico | 3 |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+<table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
+<tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">UE01</td><td colspan="1" rowspan="2" valign="top">Formulario de contacto optimizado</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Diseñar nueva interfaz de contacto</td><td colspan="1" valign="top">Se diseña e implementa la nueva interfaz del formulario de contacto optimizado.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para contacto</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el envío del nuevo formulario.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">UE03</td><td colspan="1" rowspan="3" valign="top">Canal de contacto por WhatsApp</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Crear botón en Landing Page</td><td colspan="1" valign="top">Se crea el botón que redirige al contacto por WhatsApp.</td><td colspan="1" rowspan="3" valign="top">8</td><td colspan="1" valign="top">Britney Qqueso</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Configuración de número de contacto</td><td colspan="1" valign="top">Configurar el número de Agrotech usando la API oficial de WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Mensaje de bienvenida</td><td colspan="1" valign="top">Agregar mensaje de bienvenida automático en WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">UE04</td><td colspan="1" valign="top">Personalización de interfaz</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de modo oscuro</td><td colspan="1" valign="top">Implementar la opción de modo oscuro para poder reducir la fatiga visual.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">UE05</td><td colspan="1" rowspan="2" valign="top">Visualización de foro</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Diseñar interfaz de foro</td><td colspan="1" valign="top">Se diseña e implementa la vista del foro, junto con las publicaciones y comentarios.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de foro</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el foro.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">UE06</td><td colspan="1" rowspan="1" valign="top">Guardar publicaciones del foro como favoritas</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de listado de favoritos</td><td colspan="1" valign="top">Se implementa el listado de favoritos para que los usuarios puedan guardar publicaciones del foro.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">UE02</td><td colspan="1" rowspan="1" valign="top">Video explicativo básico</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integrar video en Landing Page</td><td colspan="1" valign="top">Integrar video dentro de la Landing Page.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">To-Do</td></tr>
+</table>
+
 
 # Conclusiones
 ## Conclusiones y recomendaciones
@@ -4490,3 +6968,5 @@ W3Schools. (s.f.). _HTML Style Guide_. https://www.w3schools.com/html/html5_synt
 Exposición TB1: [upc-pre-202501-1asi0732-4429-Innovatech-expo-tb1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/ES0jRLUeOCNDl_JIyCSNdC4BQBEyinPG9Z6oFwk4OHAB0g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3235HQ)
 
 Exposición TP1: [upc-pre-202501-1asi0732-4429-Innovatech-expo-tp1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EchelIee3UJIlcRnVvB3ttsBlTAfOhAmQLYaLZTOJKrIQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FX3rZt)
+
+Exposición TB2: [upc-pre-202501-1asi0732-4429-Innovatech-expo-tb2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221b127_upc_edu_pe/EZkeKtbaIvxNne-T90lBacQBkxjnITuZGZgv0_FjhVdo0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ORCx8o)
