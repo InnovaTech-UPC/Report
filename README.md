@@ -152,6 +152,14 @@
 
 <img src="img/tp1-commits2.png" width="80%" alt="Commits del equipo en el informe del proyecto">
 
+## TB2
+
+<img src="img/tb2-team-collaboration.png" width="80%" alt="Analisis de colaboración del equipo en el informe del proyecto">
+
+<img src="img/tb2-commits1.png" width="80%" alt="Commits del equipo en el informe del proyecto">
+
+<img src="img/tb2-commits2.png" width="80%" alt="Commits del equipo en el informe del proyecto">
+
 <div style="page-break-after: always;"></div>
 
 # Tabla de Contenido
