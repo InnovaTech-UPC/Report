@@ -4195,9 +4195,9 @@ Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe
 
 Para garantizar la calidad del producto, se implementaron diferentes tipos de pruebas a lo largo del ciclo de desarrollo. Estas pruebas abarcaron desde pruebas unitarias hasta pruebas de sistema, asegurando que cada componente del sistema funcionara correctamente y cumpliese con los requisitos establecidos.
 
-Hasta el momento, se han realizado pruebas que alcanzan una cobertura del 50% en el código de la API RESTful, lo que indica un alto nivel de calidad y fiabilidad en el sistema. Estas pruebas se llevaron a cabo utilizando herramientas como JUnit y Mockito para el backend.
+Hasta el momento, se han realizado pruebas que alcanzan una cobertura del 84% en el código de la API RESTful, lo que indica un alto nivel de calidad y fiabilidad en el sistema. Estas pruebas se llevaron a cabo utilizando herramientas como JUnit y Mockito para el backend.
 
-![Coverage Report](img/coverage.png)
+![Coverage Report](img/coveragev2.png)
 
 _Imagen 209. Coverage Report_
 
