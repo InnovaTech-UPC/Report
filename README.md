@@ -4207,6 +4207,8 @@ _Imagen 208. Video About The Product_
 
 Enlace al vídeo de Microsoft Stream: [Video About The Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/ERS-UfdGpCZHkg0UmAZPV-IB3-JkXhLcJXp_3o-s8orlvg?e=Qh8htY)
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo VI: Product Verification & Validation
 
 ## 6.1. Testing Suites & Validation
@@ -6400,6 +6402,8 @@ A continuación, se presentan los principales hallazgos encontrados durante la e
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
+<div style="page-break-after: always;"></div>
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
@@ -6436,6 +6440,8 @@ _Imagen 2XX. Diagrama del Pipeline de Integración Continua_
 
 ![Continuous Integration Pipeline Evidence](img/ci-pipeline-evidence.png)
 _Imagen 2XX. Evidencia del Pipeline de Integración Continua_
+
+<div style="page-break-after: always;"></div>
 
 ## 7.2. Continuous Delivery
 
@@ -6478,6 +6484,8 @@ _Imagen 2XX. Diagrama del Pipeline de Entrega Continua_
 ![Continuous Delivery Pipeline Evidence](img/cd-pipeline-evidence.png)
 
 _Imagen 2XX. Evidencia del Pipeline de Entrega Continua_
+
+<div style="page-break-after: always;"></div>
 
 ## 7.3. Continuous deployment
 
@@ -6576,6 +6584,8 @@ Los canales de notificación incluyen:
 ![Continuous Monitoring Notification Evidence](img/cmonitoring-notification-evidence.png)
 
 _Imagen 2XX. Evidencia de las notificaciones_
+
+<div style="page-break-after: always;"></div>
 
 # Capítulo VIII: Experiment-Driven Development
 
@@ -6937,6 +6947,7 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 <tr><td colspan="1" rowspan="1" valign="top">UE02</td><td colspan="1" rowspan="1" valign="top">Video explicativo básico</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integrar video en Landing Page</td><td colspan="1" valign="top">Integrar video dentro de la Landing Page.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">To-Do</td></tr>
 </table>
 
+<div style="page-break-after: always;"></div>
 
 # Conclusiones
 ## Conclusiones y recomendaciones
