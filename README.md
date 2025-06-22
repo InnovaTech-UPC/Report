@@ -6394,13 +6394,96 @@ A continuación, se presentan los principales hallazgos encontrados durante la e
 
 | Fecha | Actividad | Responsable |
 | :---: | :---: | :---: |
-| 19-06-2025 | Reunión de coordinación con grupo auditado | Miembros de ambos equipos |
-| 19-06-2025 | Envío de artefactos a revisar | InnovaTech |
-| 19-06-2025 | Recepción de auditoría | InnovaTech |
+| 17-06-2025 | Reunión de coordinación con grupo auditado | Miembros de ambos equipos |
+| 18-06-2025 | Envío de artefactos a revisar | InnovaTech |
+| 20-06-2025 | Recepción de auditoría | InnovaTech |
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
+**a) Criterios utilizados**
+
+La auditoría se basó en los siguientes principios de evaluación:
+- Usabilidad (heurísticas de Nielsen)
+- Diseño inclusivo
+- Arquitectura de la información
+- Accesibilidad visual y funcional
+- Percepción de confianza
+
+**b) Interfaz(es) evaluadas**
+
+**1. Landing Page**
+
+Se revisó el “hero” (Gestión moderna, Resultados duraderos), la navegación principal y la sección *Sobre Nosotros* (Misión & Visión).  
+Se analizaron claridad de propuesta de valor, efectividad de CTAs, jerarquía visual, contraste y consistencia de estilo.
+
+**Hallazgos:**
+- La propuesta de valor en el hero es contundente, pero carece de un botón primario de “Regístrate” o “Comienza ahora”.
+- La barra de navegación utiliza texto blanco sobre fondo melocotón con contraste insuficiente para algunos usuarios.
+- La sección “Sobre Nosotros” presenta iconos (misión/visión) sin descripciones alternativas ni tooltips, lo que puede afectar la accesibilidad.
+
+**2. Aplicación Web**
+
+**Flujos evaluados:**
+- Selección de rol (Granjero vs. Asesor)
+- Gestión de “Mi Granja” (tabla de recintos)
+- Perfil de Asesor (edición de título, descripción y publicaciones)
+- Listado de Asesores y sección “Historial” de citas
+
+**Hallazgos:**
+- El selector de rol es claro y visual, pero no ofrece retroalimentación tras la selección (p. ej. resaltado persistente o indicador de carga).
+- En “Mi Granja”, la tabla está bien organizada, pero no cuenta con filtros, ordenamiento ni paginación para manejar grandes volúmenes de datos.
+- Al guardar cambios en el perfil de asesor no se despliega ningún mensaje de éxito o error, lo que deja al usuario sin confirmación de que la operación se completó.
+- En el listado de asesores, el punto azul junto a la foto indica “conectado/activo” pero no hay leyenda o texto explicativo.
+- La sección “Historial” muestra claramente las citas pasadas, aunque podría beneficiarse de un agrupamiento por fechas más destacadas.
+
+**c) Resultados de la auditoría basada en heurísticas de usabilidad**
+
+| Nº | Problema identificado                                                             | Severidad | Heurística afectada                | Recomendación                                                                              | Ubicación                                |
+|----|-----------------------------------------------------------------------------------|-----------|------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------|
+| 1  | Ausencia de botón primario de registro en el hero                                 | 3         | Visibilidad del estado del sistema | Añadir un CTA destacado “Regístrate” o “Comienza ahora” junto a “Iniciar sesión”.           | Landing Page – Hero                      |
+| 2  | Texto de menú en nav bar con contraste insuficiente                               | 2         | Estética y diseño minimalista      | Incrementar contraste (oscurecer texto o aclarar fondo) según WCAG.                        | Landing Page – Barra de navegación       |
+| 3  | Selector de rol no muestra feedback tras el clic                                  | 3         | Visibilidad del estado del sistema | Incluir animación de carga o resaltado persistente del rol seleccionado.                    | App Web – Página de Registro (Rol)       |
+| 4  | Eliminación de un recinto en “Mi Granja” no solicita confirmación                 | 3         | Prevención de errores              | Mostrar cuadro de diálogo de confirmación antes de borrar definitivamente un recinto.      | App Web – Mi Granja                      |
+| 5  | Al guardar perfil de asesor, no hay notificación de éxito o error                  | 3         | Visibilidad del estado del sistema | Desplegar una notificación (toast) o mensaje inline al guardar cambios correctamente.       | App Web – Perfil de Asesor (Edición)     |
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+A continuación, se detallan las modificaciones realizadas para subsanar los hallazgos encontrados en la auditoría de usabilidad:
+
+**Problema #1: Ausencia de botón primario de registro en el hero**
+- Se añadió un botón primario “Regístrate” que redirige a la página de registro de la aplicación.
+
+<img src="img/modificacion1.png" width="700px">
+
+_Imagen 223. Modificación 1_
+
+**Problema #2: Texto de menú en nav bar con contraste insuficiente**
+- Se ajustó el color del texto de la barra de navegación para mejorar el contraste con el fondo melocotón, asegurando que cumpla con los estándares de accesibilidad.
+
+<img src="img/modificacion2.png" width="600px">
+
+_Imagen 224. Modificación 2_
+
+**Problema #3: Selector de rol no muestra feedback tras el clic**
+- Se especifica el rol seleccionado en la página de registro, proporcionando un feedback visual claro al usuario.
+
+<img src="img/modificacion3.png" width="700px">
+
+_Imagen 225. Modificación 3_
+
+**Problema #4: Eliminación de un recinto en “Mi Granja” no solicita confirmación**
+- Se implementó un cuadro de diálogo de confirmación que se muestra al intentar eliminar un recinto, solicitando al usuario que confirme la acción.
+
+<img src="img/modificacion4.png" width="700px">
+
+_Imagen 226. Modificación 4_
+
+**Problema #5: Al guardar perfil de asesor, no hay notificación de éxito o error**
+- Se añadió una notificación que se muestra al guardar cambios en el perfil de asesor, informando al usuario si la operación fue exitosa o si hubo algún error.
+
+<img src="img/modificacion5.png" width="700px">
+
+_Imagen 227. Modificación 5_
 
 <div style="page-break-after: always;"></div>
 
@@ -6436,10 +6519,10 @@ El pipeline de integración continua implementado con GitHub Actions sigue este 
 
 ![Continuous Integration Pipeline](img/ci-pipeline.png)
 
-_Imagen 2XX. Diagrama del Pipeline de Integración Continua_
+_Imagen 228. Diagrama del Pipeline de Integración Continua_
 
 ![Continuous Integration Pipeline Evidence](img/ci-pipeline-evidence.png)
-_Imagen 2XX. Evidencia del Pipeline de Integración Continua_
+_Imagen 229. Evidencia del Pipeline de Integración Continua_
 
 <div style="page-break-after: always;"></div>
 
@@ -6479,11 +6562,11 @@ Los componentes del pipeline de entrega continua incluyen:
 
 ![Continuous Delivery Pipeline](img/cd-pipeline.png)
 
-_Imagen 2XX. Diagrama del Pipeline de Entrega Continua_
+_Imagen 230. Diagrama del Pipeline de Entrega Continua_
 
 ![Continuous Delivery Pipeline Evidence](img/cd-pipeline-evidence.png)
 
-_Imagen 2XX. Evidencia del Pipeline de Entrega Continua_
+_Imagen 231. Evidencia del Pipeline de Entrega Continua_
 
 <div style="page-break-after: always;"></div>
 
@@ -6523,11 +6606,11 @@ Los componentes del pipeline de despliegue continuo incluyen:
 
 ![Continuous Deployment Pipeline](img/cdeploy-pipeline.png)
 
-_Imagen 2XX. Diagrama del Pipeline de Despliegue Continuo_
+_Imagen 234. Diagrama del Pipeline de Despliegue Continuo_
 
 ![Continuous Deployment Pipeline Evidence](img/cdeploy-pipeline-evidence.png)
 
-_Imagen 2XX. Evidencia del Pipeline de Despliegue Continuo_
+_Imagen 235. Evidencia del Pipeline de Despliegue Continuo_
 
 <div style="page-break-after: always;"></div>
 
@@ -6555,7 +6638,7 @@ El pipeline de monitoreo incluye los siguientes componentes:
 
 ![Continuous Monitoring Components Evidence](img/cmonitoring-components-evidence.png)
 
-_Imagen 2XX. Evidencia del Log Stream para monitoreo continuo_
+_Imagen 236. Evidencia del Log Stream para monitoreo continuo_
 
 ### 7.4.3. Alerting Pipeline Components
 
@@ -6569,7 +6652,7 @@ El sistema de alertas contempla lo siguiente:
 
 ![Continuous Monitoring Alert Evidence](img/cmonitoring-alert-evidence.png)
 
-_Imagen 2XX. Evidencia del sistema de alertas_
+_Imagen 237. Evidencia del sistema de alertas_
 
 ### 7.4.4. Notification Pipeline Components
 
@@ -6583,7 +6666,7 @@ Los canales de notificación incluyen:
 
 ![Continuous Monitoring Notification Evidence](img/cmonitoring-notification-evidence.png)
 
-_Imagen 2XX. Evidencia de las notificaciones_
+_Imagen 238. Evidencia de las notificaciones_
 
 <div style="page-break-after: always;"></div>
 
