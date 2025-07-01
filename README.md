@@ -355,6 +355,9 @@
         - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
         - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
         - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+        - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+        - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
   - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
     - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
     - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
@@ -7062,6 +7065,12 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 #### 8.3.3.6. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de entrevistas
+
+#### 8.3.4.2. Registro de entrevistas
 
 ## 8.4. Experiment Aftermath & Analysis
 
