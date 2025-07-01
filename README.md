@@ -45,7 +45,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Junio 2025</b></p>
+<p align="center"><b>Julio 2025</b></p>
 
 <div style="page-break-after: always;"></div>
 
@@ -126,6 +126,27 @@
           <li>Capítulo VI: Product Verification & Validation</li>
           <li>Capítulo VII: DevOps Practices</li>
           <li>Capítulo VIII: Experiment-Driven Development</li>
+        </ul>
+      </td>
+  </tr>
+  <tr>
+      <td><strong>TF1</strong></td>
+      <td>07/07/25</td>
+      <td>
+        <ul>
+          <li>Delgado Corrales, Piero Gonzalo</li>
+          <li>La Torre Soto, André Sebastián</li>
+          <li>Paredes Puente, Sebastian Roberto</li>
+          <li>Pecan Pariona, Sergio Joel</li>
+          <li>Salinas Torres, Salvador Antonio</li>
+          <li>Qqueso Rodriguez, Britney Delhy</li>
+        </ul>
+      </td>
+      <td>
+        Se realizó el avance de los siguientes puntos:
+        <ul>
+          <li>Capítulo VIII: Experiment-Driven Development</li>
+          <li>Conclusiones</li>
         </ul>
       </td>
   </tr>
@@ -7031,6 +7052,30 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 </table>
 
 <div style="page-break-after: always;"></div>
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+#### 8.3.3.6. Team Collaboration Insights
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+## 8.6. To-Be Software Platform Pre-launch
+
+### 8.6.1. About-the-Product Intro Video
 
 # Conclusiones
 ## Conclusiones y recomendaciones
