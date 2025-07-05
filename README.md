@@ -7114,6 +7114,19 @@ Se realizó el diseño de entrevistas para validar las hipótesis planteadas en 
 
 #### 8.3.4.2. Registro de entrevistas
 
+**Entrevista 1**
+
+**Entrevistador:** Salvador Salinas
+
+**Entrevistado:** Anderson Gonza
+
+**Enlace a entrevista:** https://youtu.be/HqaDEVzA3tc
+
+<img alt="Entrevista con Anderson Gonza" src="img/to-be-validation-interview-1.png">
+
+**Resumen:**
+Anderson expresó que el formulario de contacto simplificado es muy conveniente y fácil de usar. Apreció la inclusión del video explicativo, ya que le ayudó a entender rápidamente los beneficios del producto. También mencionó que la opción de contacto por WhatsApp es muy útil para recibir respuestas rápidas. En cuanto al modo oscuro, le pareció una excelente adición, ya que él personalmente menciona que le gusta utilizar este modo. Finalmente, valoró positivamente el foro y la función de guardar publicaciones como favoritas.
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
