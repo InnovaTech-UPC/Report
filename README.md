@@ -7141,6 +7141,12 @@ Anderson expresó que el formulario de contacto simplificado es muy conveniente 
 
 ### 8.6.1. About-the-Product Intro Video
 
+El siguiente video subido a Youtube tiene como objetivo presentar AgroTech, una plataforma que conecta asesores especializados con productores agropecuarios, promoviendo el acceso a asesoramiento técnico para mejorar las prácticas agrícolas. Este contenido destaca cómo AgroTech impulsa el desarrollo sostenible en comunidades rurales, fomentando el crecimiento económico y la productividad en el sector agrícola.
+
+[AgroTech Intro Video](https://youtu.be/8AC0iWGEnaE)
+
+<img src="img/video_about_the_product.png" alt="AgroTech Intro Video" style="width: 100%; height: auto;">
+
 # Conclusiones
 ## Conclusiones y recomendaciones
 
