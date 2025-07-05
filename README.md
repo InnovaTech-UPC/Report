@@ -7042,33 +7042,69 @@ Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis en
 <table><tr><th colspan="1" valign="top">Sprint #</th><th colspan="7" valign="top">Sprint 1</th></tr>
 <tr><td colspan="2" valign="top">User Story</td><td colspan="6" valign="top">Work-Item / Task</td></tr>
 <tr><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Id</td><td colspan="1" valign="top">Title</td><td colspan="1" valign="top">Description</td><td colspan="1" valign="top">Estimation </td><td colspan="1" valign="top">Assigned To</td><td colspan="1" valign="top">Status (To-Do / In-Process / Review / Done)</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">UE01</td><td colspan="1" rowspan="2" valign="top">Formulario de contacto optimizado</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Diseñar nueva interfaz de contacto</td><td colspan="1" valign="top">Se diseña e implementa la nueva interfaz del formulario de contacto optimizado.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para contacto</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el envío del nuevo formulario.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" rowspan="3" valign="top">UE03</td><td colspan="1" rowspan="3" valign="top">Canal de contacto por WhatsApp</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Crear botón en Landing Page</td><td colspan="1" valign="top">Se crea el botón que redirige al contacto por WhatsApp.</td><td colspan="1" rowspan="3" valign="top">8</td><td colspan="1" valign="top">Britney Qqueso</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Configuración de número de contacto</td><td colspan="1" valign="top">Configurar el número de Agrotech usando la API oficial de WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Mensaje de bienvenida</td><td colspan="1" valign="top">Agregar mensaje de bienvenida automático en WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" valign="top">UE04</td><td colspan="1" valign="top">Personalización de interfaz</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de modo oscuro</td><td colspan="1" valign="top">Implementar la opción de modo oscuro para poder reducir la fatiga visual.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" rowspan="2" valign="top">UE05</td><td colspan="1" rowspan="2" valign="top">Visualización de foro</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Diseñar interfaz de foro</td><td colspan="1" valign="top">Se diseña e implementa la vista del foro, junto con las publicaciones y comentarios.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de foro</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el foro.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" rowspan="1" valign="top">UE06</td><td colspan="1" rowspan="1" valign="top">Guardar publicaciones del foro como favoritas</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de listado de favoritos</td><td colspan="1" valign="top">Se implementa el listado de favoritos para que los usuarios puedan guardar publicaciones del foro.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">To-Do</td></tr>
-<tr><td colspan="1" rowspan="1" valign="top">UE02</td><td colspan="1" rowspan="1" valign="top">Video explicativo básico</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integrar video en Landing Page</td><td colspan="1" valign="top">Integrar video dentro de la Landing Page.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">To-Do</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">UE01</td><td colspan="1" rowspan="2" valign="top">Formulario de contacto optimizado</td><td colspan="1" valign="top">WI01</td><td colspan="1" valign="top">Diseñar nueva interfaz de contacto</td><td colspan="1" valign="top">Se diseña e implementa la nueva interfaz del formulario de contacto optimizado.</td><td colspan="1" rowspan="2" valign="top">3</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI02</td><td colspan="1" valign="top">Implementación de protocolos HTTP para contacto</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el envío del nuevo formulario.</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="3" valign="top">UE03</td><td colspan="1" rowspan="3" valign="top">Canal de contacto por WhatsApp</td><td colspan="1" valign="top">WI03</td><td colspan="1" valign="top">Crear botón en Landing Page</td><td colspan="1" valign="top">Se crea el botón que redirige al contacto por WhatsApp.</td><td colspan="1" rowspan="3" valign="top">8</td><td colspan="1" valign="top">Britney Qqueso</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI04</td><td colspan="1" valign="top">Configuración de número de contacto</td><td colspan="1" valign="top">Configurar el número de Agrotech usando la API oficial de WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI05</td><td colspan="1" valign="top">Mensaje de bienvenida</td><td colspan="1" valign="top">Agregar mensaje de bienvenida automático en WhatsApp.</td><td colspan="1" valign="top">Sergio Pecan</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">UE04</td><td colspan="1" valign="top">Personalización de interfaz</td><td colspan="1" valign="top">WI06</td><td colspan="1" valign="top">Implementación de modo oscuro</td><td colspan="1" valign="top">Implementar la opción de modo oscuro para poder reducir la fatiga visual.</td><td colspan="1" valign="top">5</td><td colspan="1" valign="top">Salvador Salinas</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="2" valign="top">UE05</td><td colspan="1" rowspan="2" valign="top">Visualización de foro</td><td colspan="1" valign="top">WI07</td><td colspan="1" valign="top">Diseñar interfaz de foro</td><td colspan="1" valign="top">Se diseña e implementa la vista del foro, junto con las publicaciones y comentarios.</td><td colspan="1" rowspan="2" valign="top">5</td><td colspan="1" valign="top">Piero Delgado</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" valign="top">WI08</td><td colspan="1" valign="top">Implementación de foro</td><td colspan="1" valign="top">Se implementan los protocolos HTTP para el foro.</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">UE06</td><td colspan="1" rowspan="1" valign="top">Guardar publicaciones del foro como favoritas</td><td colspan="1" valign="top">WI09</td><td colspan="1" valign="top">Implementación de listado de favoritos</td><td colspan="1" valign="top">Se implementa el listado de favoritos para que los usuarios puedan guardar publicaciones del foro.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Sebastian Paredes</td><td colspan="1" valign="top">Done</td></tr>
+<tr><td colspan="1" rowspan="1" valign="top">UE02</td><td colspan="1" rowspan="1" valign="top">Video explicativo básico</td><td colspan="1" valign="top">WI10</td><td colspan="1" valign="top">Integrar video en Landing Page</td><td colspan="1" valign="top">Integrar video dentro de la Landing Page.</td><td colspan="1" rowspan="1" valign="top">3</td><td colspan="1" valign="top">Andre La Torre</td><td colspan="1" valign="top">Done</td></tr>
 </table>
 
 <div style="page-break-after: always;"></div>
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
+Se agregó un video explicativo de 60 segundos en la landing page, junto con un formulario de contacto optimizado que ahora solo requiere 3 campos: nombre, correo electrónico y número de teléfono. Además, se implementó un botón de contacto directo a través de WhatsApp.
+
+<img src="img/to-be landing page 1.png" alt="Landing Page Contacto" style="width: 100%; height: auto;">
+
+
+<img src="img/to-be landing page 2.png" alt="Landing Page Contacto" style="width: 100%; height: auto;">
+
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+Se desarrolló una aplicación web utilizando Angular, que incluye las siguientes características:
+- Modo claro y oscuro para mejorar la experiencia visual.
+- Integración de un foro donde los usuarios pueden publicar preguntas y respuestas.
+- Funcionalidad para guardar publicaciones del foro como favoritas.
+
+<img src="img/to-be frontend 1.png" alt="Frontend Web App" style="width: 100%; height: auto;">
+
+<img src="img/to-be frontend 2.png" alt="Frontend Web App" style="width: 100%; height: auto;">
 
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
+Se desarrolló una aplicación móvil nativa en Kotlin que incluye:
+- Modo claro y oscuro para mejorar la experiencia visual.
+- Integración de un foro donde los usuarios pueden publicar preguntas y respuestas.
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+Se implementó un backend robusto utilizando Spring Boot, que incluye:
+- Endpoints RESTful para manejar la gestión de publicaciones del foro y el guardado de publicaciones como favoritas.
+
+<img src="img/to-be backend.png" alt="Backend API" style="width: 100%; height: auto;">
+
 #### 8.3.3.6. Team Collaboration Insights
+
+El equipo de desarrollo utilizó herramientas como GitHub para la gestión del código y la colaboración. Se realizaron reuniones diarias para revisar el progreso y resolver bloqueos. Además, se implementaron revisiones de código para asegurar la calidad del software.
 
 ### 8.3.4. To-Be Validation Interviews
 
 #### 8.3.4.1. Diseño de entrevistas
+
+Se realizó el diseño de entrevistas para validar las hipótesis planteadas en los experimentos. Las entrevistas se centraron en obtener retroalimentación directa de los usuarios sobre las nuevas características implementadas en la plataforma.
+
+- ¿Qué te parece la idea de tener un formulario de contacto simple con solo tres campos para facilitar el registro?
+- ¿Consideras útil incluir un video explicativo sobre el producto en la página principal de la landing page?
+- ¿Qué opinas sobre la opción de recibir asesoría directamente a través de WhatsApp?
+- ¿Crees que tener un modo claro y un modo oscuro mejora tu experiencia visual dentro de la aplicación?
+- ¿Piensas que incorporar un foro dentro de la app agrega valor a la experiencia del usuario?
+- ¿Te resulta útil la función de guardar publicaciones del foro como favoritas? ¿Crees que está bien implementada?
 
 #### 8.3.4.2. Registro de entrevistas
 
