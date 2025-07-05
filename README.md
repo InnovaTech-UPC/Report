@@ -7082,6 +7082,10 @@ Se desarrolló una aplicación móvil nativa en Kotlin que incluye:
 - Modo claro y oscuro para mejorar la experiencia visual.
 - Integración de un foro donde los usuarios pueden publicar preguntas y respuestas.
 
+<img src="img/to-be mobile 1.png" alt="Mobile App" style="width: 60%; height: auto;">
+
+<img src="img/to-be mobile 2.png" alt="Mobile App" style="width: 60%; height: auto;">
+
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 Se implementó un backend robusto utilizando Spring Boot, que incluye:
@@ -7092,6 +7096,8 @@ Se implementó un backend robusto utilizando Spring Boot, que incluye:
 #### 8.3.3.6. Team Collaboration Insights
 
 El equipo de desarrollo utilizó herramientas como GitHub para la gestión del código y la colaboración. Se realizaron reuniones diarias para revisar el progreso y resolver bloqueos. Además, se implementaron revisiones de código para asegurar la calidad del software.
+
+<img src="img/to-be collaboration insights.png" alt="Team Collaboration" style="width: 100%; height: auto;">
 
 ### 8.3.4. To-Be Validation Interviews
 
