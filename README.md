@@ -7127,6 +7127,19 @@ Se realizó el diseño de entrevistas para validar las hipótesis planteadas en 
 **Resumen:**
 Anderson expresó que el formulario de contacto simplificado es muy conveniente y fácil de usar. Apreció la inclusión del video explicativo, ya que le ayudó a entender rápidamente los beneficios del producto. También mencionó que la opción de contacto por WhatsApp es muy útil para recibir respuestas rápidas. En cuanto al modo oscuro, le pareció una excelente adición, ya que él personalmente menciona que le gusta utilizar este modo. Finalmente, valoró positivamente el foro y la función de guardar publicaciones como favoritas.
 
+**Entrevista 2**
+
+**Entrevistador:** Piero Delgado
+
+**Entrevistado:** Daniel Ruiz
+
+**Enlace a entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210749_upc_edu_pe/EfCeiFU6LURCp12xKgrbWgIB_bTkUtbSzMDeiiCy8wzF2g?e=c1VAfZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<img alt="Entrevista con Daniel Ruiz" src="img/to-be-validation-interview-2.png">
+
+**Resumen:**
+Daniel mencionó que el cambio al formulario de contacto fue positivo, y la opción de contacto por WhatsApp le gusto porque quería comunicarse de manera más directa. Asimismo, mencionó que le gustó el video explicativo, ya que le pareció más interactivo y conciso. Por otro lado, el modo oscuro le pareció una buena adición ya que prefiere utilizar sus aplicaciones en ese modo. En cuanto al foro, consideró que es una excelente herramienta para compartir experiencias y consejos con otros usuarios.
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
