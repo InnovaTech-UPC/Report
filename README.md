@@ -181,6 +181,12 @@
 
 <img src="img/tb2-commits2.png" width="80%" alt="Commits del equipo en el informe del proyecto">
 
+## TF1
+
+<img src="img/tf1-team-collaboration.png" width="80%" alt="Analisis de colaboración del equipo en el informe del proyecto">
+
+<img src="img/tf1-commits1.png" width="80%" alt="Commits del equipo en el informe del proyecto">
+
 <div style="page-break-after: always;"></div>
 
 # Tabla de Contenido
@@ -7330,6 +7336,13 @@ En cuanto a la calidad del software, se aplicó una estrategia de testing robust
 
 Finalmente, la incorporación del enfoque Experiment-Driven Development en el desarrollo del aplicativo permitió crear un producto más alineado con las necesidades del usuario. Este enfoque promovió una cultura de aprendizaje continuo dentro del equipo, donde cada experimento se diseñó para validar hipótesis específicas y mejorar la experiencia del usuario. Además, permitió priorizar el valor entregado por encima de la cantidad de funcionalidades, lo cual se alineó con principios ágiles y centrados en el usuario.
 
+## Video About the Team
+
+El siguiente video subido a Youtube tiene como objetivo presentar al equipo de Innovatech, quienes han trabajado arduamente en el desarrollo de AgroTech, una plataforma que conecta asesores especializados con productores agropecuarios, promoviendo el acceso a asesoramiento técnico para mejorar las prácticas agrícolas.
+
+[Innovatech Team Video](https://youtu.be/gDcF7IEdOYQ)
+
+<img src="img/video_about_the_team.png" alt="Innovatech Team Video" style="width: 100%; height: auto;">
 
 <div style="page-break-after: always;"></div>
 
