@@ -7174,6 +7174,19 @@ Marcelo comentó que le pareció acertado simplificar el formulario de contacto 
 Pedro señaló que el formulario de contacto simple le parece una excelente idea porque facilita el registro al reducir la cantidad de datos solicitados. Destacó la utilidad del video explicativo en la landing page para comprender mejor el producto de forma rápida. Valoró positivamente la opción de recibir asesoría por WhatsApp, considerándola práctica y cercana. En cuanto al modo claro/oscuro, opinó que mejora la experiencia visual al adaptarse a distintos entornos y preferencias. También consideró que la incorporación de un foro aporta valor al fomentar la comunidad y la interacción entre usuarios. Finalmente, encontró útil la función de guardar publicaciones como favoritas, siempre que esté bien implementada y sea de acceso sencillo.
 
 
+**Entrevista 4**
+
+**Entrevistador:** Britney Qqueso
+
+**Entrevistado:** Arnold Vargas
+
+**Enlace a entrevista:** https://youtu.be/QtqOZyHgycc
+
+<img alt="Entrevista con Arnold Vargas" src="img/to-be-validation-interview-5.png">
+
+**Resumen:**
+Arnold aprobó las nuevas adiciones de la landing page: un video explicativo, un formulario de contacto simplificado de tres campos y un botón de contacto por WhatsApp con un chatbot, destacando su sencillez y utilidad para respuestas rápidas. En la aplicación web, valoró positivamente la incorporación de un modo claro/oscuro para una mejor experiencia visual y un foro que permite a los usuarios iniciar discusiones, responder y guardar publicaciones como favoritas, lo que considera una herramienta muy buena para el intercambio de conocimientos y la sinergia entre usuarios.
+
 
 ## 8.4. Experiment Aftermath & Analysis
 
