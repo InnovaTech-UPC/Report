@@ -7174,7 +7174,7 @@ Marcelo comentó que le pareció acertado simplificar el formulario de contacto 
 Pedro señaló que el formulario de contacto simple le parece una excelente idea porque facilita el registro al reducir la cantidad de datos solicitados. Destacó la utilidad del video explicativo en la landing page para comprender mejor el producto de forma rápida. Valoró positivamente la opción de recibir asesoría por WhatsApp, considerándola práctica y cercana. En cuanto al modo claro/oscuro, opinó que mejora la experiencia visual al adaptarse a distintos entornos y preferencias. También consideró que la incorporación de un foro aporta valor al fomentar la comunidad y la interacción entre usuarios. Finalmente, encontró útil la función de guardar publicaciones como favoritas, siempre que esté bien implementada y sea de acceso sencillo.
 
 
-**Entrevista 4**
+**Entrevista 5**
 
 **Entrevistador:** Britney Qqueso
 
