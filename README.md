@@ -7157,7 +7157,7 @@ En el estudio se realizaron las siguientes preguntas para evaluar la experiencia
 - ¿Qué tan relevante te parece la opción de guardar una publicación del foro en favoritos?
 - ¿Qué tan importantes o significativos consideras los cambios realizados para tu experiencia en la plataforma?
 
-Estas preguntas se presentaron a una muestra de 23 posibles clientes. Los participantes respondieron las preguntas basándose en su experiencia con las funcionalidades del producto. A continuación, se explican los resultados obtenidos.
+Estas preguntas se presentaron a una muestra de 23 usuarios. Los participantes respondieron las preguntas basándose en su experiencia con las funcionalidades del producto. A continuación, se explican los resultados obtenidos.
 
 **Análisis de datos demográficos**
 
@@ -7214,6 +7214,32 @@ Conclusiones del análisis: Los resultados obtenidos indican que las mejoras imp
 ## 8.5. Continuous Learning
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Durante las sesiones de retroalimentación, el equipo compartió los hallazgos del proceso de desarrollo y validación del producto. Se discutieron las métricas de éxito, los resultados de las entrevistas y encuestas de los experimentos realizados.
+
+Para la sesión, se siguió un flujo de trabajo estructurado que incluyó:
+
+1. **Revisión de las funcionalidades:** Se revisaron las versiones finales de la landing page, la aplicación web, la aplicación móvil, y el backend. Se hizo énfasis las funcionalidades implementadas para los experimentos (el formulario de contacto reducido, el canal de WhatsApp, el modo oscuro, el foro y el sistema de favoritos).
+
+2. **Presentación de artefactos:** Se presentaron los resultados de las entrevistas y encuestas donde hicimos énfasis en los gráficos que mostraban las respuestas de los usuarios a las preguntas formuladas con Google Forms.
+
+3. **Discusión de resultados:** Se discutieron los resultados obtenidos. Asimismo, cada miembro del equipo compartió sus reflexiones sobre el proceso de desarrollo y las acciones de mejora.
+
+4. **Conclusiones:** Se sintetizaron los resultados obtenidos relacionándolos con las hipótesis planteadas al inicio del proyecto, y se actualizó el question backlog con las prioridades y preguntas re-evaluadas.
+
+Asimismo, los artefactos generados fueron:
+
+- Encuesta de validación: Formulario utilizado para recuperar el feedback de los usuarios que probaron las nuevas funcionalidades y crear los gráficos para analizar los resultados. **Enlace**: https://forms.gle/MTfgSu7sGZAxsG1c6
+
+<img src="img/encuesta.png" alt="Encuesta" style="width: 90%; height: auto;">
+
+- Landing page mejorada: Se desarrolló una versión de la landing page con las funcionalidades de los experimentos. **Enlace**: https://innovatech-upc.github.io/Landing/
+
+<img src="img/to-be landing page 1.png" alt="Landing Page Contacto" style="width: 100%; height: auto;">
+
+- Aplicativo mejorado: Se desarrolló una versión de la aplicación web y móvil con las funcionalidades de los experimentos. **Enlace**: https://agrotech-ten.vercel.app/
+
+<img src="img/to-be frontend 2.png" alt="Frontend Web App" style="width: 100%; height: auto;">
 
 ## 8.6. To-Be Software Platform Pre-launch
 
