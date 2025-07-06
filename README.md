@@ -7189,6 +7189,18 @@ Pedro señaló que el formulario de contacto simple le parece una excelente idea
 **Resumen:**
 Arnold aprobó las nuevas adiciones de la landing page: un video explicativo, un formulario de contacto simplificado de tres campos y un botón de contacto por WhatsApp con un chatbot, destacando su sencillez y utilidad para respuestas rápidas. En la aplicación web, valoró positivamente la incorporación de un modo claro/oscuro para una mejor experiencia visual y un foro que permite a los usuarios iniciar discusiones, responder y guardar publicaciones como favoritas, lo que considera una herramienta muy buena para el intercambio de conocimientos y la sinergia entre usuarios.
 
+**Entrevista 6**
+
+**Entrevistador:** Sergio Pecan
+
+**Entrevistado:** Yudi Torres
+
+**Enlace a entrevista:** https://youtu.be/QtqOZyHgycc
+
+<img alt="Entrevista con Yudi" src="img/to-be-validation-interview-6.png">
+
+**Resumen:**
+Se evaluó un formulario simple, se valoró un video explicativo, se apoyó la asesoría por WhatsApp, se destacó la utilidad de modo claro/oscuro, se reconoció el valor de un foro y se consideró útil la función de guardar publicaciones como favoritas si es intuitiva.
 
 ## 8.4. Experiment Aftermath & Analysis
 
