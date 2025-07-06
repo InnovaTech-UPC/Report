@@ -7144,7 +7144,72 @@ Daniel mencionó que el cambio al formulario de contacto fue positivo, y la opci
 
 ### 8.4.1. Analysis and Interpretation of Results
 
+En el estudio, las preguntas originales planteadas en las entrevistas iniciales fueron reformuladas y estructuradas con el objetivo de captar respuestas más claras y relevantes para el análisis de la experiencia del usuario con el producto. Este enfoque permitió identificar con mayor precisión las percepciones, preferencias y necesidades de los participantes respecto a las funcionalidades clave de la aplicación. 
+
+**Preguntas Formuladas**
+En el estudio se realizaron las siguientes preguntas para evaluar la experiencia de los usuarios con el producto:
+
+- ¿El nuevo formulario de contacto te pareció más fácil de usar que el original?
+- ¿Qué tan útil encuentras el chatbot de WhatsApp para resolver dudas sobre el aplicativo?
+- ¿Qué tanto te gusta la opción de personalización del modo oscuro?
+- ¿Qué tan llamativo te resultó el video del producto mostrado en la Landing Page?
+- ¿Qué tan útil te parece el foro?
+- ¿Qué tan relevante te parece la opción de guardar una publicación del foro en favoritos?
+- ¿Qué tan importantes o significativos consideras los cambios realizados para tu experiencia en la plataforma?
+
+Estas preguntas se presentaron a una muestra de 23 posibles clientes. Los participantes respondieron las preguntas basándose en su experiencia con las funcionalidades del producto. A continuación, se explican los resultados obtenidos.
+
+**Análisis de datos demográficos**
+
+Las edades de los participantes principales oscilan entre 26-40 años y 18-25 años.
+
+<img src="img/chart-edad.png" alt="Distribución de edades" style="width: 100%; height: auto;">
+
+**Análisis de resultados**
+
+Las respuestas a las preguntas formuladas se analizaron y se presentaron en forma de gráficos para facilitar la interpretación de los datos. A continuación, se muestran los gráficos que representan las respuestas a cada pregunta.
+
+En el gráfico de la pregunta 1, se observa que el 95.7% de los participantes considera que el nuevo formulario de contacto es más fácil de usar que el original, lo que indica una mejora significativa en la usabilidad del producto.
+
+<img src="img/chart-contacto.png" alt="Nuevo formulario de contacto" style="width: 100%; height: auto;">
+
+En el gráfico de la pregunta 2, se observa que el 39.1% de los participantes considera que el chatbot de WhatsApp es útil y el 26.1% muy útil para resolver dudas sobre el aplicativo, lo que sugiere que esta funcionalidad es bien recibida por los usuarios.
+
+<img src="img/chart-chatbot.png" alt="Uso del chatbot de WhatsApp" style="width: 100%; height: auto;">
+
+
+En el gráfico de la pregunta 3, se ve que al 52.2% de los participantes les gusta la opción de personalización del modo oscuro. Esto indica que la personalización del modo oscuro es una característica apreciada por los usuarios.
+
+<img src="img/chart-darkmode.png" alt="Preferencia por modo oscuro" style="width: 100%; height: auto;">
+
+
+En el gráfico de la pregunta 4, se observa que el 30.4% de los participantes considera que el video del producto mostrado en la Landing Page es atractivo y el 26.1% le pareció muy interesante, lo que sugiere que el uso de videos para presentar el producto es efectivo.
+
+<img src="img/chart-video.png" alt="Atractivo del video del producto" style="width: 100%; height: auto;">
+
+En el gráfico de la pregunta 5, se observa que el 52.2% de los participantes considera que el foro es útil y el 21.7% muy útil, lo que indica que esta funcionalidad es valorada positivamente por los usuarios.
+
+<img src="img/chart-foro.png" alt="Utilidad del foro" style="width: 100%; height: auto;">
+
+En el gráfico de la pregunta 6, se observa que el 43.5% de los participantes considera que la opción de guardar publicaciones del foro en favoritos es relevante.
+
+<img src="img/chart-favorito.png" alt="Relevancia de guardar publicaciones en favoritos" style="width: 100%; height: auto;">
+
+Finalmente, se observa que el 60.9% de los participantes considera que los cambios realizados son significativos para su experiencia en la plataforma, lo que indica una percepción positiva sobre las mejoras implementadas.
+
+<img src="img/chart-general.png" alt="Importancia de los cambios realizados" style="width: 100%; height: auto;">
+
+Conclusiones del análisis: Los resultados obtenidos indican que las mejoras implementadas en el producto han tenido un impacto positivo en la experiencia del usuario. La mayoría de los participantes considera que el nuevo formulario de contacto es más fácil de usar, y las funcionalidades como el chatbot de WhatsApp, el modo oscuro, el foro y la opción de guardar publicaciones en favoritos son bien recibidas. Además, la mayoría de los participantes considera que los cambios realizados son significativos para su experiencia en la plataforma.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+| Prioridad | Question |
+| --------- | -------- |
+| 1         | ¿Ayudará el formulario reducido a mejorar la tasa de completado?	 |
+| 2         | ¿Tendrá WhatsApp una mayor interacción que el formulario web? |
+| 3         | ¿Mejorará la satisfacción del usuario con la personalización de la interfaz? |
+| 4         | ¿Incrementará el foro la interacción de usuarios dentro de la aplicación? |
+| 5         | ¿Se incrementará el engagement medido en tiempo en página con ayuda del video? |
 
 ## 8.5. Continuous Learning
 
