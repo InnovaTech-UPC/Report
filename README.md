@@ -7158,6 +7158,21 @@ Daniel mencionó que el cambio al formulario de contacto fue positivo, y la opci
 Marcelo comentó que le pareció acertado simplificar el formulario de contacto a solo tres campos, ya que lo hace más práctico. Considera que la opción de interactuar con un chatbot por WhatsApp es una funcionalidad muy atractiva. También indicó que el video explicativo le resulta perfecto para usuarios que necesiten una guía de como usar la aplicación. En la parte de la aplicación, la función del modo oscuro le pareció una buena opción que permite ajustarse a las preferencias individuales. Por último, señaló que el foro es una excelente herramienta e interesante que ayudaría a fomentar más la interacción entre los usuarios dentro de la aplicación.
 
 
+**Entrevista 4**
+
+**Entrevistador:** Andre La torre
+
+**Entrevistado:** Pedro Ramos
+
+**Enlace a entrevista:** https://youtu.be/aNSSV9y-Qzo
+
+<img alt="Entrevista con Pedro Ramos" src="img/to-be-validation-interview-4.png">
+
+**Resumen:**
+Pedro señaló que el formulario de contacto simple le parece una excelente idea porque facilita el registro al reducir la cantidad de datos solicitados. Destacó la utilidad del video explicativo en la landing page para comprender mejor el producto de forma rápida. Valoró positivamente la opción de recibir asesoría por WhatsApp, considerándola práctica y cercana. En cuanto al modo claro/oscuro, opinó que mejora la experiencia visual al adaptarse a distintos entornos y preferencias. También consideró que la incorporación de un foro aporta valor al fomentar la comunidad y la interacción entre usuarios. Finalmente, encontró útil la función de guardar publicaciones como favoritas, siempre que esté bien implementada y sea de acceso sencillo.
+
+
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
