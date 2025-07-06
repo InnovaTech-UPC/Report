@@ -7142,6 +7142,20 @@ Anderson expresó que el formulario de contacto simplificado es muy conveniente 
 **Resumen:**
 Daniel mencionó que el cambio al formulario de contacto fue positivo, y la opción de contacto por WhatsApp le gusto porque quería comunicarse de manera más directa. Asimismo, mencionó que le gustó el video explicativo, ya que le pareció más interactivo y conciso. Por otro lado, el modo oscuro le pareció una buena adición ya que prefiere utilizar sus aplicaciones en ese modo. En cuanto al foro, consideró que es una excelente herramienta para compartir experiencias y consejos con otros usuarios.
 
+**Entrevista 3**
+
+**Entrevistador:** Sebastian Paredes
+
+**Entrevistado:** Marcelo Neyra
+
+**Enlace a entrevista:** https://youtu.be/aXQY9xQcOgY
+
+<img alt="Entrevista con Marcelo Neyra" src="img/to-be-validation-interview-3.png">
+
+**Resumen:**
+Marcelo comentó que le pareció acertado simplificar el formulario de contacto a solo tres campos, ya que lo hace más práctico. Considera que la opción de interactuar con un chatbot por WhatsApp es una funcionalidad muy atractiva. También indicó que el video explicativo le resulta perfecto para usuarios que necesiten una guía de como usar la aplicación. En la parte de la aplicación, la función del modo oscuro le pareció una buena opción que permite ajustarse a las preferencias individuales. Por último, señaló que el foro es una excelente herramienta e interesante que ayudaría a fomentar más la interacción entre los usuarios dentro de la aplicación.
+
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
