@@ -7195,7 +7195,7 @@ Arnold aprobó las nuevas adiciones de la landing page: un video explicativo, un
 
 **Entrevistado:** Yudi Torres
 
-**Enlace a entrevista:** https://youtu.be/QtqOZyHgycc
+**Enlace a entrevista:** https://youtu.be/YaL0eQF-sbY
 
 <img alt="Entrevista con Yudi" src="img/to-be-validation-interview-6.png">
 
