@@ -396,6 +396,7 @@
         <p><strong>TB1:</strong> Para esta entrega, participé activamente en la elaboración del informe en apartados como el solution profile, el lean ux process y needfinding. Además, me aseguré de mantener integridad en la información presentada.</p>
         <p><strong>TP:</strong> Para esta entrega, participé activamente en la elaboración de las pruebas de integración y BDD para validar la funcionalidad del Backend.</p>
         <p><strong>TB2:</strong> Para esta entrega, elaboré mejoras al capitulo 7, enfocándome en la parte de los componentes de integracion, entrega y despliegue continuo asegurandome su correcta implementación.</p>
+        <p><strong>TF:</strong> Para esta entrega, elaboré las mejoras al backend para la implementación de los experimentos planteados en el capítulo 8 para las validaciones de hipótesis y mejora de la experiencia de usuario.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, participé principalmente en la sección de la aplicación móvil, enfocándome en los wireframes, wireflows, mock-ups y user flows. Fui responsable del desarrollo de la parte móvil como desarrollador móvil del equipo, aportando evidencias del funcionamiento y asegurando una experiencia fluida para el usuario.</p>
         <p><strong>TP:</strong> A lo largo de este trabajo, he planteado soluciones tecnológicas centradas en la temática del proyecto. En este proceso, he reconocido mi responsabilidad ética y profesional como futuro ingeniero de software</p>
@@ -429,6 +430,7 @@
         <p><strong>TB1:</strong> Para esta entrega, analicé el impacto del proyecto en la agricultura local mediante el análisis de las entrevistas. Además, consideré el contexto económico y social de los usuarios al plantear funcionalidades que se adapten a sus necesidades.</p>
         <p><strong>TP:</strong> Para esta entrega, analicé las herramientas y procesos necesarios para el continuous deployment, delivery y monitoring.</p>
         <p><strong>TB2:</strong> Para esta entrega, analicé nuevas herramientas de integración continua y entrega continua, evaluando nuestras capacidades de implementación para asegurar una implementación factible para el equipo y el proyecto.</p>
+        <p><strong>TF:</strong> Para esta entrega, analicé los resultados de las encuestas y entrevistas de validación de los experimentos para llegar a conclusiones sobre su impacto en la experiencia de usuario y áreas de mejora.</p>
         <p><strong>Paredes Puente, Sebastian Roberto</strong></p>
         <p><strong>TB1:</strong> Para esta entrega, analicé cómo la aplicación impacta positivamente en el contexto social y económico de los granjeros, al facilitarles el acceso a asesorías técnicas confiables desde sus dispositivos móviles. Consideré las limitaciones tecnológicas y económicas de las zonas rurales, desarrollando una solución ligera y accesible que contribuye al desarrollo sostenible de la agricultura local.</p>
         <p><strong>TP:</strong> En esta etapa del proyecto, he explorado e investigado distintas tecnologías como JUnit 5, que podrían ser útiles para nuestra solución. Al hacerlo, he procurado emitir juicios informados, evaluando no solo la viabilidad técnica, sino también el impacto económico, social y ambiental que estas decisiones podrían tener.</p>
@@ -7261,6 +7263,9 @@ El proceso Lean UX permitió identificar segmentos objetivos, competidores y nec
 Además, se implementó un backend robusto utilizando Spring Boot, aplicando principios de diseño como la arquitectura DDD para mantener una estructura modular y escalable. La documentación con Swagger facilitó la comprensión y el consumo de los servicios, mejorando la colaboración entre los miembros del equipo y permitiendo una integración eficiente entre las aplicaciones móvil y web.
 
 En cuanto a la calidad del software, se aplicó una estrategia de testing robusta. Se desarrollaron pruebas unitarias utilizando JUnit 5 y Mockito para verificar el comportamiento de componentes individuales en aislamiento. También se realizaron pruebas de integración para asegurar el correcto funcionamiento entre capas y módulos del sistema, como servicios, repositorios y controladores. Además, se utilizó el enfoque de BDD (Behavior-Driven Development) para validar el sistema desde la perspectiva del usuario, asegurando que se cumplieran los criterios de aceptación definidos para cada historia. Esta combinación de pruebas permitió garantizar la estabilidad, confiabilidad y mantenibilidad del sistema a lo largo de su desarrollo.
+
+Finalmente, la incorporación del enfoque Experiment-Driven Development en el desarrollo del aplicativo permitió crear un producto más alineado con las necesidades del usuario. Este enfoque promovió una cultura de aprendizaje continuo dentro del equipo, donde cada experimento se diseñó para validar hipótesis específicas y mejorar la experiencia del usuario. Además, permitió priorizar el valor entregado por encima de la cantidad de funcionalidades, lo cual se alineó con principios ágiles y centrados en el usuario.
+
 
 <div style="page-break-after: always;"></div>
 
